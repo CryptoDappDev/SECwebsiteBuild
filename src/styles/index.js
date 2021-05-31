@@ -3,15 +3,15 @@
 const styles = [
   {
     type: 'href',
-    body: 'C:\\css\\normalize.css',
+    body: '\css\normalize.css',
   },
   {
     type: 'href',
-    body: 'C:\\css\\components.css',
+    body: '\css\components.css',
   },
   {
     type: 'href',
-    body: 'C:\\css\\suck-elons-cock.css',
+    body: '\css\suck-elons-cock.css',
   },
 ]
 
