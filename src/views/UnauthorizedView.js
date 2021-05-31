@@ -34,7 +34,7 @@ class UnauthorizedView extends React.Component {
 
   componentDidMount() {
     const htmlEl = document.querySelector('html')
-    htmlEl.dataset['wfPage'] = '60add0f608891f0c82aee536'
+    htmlEl.dataset['wfPage'] = '60b448e3388e8b92d4da2a0a'
     htmlEl.dataset['wfSite'] = '60a76909ccf920aea94e85c4'
 
     scripts.concat(null).reduce((active, next) => Promise.resolve(active).then((active) => {

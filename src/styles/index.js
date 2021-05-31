@@ -3,15 +3,19 @@
 const styles = [
   {
     type: 'href',
-    body: '\css\normalize.css',
+    body: 'C:\\css\\normalize.css',
   },
   {
     type: 'href',
-    body: '\css\components.css',
+    body: 'C:\\css\\components.css',
   },
   {
     type: 'href',
-    body: '\css\suck-elons-cock.css',
+    body: 'C:\\css\\suck-elons-cock.css',
+  },
+  {
+    type: 'sheet',
+    body: '@media (max-width:767px) and (min-width:480px){.af-view.w-mod-js:not(.w-mod-ix) [data-w-id=b765d888-a64f-7ef3-2f38-59e8d91c9d50]{display:none}.af-view.w-mod-js:not(.w-mod-ix) [data-w-id=ad1fe3e8-a35f-7165-8f77-b8a70802d25e]{display:none}}@media (max-width:479px){.af-view.w-mod-js:not(.w-mod-ix) [data-w-id=b765d888-a64f-7ef3-2f38-59e8d91c9d50]{display:none}.af-view.w-mod-js:not(.w-mod-ix) [data-w-id=ad1fe3e8-a35f-7165-8f77-b8a70802d25e]{display:none}}',
   },
 ]
 
