@@ -4,8 +4,8 @@ import React from 'react'
 import { createScope, map, transformProxies } from './helpers'
 
 const scripts = [
-  { loading: fetch("https://d3e54v103j8qbb.cloudfront.net/js/jquery-3.5.1.min.dc5e7f18c8.js?site=60a76909ccf920aea94e85c4").then(body => body.text()), isAsync: false },
-  { loading: fetch("js/suck-elons-cock.js").then(body => body.text()), isAsync: false },
+  { loading: fetch("https://d3e54v103j8qbb.cloudfront.net/js/jquery-3.5.1.min.dc5e7f18c8.js?site=60b6988c5af8552e6995d2e6").then(body => body.text()), isAsync: false },
+  { loading: fetch("js/suck-elons-cock-f43460341d5ec37d06daefe.js").then(body => body.text()), isAsync: false },
 ]
 
 let Controller
@@ -33,8 +33,8 @@ class PrivacyView extends React.Component {
 
   componentDidMount() {
     const htmlEl = document.querySelector('html')
-    htmlEl.dataset['wfPage'] = '60b448e3388e8b0071da2a1a'
-    htmlEl.dataset['wfSite'] = '60a76909ccf920aea94e85c4'
+    htmlEl.dataset['wfPage'] = '60b6988c5af855feb995d2fe'
+    htmlEl.dataset['wfSite'] = '60b6988c5af8552e6995d2e6'
 
     scripts.concat(null).reduce((active, next) => Promise.resolve(active).then((active) => {
       const loading = active.loading.then((script) => {
@@ -61,7 +61,7 @@ class PrivacyView extends React.Component {
         <style dangerouslySetInnerHTML={{ __html: `
           @import url(C:\\css\\normalize.css);
           @import url(C:\\css\\components.css);
-          @import url(C:\\css\\suck-elons-cock.css);
+          @import url(C:\\css\\suck-elons-cock-f43460341d5ec37d06daefe.css);
         ` }} />
         <span className="af-view">
           <div>
@@ -75,7 +75,7 @@ class PrivacyView extends React.Component {
                 </div>
               </div>
               <div data-w-id="c50d35a4-afc5-52b4-4df2-051165d5d057" className="af-class-section">
-                <div className="af-class-container">
+                <div data-w-id="895e3aeb-bc03-a4de-1bf6-e2f9e06c5b80" className="af-class-container">
                   <div className="af-class-small-container af-class-left-align">
                     <div style={{opacity: 0}} className="af-class-on-load-content">
                       <div className="w-richtext">

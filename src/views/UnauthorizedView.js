@@ -5,8 +5,8 @@ import { createScope, map, transformProxies } from './helpers'
 
 const scripts = [
   { loading: Promise.resolve("/[?&]e=1(&|$)/.test(document.location.search)&&(document.querySelector(\".w-password-page.w-form-fail\").style.display=\"block\");"), isAsync: false },
-  { loading: fetch("https://d3e54v103j8qbb.cloudfront.net/js/jquery-3.5.1.min.dc5e7f18c8.js?site=60a76909ccf920aea94e85c4").then(body => body.text()), isAsync: false },
-  { loading: fetch("js/suck-elons-cock.js").then(body => body.text()), isAsync: false },
+  { loading: fetch("https://d3e54v103j8qbb.cloudfront.net/js/jquery-3.5.1.min.dc5e7f18c8.js?site=60b6988c5af8552e6995d2e6").then(body => body.text()), isAsync: false },
+  { loading: fetch("js/suck-elons-cock-f43460341d5ec37d06daefe.js").then(body => body.text()), isAsync: false },
 ]
 
 let Controller
@@ -34,8 +34,8 @@ class UnauthorizedView extends React.Component {
 
   componentDidMount() {
     const htmlEl = document.querySelector('html')
-    htmlEl.dataset['wfPage'] = '60b448e3388e8b92d4da2a0a'
-    htmlEl.dataset['wfSite'] = '60a76909ccf920aea94e85c4'
+    htmlEl.dataset['wfPage'] = '60b6988c5af855251b95d2ee'
+    htmlEl.dataset['wfSite'] = '60b6988c5af8552e6995d2e6'
 
     scripts.concat(null).reduce((active, next) => Promise.resolve(active).then((active) => {
       const loading = active.loading.then((script) => {
@@ -62,7 +62,7 @@ class UnauthorizedView extends React.Component {
         <style dangerouslySetInnerHTML={{ __html: `
           @import url(C:\\css\\normalize.css);
           @import url(C:\\css\\components.css);
-          @import url(C:\\css\\suck-elons-cock.css);
+          @import url(C:\\css\\suck-elons-cock-f43460341d5ec37d06daefe.css);
         ` }} />
         <span className="af-view">
           <div>
