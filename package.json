@@ -13,8 +13,9 @@
     "web-vitals": "^1.0.1"
   },
   "scripts": {
-    "start": "react-scripts start",
-    "deploy": "appfairy && react-scripts build && aws s3 sync ./build s3://secdevbuild --delete",
+    "update": "git add . && git commit -m \"Auto Deploy\"  && appfairy",
+    "dev": "react-scripts start",
+    "deploy": "git add . && git commit -m \"Auto Deploy\"  && appfairy && react-scripts build && aws s3 sync ./build s3://secdevbuild --delete",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
