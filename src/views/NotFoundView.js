@@ -33,7 +33,7 @@ class NotFoundView extends React.Component {
 
   componentDidMount() {
     const htmlEl = document.querySelector('html')
-    htmlEl.dataset['wfPage'] = '60b448e3388e8b4483da2a0b'
+    htmlEl.dataset['wfPage'] = '60b70d8bbb25601b3dcf6a32'
     htmlEl.dataset['wfSite'] = '60a76909ccf920aea94e85c4'
 
     scripts.concat(null).reduce((active, next) => Promise.resolve(active).then((active) => {
@@ -89,7 +89,7 @@ class NotFoundView extends React.Component {
               <div className="af-class-section">
                 <div className="af-class-container">
                   <div className="af-class-utility-page-wrap">
-                    <div data-w-id="5f4d0775bc219f74475be8b600000000000b" style={{opacity: 0}} className="af-class-utility-page-content w-form">
+                    <div className="af-class-utility-page-content w-form">
                       <h1 className="af-class-hero-text">404</h1>
                       <p>The page you are looking for doesn't exist or has been moved.</p>
                       <a href="index.html" className="af-class-button w-button">← Back Home</a>
@@ -109,7 +109,7 @@ class NotFoundView extends React.Component {
                       <a data-w-id="8a5ed07a-f397-fc9a-ff8e-a8d3f66b1fbf" href="https://linkedin.com" target="_blank" className="af-class-social-media-link w-inline-block"><img src="images/linkedin.svg" loading="lazy" alt className="af-class-social-media-icon" /></a>
                       <a data-w-id="5cb0c9cf-adaf-c2b6-d09b-9a3df417091e" href="https://facebook.com" target="_blank" className="af-class-social-media-link w-inline-block"><img src="images/facebook.svg" loading="lazy" alt className="af-class-social-media-icon" /></a>
                     </div>
-                    <div data-w-id="99bc6bd0-837d-9882-425d-1889465cdbce" className="af-class-made-container">
+                    <div className="af-class-made-container">
                       <div className="af-class-x">
                         <div className="af-class-light-grey">Made<span className="af-class-text-gradient-1" /> by <a href="https://webflow.com/templates/designers/azwedo" target="_blank" className="af-class-external-link">Azwedo.com</a>
                         </div>
@@ -122,7 +122,7 @@ class NotFoundView extends React.Component {
                   </div>
                   <div className="af-class-footer-flex-container">
                     <div className="af-class-footer-brand-content">
-                      <a href="index.html" data-w-id="9a452d70-0c5d-8400-4e47-0636058de353" className="af-class-footer-logo-link w-inline-block"><img src="images/1080x1080.png" sizes="(max-width: 767px) 130px, (max-width: 1279px) 100vw, 130px" srcSet="images/1080x1080-p-500.png 500w, images/1080x1080-p-800.png 800w, images/1080x1080-p-1080.png 1080w, images/1080x1080.png 1195w" alt className="af-class-footer-image" /></a>
+                      <a href="index.html" className="af-class-footer-logo-link w-inline-block"><img src="images/1080x1080.png" sizes="(max-width: 767px) 130px, (max-width: 1279px) 100vw, 130px" srcSet="images/1080x1080-p-500.png 500w, images/1080x1080-p-800.png 800w, images/1080x1080-p-1080.png 1080w, images/1080x1080.png 1195w" alt className="af-class-footer-image" /></a>
                       <ul role="list" className="af-class-footer-list w-list-unstyled">
                         <li className="af-class-footer-list-item">
                           <a href="template/change-log.html" className="af-class-link w-inline-block">
@@ -156,7 +156,7 @@ class NotFoundView extends React.Component {
                         </li>
                       </ul>
                     </div>
-                    <div data-w-id="3d9bedf3-b5ee-154f-7361-2a6faf0bffde" className="af-class-footer-copyright">
+                    <div className="af-class-footer-copyright">
                       <div className="af-class-grey-text">Copyright © <strong>Bold</strong></div>
                     </div>
                   </div>

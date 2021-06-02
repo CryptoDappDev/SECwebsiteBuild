@@ -34,7 +34,7 @@ class UnauthorizedView extends React.Component {
 
   componentDidMount() {
     const htmlEl = document.querySelector('html')
-    htmlEl.dataset['wfPage'] = '60b448e3388e8b92d4da2a0a'
+    htmlEl.dataset['wfPage'] = '60b70d8bbb256067b1cf6a31'
     htmlEl.dataset['wfSite'] = '60a76909ccf920aea94e85c4'
 
     scripts.concat(null).reduce((active, next) => Promise.resolve(active).then((active) => {
@@ -88,7 +88,7 @@ class UnauthorizedView extends React.Component {
             </div>
             <div className="af-class-utility-page-wrap">
               <div className="af-class-utility-page-content w-password-page w-form">
-                <form action="/.wf_auth" method="post" data-w-id="5f4d0766ea16b9eae5a8cfdd00000000000c" style={{opacity: 0}} className="af-class-utility-page-form w-password-page">
+                <form action="/.wf_auth" method="post" className="af-class-utility-page-form w-password-page">
                   <h4>Protected Page</h4><input type="password" autofocus="true" maxLength={256} name="pass" placeholder="Enter your password" className="af-class-form-input w-password-page w-input" /><input type="submit" defaultValue="Submit" data-wait="Please wait..." className="af-class-button w-password-page w-button" />
                   <div className="w-password-page w-form-fail">
                     <div>Incorrect password. Please try again.</div>
@@ -111,7 +111,7 @@ class UnauthorizedView extends React.Component {
                     <a data-w-id="8a5ed07a-f397-fc9a-ff8e-a8d3f66b1fbf" href="https://linkedin.com" target="_blank" className="af-class-social-media-link w-inline-block"><img src="images/linkedin.svg" loading="lazy" alt className="af-class-social-media-icon" /></a>
                     <a data-w-id="5cb0c9cf-adaf-c2b6-d09b-9a3df417091e" href="https://facebook.com" target="_blank" className="af-class-social-media-link w-inline-block"><img src="images/facebook.svg" loading="lazy" alt className="af-class-social-media-icon" /></a>
                   </div>
-                  <div data-w-id="99bc6bd0-837d-9882-425d-1889465cdbce" className="af-class-made-container">
+                  <div className="af-class-made-container">
                     <div className="af-class-x">
                       <div className="af-class-light-grey">Made<span className="af-class-text-gradient-1" /> by <a href="https://webflow.com/templates/designers/azwedo" target="_blank" className="af-class-external-link">Azwedo.com</a>
                       </div>
@@ -124,7 +124,7 @@ class UnauthorizedView extends React.Component {
                 </div>
                 <div className="af-class-footer-flex-container">
                   <div className="af-class-footer-brand-content">
-                    <a href="index.html" data-w-id="9a452d70-0c5d-8400-4e47-0636058de353" className="af-class-footer-logo-link w-inline-block"><img src="images/1080x1080.png" sizes="(max-width: 767px) 130px, (max-width: 1279px) 100vw, 130px" srcSet="images/1080x1080-p-500.png 500w, images/1080x1080-p-800.png 800w, images/1080x1080-p-1080.png 1080w, images/1080x1080.png 1195w" alt className="af-class-footer-image" /></a>
+                    <a href="index.html" className="af-class-footer-logo-link w-inline-block"><img src="images/1080x1080.png" sizes="(max-width: 767px) 130px, (max-width: 1279px) 100vw, 130px" srcSet="images/1080x1080-p-500.png 500w, images/1080x1080-p-800.png 800w, images/1080x1080-p-1080.png 1080w, images/1080x1080.png 1195w" alt className="af-class-footer-image" /></a>
                     <ul role="list" className="af-class-footer-list w-list-unstyled">
                       <li className="af-class-footer-list-item">
                         <a href="template/change-log.html" className="af-class-link w-inline-block">
@@ -158,7 +158,7 @@ class UnauthorizedView extends React.Component {
                       </li>
                     </ul>
                   </div>
-                  <div data-w-id="3d9bedf3-b5ee-154f-7361-2a6faf0bffde" className="af-class-footer-copyright">
+                  <div className="af-class-footer-copyright">
                     <div className="af-class-grey-text">Copyright © <strong>Bold</strong></div>
                   </div>
                 </div>
