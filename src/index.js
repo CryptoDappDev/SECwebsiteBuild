@@ -1,6 +1,9 @@
 import './scripts';
 import './styles';
 import './index.css';
+import App from './components/App';
+import 'bootstrap/dist/css/bootstrap.min.css';
+
 
 import React from 'react';
 import ReactDOM from 'react-dom';
@@ -27,3 +30,6 @@ ReactDOM.render( <TweetSecController/> , document.getElementById('elon-meme-twee
 //Copy Cards
 ReactDOM.render( <CopyButton1Controller/> , document.getElementById('contract-1'));
 ReactDOM.render( <CopyButton1Controller/> , document.getElementById('contract-2'));
+
+ReactDOM.render(<App />, document.getElementById('purchase-coin-button-2'));
+
