@@ -19,15 +19,11 @@ ReactDOM.render(
 , document.getElementById('root'));
 
 //SEC Tweet Render
-ReactDOM.render( <TweetSecController/> , document.getElementById('sec-tweet'));
+ReactDOM.render( <TweetSecController/> , document.getElementById('elon-sec-tweet'));
 
 //Meme Tweet Render
-ReactDOM.render( <TweetSecController/> , document.getElementById('meme-tweet'));
+ReactDOM.render( <TweetSecController/> , document.getElementById('elon-meme-tweet'));
 
 //Copy Cards
-ReactDOM.render( <CopyButton1Controller/> , document.getElementById('copy-card-1'));
-ReactDOM.render( <CopyButton1Controller/> , document.getElementById('copy-card-2'));
-
-
-
-
+ReactDOM.render( <CopyButton1Controller/> , document.getElementById('contract-1'));
+ReactDOM.render( <CopyButton1Controller/> , document.getElementById('contract-2'));

@@ -8,7 +8,11 @@ class TweetSecController extends React.Component {
 
     render() {
         return (
-                <TwitterTweetEmbed tweetId={'1278764736876773383'} /> 
+                <TwitterTweetEmbed tweetId='1278764736876773383' options={{
+                    align: 'center',
+                    //width: 250,
+                    //maxWidth: 500,
+                  }} /> 
         )
     }
 }
