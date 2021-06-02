@@ -58,15 +58,17 @@ class TweetSecView extends React.Component {
         <style dangerouslySetInnerHTML={{ __html: `
           @import url(C:\\css\\normalize.css);
           @import url(C:\\css\\components.css);
-          @import url(C:\\css\\suck-elons-cock-f43460341d5ec37d06daefe.css);
+          @import url(C:\\css\\suck-elons-cock.css);
 
           @media (max-width:767px) and (min-width:480px) {html.w-mod-js:not(.w-mod-ix) [data-w-id=\"b765d888-a64f-7ef3-2f38-59e8d91c9d50\"] {display:none;}html.w-mod-js:not(.w-mod-ix) [data-w-id=\"ad1fe3e8-a35f-7165-8f77-b8a70802d25e\"] {display:none;}}@media (max-width:479px) {html.w-mod-js:not(.w-mod-ix) [data-w-id=\"b765d888-a64f-7ef3-2f38-59e8d91c9d50\"] {display:none;}html.w-mod-js:not(.w-mod-ix) [data-w-id=\"ad1fe3e8-a35f-7165-8f77-b8a70802d25e\"] {display:none;}}
         ` }} />
         <span className="af-view">
-          <div id="sec-tweet" className="w-embed w-script">
-            <blockquote className="af-class-twitter-tweet">
-              <p lang="en" dir="ltr">SEC, three letter acronym, middle word is Elon’s</p>— Elon Musk (@elonmusk) <a href="https://twitter.com/elonmusk/status/1278764736876773383?ref_src=twsrc%5Etfw">July 2, 2020</a>
-            </blockquote>
+          <div id="elon-sec-tweet" data-w-id="6ca95cd9-c070-1d29-20ed-cc036ed14ddb" style={{opacity: 0}} className="af-class-elon-tweet">
+            <div className="w-embed w-script">
+              <blockquote className="af-class-twitter-tweet">
+                <p lang="en" dir="ltr">SEC, three letter acronym, middle word is Elon’s</p>— Elon Musk (@elonmusk) <a href="https://twitter.com/elonmusk/status/1278764736876773383?ref_src=twsrc%5Etfw">July 2, 2020</a>
+              </blockquote>
+            </div>
           </div>
         </span>
       </span>

@@ -58,15 +58,17 @@ class TweetMemeView extends React.Component {
         <style dangerouslySetInnerHTML={{ __html: `
           @import url(C:\\css\\normalize.css);
           @import url(C:\\css\\components.css);
-          @import url(C:\\css\\suck-elons-cock-f43460341d5ec37d06daefe.css);
+          @import url(C:\\css\\suck-elons-cock.css);
 
           @media (max-width:767px) and (min-width:480px) {html.w-mod-js:not(.w-mod-ix) [data-w-id=\"b765d888-a64f-7ef3-2f38-59e8d91c9d50\"] {display:none;}html.w-mod-js:not(.w-mod-ix) [data-w-id=\"ad1fe3e8-a35f-7165-8f77-b8a70802d25e\"] {display:none;}}@media (max-width:479px) {html.w-mod-js:not(.w-mod-ix) [data-w-id=\"b765d888-a64f-7ef3-2f38-59e8d91c9d50\"] {display:none;}html.w-mod-js:not(.w-mod-ix) [data-w-id=\"ad1fe3e8-a35f-7165-8f77-b8a70802d25e\"] {display:none;}}
         ` }} />
         <span className="af-view">
-          <div id="meme-tweet" className="af-class-html-embed-7 w-embed w-script">
-            <blockquote className="af-class-twitter-tweet">
-              <p lang="en" dir="ltr">Who controls the memes,<br />controls the Universe</p>— Elon Musk (@elonmusk) <a href="https://twitter.com/elonmusk/status/1276418907968925696?ref_src=twsrc%5Etfw">June 26, 2020</a>
-            </blockquote>
+          <div id="elon-meme-tweet" className="af-class-div-block-13">
+            <div className="af-class-html-embed-7 w-embed w-script">
+              <blockquote className="af-class-twitter-tweet">
+                <p lang="en" dir="ltr">Who controls the memes,<br />controls the Universe</p>— Elon Musk (@elonmusk) <a href="https://twitter.com/elonmusk/status/1276418907968925696?ref_src=twsrc%5Etfw">June 26, 2020</a>
+              </blockquote>
+            </div>
           </div>
         </span>
       </span>
