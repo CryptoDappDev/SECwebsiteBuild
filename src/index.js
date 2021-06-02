@@ -6,8 +6,10 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import { BrowserRouter, Switch, Route } from 'react-router-dom';
 import IndexController from './controllers/IndexController';
-import reportWebVitals from './reportWebVitals';
+import TweetSecController from './controllers/TweetSecController';
+import CopyButton1Controller from './controllers/CopyButton1Controller';
 
+//Main Page Render
 ReactDOM.render(
   <BrowserRouter>
     <Switch>
@@ -16,7 +18,16 @@ ReactDOM.render(
   </BrowserRouter>
 , document.getElementById('root'));
 
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();
+//SEC Tweet Render
+ReactDOM.render( <TweetSecController/> , document.getElementById('sec-tweet'));
+
+//Meme Tweet Render
+ReactDOM.render( <TweetSecController/> , document.getElementById('meme-tweet'));
+
+//Copy Cards
+ReactDOM.render( <CopyButton1Controller/> , document.getElementById('copy-card-1'));
+ReactDOM.render( <CopyButton1Controller/> , document.getElementById('copy-card-2'));
+
+
+
+
