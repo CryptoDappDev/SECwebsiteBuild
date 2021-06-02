@@ -12,7 +12,6 @@ class CopyButton1Controller extends React.Component {
       }
 
     handleClick(){
-        console.log('button clicked!');
         this.setState({ show: !this.state.show });
         setTimeout(() => {  this.setState({ show: !this.state.show }); }, 1000);
     }
