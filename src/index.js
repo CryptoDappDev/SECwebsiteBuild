@@ -11,6 +11,7 @@ import { BrowserRouter, Switch, Route } from 'react-router-dom';
 import IndexController from './controllers/IndexController';
 import TweetSecController from './controllers/TweetSecController';
 import CopyButton1Controller from './controllers/CopyButton1Controller';
+import {TwitterTweetEmbed} from 'react-twitter-embed';
 
 //Main Page Render
 ReactDOM.render(
@@ -25,11 +26,23 @@ ReactDOM.render(
 ReactDOM.render( <TweetSecController/> , document.getElementById('elon-sec-tweet'));
 
 //Meme Tweet Render
-ReactDOM.render( <TweetSecController/> , document.getElementById('elon-meme-tweet'));
+ReactDOM.render( <TwitterTweetEmbed tweetId={'1276418907968925696'} /> , document.getElementById('elon-meme-tweet'));
 
 //Copy Cards
 ReactDOM.render( <CopyButton1Controller/> , document.getElementById('contract-1'));
 ReactDOM.render( <CopyButton1Controller/> , document.getElementById('contract-2'));
 
-ReactDOM.render(<App />, document.getElementById('purchase-coin-button-2'));
+ReactDOM.render(
+<App 
+  itemtoSell={'31673350562246474401696226698567993468440352420607247670176787853265168499108'}
+/>
+, document.getElementById('purchase-coin-button-2'));
+
+
+ReactDOM.render(
+  <App 
+    itemtoSell={'31673350562246474401696226698567993468440352420607247670176787854364680126533'}
+  />
+  , document.getElementById('purchase-pass-button-2'));
+
 

@@ -7,7 +7,8 @@ import { connectWallet } from '../../constants';
 export default class Log extends React.Component {
   static propTypes = {
     seaport: PropTypes.object.isRequired,
-    accountAddress: PropTypes.string
+    accountAddress: PropTypes.string,
+    itemtoFetch: PropTypes.string.isRequired
   };
 
   state = {
@@ -22,10 +23,12 @@ export default class Log extends React.Component {
 
   componentDidMount() {
     this.fetchData();
+    console.log(this.props);
   }
 
   async fetchData() {
     const { accountAddress } = this.props
+
     const { orders, count } = await this.props.seaport.api.getOrders( {
       maker: this.state.onlyByMe ? accountAddress : undefined,
       owner: this.state.onlyForMe ? accountAddress : undefined,
@@ -34,7 +37,9 @@ export default class Log extends React.Component {
       asset_contract_address: '0x495f947276749Ce646f68AC8c248420045cb7b5e',
 
       //Token
-      token_id: '31673350562246474401696226698567993468440352420607247670176787853265168499108',
+      token_id: this.props.itemtoFetch,
+      
+      //'31673350562246474401696226698567993468440352420607247670176787853265168499108',
 
       //Pass
       //token_id: '31673350562246474401696226698567993468440352420607247670176787854364680126533',

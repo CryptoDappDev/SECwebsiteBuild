@@ -3,18 +3,28 @@ import styled from 'styled-components';
 import Log from '../Log'
 import { OpenSeaPort, Network } from 'opensea-js';
 import { web3Provider, onNetworkUpdate, OPENSEA_JS_URL, GITHUB_URL } from '../../constants';
+import PropTypes from 'prop-types';
 
 export default class App extends React.Component {
 
   state = {
-    accountAddress: null
+    accountAddress: null,
   }
 
   constructor(props) {
     super(props)
+    this.itemtoSell = props.itemtoSell
     this.onChangeAddress()
     onNetworkUpdate(this.onChangeAddress)
   }
+
+  static propTypes = {
+    itemtoSell: PropTypes.string.isRequired
+  }
+
+componentDidMount() {
+  console.log(this.props);
+}
 
   onChangeAddress = () => {
     this.seaport = new OpenSeaPort(web3Provider, {
@@ -34,7 +44,8 @@ export default class App extends React.Component {
         <main>
           <Log
             seaport={this.seaport}
-            accountAddress={this.state.accountAddress} />
+            accountAddress={this.state.accountAddress}
+            itemtoFetch =  {this.itemtoSell} />
         </main>
       </div>
     )
