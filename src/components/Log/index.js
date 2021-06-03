@@ -28,14 +28,17 @@ export default class Log extends React.Component {
 
   async fetchData() {
     const { accountAddress } = this.props
-
+    
     const { orders, count } = await this.props.seaport.api.getOrders( {
       maker: this.state.onlyByMe ? accountAddress : undefined,
       owner: this.state.onlyForMe ? accountAddress : undefined,
       side: this.state.side,
       bundled: false,
+      //asset_contract_address: '0x88B48F654c30e99bc2e4A1559b4Dcf1aD93FA656',
       asset_contract_address: '0x495f947276749Ce646f68AC8c248420045cb7b5e',
-
+      //0x495f947276749Ce646f68AC8c248420045cb7b5e   -- Token
+      //0x88B48F654c30e99bc2e4A1559b4Dcf1aD93FA656   -- Test
+        
       //Token
       token_id: this.props.itemtoFetch,
       

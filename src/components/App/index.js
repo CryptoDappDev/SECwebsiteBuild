@@ -30,6 +30,8 @@ componentDidMount() {
     this.seaport = new OpenSeaPort(web3Provider, {
       networkName: Network.rinkeby
     })
+    //Testnet Change
+    //this.seaport.api.apiBaseUrl = 'https://rinkeby-api.opensea.io/api/v1/'
     this.web3 = this.seaport.web3
     this.web3.eth.getAccounts((err, res) => {
       this.setState({
