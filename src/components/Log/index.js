@@ -34,8 +34,11 @@ export default class Log extends React.Component {
       owner: this.state.onlyForMe ? accountAddress : undefined,
       side: this.state.side,
       bundled: false,
-      //asset_contract_address: '0x88B48F654c30e99bc2e4A1559b4Dcf1aD93FA656',
-      asset_contract_address: '0x495f947276749Ce646f68AC8c248420045cb7b5e',
+      //asset_contract_address: '0x495f947276749Ce646f68AC8c248420045cb7b5e',
+      //asset_contract_address: '0x495f947276749Ce646f68AC8c248420045cb7b5e',
+      
+      //TEST
+      asset_contract_address: '0x2FB5d7DDa4f1F20F974a0fdd547C38674E8D940c',
       //0x495f947276749Ce646f68AC8c248420045cb7b5e   -- Token
       //0x88B48F654c30e99bc2e4A1559b4Dcf1aD93FA656   -- Test
         
