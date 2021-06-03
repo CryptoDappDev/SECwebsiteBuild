@@ -14,7 +14,7 @@ class ConnectWalletButtonView extends React.Component {
     if (Controller) return Controller
 
     try {
-      Controller = require('..\controllers/ConnectWalletButtonController')
+      Controller = require('../controllers/ConnectWalletButtonController')
       Controller = Controller.default || Controller
 
       return Controller

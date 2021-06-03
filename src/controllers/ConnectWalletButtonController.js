@@ -1,8 +1,9 @@
 import React from 'react'
-import ConnectWalletButton from '../views/ConnectWalletButtonView'
+//import ConnectWalletButton from '../views/ConnectWalletButtonView'
 
 export default (props) => (
-  <ConnectWalletButton>
-
-  </ConnectWalletButton>
+    <div>
+      <p>poop</p> 
+    </div>
+    
 )

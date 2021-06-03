@@ -12,6 +12,7 @@ import IndexController from './controllers/IndexController';
 import TweetSecController from './controllers/TweetSecController';
 import CopyButton1Controller from './controllers/CopyButton1Controller';
 import {TwitterTweetEmbed} from 'react-twitter-embed';
+import ConnectWalletButton from './controllers/ConnectWalletButtonController';
 
 //Main Page Render
 ReactDOM.render(
