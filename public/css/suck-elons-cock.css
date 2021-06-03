@@ -1469,6 +1469,7 @@
 
 .af-view .af-class-grid-10-columns {
   width: 100%;
+  margin-bottom: 4%;
   -ms-grid-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
   -ms-grid-rows: auto;
@@ -2073,6 +2074,7 @@
 .af-view .af-class-testimonials-container {
   position: relative;
   max-width: 80%;
+  margin-top: 6%;
   margin-right: auto;
   margin-left: auto;
   padding-right: 1rem;
@@ -3497,11 +3499,11 @@
 .af-view .af-class-button-3.af-class-exclusive.af-class-connect-to-wallet {
   min-width: 200px;
   border-style: solid;
-  border-width: 3px;
+  border-width: 2px;
   border-color: #f46692;
   background-color: #fff;
   background-image: none;
-  line-height: 1;
+  line-height: 0.95;
 }
 
 .af-view .af-class-button-3.af-class-exclusive.af-class-header {
@@ -3758,12 +3760,19 @@
   top: 0%;
   right: 0%;
   bottom: 0%;
+  max-height: 90vh;
+  max-width: 90vw;
+  border-radius: 0px;
+  box-shadow: 4px 4px 9px 1px #fe753d;
 }
 
-.af-view .af-class-div-block-18 {
+.af-view .af-class-videooo {
   position: relative;
   display: block;
-  max-height: 100%;
+  max-height: 90vh;
+  max-width: 90vw;
+  margin: 5% auto;
+  border-radius: 0px;
 }
 
 .af-view .af-class-image-16 {
@@ -3840,7 +3849,7 @@
   z-index: 10;
   overflow: hidden;
   width: auto;
-  height: 6%;
+  height: 50px;
   max-width: 100%;
   background-color: #fff;
   box-shadow: 0 9px 30px -10px #fe753d;
@@ -3862,8 +3871,8 @@
 }
 
 .af-view .af-class-brand-3.w--current {
-  margin-right: auto;
-  margin-left: auto;
+  margin-right: 30px;
+  margin-left: 0px;
   font-size: 35px;
 }
 
@@ -4053,7 +4062,7 @@
     top: auto;
     right: auto;
     z-index: 99;
-    max-width: none;
+    max-width: 1170px;
     -webkit-box-pack: start;
     -webkit-justify-content: flex-start;
     -ms-flex-pack: start;
@@ -4078,9 +4087,9 @@
   }
 
   .af-view .af-class-nav-menu {
-    position: fixed;
+    position: absolute;
     left: 0%;
-    top: 6%;
+    top: 95%;
     right: 0%;
     bottom: auto;
     z-index: 1;
@@ -4214,6 +4223,10 @@
     align-items: center;
   }
 
+  .af-view .af-class-card-item-content.af-class-socials {
+    width: 100%;
+  }
+
   .af-view .af-class-product-demo-sticky {
     display: block;
   }
@@ -4242,6 +4255,7 @@
   }
 
   .af-view .af-class-grid-10-columns {
+    margin-bottom: auto;
     -ms-grid-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
   }
@@ -4309,6 +4323,10 @@
 
   .af-view .af-class-download-button.af-class-how-to-bottom {
     margin-left: 0rem;
+  }
+
+  .af-view .af-class-card-feature-center.af-class-socials {
+    min-width: 100%;
   }
 
   .af-view .af-class-testimonials-container {
@@ -4549,7 +4567,7 @@
   .af-view .af-class-menu-button-3 {
     position: absolute;
     left: auto;
-    top: 7px;
+    top: auto;
     right: 10px;
     bottom: auto;
     z-index: 2;
@@ -4557,7 +4575,7 @@
     display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
-    width: 54px;
+    width: 50px;
     height: 42px;
     margin-top: 0%;
     margin-bottom: 0%;
@@ -4657,6 +4675,14 @@
 
   .af-view .af-class-comet-background {
     display: block;
+  }
+
+  .af-view .af-class-join-us-socials {
+    min-width: auto;
+    -webkit-box-flex: 0;
+    -webkit-flex: 0 auto;
+    -ms-flex: 0 auto;
+    flex: 0 auto;
   }
 
   .af-view .af-class-image-14 {
@@ -4914,6 +4940,13 @@
     align-self: auto;
   }
 
+  .af-view .af-class-card-item-content.af-class-socials {
+    -webkit-align-self: center;
+    -ms-flex-item-align: center;
+    -ms-grid-row-align: center;
+    align-self: center;
+  }
+
   .af-view .af-class-text-center.af-class-ecosystem {
     display: block;
   }
@@ -5131,6 +5164,7 @@
   }
 
   .af-view .af-class-menu-button-3 {
+    top: auto;
     width: 50px;
     height: 42px;
     background-image: linear-gradient(132deg, #fa5853, #f46692 49%, #ffc444);
@@ -5281,6 +5315,14 @@
     position: static;
     z-index: 9999;
     max-width: 1170px;
+    -webkit-box-pack: start;
+    -webkit-justify-content: flex-start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
   }
 
   .af-view .af-class-hero-text {
@@ -5447,6 +5489,13 @@
 
   .af-view .af-class-button.af-class-exclusive {
     width: 100%;
+  }
+
+  .af-view .af-class-card-item.af-class-light.af-class-socials {
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
   }
 
   .af-view .af-class-card-item.af-class-light.af-class-contract-address {
@@ -5790,6 +5839,13 @@
     align-self: center;
   }
 
+  .af-view .af-class-card-feature-center.af-class-socials {
+    -webkit-align-self: center;
+    -ms-flex-item-align: center;
+    -ms-grid-row-align: center;
+    align-self: center;
+  }
+
   .af-view .af-class-card-feature-icon.af-class-tool {
     padding-right: 0px;
     padding-left: 0px;
@@ -5994,7 +6050,7 @@
     -webkit-justify-content: space-between;
     -ms-flex-pack: justify;
     justify-content: space-between;
-    justify-items: stretch;
+    justify-items: center;
     -webkit-flex-wrap: nowrap;
     -ms-flex-wrap: nowrap;
     flex-wrap: nowrap;
@@ -6063,7 +6119,7 @@
   .af-view .af-class-buy-sec-banner {
     position: relative;
     overflow: hidden;
-    height: 5vh;
+    height: 10vh;
   }
 
   .af-view .af-class-nft-buy-buttons.af-class-sec-coin {
@@ -6113,7 +6169,7 @@
 
   .af-view .af-class-moon-gif {
     left: 0%;
-    top: 10%;
+    top: 0%;
     right: 0%;
     bottom: 0%;
     z-index: 0;
@@ -6206,8 +6262,12 @@
   }
 
   .af-view .af-class-hero-content {
-    top: 23%;
-    bottom: 23%;
+    top: 15%;
+    bottom: auto;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
     height: 100%;
   }
 
@@ -6545,16 +6605,27 @@
     min-width: 220px;
   }
 
+  .af-view .af-class-button-3.af-class-exclusive.af-class-header {
+    margin-left: 0%;
+  }
+
   .af-view .af-class-brand-2.w--current {
     z-index: 9999;
   }
 
   .af-view .af-class-menu-button-3 {
+    top: auto;
     z-index: 2;
     width: 42px;
     height: 42px;
+    margin-top: 0%;
+    margin-bottom: 0%;
     padding-right: 10px;
     padding-left: 10px;
+    -webkit-align-self: auto;
+    -ms-flex-item-align: auto;
+    -ms-grid-row-align: auto;
+    align-self: auto;
     -webkit-box-flex: 0;
     -webkit-flex: 0 auto;
     -ms-flex: 0 auto;
@@ -6601,6 +6672,10 @@
     padding-bottom: 2%;
   }
 
+  .af-view .af-class-nav-link-3.af-class-eco-nav {
+    margin-right: 0%;
+  }
+
   .af-view .af-class-text-gradient-3 {
     font-size: 20px;
     text-align: center;
@@ -6613,6 +6688,10 @@
     max-width: none;
     padding-right: 0px;
     padding-left: 0px;
+  }
+
+  .af-view .af-class-brand-3 {
+    display: block;
   }
 
   .af-view .af-class-brand-3.w--current {
