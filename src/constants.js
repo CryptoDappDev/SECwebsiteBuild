@@ -29,6 +29,7 @@ export async function connectWallet() {
     throw new Error(errorMessage)
   }
   networkCallbacks.map((c) => c(web3Provider))
+  console.log('IM CONNECTING TO WALLET')
 }
 
 export function toUnitAmount(baseAmount, tokenContract = null) {
