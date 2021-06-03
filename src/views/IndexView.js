@@ -2,9 +2,12 @@
 
 import React from 'react'
 import { createScope, map, transformProxies } from './helpers'
+import ConnectWalletButtonView from './ConnectWalletButtonView'
 import TweetSecView from './TweetSecView'
 import TweetMemeView from './TweetMemeView'
 import CopyButton1View from './CopyButton1View'
+import CoinPurchaseView from './CoinPurchaseView'
+import BoardingPassPurchaseView from './BoardingPassPurchaseView'
 import CopyButton2View from './CopyButton2View'
 
 const scripts = [
@@ -71,21 +74,22 @@ class IndexView extends React.Component {
         ` }} />
         <span className="af-view">
           <div className="af-class-body">
-            <div data-collapse="medium" data-animation="default" data-duration={400} data-w-id="26dacbdd-55df-b3cd-8a97-abb85b796d64" style={{opacity: 0}} role="banner" className="af-class-fixed-nav-2 w-nav">
+            <div data-collapse="medium" data-animation="default" data-duration={400} role="banner" className="af-class-fixed-nav-3 w-nav">
               <div className="af-class-container af-class-nav-container w-container">
-                <a href="#top" className="af-class-brand-2 w-nav-brand"><img src="images/Sec_Wordstamp_V3.png" loading="lazy" width={150} sizes="150px" srcSet="images/Sec_Wordstamp_V3-p-500.png 500w, images/Sec_Wordstamp_V3-p-800.png 800w, images/Sec_Wordstamp_V3.png 1000w" alt="$SEC Logo - suck elon's cock wordstamp" className="af-class-image-4" /></a>
                 <nav role="navigation" className="af-class-nav-menu w-nav-menu">
-                  <a href="#new-eco-3" id="new-eco" className="af-class-nav-link-2 w-inline-block">
+                  <a href="#" className="af-class-brand-3 w-nav-brand"><img src="images/Sec_Wordstamp_V3.png" loading="lazy" width={150} sizes="(max-width: 767px) 100vw, 135px" srcSet="images/Sec_Wordstamp_V3-p-500.png 500w, images/Sec_Wordstamp_V3-p-800.png 800w, images/Sec_Wordstamp_V3.png 1000w" alt="$SEC Logo - suck elon's cock wordstamp" className="af-class-image-16" /></a>
+                  <a href="#" id="new-eco" className="af-class-nav-link-3 w-inline-block">
                     <div className="af-class-nav-link-text">ECOSYSTEM</div>
                   </a>
-                  <a href="#" className="af-class-nav-link-2 af-class-moonmap w-inline-block">
+                  <a href="#" className="af-class-nav-link-3 af-class-moonmap w-inline-block">
                     <div className="af-class-nav-link-text">Moonmap</div>
                   </a>
-                  <a href="#exclusive" className="af-class-nav-link-2 w-inline-block">
+                  <a href="#" className="af-class-nav-link-3 w-inline-block">
                     <div className="af-class-nav-link-text">MEME MARKETPLACE</div>
                   </a>
                   <div className="af-class-nav-cta-button-2">
-                    <a href="#limited-drops" data-w-id="26dacbdd-55df-b3cd-8a97-abb85b796d73" className="af-class-button-3 af-class-exclusive w-button"><strong>LIMITED DROPS</strong></a>
+                    <ConnectWalletButtonView.Controller />
+                    <a href="#" className="af-class-button-3 af-class-exclusive af-class-header w-button"><strong>LIMITED DROPS</strong></a>
                   </div>
                   <div className="af-class-nav-socials">
                     <a href="https://www.instagram.com/suckelonscock" target="_blank" className="af-class-social-media-link af-class-navv w-inline-block"><img src="images/IG..Circle.svg" loading="lazy" width={30} alt="Instagram logo - suckelonscock" className="af-class-social-media-icon" /></a>
@@ -379,9 +383,7 @@ class IndexView extends React.Component {
                             <div id="purchase-coin-button-1" className="af-class-nft-price-div"><img src="images/ETH-logo.svg" loading="lazy" width={25} alt="ETH logo" className="af-class-image-15" />
                               <div className="af-class-text-block-11">0.05</div>
                             </div>
-                            <div id="purchase-coin-button-2" className="af-class-purchase-button-for-nfts">
-                              <a href="https://opensea.io/assets/0x495f947276749ce646f68ac8c248420045cb7b5e/31673350562246474401696226698567993468440352420607247670176787853265168499108/" target="_blank" className="af-class-buy-button w-button">Purchase</a>
-                            </div>
+                            <CoinPurchaseView.Controller />
                           </div>
                         </div>
                       </div>
@@ -403,9 +405,7 @@ class IndexView extends React.Component {
                             <div id="purchase-pass-button-1" className="af-class-nft-price-div"><img src="images/ETH-logo.svg" loading="lazy" width={25} alt="ETH logo" className="af-class-image-15" />
                               <div className="af-class-text-block-11">0.5</div>
                             </div>
-                            <div id="purchase-pass-button-2" className="af-class-purchase-button-for-nfts">
-                              <a href="https://opensea.io/assets/0x495f947276749ce646f68ac8c248420045cb7b5e/31673350562246474401696226698567993468440352420607247670176787854364680126533/" target="_blank" className="af-class-buy-button w-button">Purchase</a>
-                            </div>
+                            <BoardingPassPurchaseView.Controller />
                           </div>
                         </div>
                       </div>
