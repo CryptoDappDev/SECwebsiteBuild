@@ -14,7 +14,7 @@ class ConnectToWalletMobView extends React.Component {
     if (Controller) return Controller
 
     try {
-      Controller = require('../controllers/ConnectToWalletMobController')
+      Controller = require('..\controllers/ConnectToWalletMobController')
       Controller = Controller.default || Controller
 
       return Controller
@@ -50,7 +50,7 @@ class ConnectToWalletMobView extends React.Component {
 
   render() {
     const proxies = ConnectToWalletMobView.Controller !== ConnectToWalletMobView ? transformProxies(this.props.children) : {
-
+      'wallet': [],
     }
 
     return (
@@ -63,7 +63,9 @@ class ConnectToWalletMobView extends React.Component {
           @media (max-width:767px) and (min-width:480px) {html.w-mod-js:not(.w-mod-ix) [data-w-id=\"b765d888-a64f-7ef3-2f38-59e8d91c9d50\"] {display:none;opacity:0;}html.w-mod-js:not(.w-mod-ix) [data-w-id=\"ad1fe3e8-a35f-7165-8f77-b8a70802d25e\"] {display:none;opacity:0;}}@media (max-width:479px) {html.w-mod-js:not(.w-mod-ix) [data-w-id=\"b765d888-a64f-7ef3-2f38-59e8d91c9d50\"] {display:none;opacity:0;}html.w-mod-js:not(.w-mod-ix) [data-w-id=\"ad1fe3e8-a35f-7165-8f77-b8a70802d25e\"] {display:none;opacity:0;}}
         ` }} />
         <span className="af-view">
-          <a href="#" id="connect-to-wallet-mob" className="af-class-button-3 af-class-exclusive af-class-connect-to-wallet w-button"><strong className="af-class-text-gradient-3">CONNECT WALLET</strong></a>
+          <div id="wallet-mob">
+            {map(proxies['wallet'], props => <a href="#" id="connect-to-wallet" {...{...props, className: `af-class-button-3 af-class-exclusive af-class-connect-to-wallet w-button ${props.className || ''}`}}>{props.children ? props.children : <React.Fragment><strong className="af-class-text-gradient-3">CONNECT WALLET</strong></React.Fragment>}</a>)}
+          </div>
         </span>
       </span>
     )

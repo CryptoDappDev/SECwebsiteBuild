@@ -16,7 +16,7 @@ class UnauthorizedView extends React.Component {
     if (Controller) return Controller
 
     try {
-      Controller = require('../controllers/UnauthorizedController')
+      Controller = require('..\controllers/UnauthorizedController')
       Controller = Controller.default || Controller
 
       return Controller
@@ -34,7 +34,7 @@ class UnauthorizedView extends React.Component {
 
   componentDidMount() {
     const htmlEl = document.querySelector('html')
-    htmlEl.dataset['wfPage'] = '60b925eb5a3455a569456cb4'
+    htmlEl.dataset['wfPage'] = '60b9c2fe9bd89a96d392da7e'
     htmlEl.dataset['wfSite'] = '60a76909ccf920aea94e85c4'
 
     scripts.concat(null).reduce((active, next) => Promise.resolve(active).then((active) => {

@@ -15,7 +15,7 @@ class PrivacyView extends React.Component {
     if (Controller) return Controller
 
     try {
-      Controller = require('../controllers/PrivacyController')
+      Controller = require('..\controllers/PrivacyController')
       Controller = Controller.default || Controller
 
       return Controller
@@ -33,7 +33,7 @@ class PrivacyView extends React.Component {
 
   componentDidMount() {
     const htmlEl = document.querySelector('html')
-    htmlEl.dataset['wfPage'] = '60b925eb5a34557012456cc4'
+    htmlEl.dataset['wfPage'] = '60b9c2fe9bd89a315f92da8e'
     htmlEl.dataset['wfSite'] = '60a76909ccf920aea94e85c4'
 
     scripts.concat(null).reduce((active, next) => Promise.resolve(active).then((active) => {

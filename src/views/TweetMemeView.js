@@ -14,7 +14,7 @@ class TweetMemeView extends React.Component {
     if (Controller) return Controller
 
     try {
-      Controller = require('../controllers/TweetMemeController')
+      Controller = require('..\controllers/TweetMemeController')
       Controller = Controller.default || Controller
 
       return Controller

@@ -14,7 +14,7 @@ class BoardingPassPurchaseView extends React.Component {
     if (Controller) return Controller
 
     try {
-      Controller = require('../controllers/BoardingPassPurchaseController')
+      Controller = require('..\controllers/BoardingPassPurchaseController')
       Controller = Controller.default || Controller
 
       return Controller

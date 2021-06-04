@@ -15,7 +15,7 @@ class DetailOpenGraphSettingsView extends React.Component {
     if (Controller) return Controller
 
     try {
-      Controller = require('../controllers/DetailOpenGraphSettingsController')
+      Controller = require('..\controllers/DetailOpenGraphSettingsController')
       Controller = Controller.default || Controller
 
       return Controller
@@ -33,7 +33,7 @@ class DetailOpenGraphSettingsView extends React.Component {
 
   componentDidMount() {
     const htmlEl = document.querySelector('html')
-    htmlEl.dataset['wfPage'] = '60b925eb5a34555a4e456cbc'
+    htmlEl.dataset['wfPage'] = '60b9c2fe9bd89a02c892da86'
     htmlEl.dataset['wfSite'] = '60a76909ccf920aea94e85c4'
 
     scripts.concat(null).reduce((active, next) => Promise.resolve(active).then((active) => {

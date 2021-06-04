@@ -15,7 +15,7 @@ class NotFoundView extends React.Component {
     if (Controller) return Controller
 
     try {
-      Controller = require('../controllers/NotFoundController')
+      Controller = require('..\controllers/NotFoundController')
       Controller = Controller.default || Controller
 
       return Controller
@@ -33,7 +33,7 @@ class NotFoundView extends React.Component {
 
   componentDidMount() {
     const htmlEl = document.querySelector('html')
-    htmlEl.dataset['wfPage'] = '60b925eb5a34558576456cb5'
+    htmlEl.dataset['wfPage'] = '60b9c2fe9bd89a4ac992da7f'
     htmlEl.dataset['wfSite'] = '60a76909ccf920aea94e85c4'
 
     scripts.concat(null).reduce((active, next) => Promise.resolve(active).then((active) => {
