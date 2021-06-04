@@ -2562,6 +2562,10 @@
   align-items: stretch;
 }
 
+.af-view .af-class-fade-in-on-scroll.af-class-ftokennnp {
+  width: 100%;
+}
+
 .af-view .af-class-social-media-icon {
   -webkit-filter: invert(100%);
   filter: invert(100%);
@@ -3130,8 +3134,8 @@
 .af-view .af-class-html-embed-5.af-class-buy-section {
   padding-right: 0.5rem;
   padding-left: 0.5rem;
-  -o-object-fit: contain;
-  object-fit: contain;
+  -o-object-fit: fill;
+  object-fit: fill;
 }
 
 .af-view .af-class-big-spinning-coin {
@@ -3714,9 +3718,10 @@
 
 .af-view .af-class-text-block-11 {
   margin: auto 0.5rem;
-  -webkit-align-self: flex-start;
-  -ms-flex-item-align: start;
-  align-self: flex-start;
+  -webkit-align-self: center;
+  -ms-flex-item-align: center;
+  -ms-grid-row-align: center;
+  align-self: center;
   font-family: interstate, sans-serif;
   color: #f4f8fb;
   font-size: 20px;
@@ -3734,9 +3739,9 @@
   -webkit-justify-content: center;
   -ms-flex-pack: center;
   justify-content: center;
-  -webkit-align-self: flex-end;
-  -ms-flex-item-align: end;
-  align-self: flex-end;
+  -webkit-align-self: center;
+  -ms-flex-item-align: center;
+  align-self: center;
 }
 
 .af-view .af-class-image-15 {
@@ -3777,7 +3782,7 @@
 
 .af-view .af-class-image-16 {
   display: inline-block;
-  max-width: 90%;
+  max-width: 85%;
 }
 
 .af-view .af-class-nav-link-3 {
@@ -3864,10 +3869,10 @@
   margin-right: 30px;
   padding-top: 0px;
   padding-bottom: 0px;
-  -webkit-align-self: center;
-  -ms-flex-item-align: center;
-  -ms-grid-row-align: center;
-  align-self: center;
+  -webkit-align-self: stretch;
+  -ms-flex-item-align: stretch;
+  -ms-grid-row-align: stretch;
+  align-self: stretch;
 }
 
 .af-view .af-class-brand-3.w--current {
@@ -4547,6 +4552,7 @@
 
   .af-view .af-class-button-3.af-class-exclusive.af-class-connect-to-wallet {
     width: 100%;
+    min-width: 100%;
     margin-bottom: 1%;
   }
 

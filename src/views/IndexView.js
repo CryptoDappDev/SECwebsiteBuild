@@ -2,8 +2,8 @@
 
 import React from 'react'
 import { createScope, map, transformProxies } from './helpers'
-import ConnectWalletButtonView from './ConnectWalletButtonView'
-import ConnectWalletButtonView from './ConnectWalletButtonView'
+import ConnectToWalletMobView from './ConnectToWalletMobView'
+import ConnectToWalletNavView from './ConnectToWalletNavView'
 import TweetSecView from './TweetSecView'
 import TweetMemeView from './TweetMemeView'
 import CopyButton1View from './CopyButton1View'
@@ -77,10 +77,10 @@ class IndexView extends React.Component {
           <div className="af-class-body">
             <div data-collapse="medium" data-animation="default" data-duration={400} data-w-id="c4c9dea6-1369-4332-0f22-987670d1d687" style={{opacity: 0}} role="banner" className="af-class-fixed-nav-3 w-nav">
               <div className="af-class-container af-class-nav-container w-container">
-                <a href="#top" className="af-class-brand-3 w-nav-brand"><img src="images/Sec_Wordstamp_V3.png" loading="lazy" width={150} sizes="135px" srcSet="images/Sec_Wordstamp_V3-p-500.png 500w, images/Sec_Wordstamp_V3-p-800.png 800w, images/Sec_Wordstamp_V3.png 1000w" alt="$SEC Logo - suck elon's cock wordstamp" className="af-class-image-16" /></a>
+                <a href="#top" className="af-class-brand-3 w-nav-brand"><img src="images/Sec_Wordstamp_V3.png" loading="lazy" width={150} sizes="(max-width: 479px) 53vw, 127.50000762939453px" srcSet="images/Sec_Wordstamp_V3-p-500.png 500w, images/Sec_Wordstamp_V3-p-800.png 800w, images/Sec_Wordstamp_V3.png 1000w" alt="$SEC Logo - suck elon's cock wordstamp" className="af-class-image-16" /></a>
                 <nav role="navigation" className="af-class-nav-menu w-nav-menu">
                   <div className="af-class-nav-cta-button-2 af-class-mobile">
-                    <ConnectWalletButtonView.Controller />
+                    <ConnectToWalletMobView.Controller />
                     <a href="#666-limiteddrops" id="limited-drop-button" className="af-class-button-3 af-class-exclusive af-class-header w-button"><strong>LIMITED DROPS</strong></a>
                   </div>
                   <a href="#FeatureList" id="new-eco" className="af-class-nav-link-3 af-class-eco-nav w-inline-block">
@@ -100,11 +100,11 @@ class IndexView extends React.Component {
                     <a href="https://www.tiktok.com/@suckelonscoc?lang=en" target="_blank" className="af-class-social-media-link af-class-navv w-inline-block"><img src="images/tiktok-round.svg" loading="lazy" width={24} height={24} alt className="af-class-social-media-icon" /></a>
                     <a href="https://www.facebook.com/suckelonscock" target="_blank" className="af-class-social-media-link af-class-navv w-inline-block"><img src="images/facebook.svg" loading="lazy" alt className="af-class-social-media-icon" /></a>
                     <a href="https://www.youtube.com/channel/UCkzofLl4xepSF2CkMU1s53w" target="_blank" className="af-class-social-media-link af-class-navv w-inline-block"><img src="images/YT.svg" loading="lazy" width={25} alt className="af-class-social-media-icon" /></a>
-                    <a href="https://discord.gg/HpYE8SPQhA" target="_blank" className="af-class-social-media-link af-class-navv w-inline-block"><img src="images/iconfinder_discord_18_5474122.svg" loading="lazy" width={25} alt className="af-class-social-media-icon" /></a>
+                    <a href="https://discord.gg/HpYE8SPQhA" target="_blank" className="af-class-social-media-link af-class-navv w-inline-block"><img src="images/iconfinder_discord_18_5474122-svg-2.svg" loading="lazy" width={25} alt className="af-class-social-media-icon" /></a>
                   </div>
                 </nav>
                 <div className="af-class-nav-cta-button-2 af-class-desktop">
-                  <ConnectWalletButtonView.Controller />
+                  <ConnectToWalletNavView.Controller />
                   <a href="#666-limiteddrops" id="limited-drop-button" className="af-class-button-3 af-class-exclusive af-class-header w-button"><strong>LIMITED DROPS</strong></a>
                 </div>
                 <div className="af-class-menu-button-3 w-nav-button"><img src="images/menu-icon-white.svg" loading="lazy" alt className="af-class-image-17" /></div>
@@ -221,7 +221,7 @@ class IndexView extends React.Component {
                     <div className="af-class-card-item-content af-class-tools">
                       <div className="af-class-card-feature-center af-class-tool-center">
                         <a href="https://analytics.sushi.com/pairs/0xFffAE206a0c17C4804F04af3880ff8A9DeA39210" target="_blank" className="af-class-link-block-4 w-inline-block">
-                          <div className="af-class-fade-in-on-scroll af-class-toool"><img src="images/susssshi.png" loading="lazy" srcSet="images/susssshi-p-500.png 500w, images/susssshi.png 512w" sizes="(max-width: 479px) 55.000003814697266px, 112.98611450195312px" alt="Sushi swap icon" className="af-class-card-feature-icon af-class-tool" /></div>
+                          <div className="af-class-fade-in-on-scroll af-class-toool"><img src="images/susssshi.png" loading="lazy" srcSet="images/susssshi-p-500.png 500w, images/susssshi.png 512w" sizes="(max-width: 479px) 74vw, 112.98611450195312px" alt="Sushi swap icon" className="af-class-card-feature-icon af-class-tool" /></div>
                           <div className="af-class-fade-in-on-scroll">
                             <h6 className="af-class-heading">Sushi Swap</h6>
                           </div>
@@ -291,7 +291,7 @@ class IndexView extends React.Component {
                           <a href="https://www.youtube.com/channel/UCkzofLl4xepSF2CkMU1s53w" target="_blank" className="af-class-join-us-socials w-inline-block"><img src="images/YT.svg" loading="lazy" alt="YOUTUBE" className="af-class-card-feature-icon" /></a>
                           <a href="https://www.facebook.com/suckelonscock" target="_blank" className="af-class-join-us-socials w-inline-block"><img src="images/facebook.svg" loading="lazy" alt="FACEBOOK" className="af-class-card-feature-icon" /></a>
                           <a href="https://www.tiktok.com/@onlymemes.sec?lang=en" target="_blank" className="af-class-join-us-socials w-inline-block"><img src="images/tiktok-round.svg" loading="lazy" alt="TIKTOK" className="af-class-card-feature-icon" /></a>
-                          <a href="https://discord.gg/HpYE8SPQhA" target="_blank" className="af-class-join-us-socials w-inline-block"><img src="images/iconfinder_discord_18_5474122.svg" loading="lazy" alt="DISCORD" className="af-class-card-feature-icon" /></a>
+                          <a href="https://discord.gg/HpYE8SPQhA" target="_blank" className="af-class-join-us-socials w-inline-block"><img src="images/iconfinder_discord_18_5474122-svg-1.png" loading="lazy" alt="DISCORD" className="af-class-card-feature-icon" /></a>
                         </div>
                       </div>
                     </div>
@@ -377,11 +377,11 @@ class IndexView extends React.Component {
                         <div className="af-class-card-item-content">
                           <div data-w-id="e029fe69-e449-4a9b-5f1c-8ef44a11cecd" className="af-class-card-iphone af-class-coin"><img src="images/Coin_spin_isolated_v2_400.gif" loading="lazy" alt /></div>
                           <div className="af-class-text-center af-class-coin-nft">
-                            <div className="af-class-fade-in-on-scroll">
+                            <div className="af-class-fade-in-on-scroll af-class-ftokennnp">
                               <h4 className="af-class-white-text">FOUNDER'S TOKEN</h4>
                             </div>
                             <div className="af-class-fade-in-on-scroll af-class-sec-coin-text">
-                              <p className="af-class-light-grey af-class-nft">There are only <strong>420</strong> official <strong><em>$SEC</em></strong> coins. Once these coins are claimed no more will be minted. </p>
+                              <p className="af-class-light-grey af-class-nft">The Founders Token is proof you were<br />among the first to hold <strong><em>$SEC</em></strong>. Holding the Founders Token unlock special features.<br /><br /><strong>402 of 420 remain.</strong></p>
                             </div>
                           </div>
                           <div id="purchase-coin-button" className="af-class-nft-buy-buttons af-class-sec-coin af-class-purchase">
@@ -399,11 +399,11 @@ class IndexView extends React.Component {
                             <div className="af-class-card-phone-image-container"><img src="images/Boarding_Pass_NFT_Web_Preview.png" loading="lazy" sizes="(max-width: 479px) 102.04861450195312px, (max-width: 767px) 31vw, (max-width: 1439px) 124.0451431274414px, 157.04861450195312px" srcSet="images/Boarding_Pass_NFT_Web_Preview-p-500.png 500w, images/Boarding_Pass_NFT_Web_Preview.png 588w" alt className="af-class-width-pct" /></div>
                           </div>
                           <div className="af-class-text-center af-class-boarding-pass">
-                            <div className="af-class-fade-in-on-scroll">
+                            <div className="af-class-fade-in-on-scroll af-class-ftokennnp">
                               <h4 className="af-class-white-text">BOARDING PASS</h4>
                             </div>
                             <div className="af-class-fade-in-on-scroll">
-                              <p className="af-class-light-grey af-class-nft">The <strong><em>$SEC</em></strong><em> </em>boarding pass is an exclusive all <strong>access ticket </strong>to the moon landing afterparty with <strong>VIP&nbsp;</strong>access along the way. <br /><br />The pass unlocks special access within the <strong><em>$SEC</em></strong>&nbsp;ecosystem and will be used as your identification plus proves you have a 💎🍆.</p>
+                              <p className="af-class-light-grey af-class-nft">The <strong><em>$SEC</em></strong><em> </em>boarding pass is an exclusive all <strong>access ticket </strong>to the moon landing afterparty with <strong>VIP&nbsp;</strong>access along the way. <br /><br /><strong>65 of 69 remaining.</strong></p>
                             </div>
                           </div>
                           <div id="purchase-pass-button" className="af-class-nft-buy-buttons af-class-sec-coin af-class-purchase">
@@ -416,7 +416,7 @@ class IndexView extends React.Component {
                       </div>
                       <div id="w-node-_74cbd762-9528-e95b-cab8-025c6f989808-a4456cb2" data-w-id="74cbd762-9528-e95b-cab8-025c6f989808" style={{opacity: 0}} className="af-class-card-item">
                         <div className="af-class-card-item-content">
-                          <div data-w-id="74cbd762-9528-e95b-cab8-025c6f98980a" className="af-class-card-iphone af-class-opensea"><img src="images/opensea.png" loading="lazy" sizes="(max-width: 479px) 31vw, (max-width: 767px) 38vw, (max-width: 1279px) 122.69097900390625px, (max-width: 1439px) 130.01736450195312px, 145.6944580078125px" srcSet="images/opensea-p-500.png 500w, images/opensea.png 700w" alt="OpeanSea NFT Marketplace icon" className="af-class-card-iphone-image" />
+                          <div data-w-id="74cbd762-9528-e95b-cab8-025c6f98980a" className="af-class-card-iphone af-class-opensea"><img src="images/opensea.png" loading="lazy" sizes="(max-width: 479px) 100vw, (max-width: 767px) 38vw, (max-width: 1279px) 122.69097900390625px, (max-width: 1439px) 130.01736450195312px, 145.6944580078125px" srcSet="images/opensea-p-500.png 500w, images/opensea.png 700w" alt="OpeanSea NFT Marketplace icon" className="af-class-card-iphone-image" />
                             <div className="af-class-card-iphone-overlay" />
                             <div className="af-class-card-phone-image-container af-class-opensea"><img src="images/Boarding_Pass_NFT_Web_Preview.png" loading="lazy" sizes="100vw" srcSet="images/Boarding_Pass_NFT_Web_Preview-p-500.png 500w, images/Boarding_Pass_NFT_Web_Preview.png 588w" alt className="af-class-width-pct" /></div>
                           </div>
@@ -536,7 +536,7 @@ class IndexView extends React.Component {
                     <a href="https://www.youtube.com/channel/UCkzofLl4xepSF2CkMU1s53w" target="_blank" className="af-class-social-media-link af-class-footer-soc w-inline-block"><img src="images/YT.svg" loading="lazy" alt="Small circle Facebook icon" height={28} width={24} className="af-class-social-media-icon" /></a>
                     <a href="https://www.tiktok.com/@onlymemes.sec?lang=en" target="_blank" className="af-class-social-media-link af-class-footer-soc w-inline-block"><img src="images/tiktok-round.svg" loading="lazy" alt="Small circle TikTok icon" height={24} className="af-class-social-media-icon" /></a>
                     <a href="https://www.facebook.com/suckelonscock" target="_blank" className="af-class-social-media-link af-class-footer-soc w-inline-block"><img src="images/facebook.svg" loading="lazy" alt="Small circle Facebook icon" className="af-class-social-media-icon" /></a>
-                    <a href="https://discord.gg/HpYE8SPQhA" target="_blank" className="af-class-social-media-link af-class-footer-soc w-inline-block"><img src="images/iconfinder_discord_18_5474122.svg" loading="lazy" alt="Small circle Facebook icon" width={26} className="af-class-social-media-icon" /></a>
+                    <a href="https://discord.gg/HpYE8SPQhA" target="_blank" className="af-class-social-media-link af-class-footer-soc w-inline-block"><img src="images/iconfinder_discord_18_5474122-svg-1.png" loading="lazy" alt="Small circle Facebook icon" width={26} className="af-class-social-media-icon" /></a>
                   </div>
                 </div>
                 <div className="af-class-palace-club">
