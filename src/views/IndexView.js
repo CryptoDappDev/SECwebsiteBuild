@@ -3,6 +3,7 @@
 import React from 'react'
 import { createScope, map, transformProxies } from './helpers'
 import ConnectWalletButtonView from './ConnectWalletButtonView'
+import ConnectWalletButtonView from './ConnectWalletButtonView'
 import TweetSecView from './TweetSecView'
 import TweetMemeView from './TweetMemeView'
 import CopyButton1View from './CopyButton1View'
@@ -22,7 +23,7 @@ class IndexView extends React.Component {
     if (Controller) return Controller
 
     try {
-      Controller = require('../controllers/IndexController')
+      Controller = require('..\controllers/IndexController')
       Controller = Controller.default || Controller
 
       return Controller
