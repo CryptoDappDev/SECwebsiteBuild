@@ -15,7 +15,7 @@ class CopyButton2View extends React.Component {
     if (Controller) return Controller
 
     try {
-      Controller = require('..\controllers/CopyButton2Controller')
+      Controller = require('../controllers/CopyButton2Controller')
       Controller = Controller.default || Controller
 
       return Controller

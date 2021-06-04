@@ -19,13 +19,15 @@ class CopyButton1Controller extends React.Component {
     render() {
         return (
         <div>
-            <script src="https://kit.fontawesome.com/d97b87339f.js" crossorigin="anonymous"></script>
+           <script src="https://kit.fontawesome.com/d97b87339f.js" crossorigin="anonymous"></script>
             <div class="clipboard">
-                <input class="copy-input" value="0x9c061df134d11412151e9c200ce3f9f6f295094a" id="copyClipboard" readonly />
-                    <CopyToClipboard text={'0x9c061df134d11412151e9c200ce3f9f6f295094a'}
-                        onCopy={() => this.setState({copied: true})}>
-                        <button class="copy-btn" id="copyButton" onClick={() => { this.handleClick() }}><i class="far fa-copy"></i></button>
-                    </CopyToClipboard>
+                <image src="https://img.icons8.com/material-sharp/24/000000/copy.png" class="copy-btn" id="copyButton" onClick={() => { this.handleClick() }} ></image>
+                <CopyToClipboard text={'0x9c061df134d11412151e9c200ce3f9f6f295094a'}
+                    onCopy={() => this.setState({copied: true})}>
+                    <div>
+                        <input class="copy-input" value="0x9c061df134d11412151e9c200ce3f9f6f295094a" id="copyClipboard" readonly />
+                    </div>
+                </CopyToClipboard>
                 <Fade bottom cascade when={this.state.show}>
                 <div id="copied-success" class="copied">
                 <span>Copied!</span>
@@ -36,5 +38,8 @@ class CopyButton1Controller extends React.Component {
         )
     }
 }
-export default CopyButton1Controller;
 
+export default (props) => (
+    <CopyButton1Controller/>
+
+)

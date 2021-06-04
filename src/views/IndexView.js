@@ -23,7 +23,7 @@ class IndexView extends React.Component {
     if (Controller) return Controller
 
     try {
-      Controller = require('..\controllers/IndexController')
+      Controller = require('../controllers/IndexController')
       Controller = Controller.default || Controller
 
       return Controller

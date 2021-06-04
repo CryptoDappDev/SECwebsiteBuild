@@ -13,5 +13,7 @@ class TweetMemeController extends React.Component {
         )
     }
 }
-export default TweetMemeController;
 
+export default (props) => (
+    <TweetMemeController/>
+)

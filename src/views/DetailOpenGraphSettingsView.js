@@ -15,7 +15,7 @@ class DetailOpenGraphSettingsView extends React.Component {
     if (Controller) return Controller
 
     try {
-      Controller = require('..\controllers/DetailOpenGraphSettingsController')
+      Controller = require('../controllers/DetailOpenGraphSettingsController')
       Controller = Controller.default || Controller
 
       return Controller

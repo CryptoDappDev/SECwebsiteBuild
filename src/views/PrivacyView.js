@@ -15,7 +15,7 @@ class PrivacyView extends React.Component {
     if (Controller) return Controller
 
     try {
-      Controller = require('..\controllers/PrivacyController')
+      Controller = require('../controllers/PrivacyController')
       Controller = Controller.default || Controller
 
       return Controller
