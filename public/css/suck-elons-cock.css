@@ -3626,6 +3626,7 @@
 }
 
 .af-view .af-class-comet-background {
+  max-width: 100%;
   -o-object-fit: cover;
   object-fit: cover;
 }
@@ -3696,7 +3697,7 @@
   position: absolute;
   left: 73%;
   top: 14%;
-  right: 2%;
+  right: 0%;
   bottom: 0%;
   display: block;
   overflow: hidden;
