@@ -1,6 +1,4 @@
 /* eslint-disable */
-
-export { default as ConnectWalletButtonView } from './ConnectWalletButtonView'
 export { default as ConnectWalletButtonView } from './ConnectWalletButtonView'
 export { default as TweetSecView } from './TweetSecView'
 export { default as TweetMemeView } from './TweetMemeView'
