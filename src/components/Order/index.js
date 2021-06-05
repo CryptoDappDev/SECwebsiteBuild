@@ -7,8 +7,8 @@ import { connectWallet } from '../../constants';
 import { OrderSide } from 'opensea-js/lib/types';
 import './btn.css';
 
-const Card = styled.div.attrs({ className: "card mx-2 mb-4" })`
-  min-width: 275px;
+const Card = styled.div.attrs({ className: "af-class-purchase-button-for-nfts" })`
+  min-width: 165px;
   max-width: 275px;
   img {
     height: 120px;
@@ -59,23 +59,17 @@ export default class Order extends React.Component {
     }
   }
 
-  renderBuyButton(canAccept = true) {
-    const { creatingOrder } = this.state
+    
+  buyAsset = async () => {
     const { accountAddress, order } = this.props
-    const buyAsset = async () => {
-      if (accountAddress && !canAccept) {
-        this.setState({
-          errorMessage: "You already own this asset!"
-        })
-        return
-      }
-      this.fulfillOrder()
+    if (accountAddress) {
+      this.setState({
+        errorMessage: "You already own this asset!"
+      })
+      return
     }
-    return (
-      <button disabled={creatingOrder} onClick={buyAsset}  className="btn btn-primary w-100">Purchase</button>
-    )
+    this.fulfillOrder()
   }
-
 
   render() {
     const { errorMessage } = this.state
@@ -94,25 +88,9 @@ export default class Order extends React.Component {
       <Card>
         
         <AssetMetadata asset={asset} />
- 
-        <ul className="list-group list-group-flush">
 
-          { errorMessage
-            ? <div className="alert alert-warning mb-0" role="alert">
-                {errorMessage}
-              </div>
-            : <li className="list-group-item">
-                {order.side === OrderSide.Buy
-                  ? this.renderAcceptOfferButton(isOwner)
-                  : null
-                }
-                {order.side === OrderSide.Sell
-                  ? this.renderBuyButton(!isOwner)
-                  : null
-                }
-              </li>
-          }
-        </ul>
+        <button onClick={this.buyAsset}  className="af-class-buy-button w-button">Purchase</button>
+
       </Card>
     )
   }

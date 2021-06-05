@@ -15,7 +15,7 @@ class CopyButton1View extends React.Component {
     if (Controller) return Controller
 
     try {
-      Controller = require('..\controllers/CopyButton1Controller')
+      Controller = require('../controllers/CopyButton1Controller')
       Controller = Controller.default || Controller
 
       return Controller

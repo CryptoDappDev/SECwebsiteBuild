@@ -14,7 +14,7 @@ class ConnectToWalletMobView extends React.Component {
     if (Controller) return Controller
 
     try {
-      Controller = require('..\controllers/ConnectToWalletMobController')
+      Controller = require('../controllers/ConnectToWalletMobController')
       Controller = Controller.default || Controller
 
       return Controller

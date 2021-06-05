@@ -14,7 +14,7 @@ class ConnectToWalletNavView extends React.Component {
     if (Controller) return Controller
 
     try {
-      Controller = require('..\controllers/ConnectToWalletNavController')
+      Controller = require('../controllers/ConnectToWalletNavController')
       Controller = Controller.default || Controller
 
       return Controller

@@ -68,7 +68,7 @@ export default class Log extends React.Component {
     const { orders } = this.state
     
     return (
-      <div className="container py-3" id="Log">
+      <div id="Log">
 
         {orders != null
 

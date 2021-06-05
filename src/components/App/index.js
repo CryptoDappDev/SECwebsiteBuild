@@ -5,6 +5,7 @@ import { OpenSeaPort, Network } from 'opensea-js';
 import { web3Provider, onNetworkUpdate, OPENSEA_JS_URL, GITHUB_URL } from '../../constants';
 import PropTypes from 'prop-types';
 
+
 export default class App extends React.Component {
 
   state = {
@@ -38,16 +39,17 @@ componentDidMount() {
         accountAddress: res[0]
       })
     })
+    console.log(this.accountAddress)
   }
 
   render() {
     return (
       <div>
         <main>
-          <Log
-            seaport={this.seaport}
-            accountAddress={this.state.accountAddress}
-            itemtoFetch =  {this.itemtoSell} />
+            <Log
+              seaport={this.seaport}
+              accountAddress={this.state.accountAddress}
+              itemtoFetch =  {this.itemtoSell} />
         </main>
       </div>
     )

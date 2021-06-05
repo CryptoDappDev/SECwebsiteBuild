@@ -14,7 +14,7 @@ class CoinPurchaseView extends React.Component {
     if (Controller) return Controller
 
     try {
-      Controller = require('..\controllers/CoinPurchaseController')
+      Controller = require('../controllers/CoinPurchaseController')
       Controller = Controller.default || Controller
 
       return Controller

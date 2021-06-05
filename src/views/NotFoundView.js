@@ -15,7 +15,7 @@ class NotFoundView extends React.Component {
     if (Controller) return Controller
 
     try {
-      Controller = require('..\controllers/NotFoundController')
+      Controller = require('../controllers/NotFoundController')
       Controller = Controller.default || Controller
 
       return Controller

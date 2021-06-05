@@ -16,7 +16,7 @@ class UnauthorizedView extends React.Component {
     if (Controller) return Controller
 
     try {
-      Controller = require('..\controllers/UnauthorizedController')
+      Controller = require('../controllers/UnauthorizedController')
       Controller = Controller.default || Controller
 
       return Controller

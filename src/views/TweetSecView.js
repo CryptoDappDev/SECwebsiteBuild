@@ -14,7 +14,7 @@ class TweetSecView extends React.Component {
     if (Controller) return Controller
 
     try {
-      Controller = require('..\controllers/TweetSecController')
+      Controller = require('../controllers/TweetSecController')
       Controller = Controller.default || Controller
 
       return Controller
