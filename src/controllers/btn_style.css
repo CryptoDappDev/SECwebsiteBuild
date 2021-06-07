@@ -1,4 +1,5 @@
 .copy-input {
+    
     width: 80%;
     cursor: pointer;
     background-color: #eaeaeb;
@@ -61,11 +62,13 @@
   }
 
 .wallet-connect-mob-wrapper {
-  padding: 0px 0px 10px 0px;
+  padding: 5% 0px 10px 0px;
 }
 
 .clipboard{
-  width: 60%;
+  width: 85%;
   justify-content: center;
+  margin: 0% 0% 0% 12%;
+  max-width: 600px;
 }
 

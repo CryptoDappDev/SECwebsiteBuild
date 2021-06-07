@@ -85,10 +85,13 @@ export default class Order extends React.Component {
     const isOwner = accountAddress && accountAddress.toLowerCase() === owner.address.toLowerCase()
 
     return (
-      <div class = "orderwrappernfts" >
+      <div class = "p-5" >
       <Card>
         {(!(accountAddress == "")) &&
         <button onClick={this.buyAsset}  className="af-class-buy-button w-button">Purchase</button>
+        }
+        {((accountAddress == "")) &&
+        <div class="af-class-text-gradient-1 text-nowrap small">Connect Wallet First</div>
         }
       </Card>
       </div>
