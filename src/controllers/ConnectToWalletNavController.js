@@ -17,8 +17,6 @@ import { useAsync } from 'react-async-hook';
 function ConnectToWalletNavController() {
 
     const { status, connect, account } = useMetaMask();
-    const provider = detectEthereumProvider();
-    
 
     useEffect(() => {
 

@@ -12,79 +12,95 @@ export default class ConnectWalletButtonController extends React.Component {
     
     constructor(props) {
         super(props);
-        this.state = {isLoggedIn: false};
-        this.state = {loggingIn: false};
+        this.state = {
+            loggingIn: false,
+            isLoggedIn: false,
+            connector : null
+        };
+
 
         // This binding is necessary to make `this` work in the callback
         this.walletConnectInit = this.walletConnectInit.bind(this);
         this.walletDisonnect = this.walletDisonnect.bind(this);
+        
     }
 
     componentDidMount() {
         // need to make the initial call to getData() to populate
         // data right away
-        this.getData();
 
+        if(this.state.connector === null) {
+            const bridge = "https://bridge.walletconnect.org";
+            const connector = new WalletConnect({bridge, qrcodeModal: QRCodeModal });
+            this.setState({connector : connector});
+        }
+        
         // Now we need to make it run at a specified interval
-        setInterval(this.getData, 2000); // runs every 5 seconds.
-      }
-    getData = () => {
+         // runs every 2 seconds.
+        setInterval(this.getData, 2000)
+        //this.getData();
+    }
+
+    getData = async () => {
         // do something to fetch data from a remote API.
-        const bridge = "https://bridge.walletconnect.org";
-        this.connector = new WalletConnect({ bridge, qrcodeModal: QRCodeModal });
-        if(this.connector.connected) {
-            this.setState({isLoggedIn: true});
+        console.log('I Connecting....')
+        console.log(this.state.connector.address)
+        //console.log(this.state.connector.accounts)
+        if (!(this.state.connector == null)) {
+            if ((this.state.connector.connected)) {
+                this.setState({isLoggedIn: true});
+                console.log('I Connected!')
+            }else { 
+                this.setState({isLoggedIn: false});
+                console.log('I NOT Connected!')
+            }
         }else { 
             this.setState({isLoggedIn: false});
+            console.log('I NOT Connected!')
         }
+      }
+
+      componentWillUnmount() {
+        clearInterval(this.getData);
       }
 
 
     walletConnectInit = async () => {
-
-        this.setState({loggingIn: true});
-        const bridge = "https://bridge.walletconnect.org";
-        this.connector = new WalletConnect({ bridge, qrcodeModal: QRCodeModal });
-    
-        // check if already connected
-        if (!this.connector.connected) {
-          // create new session
-          await this.connector.createSession();
-          this.forceUpdate();
-        } else {
-            console.log('im already connected!')
-        }
         
-        //update state
-        if(this.connector.connected) {
-            this.setState({isLoggedIn: true});
-            console.log('I Connected!')
-        }
+        this.setState({loggingIn: true});
+        
+        
+        console.log('im already connectinggg!!!!....')
+        //console.log(this.state.connector.accounts)
+        const bridge = "https://bridge.walletconnect.org";
+        const connector = new WalletConnect({bridge, qrcodeModal: QRCodeModal });
+        await connector.createSession();
+        this.setState({connector : connector});
+        
     };
+    
 
     walletDisonnect = async () => {
-
-        const bridge = "https://bridge.walletconnect.org";
-        this.connector = new WalletConnect({ bridge, qrcodeModal: QRCodeModal });
+       
 
         // check if connected
-        if (this.connector.connected) {
+        if (this.state.connector.connected) {
             // kill session
-            await this.connector.killSession();        
+            await this.state.connector.killSession();        
         }
         //update state
-        if(!this.connector.connected) {
+        if(! await this.state.connector.connected) {
             this.setState({isLoggedIn: false});
-            this.forceUpdate();
+            const bridge = "https://bridge.walletconnect.org";
+            const connector = new WalletConnect({bridge, qrcodeModal: QRCodeModal });
+            this.setState({connector : connector});
         }
     };
 
 
      render() {
-         
-        const isLoggedIn = this.state.isLoggedIn;
         let button;
-        if (isLoggedIn) {
+        if (this.state.isLoggedIn) {
             button =    <div class = "wallet-connect-mob-wrapper" onClick={this.walletDisonnect}>
                             <span> 
                                 <div class="af-class-button-3 af-class-exclusive af-class-header w-button"  >DISCONNECT WALLET</div>

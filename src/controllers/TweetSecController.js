@@ -1,14 +1,16 @@
 import React from 'react'
 import {TwitterTweetEmbed} from 'react-twitter-embed';
+
 class TweetSecController extends React.Component {
 
     render() {
         return (
+            <div class="justify-content-center" >
                 <TwitterTweetEmbed tweetId='1278764736876773383' options={{
-                    align: 'center',
-                    width: '50%',
+                    align: 'center'
                     //maxWidth: 500,
                   }} /> 
+            </div>
         )
     }
 }
