@@ -418,6 +418,7 @@
 
 .af-view .af-class-section-hero {
   position: relative;
+  top: 10vh;
   z-index: 1;
   display: block;
   overflow: visible;
@@ -918,7 +919,8 @@
 }
 
 .af-view .af-class-text-gradient-1.af-class-feature-sub-text {
-  background-image: linear-gradient(111deg, #fa5853, #f46692 8%, #ffc444);
+  background-color: #f4f8fb;
+  background-image: none;
 }
 
 .af-view .af-class-text-gradient-1.af-class-bottombuy {
@@ -1226,6 +1228,9 @@
 
 .af-view .af-class-card-item.af-class-light.af-class-mememe.af-class-meme {
   padding-right: 1rem;
+  -webkit-justify-content: space-around;
+  -ms-flex-pack: distribute;
+  justify-content: space-around;
   background-color: #0a074a;
   background-image: url('../images/Meteor_BG_PURP.gif');
   background-position: 0px 0px;
@@ -1242,12 +1247,13 @@
 .af-view .af-class-card-item.af-class-light.af-class-what-is-sec {
   padding-top: 0px;
   padding-bottom: 0px;
-  -webkit-justify-content: space-around;
-  -ms-flex-pack: distribute;
-  justify-content: space-around;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
   border-style: solid;
   border-width: 2px;
-  border-color: #9d3e54;
+  border-color: #f83731;
   box-shadow: none;
 }
 
@@ -1306,6 +1312,10 @@
 
 .af-view .af-class-card-item.af-class-memes-coming-soon.af-class-_34:hover {
   box-shadow: 0 0 10px 1px #5377f2;
+}
+
+.af-view .af-class-card-item.af-class-special-nft.af-class-mobbbile {
+  display: none;
 }
 
 .af-view .af-class-white-40 {
@@ -3041,14 +3051,14 @@
 .af-view .af-class-moon-gif {
   position: absolute;
   left: 0%;
+  top: -20vh;
   right: 0%;
   bottom: auto;
   z-index: 0;
   width: 100%;
   height: 100%;
   max-width: none;
-  margin-right: auto;
-  margin-left: auto;
+  margin: auto;
   opacity: 1;
   -o-object-fit: fill;
   object-fit: fill;
@@ -3063,10 +3073,21 @@
 
 .af-view .af-class-elon-tweet {
   position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
   min-height: 180px;
+  margin-right: 1vw;
+  margin-left: 1vw;
+  padding-right: 1vw;
+  padding-left: 1vw;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   -webkit-align-self: center;
   -ms-flex-item-align: center;
-  -ms-grid-row-align: center;
   align-self: center;
   text-align: center;
 }
@@ -3093,6 +3114,7 @@
 
 .af-view .af-class-what-is-sec.af-class-nonhover {
   color: #000;
+  font-size: 19px;
 }
 
 .af-view .af-class-html-embed-2.af-class-mobile-cock {
@@ -3146,6 +3168,7 @@
   padding-top: 10px;
   font-family: interstate, sans-serif;
   color: #fff;
+  font-size: 19px;
 }
 
 .af-view .af-class-link-block-3 {
@@ -3171,6 +3194,7 @@
   top: 9.1vh;
   right: 0%;
   bottom: auto;
+  z-index: 10;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -3555,11 +3579,15 @@
 }
 
 .af-view .af-class-div-block-13 {
+  display: none;
+  overflow: hidden;
   padding-right: 0.5rem;
   padding-left: 0.5rem;
 }
 
 .af-view .af-class-html-embed-7 {
+  display: none;
+  overflow: hidden;
   width: auto;
 }
 
@@ -4547,6 +4575,8 @@
 }
 
 .af-view .af-class-subscribe-form-2 {
+  display: none;
+  overflow: visible;
   margin-bottom: 2vh;
   padding-top: 100px;
   padding-bottom: 100px;
@@ -4623,6 +4653,65 @@
 .af-view .af-class-paragraph-7 {
   margin-top: -15px;
   font-family: interstate, sans-serif;
+}
+
+.af-view .af-class-div-block-40 {
+  position: absolute;
+  left: auto;
+  top: -25%;
+  right: 7%;
+  bottom: 0%;
+  z-index: 0;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 50%;
+  -webkit-box-pack: end;
+  -webkit-justify-content: flex-end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.af-view .af-class-elon {
+  width: 50%;
+}
+
+.af-view .af-class-div-block-41 {
+  width: 60%;
+  margin-bottom: 1vh;
+}
+
+.af-view .af-class-text-block-15 {
+  color: #dadada;
+}
+
+.af-view .af-class-div-block-42 {
+  position: relative;
+  top: 13px;
+  font-size: 12px;
+}
+
+.af-view .af-class-opensealink {
+  color: #f4f8fb;
+  text-decoration: underline;
+}
+
+.af-view .af-class-opensealink:hover {
+  color: #8a467d;
+}
+
+.af-view .af-class-div-block-43 {
+  display: none;
+  overflow: visible;
+}
+
+.af-view .af-class-link-block-5 {
+  display: none;
 }
 
 @media screen and (min-width: 1280px) {
@@ -4793,9 +4882,9 @@
   }
 
   .af-view .af-class-container.af-class-how-to-buy-container {
-    max-width: 100%;
-    padding-top: 0rem;
-    padding-right: 0px;
+    max-width: 90%;
+    margin-top: 2vh;
+    padding: 0rem 0px 2vh 0rem;
   }
 
   .af-view .af-class-container.af-class-nav-container {
@@ -5051,9 +5140,8 @@
   }
 
   .af-view .af-class-download-buttons.af-class-mobile-vertical.af-class-small {
-    max-width: 45%;
+    max-width: 100%;
     padding-right: 10px;
-    padding-left: 10px;
     -webkit-box-align: stretch;
     -webkit-align-items: stretch;
     -ms-flex-align: stretch;
@@ -5161,7 +5249,7 @@
 
   .af-view .af-class-moon-gif {
     left: 0%;
-    top: -3%;
+    top: -49%;
     right: 0%;
     bottom: 0%;
   }
@@ -5169,6 +5257,17 @@
   .af-view .af-class-moon-gif.af-class-elon {
     left: 50%;
     top: 17rem;
+  }
+
+  .af-view .af-class-elon-tweet {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
   }
 
   .af-view .af-class-html-embed-2 {
@@ -5352,7 +5451,7 @@
     width: 45px;
     height: 42px;
     margin-top: 0%;
-    margin-bottom: 0%;
+    margin-bottom: 0.25vh;
     padding: 15px;
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
@@ -5451,6 +5550,10 @@
     display: block;
   }
 
+  .af-view .af-class-bold-text-4.af-class-represent-title.af-class-class {
+    font-size: 23px;
+  }
+
   .af-view .af-class-join-us-socials {
     min-width: auto;
     -webkit-box-flex: 0;
@@ -5546,14 +5649,26 @@
 
   .af-view .af-class-phone-holder {
     position: absolute;
-    left: 53vw;
-    top: 13.5vh;
+    left: 63.1vw;
+    top: 797.2vh;
     right: 0%;
     bottom: 0%;
+    width: 40%;
   }
 
   .af-view .af-class-image-24 {
+    position: absolute;
+    left: auto;
+    top: 0%;
+    right: 0%;
+    bottom: 0%;
+    z-index: 3;
     max-width: 110%;
+  }
+
+  .af-view .af-class-div-block-40 {
+    left: 76vw;
+    top: 29.7vh;
   }
 }
 
@@ -5995,7 +6110,7 @@
 
   .af-view .af-class-menu-button-3 {
     top: auto;
-    width: 50px;
+    width: 46px;
     height: 42px;
     background-image: linear-gradient(132deg, #fa5853, #f46692 49%, #ffc444);
   }
@@ -6128,8 +6243,8 @@
   }
 
   .af-view .af-class-container.af-class-how-to-buy-container {
-    margin-right: 0px;
-    margin-left: 0px;
+    margin-right: auto;
+    margin-left: auto;
     padding-top: 0rem;
     padding-left: 0px;
   }
@@ -6173,16 +6288,18 @@
   }
 
   .af-view .af-class-white-text {
+    font-size: 26px;
     text-align: center;
   }
 
   .af-view .af-class-section-hero {
+    top: 9.5vh;
     z-index: auto;
     overflow: hidden;
     height: 100vh;
     margin-top: 0rem;
     margin-bottom: 0rem;
-    padding-top: 5.7em;
+    padding-top: 0em;
   }
 
   .af-view .af-class-content.af-class-phone-content-text {
@@ -6280,12 +6397,21 @@
   }
 
   .af-view .af-class-text-gradient-1.af-class-trade-sec {
-    font-size: 15px;
+    font-size: 20px;
     text-align: center;
   }
 
   .af-view .af-class-text-gradient-1.af-class-trade-sec.af-class-mobile {
     font-size: 15px;
+    text-align: center;
+  }
+
+  .af-view .af-class-text-gradient-1.af-class-feature-sub-text {
+    font-size: 15px;
+  }
+
+  .af-view .af-class-text-gradient-1.af-class-bottombuy {
+    font-size: 17px;
     text-align: center;
   }
 
@@ -6306,7 +6432,7 @@
   .af-view .af-class-text-gradient-2.af-class-limited-drops {
     width: 100%;
     margin-top: 0px;
-    font-size: 41px;
+    font-size: 30px;
   }
 
   .af-view .af-class-grey-text.af-class-white {
@@ -6406,6 +6532,10 @@
   }
 
   .af-view .af-class-card-item.af-class-memes-coming-soon.af-class-_34 {
+    display: none;
+  }
+
+  .af-view .af-class-card-item.af-class-special-nft.af-class-desktop {
     display: none;
   }
 
@@ -6599,7 +6729,6 @@
   .af-view .af-class-main-hero-container {
     position: static;
     z-index: 1;
-    min-height: 50vh;
   }
 
   .af-view .af-class-hero-text-holder {
@@ -7081,7 +7210,7 @@
 
   .af-view .af-class-moon-gif {
     left: 0%;
-    top: 1%;
+    top: -70%;
     right: 0%;
     bottom: 0%;
     z-index: 0;
@@ -7174,13 +7303,13 @@
   }
 
   .af-view .af-class-hero-content {
-    top: 15%;
+    top: 8%;
     bottom: auto;
     display: -webkit-box;
     display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
-    height: 100%;
+    height: auto;
   }
 
   .af-view .af-class-bold-text {
@@ -7531,7 +7660,7 @@
     width: 42px;
     height: 42px;
     margin-top: 0%;
-    margin-bottom: 0%;
+    margin-bottom: 0.25vh;
     padding-right: 10px;
     padding-left: 10px;
     -webkit-align-self: auto;
@@ -7576,7 +7705,8 @@
   }
 
   .af-view .af-class-bold-text-4.af-class-represent-title.af-class-class {
-    font-size: 15px;
+    font-size: 18px;
+    text-align: center;
   }
 
   .af-view .af-class-buy-sec-loader {
@@ -7599,6 +7729,17 @@
   .af-view .af-class-text-gradient-3 {
     font-size: 20px;
     text-align: center;
+  }
+
+  .af-view .af-class-text-gradient-3.af-class-feature-nft-text {
+    font-size: 25px;
+  }
+
+  .af-view .af-class-text-gradient-3.af-class-subform {
+    margin-top: 0px;
+    margin-bottom: 25px;
+    font-size: 35px;
+    font-weight: 400;
   }
 
   .af-view .af-class-fixed-nav-3 {
@@ -7667,6 +7808,7 @@
     -webkit-align-items: center;
     -ms-flex-align: center;
     align-items: center;
+    text-align: center;
   }
 
   .af-view .af-class-image-22 {
@@ -7697,11 +7839,22 @@
   }
 
   .af-view .af-class-buysec-section {
-    height: 65vh;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    height: auto;
+    margin-right: auto;
+    margin-left: auto;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    text-align: center;
   }
 
   .af-view .af-class-tradesec {
-    min-width: 180px;
+    min-width: 238px;
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
     -webkit-flex-direction: row;
@@ -7714,8 +7867,10 @@
 
   .af-view .af-class-trade-sec-butt-holder {
     width: 60%;
-    margin-right: 0px;
+    min-width: 240px;
+    margin-right: auto;
     margin-bottom: 5px;
+    margin-left: auto;
     -webkit-box-pack: center;
     -webkit-justify-content: center;
     -ms-flex-pack: center;
@@ -7751,8 +7906,18 @@
     align-items: stretch;
   }
 
+  .af-view .af-class-how-to-buy-app-icon-holder {
+    width: 80%;
+    padding-left: 10%;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+  }
+
   .af-view .af-class-buy-sec-animation {
-    margin-bottom: 0.5vh;
+    margin-bottom: 3vh;
+    text-align: center;
   }
 
   .af-view .af-class-image-24 {
@@ -7761,6 +7926,11 @@
 
   .af-view .af-class-copy-contract-text {
     margin-bottom: 1em;
+    text-align: center;
+  }
+
+  .af-view .af-class-lottie-animation-6 {
+    display: none;
   }
 
   .af-view .af-class-centered-container {
@@ -7780,6 +7950,23 @@
 
   .af-view .af-class-subscribe-form-input {
     width: 100%;
+    font-size: 10px;
+  }
+
+  .af-view .af-class-submit-button {
+    font-family: interstate, sans-serif;
+    font-size: 15px;
+  }
+
+  .af-view .af-class-paragraph-7 {
+    margin-top: 1px;
+    margin-bottom: 25px;
+    font-size: 15px;
+    text-align: center;
+  }
+
+  .af-view .af-class-lottie-animation-7 {
+    display: none;
   }
 }
 
@@ -7898,6 +8085,17 @@
 }
 
 .af-view #w-node-_74cbd762-9528-e95b-cab8-025c6f989808-c7526b6d {
+  -ms-grid-column: span 6;
+  grid-column-start: span 6;
+  -ms-grid-column-span: 6;
+  grid-column-end: span 6;
+  -ms-grid-row: span 1;
+  grid-row-start: span 1;
+  -ms-grid-row-span: 1;
+  grid-row-end: span 1;
+}
+
+.af-view #w-node-_1fddc060-866b-d6d5-cf19-68b14a53a83d-c7526b6d {
   -ms-grid-column: span 6;
   grid-column-start: span 6;
   -ms-grid-column-span: 6;
@@ -8213,6 +8411,13 @@
     grid-column-end: span 2;
   }
 
+  .af-view #w-node-_1fddc060-866b-d6d5-cf19-68b14a53a83d-c7526b6d {
+    -ms-grid-column: span 2;
+    grid-column-start: span 2;
+    -ms-grid-column-span: 2;
+    grid-column-end: span 2;
+  }
+
   .af-view #w-node-_8502412a-6474-098f-1e09-76bce2a84c58-c7526b6d {
     -ms-grid-column: span 2;
     grid-column-start: span 2;
@@ -8230,6 +8435,17 @@
 
 @media screen and (max-width: 479px) {
   .af-view #w-node-_74cbd762-9528-e95b-cab8-025c6f989808-c7526b6d {
+    -ms-grid-column: span 2;
+    grid-column-start: span 2;
+    -ms-grid-column-span: 2;
+    grid-column-end: span 2;
+    -ms-grid-row: span 1;
+    grid-row-start: span 1;
+    -ms-grid-row-span: 1;
+    grid-row-end: span 1;
+  }
+
+  .af-view #w-node-_1fddc060-866b-d6d5-cf19-68b14a53a83d-c7526b6d {
     -ms-grid-column: span 2;
     grid-column-start: span 2;
     -ms-grid-column-span: 2;
