@@ -61,6 +61,7 @@ export default class Order extends React.Component {
 
     
   buyAsset = async () => {
+    console.log('attempting to buy...')
     const { accountAddress, order } = this.props
     if (accountAddress) {
       this.setState({

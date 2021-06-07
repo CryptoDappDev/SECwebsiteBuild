@@ -7,28 +7,46 @@ import { web3Provider, onNetworkUpdate, OPENSEA_JS_URL, GITHUB_URL } from '../co
 import * as Web3 from 'web3'
 import { useMetaMask } from 'metamask-react';
 import Fade from 'react-reveal/Fade';
-
-import { useWeb3React } from '@web3-react/core'
-
+import { BrowserView, MobileView, isBrowser, isDesktop } from "react-device-detect";
+import { useWeb3React } from '@web3-react/core';
+import detectEthereumProvider from '@metamask/detect-provider';
+import { useAsync } from 'react-async-hook';
 //import {MetaMaskProvider} from 'metamask-react'
 
 
-//import detectEthereumProvider from '@metamask/detect-provider';
-
 function ConnectToWalletNavController() {
 
-    const [walletAddress, setWalletAddress] = useState( '' );
-
-
     const { status, connect, account } = useMetaMask();
+    const provider = detectEthereumProvider();
     
 
     useEffect(() => {
         
-        
-        console.log('Info Before Init');
+        console.log('');
+        console.log('Info From Desktop Hook');
         console.log(status);
-        console.log(account);
+
+        console.log('');
+        console.log('Info From Mobile Hook');
+        console.log(provider);
+
+        console.log('');
+        
+        console.log(window.ethereum);
+
+        if(isDesktop) {
+            if(window.ethereum.isMetaMask) {
+                console.log('I have Metamask!!!!');
+            } else {
+                console.log('I DONT have Metamask!!!!');
+            }
+        }
+
+        console.log('');
+
+        if (typeof window.ethereum !== 'undefined') {
+            console.log('MetaMask is installed!');
+          }
 
         if (status === "connected")
         {
@@ -37,7 +55,8 @@ function ConnectToWalletNavController() {
     });
 
     function handleClick(){
-        connect();            
+        window.ethereum.enable() 
+                  
     }
     
     return ( 
@@ -64,6 +83,7 @@ function ConnectToWalletNavController() {
                 </div>
             </Fade>
         }
+
     </div>
     );
 }

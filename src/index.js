@@ -12,17 +12,23 @@ import Web3 from 'web3-react';
 import {MetaMaskProvider} from 'metamask-react';
 
 
+
+
+
 //Main Page Render
 ReactDOM.render(
     <BrowserRouter>
       <Switch>
-        <MetaMaskProvider>
-          <Route exact path="/" component={IndexController}/>
-        </MetaMaskProvider>
+        
+          <MetaMaskProvider>
+            <Route exact path="/" component={IndexController}/>
+          </MetaMaskProvider>
+        
       </Switch>
     </BrowserRouter>
 , document.getElementById('root'));
 
+//TOKEN
 //31673350562246474401696226698567993468440352420607247670176787853265168499108
 //41618
 

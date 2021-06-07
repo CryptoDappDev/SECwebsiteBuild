@@ -20,7 +20,8 @@ export default class App extends React.Component {
   }
 
   static propTypes = {
-    itemtoSell: PropTypes.string.isRequired
+    itemtoSell: PropTypes.string.isRequired,
+    account: PropTypes.string
   }
 
 componentDidMount() {
@@ -29,7 +30,7 @@ componentDidMount() {
 
   onChangeAddress = () => {
     this.seaport = new OpenSeaPort(web3Provider, {
-      networkName: Network.rinkeby
+      networkName: Network.main
     })
     //Testnet Change
     //this.seaport.api.apiBaseUrl = 'https://rinkeby-api.opensea.io/api/v1/'
@@ -39,7 +40,8 @@ componentDidMount() {
         accountAddress: res[0]
       })
     })
-    console.log(this.accountAddress)
+    console.log(this.account)
+    console.log ('Im Fucked')
   }
 
   render() {

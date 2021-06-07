@@ -60,3 +60,8 @@
     -moz-box-shadow: 0 3px 15px #b8c6db;
     -webkit-box-shadow: 0 3px 15px #b8c6db;
   }
+
+.wallet-connect-mob-wrapper {
+  padding: 0px 0px 10px 0px;
+}
+
