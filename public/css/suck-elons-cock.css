@@ -418,7 +418,7 @@
 
 .af-view .af-class-section-hero {
   position: relative;
-  top: 10vh;
+  top: 0vh;
   z-index: 1;
   display: block;
   overflow: visible;
@@ -3051,7 +3051,7 @@
 .af-view .af-class-moon-gif {
   position: absolute;
   left: 0%;
-  top: -20vh;
+  top: -9.4vh;
   right: 0%;
   bottom: auto;
   z-index: 0;
@@ -3191,7 +3191,7 @@
 .af-view .af-class-hero-content {
   position: absolute;
   left: 0%;
-  top: 9.1vh;
+  top: 18.8vh;
   right: 0%;
   bottom: auto;
   z-index: 10;
@@ -4110,7 +4110,7 @@
   top: 0%;
   right: 0%;
   bottom: auto;
-  z-index: 10;
+  z-index: 99;
   overflow: hidden;
   width: auto;
   height: 50px;
@@ -4658,7 +4658,7 @@
 .af-view .af-class-div-block-40 {
   position: absolute;
   left: auto;
-  top: -25%;
+  top: 9%;
   right: 7%;
   bottom: 0%;
   z-index: 0;
@@ -5249,7 +5249,7 @@
 
   .af-view .af-class-moon-gif {
     left: 0%;
-    top: -49%;
+    top: -27%;
     right: 0%;
     bottom: 0%;
   }
@@ -6293,8 +6293,7 @@
   }
 
   .af-view .af-class-section-hero {
-    top: 9.5vh;
-    z-index: auto;
+    top: 0vh;
     overflow: hidden;
     height: 100vh;
     margin-top: 0rem;
@@ -7210,7 +7209,7 @@
 
   .af-view .af-class-moon-gif {
     left: 0%;
-    top: -70%;
+    top: -60%;
     right: 0%;
     bottom: 0%;
     z-index: 0;
@@ -7303,7 +7302,7 @@
   }
 
   .af-view .af-class-hero-content {
-    top: 8%;
+    top: 15%;
     bottom: auto;
     display: -webkit-box;
     display: -webkit-flex;
