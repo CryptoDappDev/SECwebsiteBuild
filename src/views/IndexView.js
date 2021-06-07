@@ -2,7 +2,7 @@
 
 import React from 'react'
 import { createScope, map, transformProxies } from './helpers'
-import ConnectToWalletMobView from './ConnectToWalletMobView'
+import ConnectWalletButtonView from './ConnectWalletButtonView'
 import ConnectToWalletNavView from './ConnectToWalletNavView'
 import TweetSecView from './TweetSecView'
 import TweetMemeView from './TweetMemeView'
@@ -41,7 +41,7 @@ class IndexView extends React.Component {
 
   componentDidMount() {
     const htmlEl = document.querySelector('html')
-    htmlEl.dataset['wfPage'] = '60b9ca61199dbcaca5008108'
+    htmlEl.dataset['wfPage'] = '60bc7638b803d45cc7526b6d'
     htmlEl.dataset['wfSite'] = '60a76909ccf920aea94e85c4'
 
     scripts.concat(null).reduce((active, next) => Promise.resolve(active).then((active) => {
@@ -75,25 +75,22 @@ class IndexView extends React.Component {
         ` }} />
         <span className="af-view">
           <div className="af-class-body">
-            <div className="w-embed">
-              <style dangerouslySetInnerHTML={{__html: "\n.af-view #body-wrapper {\nmax-width: 100%;\n}\n" }} />
-            </div>
-            <div id="body-wrapper">
+            <div id="body-wrapper" className="af-class-div-block-30">
               <div data-collapse="medium" data-animation="default" data-duration={400} data-w-id="c4c9dea6-1369-4332-0f22-987670d1d687" style={{opacity: 0}} role="banner" className="af-class-fixed-nav-3 w-nav">
                 <div className="af-class-container af-class-nav-container w-container">
-                  <a href="#top" className="af-class-brand-3 w-nav-brand"><img src="images/Sec_Wordstamp_V3.png" loading="lazy" width={150} sizes="(max-width: 479px) 79vw, 120.00000762939453px" srcSet="images/Sec_Wordstamp_V3-p-500.png 500w, images/Sec_Wordstamp_V3-p-800.png 800w, images/Sec_Wordstamp_V3.png 1000w" alt="$SEC Logo - suck elon's cock wordstamp" className="af-class-image-16" /></a>
+                  <a href="#top" className="af-class-brand-3 w-nav-brand"><img src="images/Sec_Wordstamp_V3.png" loading="lazy" width={150} sizes="(max-width: 479px) 78vw, 120px" srcSet="images/Sec_Wordstamp_V3-p-500.png 500w, images/Sec_Wordstamp_V3-p-800.png 800w, images/Sec_Wordstamp_V3.png 1000w" alt="$SEC Logo - suck elon's cock wordstamp" className="af-class-image-16" /></a>
                   <nav role="navigation" className="af-class-nav-menu w-nav-menu">
                     <div className="af-class-nav-cta-button-2 af-class-mobile">
-                      <ConnectToWalletMobView.Controller />
-                      <a href="#666-limiteddrops" id="limited-drop-button" className="af-class-button-3 af-class-exclusive af-class-header w-button"><strong>LIMITED DROPS</strong></a>
+                      <ConnectWalletButtonView.Controller />
+                      <a href="#" id="limited-drop-button" className="af-class-button-3 af-class-exclusive af-class-header w-button"><strong>LIMITED DROPS</strong></a>
                     </div>
-                    <a href="#FeatureList" id="new-eco" className="af-class-nav-link-3 af-class-eco-nav w-inline-block">
+                    <a href="#" id="new-eco" className="af-class-nav-link-3 af-class-eco-nav w-inline-block">
                       <div className="af-class-nav-link-text">ECOSYSTEM</div>
                     </a>
                     <a href="#" className="af-class-nav-link-3 af-class-moonmap w-inline-block">
                       <div className="af-class-nav-link-text">Moonmap</div>
                     </a>
-                    <a href="#exclusive" className="af-class-nav-link-3 w-inline-block">
+                    <a href="#" className="af-class-nav-link-3 w-inline-block">
                       <div className="af-class-nav-link-text">MEME MARKETPLACE</div>
                     </a>
                     <div className="af-class-nav-socials">
@@ -109,18 +106,17 @@ class IndexView extends React.Component {
                   </nav>
                   <div className="af-class-nav-cta-button-2 af-class-desktop">
                     <ConnectToWalletNavView.Controller />
-                    <a href="#666-limiteddrops" id="limited-drop-button" className="af-class-button-3 af-class-exclusive af-class-header w-button"><strong>LIMITED DROPS</strong></a>
+                    <a href="#" id="limited-drop-button" className="af-class-button-3 af-class-exclusive af-class-header w-button"><strong>LIMITED DROPS</strong></a>
                   </div>
                   <div className="af-class-menu-button-3 w-nav-button"><img src="images/menu-icon-white.svg" loading="lazy" alt className="af-class-image-17" /></div>
                 </div>
               </div>
-              <div className="af-class-comet-background"><img src="images/Meteor-BG.gif" loading="eager" alt width={960} className="af-class-commet-image" /></div>
+              <div className="af-class-comet-background"><img src="images/METEOR_BG_New_V3.gif" loading="eager" alt width={960} className="af-class-commet-image" /></div>
               <div data-w-id="fa94892c-6481-a468-d867-d461dc3c76b6" style={{display: 'none'}} className="af-class-button--back-to-top">
                 <a href="#top" className="w-inline-block"><img src="images/arrow.svg" loading="lazy" width={50} alt className="af-class-back-to-top-arrow" /></a>
               </div>
               <div data-w-id="70fe3ea7-0e17-1190-dddb-817617726b6d" style={{display: 'flex'}} className="af-class-preloader"><img src="images/Buy_Sec_Loader_Desktop.gif" loading="eager" width={960} alt="Buy SEC Preloader with suck elon's cock coin, custom loader, and animated word stamp." className="af-class-buy-sec-loader" /><img src="images/loader.gif" loading="lazy" width={250} alt="Custom $SEC bubble loader." className="af-class-preloader-bar" /><img src="images/Coin_spin_isolated_v2_400.gif" loading="eager" alt="Spinning SEC Coin" className="af-class-big-spinning-coin" /></div>
-              <div id="top" data-w-id="c50d35a4-afc5-52b4-4df2-051165d5d057" className="af-class-section-hero">
-                <div className="af-class-div-block-17"><img src="images/astro.grad.png" loading="lazy" style={{opacity: 0, WebkitTransform: 'translate3d(-1px, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)', MozTransform: 'translate3d(-1px, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)', msTransform: 'translate3d(-1px, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)', transform: 'translate3d(-1px, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)'}} data-w-id="7dd4beb7-80cc-3a1f-ac78-7b0ae7289422" srcSet="images/astro.grad-p-500.png 500w, images/astro.grad-p-800.png 800w, images/astro.grad.png 1080w" sizes="(max-width: 767px) 100vw, (max-width: 991px) 297.326416015625px, 30vw" alt className="af-class-image-14" /></div>
+              <main id="top" data-w-id="c50d35a4-afc5-52b4-4df2-051165d5d057" className="af-class-section-hero">
                 <div data-w-id="34d76856-e065-1538-c253-4e4f551a0272" style={{opacity: 0}} className="af-class-moon-gif">
                   <div className="af-class-moon-html w-embed"><img src="https://secmedia.s3.us-east-2.amazonaws.com/ezgif.com-gif-maker.gif" alt="Rotating moon with SEC coins" /></div>
                 </div>
@@ -132,12 +128,12 @@ class IndexView extends React.Component {
                     <TweetSecView.Controller />
                     <div data-w-id="cfa80b7a-bd8c-5a84-9535-8a581e58c152" style={{opacity: 0}} className="af-class-download-buttons af-class-hero-download-buttons">
                       <div className="af-class-download-button af-class-buy">
-                        <a href="#buy-text" className="af-class-button af-class-hero w-inline-block"><img src="images/Apple-Icon.svg" loading="lazy" alt className="af-class-download-button-icon" />
+                        <a href="#" className="af-class-button af-class-hero w-inline-block"><img src="images/Apple-Icon.svg" loading="lazy" alt className="af-class-download-button-icon" />
                           <div>BUY <em>$SEC</em></div>
                         </a>
                       </div>
                       <div className="af-class-download-button af-class-learn-more">
-                        <a href="#FeatureList" className="af-class-button af-class-learn af-class-hero w-inline-block"><img src="images/Apple-Icon.svg" loading="lazy" alt className="af-class-download-button-icon" />
+                        <a href="#" className="af-class-button af-class-learn af-class-hero w-inline-block"><img src="images/Apple-Icon.svg" loading="lazy" alt className="af-class-download-button-icon" />
                           <div className="af-class-text-block-12">LEARN MORE</div>
                         </a>
                       </div>
@@ -147,10 +143,10 @@ class IndexView extends React.Component {
                 <div data-w-id="895e3aeb-bc03-a4de-1bf6-e2f9e06c5b80" style={{display: 'none'}} className="af-class-small-container">
                   <div className="af-class-hero-text-sticky">
                     <div className="af-class-hero-text-holder">
-                      <div className="af-class-hero-text-holder-1">
+                      <div className="af-class-hero-text-holder-1"><img src="images/Buy.png" loading="lazy" width={410} sizes="(max-width: 991px) 100vw, 410px" srcSet="images/Buy-p-500.png 500w, images/Buy-p-800.png 800w, images/Buy.png 820w" alt />
                         <h1 className="af-class-hero-text af-class-_1">BUY</h1>
                       </div>
-                      <div className="af-class-hero-text-holder-2"><img src="images/Sec_Wordstamp_V3.png" loading="lazy" width={625} sizes="(max-width: 767px) 100vw, (max-width: 991px) 552.795166015625px, (max-width: 1279px) 56vw, 625px" srcSet="images/Sec_Wordstamp_V3-p-500.png 500w, images/Sec_Wordstamp_V3-p-800.png 800w, images/Sec_Wordstamp_V3.png 1000w" alt="$SEC Logo - suck elon's cock wordstamp" /></div>
+                      <div className="af-class-hero-text-holder-2"><img src="images/Sec_Wordstamp_V3.png" loading="lazy" width={625} sizes="(max-width: 991px) 100vw, (max-width: 1279px) 56vw, 625px" srcSet="images/Sec_Wordstamp_V3-p-500.png 500w, images/Sec_Wordstamp_V3-p-800.png 800w, images/Sec_Wordstamp_V3.png 1000w" alt="$SEC Logo - suck elon's cock wordstamp" /></div>
                     </div>
                   </div>
                   <div data-w-id="08a4f49f-daee-82d9-5871-e852a62377d9" style={{display: 'none', opacity: 0}} className="af-class-hero-product-demo">
@@ -169,13 +165,13 @@ class IndexView extends React.Component {
                     </div>
                   </div>
                 </div>
-              </div>
+              </main>
               <div data-w-id="e7900c2b-f352-bc3f-9059-0de98acb9930" style={{display: 'none'}} className="af-class-section af-class-second">
                 <div className="af-class-container">
                   <div className="af-class-customers-panel">
                     <div className="af-class-text-holder">
                       <div className="af-class-text-center">
-                        <div className="af-class-fade-in-on-scroll">
+                        <div id="emptyfeaturelist" className="af-class-fade-in-on-scroll">
                           <h5 className="af-class-symbol-of-finance"><span className="af-class-text-span-2">$SEC</span>&nbsp;is a symbol of financial freedom thru decentralization.</h5>
                         </div>
                       </div>
@@ -186,7 +182,7 @@ class IndexView extends React.Component {
               <div data-w-id="b765d888-a64f-7ef3-2f38-59e8d91c9d50" className="af-class-div-block-15">
                 <div data-w-id="ad1fe3e8-a35f-7165-8f77-b8a70802d25e" className="af-class-html-embed-2 af-class-mobile-cock w-embed"><img src="https://secmedia.s3.us-east-2.amazonaws.com/diamond.cock.rocket.comp.2.gif" alt="Diamond Cock Rocket, SEC going to the moon" /></div>
               </div>
-              <div id="FeatureList" data-w-id="915aa8c7-5aca-7b30-6198-454a7174844e" style={{display: 'none'}} className="af-class-section af-class-light-blue-bg af-class-features">
+              <div data-w-id="915aa8c7-5aca-7b30-6198-454a7174844e" style={{display: 'none'}} className="af-class-section af-class-light-blue-bg af-class-features">
                 <div className="af-class-container af-class-eco">
                   <section id="new-eco-2" data-w-id="915aa8c7-5aca-7b30-6198-454a71748463" style={{opacity: 0}} className="af-class-text-center af-class-ecosystem">
                     <div className="af-class-fade-in-on-scroll af-class-ecoo-text">
@@ -194,12 +190,12 @@ class IndexView extends React.Component {
                     </div>
                     <div className="af-class-text-container">
                       <div className="af-class-fade-in-on-scroll">
-                        <p id="new-eco-3" className="af-class-paragraph"><span className="af-class-text-span-4"><strong>$SEC</strong></span>&nbsp;is much more than a great meme.</p>
+                        <p id="new-eco-3" className="af-class-paragraph"><span className="af-class-represent-title">$SEC&nbsp;is a symbol of financial freedom thru decentralization and degeneracy.</span></p>
                       </div>
                     </div>
                   </section>
                   <div className="w-layout-grid af-class-feature-grid">
-                    <div id="w-node-_7b19d13e-0e8d-2369-5abf-e24fedfaa268-a5008108" data-w-id="7b19d13e-0e8d-2369-5abf-e24fedfaa268" style={{opacity: 0}} className="af-class-card-item af-class-light af-class-what-is-sec">
+                    <div id="w-node-_7b19d13e-0e8d-2369-5abf-e24fedfaa268-c7526b6d" data-w-id="7b19d13e-0e8d-2369-5abf-e24fedfaa268" style={{opacity: 0}} className="af-class-card-item af-class-light af-class-what-is-sec">
                       <div className="af-class-card-item-content af-class-what-it-is">
                         <div className="af-class-fade-in-on-scroll af-class-what-iiss-sec">
                           <h4 className="af-class-text-gradient-1 af-class-whatt-is-it">WHAT IS <span className="af-class-text-span-5">$SEC</span>?</h4>
@@ -208,35 +204,33 @@ class IndexView extends React.Component {
                           <p className="af-class-what-is-sec"><strong><em>$SEC</em></strong>, is an ERC20 Token built on the ETH blockchain. It was born from Elon Musk's Legendary <a href="https://twitter.com/elonmusk/status/1278764736876773383?lang=en" target="_blank">tweet</a> at the <a href="https://en.wikipedia.org/wiki/U.S._Securities_and_Exchange_Commission" target="_blank">SEC</a> (Securities and Exchange Commission), an institution which perpetuates a corrupt financial system.<br /><br />Unlike fiat currencies, <strong><em>$SEC</em></strong>&nbsp;is a freedom movement through decentralization and degeneracy. Each transaction carries a <strong>4.20%</strong> fee, which is redistributed among existing <strong><em>$SEC </em></strong>holders. You will grow and earn rewards daily just for holding.</p>
                         </div>
                       </div>
-                      <div className="af-class-div-block-16"><img src="images/Coin.Stack.png" loading="lazy" sizes="(max-width: 479px) 92vw, (max-width: 767px) 95vw, (max-width: 991px) 96vw, (max-width: 1279px) 97vw, 1000.0000610351562px" srcSet="images/Coin.Stack-p-500.png 500w, images/Coin.Stack.png 1000w" alt="$SEC coin stack with suck elon's cock coin on top." /></div>
+                      <div className="af-class-div-block-16"><img src="images/Coin.Stack.png" loading="lazy" sizes="100vw" srcSet="images/Coin.Stack-p-500.png 500w, images/Coin.Stack.png 1000w" alt="$SEC coin stack with suck elon's cock coin on top." /></div>
                     </div>
-                    <div id="w-node-_628315c7-9285-9cb1-4712-9cee2615c32b-a5008108" data-w-id="628315c7-9285-9cb1-4712-9cee2615c32b" style={{opacity: 0}} className="af-class-card-item af-class-light af-class-mememe af-class-meme"><img src="images/Elon_Head_Laughing-620x547.gif" loading="lazy" alt="GIF of Elon's face laughing with his jaw moving" />
+                    <div id="w-node-_628315c7-9285-9cb1-4712-9cee2615c32b-c7526b6d" data-w-id="628315c7-9285-9cb1-4712-9cee2615c32b" style={{opacity: 0}} className="af-class-card-item af-class-light af-class-mememe af-class-meme"><img src="images/Elon_Head_Laughing-620x547.gif" loading="lazy" alt="GIF of Elon's face laughing with his jaw moving" />
                       <TweetMemeView.Controller />
                       <div className="af-class-card-item-content af-class-meme-market-card">
-                        <div className="af-class-fade-in-on-scroll af-class-meme-marketplace-elon-head">
-                          <h4 className="af-class-text-gradient-1 af-class-meme-market-place-card">Meme Marketplace</h4>
-                        </div>
+                        <div><img src="images/OnlyMemes-Logo-TM-V2.png" loading="lazy" sizes="100vw" srcSet="images/OnlyMemes-Logo-TM-V2-p-1080.png 1080w, images/OnlyMemes-Logo-TM-V2.png 1400w" alt /></div>
                         <div className="af-class-fade-in-on-scroll">
                           <p className="af-class-paragraph-2">The <strong><em>$SEC&nbsp;Meme Marketplace</em></strong> will be a place to swap, create, and collect community memes. The Market will also have official <strong><em>$SEC</em></strong> limited edition release NFTs. Stay tuned for the launch of the Meme Marketplace.</p>
                         </div>
                       </div>
                     </div>
-                    <div id="w-node-bf82d6d8-19d5-7d71-8ac6-e7bb3b408754-a5008108" data-w-id="bf82d6d8-19d5-7d71-8ac6-e7bb3b408754" style={{opacity: 0}} className="af-class-card-item af-class-light af-class-tools">
+                    <div id="w-node-bf82d6d8-19d5-7d71-8ac6-e7bb3b408754-c7526b6d" data-w-id="bf82d6d8-19d5-7d71-8ac6-e7bb3b408754" style={{opacity: 0}} className="af-class-card-item af-class-light af-class-tools">
                       <div className="af-class-card-item-content af-class-tools">
                         <div className="af-class-card-feature-center af-class-tool-center">
                           <a href="https://analytics.sushi.com/pairs/0xFffAE206a0c17C4804F04af3880ff8A9DeA39210" target="_blank" className="af-class-link-block-4 w-inline-block">
-                            <div className="af-class-fade-in-on-scroll af-class-toool"><img src="images/susssshi.png" loading="lazy" srcSet="images/susssshi-p-500.png 500w, images/susssshi.png 512w" sizes="(max-width: 479px) 74vw, 112.98611450195312px" alt="Sushi swap icon" className="af-class-card-feature-icon af-class-tool" /></div>
+                            <div className="af-class-fade-in-on-scroll af-class-toool"><img src="images/susssshi.png" loading="lazy" srcSet="images/susssshi-p-500.png 500w, images/susssshi.png 512w" sizes="(max-width: 479px) 100vw, 58px" alt="Sushi swap icon" className="af-class-card-feature-icon af-class-tool" /></div>
                             <div className="af-class-fade-in-on-scroll">
                               <h6 className="af-class-heading">Sushi Swap</h6>
                             </div>
                             <div className="af-class-fade-in-on-scroll">
-                              <p className="af-class-paragraph-5">Swap ETH for <strong><em>$SEC</em></strong>.</p>
+                              <p className="af-class-represent-title af-class-rep-tool">Swap ETH for <strong><em>$SEC</em></strong>.</p>
                             </div>
                           </a>
                         </div>
                       </div>
                     </div>
-                    <div id="w-node-_0d566606-fd33-a3ac-c52c-ded5bb91b946-a5008108" data-w-id="0d566606-fd33-a3ac-c52c-ded5bb91b946" style={{opacity: 0}} className="af-class-card-item af-class-light af-class-tools">
+                    <div id="w-node-_0d566606-fd33-a3ac-c52c-ded5bb91b946-c7526b6d" data-w-id="0d566606-fd33-a3ac-c52c-ded5bb91b946" style={{opacity: 0}} className="af-class-card-item af-class-light af-class-tools">
                       <div className="af-class-card-item-content af-class-tools">
                         <div className="af-class-card-feature-center af-class-tool-center">
                           <a href="https://www.dextools.io/app/sushiswap/pair-explorer/0xfffae206a0c17c4804f04af3880ff8a9dea39210" target="_blank" className="af-class-link-block-4 af-class-toools w-inline-block">
@@ -245,28 +239,28 @@ class IndexView extends React.Component {
                               <h6 className="af-class-heading-2">Dextools</h6>
                             </div>
                             <div className="af-class-fade-in-on-scroll">
-                              <p className="af-class-paragraph-4">Chart and contract.</p>
+                              <p className="af-class-represent-title af-class-rep-tool">Chart and contract.</p>
                             </div>
                           </a>
                         </div>
                       </div>
                     </div>
-                    <div id="w-node-_7bea1a70-4116-a7db-c374-fff947065047-a5008108" data-w-id="7bea1a70-4116-a7db-c374-fff947065047" style={{opacity: 0}} className="af-class-card-item af-class-light af-class-tools">
+                    <div id="w-node-_7bea1a70-4116-a7db-c374-fff947065047-c7526b6d" data-w-id="7bea1a70-4116-a7db-c374-fff947065047" style={{opacity: 0}} className="af-class-card-item af-class-light af-class-tools">
                       <div className="af-class-card-item-content af-class-tools">
                         <div className="af-class-card-feature-center af-class-tool-center">
                           <a href="https://zerion.io/" target="_blank" className="af-class-link-block-4 af-class-toools w-inline-block">
-                            <div className="af-class-fade-in-on-scroll af-class-toool"><img src="images/zerion.png" loading="lazy" sizes="(max-width: 479px) 55.000003814697266px, 112.98611450195312px" srcSet="images/zerion-p-500.png 500w, images/zerion-p-800.png 800w, images/zerion.png 1024w" alt="Zerion wallet logo" className="af-class-card-feature-icon af-class-tool" /></div>
+                            <div className="af-class-fade-in-on-scroll af-class-toool"><img src="images/zerion.png" loading="lazy" sizes="(max-width: 479px) 100vw, 58px" srcSet="images/zerion-p-500.png 500w, images/zerion-p-800.png 800w, images/zerion.png 1024w" alt="Zerion wallet logo" className="af-class-card-feature-icon af-class-tool" /></div>
                             <div className="af-class-fade-in-on-scroll">
                               <h6 className="af-class-heading-3">Zerion</h6>
                             </div>
                             <div className="af-class-fade-in-on-scroll">
-                              <p className="af-class-paragraph-6">View <strong><em>$SEC</em></strong> wallet.</p>
+                              <p className="af-class-represent-title af-class-rep-tool">Check ur <strong><em>$SEC</em></strong> worth.</p>
                             </div>
                           </a>
                         </div>
                       </div>
                     </div>
-                    <div id="w-node-_1748d82b-49c0-8078-53ed-77133df041a2-a5008108" data-w-id="1748d82b-49c0-8078-53ed-77133df041a2" style={{opacity: 0}} className="af-class-card-item af-class-light af-class-contract-address">
+                    <div id="w-node-_1748d82b-49c0-8078-53ed-77133df041a2-c7526b6d" data-w-id="1748d82b-49c0-8078-53ed-77133df041a2" style={{opacity: 0}} className="af-class-card-item af-class-light af-class-contract-address">
                       <div className="af-class-card-item-content af-class-contract-copy">
                         <div className="af-class-card-feature-center af-class-contract">
                           <div className="af-class-fade-in-on-scroll">
@@ -278,14 +272,11 @@ class IndexView extends React.Component {
                         </div>
                       </div>
                     </div>
-                    <div id="socialss" data-w-id="27b10c2b-faaf-eb26-6218-b3d0e2a19fad" style={{opacity: 0}} className="af-class-card-item af-class-light af-class-socials w-node-_27b10c2b-faaf-eb26-6218-b3d0e2a19fad-a5008108">
+                    <div id="socialss" data-w-id="27b10c2b-faaf-eb26-6218-b3d0e2a19fad" style={{opacity: 0}} className="af-class-card-item af-class-light af-class-socials w-node-_27b10c2b-faaf-eb26-6218-b3d0e2a19fad-c7526b6d">
                       <div className="af-class-card-item-content af-class-socials">
                         <div className="af-class-card-feature-center af-class-socials">
                           <div className="af-class-fade-in-on-scroll">
                             <h6 className="af-class-text-gradient-1 af-class-social">Join us.</h6>
-                          </div>
-                          <div className="af-class-fade-in-on-scroll">
-                            <p className="af-class-paragraph-3">Stay updated on <strong><em>$SEC</em></strong>&nbsp;news and dank memes.</p>
                           </div>
                           <div className="af-class-fade-in-on-scroll af-class-socials">
                             <a href="https://twitter.com/suckelonscock?lang=en" target="_blank" className="af-class-join-us-socials w-inline-block"><img src="images/iconfinder_twitter_circle_black_107155.svg" loading="lazy" height={70} alt="TWITTER" className="af-class-card-feature-icon af-class-tweeter" /></a>
@@ -296,6 +287,7 @@ class IndexView extends React.Component {
                             <a href="https://www.facebook.com/suckelonscock" target="_blank" className="af-class-join-us-socials w-inline-block"><img src="images/facebook.svg" loading="lazy" alt="FACEBOOK" className="af-class-card-feature-icon" /></a>
                             <a href="https://www.tiktok.com/@onlymemes.sec?lang=en" target="_blank" className="af-class-join-us-socials w-inline-block"><img src="images/tiktok-round.svg" loading="lazy" alt="TIKTOK" className="af-class-card-feature-icon" /></a>
                             <a href="https://discord.gg/HpYE8SPQhA" target="_blank" className="af-class-join-us-socials w-inline-block"><img src="images/iconfinder_discord_18_5474122-svg-1.png" loading="lazy" alt="DISCORD" className="af-class-card-feature-icon" /></a>
+                            <a href="https://opensea.io/accounts/SuckElonsCock" target="_blank" className="af-class-join-us-socials w-inline-block"><img src="images/New-Project.svg" loading="lazy" alt="OPENSEA" className="af-class-card-feature-icon" /></a>
                           </div>
                         </div>
                       </div>
@@ -306,7 +298,7 @@ class IndexView extends React.Component {
               <div id="About" className="af-class-section af-class-testing">
                 <div className="af-class-container af-class-test">
                   <div className="w-layout-grid af-class-grid-6-col">
-                    <div id="w-node-_64ab14ec-0a71-9abe-100c-83874d852302-a5008108" className="af-class-trusted-content">
+                    <div id="w-node-_64ab14ec-0a71-9abe-100c-83874d852302-c7526b6d" className="af-class-trusted-content">
                       <div className="af-class-content-sticky">
                         <div className="af-class-fade-in-on-scroll">
                           <h2>TheMoonmap</h2>
@@ -317,7 +309,7 @@ class IndexView extends React.Component {
                         <div className="af-class-div-block-6" />
                       </div>
                     </div>
-                    <div id="w-node-_1511bf1a-c884-944b-f323-a3f0ea7187b5-a5008108" className="af-class-trusted-content af-class-trusted-list">
+                    <div id="w-node-_1511bf1a-c884-944b-f323-a3f0ea7187b5-c7526b6d" className="af-class-trusted-content af-class-trusted-list">
                       <div className="af-class-trusted-overlay-container">
                         <div className="af-class-trusted-white-overlay" />
                         <div className="af-class-trusted-white-overlay af-class-bottom" />
@@ -362,11 +354,11 @@ class IndexView extends React.Component {
                   </div>
                 </div>
               </div>
-              <div id="666-limiteddrops" data-w-id="3b85f699-c949-f7e1-8df4-af4ae38e2f0c" style={{display: 'none'}} className="af-class-section af-class-dark">
+              <div data-w-id="3b85f699-c949-f7e1-8df4-af4ae38e2f0c" style={{display: 'none'}} className="af-class-section af-class-dark">
                 <div className="af-class-container">
                   <div className="w-layout-grid af-class-grid-10-columns">
-                    <div id="w-node-ece89d93-2df3-9c66-994e-a99360ef72ee-a5008108" className="af-class-content">
-                      <div id="limited-drops" data-w-id="3b85f699-c949-f7e1-8df4-af4ae38e2f0e" style={{opacity: 0}} className="af-class-text-center af-class-lliimiited-drops">
+                    <div id="w-node-ece89d93-2df3-9c66-994e-a99360ef72ee-c7526b6d" className="af-class-content">
+                      <div data-w-id="3b85f699-c949-f7e1-8df4-af4ae38e2f0e" style={{opacity: 0}} className="af-class-text-center af-class-lliimiited-drops">
                         <div className="af-class-fade-in-on-scroll">
                           <h2 className="af-class-text-gradient-2 af-class-limited-drops">Limited Edition Drops</h2>
                         </div>
@@ -377,15 +369,23 @@ class IndexView extends React.Component {
                         </div>
                       </div>
                       <div className="w-layout-grid af-class-grid-6-col">
-                        <div id="w-node-_3b85f699-c949-f7e1-8df4-af4ae38e2f15-a5008108" data-w-id="3b85f699-c949-f7e1-8df4-af4ae38e2f15" style={{opacity: 0}} className="af-class-card-item af-class-limited-nft">
+                        <div id="w-node-_74cbd762-9528-e95b-cab8-025c6f989808-c7526b6d" data-w-id="74cbd762-9528-e95b-cab8-025c6f989808" style={{opacity: 0}} className="af-class-card-item">
                           <div className="af-class-card-item-content">
-                            <div data-w-id="e029fe69-e449-4a9b-5f1c-8ef44a11cecd" className="af-class-card-iphone af-class-coin"><img src="images/Coin_spin_isolated_v2_400.gif" loading="lazy" alt /></div>
+                            <div data-w-id="74cbd762-9528-e95b-cab8-025c6f98980a" className="af-class-card-iphone af-class-opensea"><img src="images/Boarding-Pass-web_preview.gif" loading="lazy" alt="OpeanSea NFT Marketplace icon" width={300} className="af-class-card-iphone-image" />
+                              <div className="af-class-card-iphone-overlay" />
+                              <div className="af-class-card-phone-image-container af-class-opensea"><img src="images/Boarding_Pass_NFT_Web_Preview.png" loading="lazy" sizes="100vw" srcSet="images/Boarding_Pass_NFT_Web_Preview-p-500.png 500w, images/Boarding_Pass_NFT_Web_Preview.png 588w" alt className="af-class-width-pct" /></div>
+                            </div>
+                          </div>
+                        </div>
+                        <div id="w-node-_3b85f699-c949-f7e1-8df4-af4ae38e2f15-c7526b6d" data-w-id="3b85f699-c949-f7e1-8df4-af4ae38e2f15" style={{opacity: 0}} className="af-class-card-item af-class-limited-nft">
+                          <div className="af-class-card-item-content">
+                            <div data-w-id="e029fe69-e449-4a9b-5f1c-8ef44a11cecd" className="af-class-card-iphone af-class-coin"><img src="images/SEC_founders_token_preview.gif" loading="lazy" alt className="af-class-image-19" /></div>
                             <div className="af-class-text-center af-class-coin-nft">
                               <div className="af-class-fade-in-on-scroll af-class-ftokennnp">
                                 <h4 className="af-class-white-text">FOUNDER'S TOKEN</h4>
                               </div>
                               <div className="af-class-fade-in-on-scroll af-class-sec-coin-text">
-                                <p className="af-class-light-grey af-class-nft">The Founders Token is proof you were<br />among the first to hold <strong><em>$SEC</em></strong>. Holding the Founders Token unlock special features.<br /><br /><strong>402 of 420 remain.</strong></p>
+                                <p className="af-class-light-grey af-class-nft">The Founders Token is proof you were<br />among the first to hold <strong><em>$SEC</em></strong>. Holding the Founders Token unlock special features.<br /><br /><strong>399 of 420 remain.</strong></p>
                               </div>
                             </div>
                             <div id="purchase-coin-button" className="af-class-nft-buy-buttons af-class-sec-coin af-class-purchase">
@@ -396,11 +396,11 @@ class IndexView extends React.Component {
                             </div>
                           </div>
                         </div>
-                        <div id="w-node-_8502412a-6474-098f-1e09-76bce2a84c58-a5008108" data-w-id="8502412a-6474-098f-1e09-76bce2a84c58" style={{opacity: 0}} className="af-class-card-item af-class-limited-nft">
+                        <div id="w-node-_8502412a-6474-098f-1e09-76bce2a84c58-c7526b6d" data-w-id="8502412a-6474-098f-1e09-76bce2a84c58" style={{opacity: 0}} className="af-class-card-item af-class-limited-nft">
                           <div className="af-class-card-item-content">
-                            <div data-w-id="8502412a-6474-098f-1e09-76bce2a84c5a" className="af-class-card-iphone"><img src="images/Boarding_Pass_NFT_Holder_Web_Preview_v1.png" loading="lazy" sizes="(max-width: 479px) 154.0277862548828px, (max-width: 767px) 38vw, (max-width: 1439px) 176.02430725097656px, 209.0277862548828px" srcSet="images/Boarding_Pass_NFT_Holder_Web_Preview_v1-p-500.png 500w, images/Boarding_Pass_NFT_Holder_Web_Preview_v1.png 588w" alt className="af-class-card-iphone-image" />
+                            <div data-w-id="8502412a-6474-098f-1e09-76bce2a84c5a" className="af-class-card-iphone"><img src="images/Boarding_Pass_NFT_Holder_Web_Preview_v1.png" loading="lazy" sizes="(max-width: 479px) 154.015625px, (max-width: 767px) 38vw, (max-width: 1439px) 176.015625px, 209.03125px" srcSet="images/Boarding_Pass_NFT_Holder_Web_Preview_v1-p-500.png 500w, images/Boarding_Pass_NFT_Holder_Web_Preview_v1.png 588w" alt className="af-class-card-iphone-image" />
                               <div className="af-class-card-iphone-overlay" />
-                              <div className="af-class-card-phone-image-container"><img src="images/Boarding_Pass_NFT_Web_Preview.png" loading="lazy" sizes="(max-width: 479px) 102.04861450195312px, (max-width: 767px) 31vw, (max-width: 1439px) 124.0451431274414px, 157.04861450195312px" srcSet="images/Boarding_Pass_NFT_Web_Preview-p-500.png 500w, images/Boarding_Pass_NFT_Web_Preview.png 588w" alt className="af-class-width-pct" /></div>
+                              <div className="af-class-card-phone-image-container"><img src="images/Boarding_Pass_NFT_Web_Preview.png" loading="lazy" sizes="(max-width: 479px) 102.015625px, (max-width: 767px) 31vw, (max-width: 1439px) 124.015625px, 157.03125px" srcSet="images/Boarding_Pass_NFT_Web_Preview-p-500.png 500w, images/Boarding_Pass_NFT_Web_Preview.png 588w" alt className="af-class-width-pct" /></div>
                             </div>
                             <div className="af-class-text-center af-class-boarding-pass">
                               <div className="af-class-fade-in-on-scroll af-class-ftokennnp">
@@ -418,56 +418,62 @@ class IndexView extends React.Component {
                             </div>
                           </div>
                         </div>
-                        <div id="w-node-_74cbd762-9528-e95b-cab8-025c6f989808-a5008108" data-w-id="74cbd762-9528-e95b-cab8-025c6f989808" style={{opacity: 0}} className="af-class-card-item">
-                          <div className="af-class-card-item-content">
-                            <div data-w-id="74cbd762-9528-e95b-cab8-025c6f98980a" className="af-class-card-iphone af-class-opensea"><img src="images/opensea.png" loading="lazy" sizes="(max-width: 479px) 100vw, (max-width: 767px) 38vw, (max-width: 1279px) 122.69097900390625px, (max-width: 1439px) 130.01736450195312px, 145.6944580078125px" srcSet="images/opensea-p-500.png 500w, images/opensea.png 700w" alt="OpeanSea NFT Marketplace icon" className="af-class-card-iphone-image" />
-                              <div className="af-class-card-iphone-overlay" />
-                              <div className="af-class-card-phone-image-container af-class-opensea"><img src="images/Boarding_Pass_NFT_Web_Preview.png" loading="lazy" sizes="100vw" srcSet="images/Boarding_Pass_NFT_Web_Preview-p-500.png 500w, images/Boarding_Pass_NFT_Web_Preview.png 588w" alt className="af-class-width-pct" /></div>
-                            </div>
-                            <div className="af-class-text-center af-class-boarding-pass">
-                              <div className="af-class-fade-in-on-scroll">
-                                <h4 className="af-class-white-text">OpenSea</h4>
-                              </div>
-                              <div className="af-class-fade-in-on-scroll">
-                                <p className="af-class-light-grey af-class-nft">Visit the Official <strong><em>$SEC</em></strong> OpenSea marketplace. </p>
-                              </div>
-                            </div>
-                            <div className="af-class-nft-buy-buttons af-class-sec-coin">
-                              <a href="https://opensea.io/accounts/SuckElonsCock" target="_blank" className="af-class-buy-button w-button">View</a>
-                            </div>
-                          </div>
-                        </div>
                       </div>
                     </div>
                   </div>
-                  <div id="exclusive" className="af-class-testimonials-container">
+                  <div className="af-class-testimonials-container">
                     <div className="af-class-dont-take-our-word-title">
                       <div data-w-id="a15f259d-5266-a725-4a94-c0ad4733536f" style={{opacity: 0}} className="af-class-fade-in-on-scroll">
-                        <h3 className="af-class-text-gradient-2 af-class-meme-marketplace-heading">Meme Marketplace</h3>
-                        <div className="af-class-text-block-6"><strong>ONLYMEMES </strong>™ - Cumming soon.</div>
+                        <div className="af-class-div-block-21"><img src="images/OnlyMemes-Logo-TM-V2.png" loading="lazy" sizes="(max-width: 479px) 100vw, (max-width: 767px) 73vw, (max-width: 991px) 75vw, (max-width: 1279px) 59vw, 770.546875px" width="1460.5" srcSet="images/OnlyMemes-Logo-TM-V2-p-1080.png 1080w, images/OnlyMemes-Logo-TM-V2.png 1400w" alt className="af-class-image-21" />
+                          <div className="af-class-text-block-6"><strong>Meme Markplace - </strong>Cumming soon.</div>
+                        </div>
                       </div>
                     </div>
                     <div data-w-id="994e1b81-044d-149c-a619-f3caa5e5856c" style={{opacity: 0}} className="w-layout-grid af-class-grid-testimonial">
-                      <div id="w-node-a8be1144-33e5-4510-22ce-cb492d5fbc02-2d5fbc02" data-w-id="a8be1144-33e5-4510-22ce-cb492d5fbc02" className="af-class-card-item af-class-memes-coming-soon">
+                      <div id="w-node-_93449bda-343f-6d50-51cc-3de5d24e3b53-c7526b6d" data-w-id="93449bda-343f-6d50-51cc-3de5d24e3b53" className="af-class-card-item af-class-memes-coming-soon af-class-_11">
                         <div className="af-class-card-item-content af-class-memecard">
-                          <div className="af-class-testimonial-header">
-                            <div className="af-class-testimonial-text"><strong className="af-class-text-gradient-1 af-class-for-meme-cards">YOUR MEMES HERE</strong></div>
-                          </div>
                           <div className="af-class-fade-in-on-scroll">
-                            <div className="af-class-div-block-5">
-                              <div data-w-id="10aedcee-c9d7-854a-e77a-e302c069415c" className="af-class-text-block-2 af-class-cummingsoon">CUMMING&nbsp;SOON</div>
+                            <div className="af-class-div-block-25">
+                              <div data-w-id="a26dc40e-0bda-b5fd-04a6-62dddb057cf4" data-animation-type="lottie" data-src="documents/data.json" data-loop={0} data-direction={1} data-autoplay={0} data-is-ix2-target={1} data-renderer="svg" data-default-duration="4.833333333333333" data-duration={0} data-ix2-initial-state={0} className="af-class-lottie-animation" />
+                            </div>
+                            <div>
+                              <div data-w-id="a26dc40e-0bda-b5fd-04a6-62dddb057cf6" data-animation-type="lottie" data-src="documents/cummingsoonV7.json" data-loop={0} data-direction={1} data-autoplay={0} data-is-ix2-target={1} data-renderer="svg" data-default-duration="0.4666666666666667" data-duration={0} data-ix2-initial-state={98} />
                             </div>
                           </div>
                         </div>
                       </div>
-                      <div id="w-node-a8be1144-33e5-4510-22ce-cb492d5fbc02-2d5fbc02" data-w-id="a8be1144-33e5-4510-22ce-cb492d5fbc02" className="af-class-card-item af-class-memes-coming-soon">
+                      <div id="w-node-af421633-2a90-7439-3873-58ec78404a34-c7526b6d" data-w-id="af421633-2a90-7439-3873-58ec78404a34" className="af-class-card-item af-class-memes-coming-soon af-class-_22">
                         <div className="af-class-card-item-content af-class-memecard">
-                          <div className="af-class-testimonial-header">
-                            <div className="af-class-testimonial-text"><strong className="af-class-text-gradient-1 af-class-for-meme-cards">YOUR MEMES HERE</strong></div>
-                          </div>
                           <div className="af-class-fade-in-on-scroll">
-                            <div className="af-class-div-block-5">
-                              <div data-w-id="10aedcee-c9d7-854a-e77a-e302c069415c" className="af-class-text-block-2 af-class-cummingsoon">CUMMING&nbsp;SOON</div>
+                            <div className="af-class-div-block-25">
+                              <div data-w-id="af421633-2a90-7439-3873-58ec78404a38" data-animation-type="lottie" data-src="documents/data.json" data-loop={0} data-direction={1} data-autoplay={0} data-is-ix2-target={1} data-renderer="svg" data-default-duration="4.833333333333333" data-duration={0} data-ix2-initial-state={0} className="af-class-lottie-animation" />
+                            </div>
+                            <div>
+                              <div data-w-id="af421633-2a90-7439-3873-58ec78404a3a" data-animation-type="lottie" data-src="documents/cummingsoonV7.json" data-loop={0} data-direction={1} data-autoplay={0} data-is-ix2-target={1} data-renderer="svg" data-default-duration="0.4666666666666667" data-duration={0} data-ix2-initial-state={0} />
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div id="w-node-_965e77b6-f9a3-e771-a69f-178fc241a89e-c7526b6d" data-w-id="965e77b6-f9a3-e771-a69f-178fc241a89e" className="af-class-card-item af-class-memes-coming-soon af-class-_33">
+                        <div className="af-class-card-item-content af-class-memecard">
+                          <div className="af-class-fade-in-on-scroll">
+                            <div className="af-class-div-block-25">
+                              <div data-w-id="965e77b6-f9a3-e771-a69f-178fc241a8a2" data-animation-type="lottie" data-src="documents/data.json" data-loop={0} data-direction={1} data-autoplay={0} data-is-ix2-target={1} data-renderer="svg" data-default-duration="4.833333333333333" data-duration={0} data-ix2-initial-state={0} className="af-class-lottie-animation" />
+                            </div>
+                            <div>
+                              <div data-w-id="965e77b6-f9a3-e771-a69f-178fc241a8a4" data-animation-type="lottie" data-src="documents/cummingsoonV7.json" data-loop={0} data-direction={1} data-autoplay={0} data-is-ix2-target={1} data-renderer="svg" data-default-duration="0.4666666666666667" data-duration={0} data-ix2-initial-state={0} />
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div id="w-node-_0d3b707b-bec0-0ab3-efff-9f4a7af9f589-c7526b6d" data-w-id="0d3b707b-bec0-0ab3-efff-9f4a7af9f589" className="af-class-card-item af-class-memes-coming-soon af-class-_34">
+                        <div className="af-class-card-item-content af-class-memecard">
+                          <div className="af-class-fade-in-on-scroll">
+                            <div className="af-class-div-block-25">
+                              <div data-w-id="0d3b707b-bec0-0ab3-efff-9f4a7af9f58d" data-animation-type="lottie" data-src="documents/data.json" data-loop={0} data-direction={1} data-autoplay={0} data-is-ix2-target={1} data-renderer="svg" data-default-duration="4.833333333333333" data-duration={0} data-ix2-initial-state={0} className="af-class-lottie-animation" />
+                            </div>
+                            <div>
+                              <div data-w-id="0d3b707b-bec0-0ab3-efff-9f4a7af9f58f" data-animation-type="lottie" data-src="documents/cummingsoonV7.json" data-loop={0} data-direction={1} data-autoplay={0} data-is-ix2-target={1} data-renderer="svg" data-default-duration="0.4666666666666667" data-duration={0} data-ix2-initial-state={98} />
                             </div>
                           </div>
                         </div>
@@ -476,83 +482,64 @@ class IndexView extends React.Component {
                   </div>
                 </div>
               </div>
-              <div id="buy-sec" data-w-id="a136e70e-a0ad-9d01-ec68-2e537ec8b5de" style={{opacity: 0, display: 'none'}} className="af-class-section af-class-light-blue-bg af-class-buying-sec">
+              <div data-w-id="a136e70e-a0ad-9d01-ec68-2e537ec8b5de" style={{opacity: 0, display: 'none'}} className="af-class-section af-class-light-blue-bg af-class-buying-sec">
                 <div id="jump-tp-buy" className="af-class-container af-class-how-to-buy-container">
-                  <div className="af-class-columns w-row">
-                    <div className="af-class-column-2 w-col w-col-6">
-                      <div className="af-class-content af-class-phone-content-text af-class-how-to">
-                        <div className="af-class-fade-in-on-scroll af-class-buyy">
-                          <div className="af-class-fade-in-on-scroll af-class-how-to-buy-div">
-                            <h2 id="buy-text" className="af-class-text-gradient-1 af-class-how-to-buy">BUY</h2><img src="images/Sec_Wordstamp_V3.png" loading="lazy" sizes="(max-width: 479px) 100vw, (max-width: 767px) 96vw, (max-width: 991px) 49vw, (max-width: 1279px) 48vw, 620px" srcSet="images/Sec_Wordstamp_V3-p-500.png 500w, images/Sec_Wordstamp_V3-p-800.png 800w, images/Sec_Wordstamp_V3.png 1000w" alt="$SEC Logo - suck elon's cock wordstamp" className="af-class-seclogoo" />
-                            <div className="af-class-app-icon-text-holder">
-                              <div className="af-class-text-block-3"><strong className="af-class-bold-text-4">With SushiSwap and MetaMask</strong></div>
-                            </div>
-                            <CopyButton2View.Controller />
-                            <div className="af-class-download-buttons af-class-mobile-vertical af-class-small">
-                              <div className="af-class-download-button af-class-sushi">
-                                <div className="af-class-fade-in-on-scroll">
-                                  <a href="https://app.sushi.com/" target="_blank" className="af-class-button af-class-exclusive w-inline-block"><img src="images/Apple-Icon.svg" loading="lazy" alt className="af-class-download-button-icon" />
-                                    <div className="af-class-text-block-10">Open SushiSwap</div>
-                                  </a>
-                                </div>
+                  <div data-w-id="851c216c-71ef-7204-c2fc-47afcb2d29d2" style={{opacity: 0}} className="af-class-div-block-24"><img src="images/Buy_Sec_Loader_Desktop.gif" loading="lazy" alt="Buy SEC Preloader with suck elon's cock coin, custom loader, and animated word stamp." className="af-class-image-22" /></div>
+                  <div className="af-class-div-block-23">
+                    <div className="af-class-content af-class-phone-content-text af-class-how-to">
+                      <div className="af-class-fade-in-on-scroll af-class-buyy">
+                        <div className="af-class-fade-in-on-scroll af-class-how-to-buy-div">
+                          <div data-w-id="c76e1ca4-6b09-0f21-1257-0921587f2301" style={{opacity: 0}} className="af-class-app-icon-text-holder">
+                            <div className="af-class-text-block-3"><strong className="af-class-bold-text-4 af-class-represent-title af-class-class">With SushiSwap and MetaMask</strong></div>
+                          </div>
+                          <CopyButton2View.Controller />
+                          <div data-w-id="c76e1ca4-6b09-0f21-1257-0921587f2308" style={{opacity: 0}} className="af-class-download-buttons af-class-mobile-vertical af-class-small">
+                            <div className="af-class-download-button af-class-sushi">
+                              <div className="af-class-fade-in-on-scroll">
+                                <a href="https://app.sushi.com/" target="_blank" className="af-class-button af-class-exclusive w-inline-block"><img src="images/Apple-Icon.svg" loading="lazy" alt className="af-class-download-button-icon" />
+                                  <div className="af-class-text-block-10">Open SushiSwap</div>
+                                </a>
                               </div>
                             </div>
                           </div>
                         </div>
                       </div>
                     </div>
-                    <div className="af-class-column w-col w-col-6">
-                      <div className="af-class-content">
-                        <div className="af-class-phone-holder-container">
-                          <div className="af-class-phone-slider-container">
-                            <div data-delay={3000} data-animation="fade" data-autoplay={1} data-duration={500} data-infinite={1} className="af-class-phone-slider w-slider">
-                              <div className="af-class-phone-slider-mask w-slider-mask">
-                                <div className="af-class-phone-slide w-slide"><img src="images/Sushi-phone-image.png" loading="lazy" sizes="(max-width: 767px) 100vw, 238.99307250976562px" srcSet="images/Sushi-phone-image-p-500.png 500w, images/Sushi-phone-image.png 750w" alt="How to buy $SEC, SushiSwap iPhone screenshot" className="af-class-phone-slide-image" /></div>
-                              </div>
-                              <div className="af-class-phone-slider-arrows w-slider-arrow-left">
-                                <div className="w-icon-slider-left" />
-                              </div>
-                              <div className="af-class-phone-slider-arrows w-slider-arrow-right">
-                                <div className="w-icon-slider-right" />
-                              </div>
-                              <div className="af-class-phone-slide-nav w-slider-nav w-round" />
-                            </div>
-                          </div><img src="images/Hand-iPhoneX.png" loading="lazy" alt className="af-class-phone-holder-image" />
-                        </div>
-                      </div>
-                    </div>
+                  </div>
+                  <div className="af-class-div-block-22">
+                    <div data-w-id="7a56a466-6b7e-164d-f5f5-13dc8a48b953" style={{opacity: 0, paddingTop: '56.17021276595745%'}} className="w-video w-embed"><iframe className="af-class-embedly-embed" src="https://cdn.embedly.com/widgets/media.html?src=https%3A%2F%2Fwww.youtube.com%2Fembed%2FRNwPNciknlU%3Ffeature%3Doembed&display_name=YouTube&url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DRNwPNciknlU&image=https%3A%2F%2Fi.ytimg.com%2Fvi%2FRNwPNciknlU%2Fhqdefault.jpg&key=96f1f04c5f4143bcb0f2e68c87d65feb&type=text%2Fhtml&schema=youtube" scrolling="no" title="YouTube embed" frameBorder={0} allow="autoplay; fullscreen" allowFullScreen="true" /></div>
                   </div>
                   <div className="w-layout-grid af-class-grid-6-col af-class-hidden" />
                 </div>
               </div>
-              <div data-w-id="3f8f910c-da6f-44a1-e39e-a1b3f02c0ddd" style={{display: 'none'}} className="af-class-videooo">
-                <div style={{paddingTop: '56.17021276595745%'}} className="af-class-video w-video w-embed"><iframe className="af-class-embedly-embed" src="https://cdn.embedly.com/widgets/media.html?src=https%3A%2F%2Fwww.youtube.com%2Fembed%2FRNwPNciknlU&display_name=YouTube&url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DRNwPNciknlU&image=http%3A%2F%2Fi.ytimg.com%2Fvi%2FRNwPNciknlU%2Fhqdefault.jpg&key=96f1f04c5f4143bcb0f2e68c87d65feb&type=text%2Fhtml&schema=youtube" scrolling="no" title="YouTube embed" frameBorder={0} allow="autoplay; fullscreen" allowFullScreen="true" /></div>
-              </div>
               <div data-w-id="0c3abcc3-1f0e-90e3-c240-a8406e383f3c" style={{display: 'none'}} className="af-class-buy-sec-banner"><img src="images/BUY_SEC_KINETIC_TYPE_BANNER-1-v2.gif" loading="lazy" alt="Looping kinetic buy $SEC banner" className="af-class-image-2" /></div>
-              <div data-w-id="a7ae8139-7702-a512-bda8-29a484a16923" style={{display: 'none'}} className="af-class-footer">
-                <div data-w-id="c8462666-1c04-4391-a7d5-15b610290b37" style={{opacity: 0}} className="af-class-footer-flex-container">
-                  <div className="af-class-social-media-content af-class-desktop">
-                    <div className="af-class-div-block-12">
-                      <a href="https://www.instagram.com/suckelonscock" target="_blank" className="af-class-social-media-link af-class-footer-soc w-inline-block"><img src="images/IG..Circle.svg" loading="lazy" width={30} alt="Small circle Instagram icon" className="af-class-social-media-icon" /></a>
-                      <a href="https://twitter.com/suckelonscock?lang=en" target="_blank" className="af-class-social-media-link af-class-footer-soc w-inline-block"><img src="images/iconfinder_twitter_circle_black_107155.svg" loading="lazy" alt="Small circle Twitter icon" width={30} className="af-class-social-media-icon" /></a>
-                      <a href="https://t.me/suckelonscock" target="_blank" className="af-class-social-media-link af-class-footer-soc w-inline-block"><img src="images/telegram-black.svg" loading="lazy" alt="Small circle Telegram icon" height={24} className="af-class-social-media-icon" /></a>
-                      <a href="https://www.reddit.com/r/SuckElonsCock/" target="_blank" className="af-class-social-media-link af-class-footer-soc w-inline-block"><img src="images/reddit-round.svg" loading="lazy" height={24} alt="Small circle Reddit icon" className="af-class-social-media-icon" /></a>
-                      <a href="https://www.youtube.com/channel/UCkzofLl4xepSF2CkMU1s53w" target="_blank" className="af-class-social-media-link af-class-footer-soc w-inline-block"><img src="images/YT.svg" loading="lazy" alt="Small circle Facebook icon" height={28} width={24} className="af-class-social-media-icon" /></a>
-                      <a href="https://www.tiktok.com/@onlymemes.sec?lang=en" target="_blank" className="af-class-social-media-link af-class-footer-soc w-inline-block"><img src="images/tiktok-round.svg" loading="lazy" alt="Small circle TikTok icon" height={24} className="af-class-social-media-icon" /></a>
-                      <a href="https://www.facebook.com/suckelonscock" target="_blank" className="af-class-social-media-link af-class-footer-soc w-inline-block"><img src="images/facebook.svg" loading="lazy" alt="Small circle Facebook icon" className="af-class-social-media-icon" /></a>
-                      <a href="https://discord.gg/HpYE8SPQhA" target="_blank" className="af-class-social-media-link af-class-footer-soc w-inline-block"><img src="images/iconfinder_discord_18_5474122-svg-1.png" loading="lazy" alt="Small circle Facebook icon" width={26} className="af-class-social-media-icon" /></a>
-                    </div>
+              <div data-w-id="49e7c5c9-e43d-f54d-cc39-c2822ce13149" style={{display: 'none'}} className="af-class-footer-2">
+                <div className="af-class-div-block-29">
+                  <div className="w-embed"><img src="https://secmedia.s3.us-east-2.amazonaws.com/ElonSmoking_v3.gif" alt="Diamond Cock Rocket, SEC going to the moon" /></div>
+                </div>
+                <div>
+                  <div className="af-class-grey-text-2 af-class-white af-class-palace-club af-class-text-gradient-2 af-class-palace">#ThePeoplesSEC</div>
+                </div>
+                <div className="af-class-social-media-content af-class-desktop">
+                  <div className="af-class-div-block-12">
+                    <a href="https://www.tiktok.com/@suckelonscoc?lang=en" target="_blank" className="af-class-social-media-link w-inline-block"><img src="https://uploads-ssl.webflow.com/60bbfcaf8d961b9b48ae873d/60bbfcaf8d961bf437ae8771_tiktok-round.svg" loading="lazy" width={24} height={24} alt="Small circle TikTok icon" className="af-class-social-media-icon" /></a>
+                    <a href="https://twitter.com/suckelonscock?lang=en" target="_blank" className="af-class-social-media-link w-inline-block"><img src="https://uploads-ssl.webflow.com/60bbfcaf8d961b9b48ae873d/60bbfcaf8d961b39e8ae87c8_iconfinder_twitter_circle_black_107155.svg" loading="lazy" width={26} alt="Small circle Twitter icon" className="af-class-social-media-icon" /></a>
+                    <a href="https://www.reddit.com/r/SuckElonsCock/" target="_blank" className="af-class-social-media-link w-inline-block"><img src="https://uploads-ssl.webflow.com/60bbfcaf8d961b9b48ae873d/60bbfcaf8d961b17abae8767_reddit-round.svg" loading="lazy" height={24} width={24} alt="Small circle Reddit icon" className="af-class-social-media-icon" /></a>
+                    <a href="https://t.me/suckelonscock" target="_blank" className="af-class-social-media-link w-inline-block"><img src="https://uploads-ssl.webflow.com/60bbfcaf8d961b9b48ae873d/60bbfcaf8d961b1e4aae876b_telegram-black.svg" loading="lazy" width={24} height={24} alt="Small circle Telegram icon" className="af-class-social-media-icon" /></a>
+                    <a href="https://www.instagram.com/suckelonscock" target="_blank" className="af-class-social-media-link w-inline-block"><img src="https://uploads-ssl.webflow.com/60bbfcaf8d961b9b48ae873d/60bbfcaf8d961b6317ae877b_IG..Circle.svg" loading="lazy" width="28.5" alt="Small circle Instagram icon" className="af-class-social-media-icon" /></a>
+                    <a href="https://opensea.io/accounts/SuckElonsCock" className="af-class-social-media-link w-inline-block"><img src="images/New-Project.svg" loading="lazy" width={30} alt="Small circle Facebook icon" className="af-class-social-media-icon" /></a>
+                    <a href="https://www.youtube.com/channel/UCkzofLl4xepSF2CkMU1s53w" target="_blank" className="af-class-social-media-link w-inline-block"><img src="images/New-Project-1.svg" loading="lazy" alt="Small circle Facebook icon" width={40} className="af-class-social-media-icon" /></a>
+                    <a href="https://www.facebook.com/suckelonscock" target="_blank" className="af-class-social-media-link w-inline-block"><img src="https://uploads-ssl.webflow.com/60bbfcaf8d961b9b48ae873d/60bbfcaf8d961b454aae8762_facebook.svg" loading="lazy" alt="Small circle Facebook icon" className="af-class-social-media-icon" /></a>
+                    <a href="https://www.facebook.com/suckelonscock" target="_blank" className="af-class-social-media-link w-inline-block"><img src="https://uploads-ssl.webflow.com/60bbfcaf8d961b9b48ae873d/60bbfcaf8d961b6340ae87a2_iconfinder_discord_18_5474122-svg%20(1).png" loading="lazy" width={28} alt="Small circle Facebook icon" className="af-class-social-media-icon" /></a>
                   </div>
-                  <div className="af-class-palace-club">
-                    <div className="af-class-grey-text af-class-white af-class-palace-club af-class-text-gradient-2 af-class-palace"><strong className="af-class-bold-text-2 af-class-peoples-sec">#ThePeoplesSEC</strong></div>
-                  </div>
-                  <div data-w-id="c8462666-1c04-4391-a7d5-15b610290b55" style={{opacity: 0}} className="af-class-footer-copyright af-class-_2021">
-                    <div className="af-class-grey-text af-class-white af-class-_20211">Suck Elon's Cock © <strong className="af-class-bold-text-5">2021</strong></div>
-                  </div>
+                </div>
+                <div data-w-id="49e7c5c9-e43d-f54d-cc39-c2822ce13166" style={{opacity: 0}} className="af-class-footer-copyright af-class-_2021">
+                  <div className="af-class-grey-text-2 af-class-white af-class-_20211">Suck Elon's Cock © <strong className="af-class-bold-text-5">2021</strong></div>
                 </div>
               </div>
             </div>
             {/* [if lte IE 9]><![endif] */}
+            <style dangerouslySetInnerHTML={{__html: "\n.af-view, .af-view {\n    max-width: 100%;\n    overflow-x: hidden;\n}\n" }} />
           </div>
         </span>
       </span>
