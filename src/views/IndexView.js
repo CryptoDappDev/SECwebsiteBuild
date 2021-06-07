@@ -9,6 +9,7 @@ import TweetMemeView from './TweetMemeView'
 import CopyButton1View from './CopyButton1View'
 import BoardingPassPurchaseView from './BoardingPassPurchaseView'
 import CoinPurchaseView from './CoinPurchaseView'
+import CopyButton2View from './CopyButton2View'
 
 const scripts = [
   { loading: fetch("https://d3e54v103j8qbb.cloudfront.net/js/jquery-3.5.1.min.dc5e7f18c8.js?site=60a76909ccf920aea94e85c4").then(body => body.text()), isAsync: false },
@@ -82,16 +83,16 @@ class IndexView extends React.Component {
                   <nav role="navigation" className="af-class-nav-menu w-nav-menu">
                     <div className="af-class-nav-cta-button-2 af-class-mobile">
                       <ConnectWalletButtonView.Controller />
-                      <a href="#" id="limited-drop-button" className="af-class-button-3 af-class-exclusive af-class-header w-button"><strong>LIMITED DROPS</strong></a>
+                      <a href="#limited-edition-nfts-section" id="limited-drop-button" className="af-class-button-3 af-class-exclusive af-class-header w-button"><strong>LIMITED DROPS</strong></a>
                     </div>
-                    <a href="#" id="new-eco" className="af-class-nav-link-3 af-class-eco-nav w-inline-block">
+                    <a href="#SECTIONECOSLUGGGGGGGGG" id="new-eco" className="af-class-nav-link-3 af-class-eco-nav w-inline-block">
                       <div className="af-class-nav-link-text">ECOSYSTEM</div>
                     </a>
                     <a href="#" className="af-class-nav-link-3 af-class-moonmap w-inline-block">
                       <div className="af-class-nav-link-text">Moonmap</div>
                     </a>
-                    <a href="#" className="af-class-nav-link-3 w-inline-block">
-                      <div className="af-class-nav-link-text">MEME MARKETPLACE</div>
+                    <a href="#onlymemessectionnslug" className="af-class-nav-link-3 w-inline-block">
+                      <div className="af-class-nav-link-text">ONLYMEMES</div>
                     </a>
                     <div className="af-class-nav-socials">
                       <a href="https://www.instagram.com/suckelonscock" target="_blank" className="af-class-social-media-link af-class-navv w-inline-block"><img src="images/IG..Circle.svg" loading="lazy" width={30} alt="Instagram logo - suckelonscock" className="af-class-social-media-icon" /></a>
@@ -180,7 +181,7 @@ class IndexView extends React.Component {
                 <div data-w-id="ad1fe3e8-a35f-7165-8f77-b8a70802d25e" className="af-class-html-embed-2 af-class-mobile-cock w-embed"><img src="https://secmedia.s3.us-east-2.amazonaws.com/diamond.cock.rocket.comp.2.gif" alt="Diamond Cock Rocket, SEC going to the moon" /></div>
               </div>
               <div className="af-class-gradientborder" />
-              <div data-w-id="915aa8c7-5aca-7b30-6198-454a7174844e" style={{display: 'none'}} className="af-class-section af-class-light-blue-bg af-class-features">
+              <section id="SECTIONECOSLUGGGGGGGGG" data-w-id="915aa8c7-5aca-7b30-6198-454a7174844e" style={{display: 'none'}} className="af-class-section af-class-light-blue-bg af-class-features">
                 <div className="af-class-container af-class-eco">
                   <section id="new-eco-2" data-w-id="915aa8c7-5aca-7b30-6198-454a71748463" style={{opacity: 0}} className="af-class-text-center af-class-ecosystem">
                     <div className="af-class-fade-in-on-scroll af-class-ecoo-text">
@@ -291,7 +292,7 @@ class IndexView extends React.Component {
                   </div>
                 </div>
                 <div data-w-id="37d6c78a-e32d-9352-eb0d-1e2548266d5f" data-animation-type="lottie" data-src="documents/CoinRolling_V1.json" data-loop={0} data-direction={-1} data-autoplay={0} data-is-ix2-target={1} data-renderer="svg" data-default-duration="3.3666666666666667" data-duration={0} />
-              </div>
+              </section>
               <div className="af-class-gradientborder" />
               <div id="About" className="af-class-section af-class-testing">
                 <div className="af-class-container af-class-test">
@@ -352,7 +353,7 @@ class IndexView extends React.Component {
                   </div>
                 </div>
               </div>
-              <div data-w-id="3b85f699-c949-f7e1-8df4-af4ae38e2f0c" style={{display: 'none'}} className="af-class-section af-class-dark">
+              <section id="limited-edition-nfts-section" data-w-id="3b85f699-c949-f7e1-8df4-af4ae38e2f0c" style={{display: 'none'}} className="af-class-section af-class-dark">
                 <div className="af-class-container">
                   <div className="w-layout-grid af-class-grid-10-columns">
                     <div id="w-node-ece89d93-2df3-9c66-994e-a99360ef72ee-c7526b6d" className="af-class-content">
@@ -422,7 +423,7 @@ class IndexView extends React.Component {
                       </div>
                     </div>
                   </div>
-                  <div data-w-id="f7da196c-9b44-506f-e081-647209164471" style={{opacity: 0}} className="af-class-onlymemessection">
+                  <section id="onlymemessectionnslug" data-w-id="f7da196c-9b44-506f-e081-647209164471" style={{opacity: 0}} className="af-class-onlymemessection">
                     <div className="af-class-dont-take-our-word-title">
                       <div className="af-class-fade-in-on-scroll">
                         <div className="af-class-div-block-21"><img src="images/OnlyMemes-Logo-TM-V3.png" loading="lazy" sizes="(max-width: 479px) 86vw, (max-width: 767px) 73vw, (max-width: 991px) 75vw, (max-width: 1279px) 59vw, 770.546875px" width="1460.5" srcSet="images/OnlyMemes-Logo-TM-V3-p-500.png 500w, images/OnlyMemes-Logo-TM-V3-p-1600.png 1600w, images/OnlyMemes-Logo-TM-V3-p-2000.png 2000w, images/OnlyMemes-Logo-TM-V3-p-2600.png 2600w, images/OnlyMemes-Logo-TM-V3-p-3200.png 3200w, images/OnlyMemes-Logo-TM-V3.png 3893w" alt className="af-class-image-21" />
@@ -497,9 +498,9 @@ class IndexView extends React.Component {
                         </div>
                       </div>
                     </section>
-                  </div>
+                  </section>
                 </div>
-              </div>
+              </section>
               <div data-w-id="a136e70e-a0ad-9d01-ec68-2e537ec8b5de" style={{opacity: 0, display: 'none'}} className="af-class-buysec-section">
                 <div className="af-class-phone-holder"><img src="images/sushimeta_phones_V3.png" loading="lazy" sizes="(max-width: 767px) 100vw, (max-width: 991px) 52vw, 565px" width={565} srcSet="images/sushimeta_phones_V3-p-500.png 500w, images/sushimeta_phones_V3-p-800.png 800w, images/sushimeta_phones_V3-p-1080.png 1080w, images/sushimeta_phones_V3-p-1600.png 1600w, images/sushimeta_phones_V3.png 1789w" alt className="af-class-image-24" /></div>
                 <div id="jump-tp-buy" data-w-id="a136e70e-a0ad-9d01-ec68-2e537ec8b5df" style={{opacity: 0}} className="af-class-container af-class-how-to-buy-container">
@@ -536,7 +537,7 @@ class IndexView extends React.Component {
                     <div className="af-class-copy-contract-text">
                       <div className="af-class-text-block-3"><strong className="af-class-bold-text-4 af-class-represent-title af-class-class">verified <em>$SEC</em>&nbsp;Contract address:</strong></div>
                     </div>
-                    <div className="af-class-af-el---copy-bottom-container"><img src="images/image-4.png" loading="lazy" alt /></div>
+                    <CopyButton2View.Controller />
                     <div className="af-class-download-buttons af-class-mobile-vertical af-class-small">
                       <div className="af-class-download-button af-class-sushi">
                         <a href="https://app.sushi.com/" target="_blank" className="af-class-button af-class-exclusive af-class-howtoobuyy w-inline-block"><img src="images/Apple-Icon.svg" loading="lazy" alt className="af-class-download-button-icon" />
