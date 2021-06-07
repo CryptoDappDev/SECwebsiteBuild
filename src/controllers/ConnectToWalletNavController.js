@@ -43,9 +43,11 @@ function ConnectToWalletNavController() {
     return ( 
     <div>
         {(status === "notConnected") &&
-            <Fade top>
-            <ConnectToWalletNavView> <wallet onClick={() => { handleClick() }} /> </ConnectToWalletNavView> 
-            </Fade>
+            <div onClick={() => { handleClick() }} >
+                <Fade top>
+                <ConnectToWalletNavView> <wallet/> </ConnectToWalletNavView> 
+                </Fade>
+            </div>
         }
         {(status === "connected") &&
 
