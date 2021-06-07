@@ -85,7 +85,7 @@ export default class Order extends React.Component {
     const isOwner = accountAddress && accountAddress.toLowerCase() === owner.address.toLowerCase()
 
     return (
-      <div class = "p-5" >
+      <div class = "p-2" >
       <Card>
         {(!(accountAddress == "")) &&
         <button onClick={this.buyAsset}  className="af-class-buy-button w-button">Purchase</button>
