@@ -26,19 +26,16 @@ export default class ConnectWalletButtonController extends React.Component {
         this.getData();
 
         // Now we need to make it run at a specified interval
-        setInterval(this.getData, 1000); // runs every 5 seconds.
+        setInterval(this.getData, 2000); // runs every 5 seconds.
       }
     getData = () => {
         // do something to fetch data from a remote API.
         const bridge = "https://bridge.walletconnect.org";
         this.connector = new WalletConnect({ bridge, qrcodeModal: QRCodeModal });
-        console.log('smoke a cig')
         if(this.connector.connected) {
             this.setState({isLoggedIn: true});
-            console.log('Im Connected')
         }else { 
             this.setState({isLoggedIn: false});
-            console.log('Im NOT Connected')
         }
       }
 

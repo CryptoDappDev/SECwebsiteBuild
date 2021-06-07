@@ -21,32 +21,6 @@ function ConnectToWalletNavController() {
     
 
     useEffect(() => {
-        
-        console.log('');
-        console.log('Info From Desktop Hook');
-        console.log(status);
-
-        console.log('');
-        console.log('Info From Mobile Hook');
-        console.log(provider);
-
-        console.log('');
-        
-        console.log(window.ethereum);
-
-        if(isDesktop) {
-            if(window.ethereum.isMetaMask) {
-                console.log('I have Metamask!!!!');
-            } else {
-                console.log('I DONT have Metamask!!!!');
-            }
-        }
-
-        console.log('');
-
-        if (typeof window.ethereum !== 'undefined') {
-            console.log('MetaMask is installed!');
-          }
 
         if (status === "connected")
         {
@@ -55,8 +29,7 @@ function ConnectToWalletNavController() {
     });
 
     function handleClick(){
-        window.ethereum.enable() 
-                  
+        connect();   
     }
     
     return ( 
