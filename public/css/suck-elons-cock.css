@@ -7209,9 +7209,9 @@
 
   .af-view .af-class-moon-gif {
     left: 0%;
-    top: -60%;
+    top: 24vh;
     right: 0%;
-    bottom: 0%;
+    bottom: auto;
     z-index: 0;
     width: auto;
     height: auto;
