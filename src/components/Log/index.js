@@ -8,7 +8,7 @@ export default class Log extends React.Component {
   static propTypes = {
     seaport: PropTypes.object.isRequired,
     accountAddress: PropTypes.string,
-    itemtoFetch: PropTypes.string.isRequired
+    itemtoFetch: PropTypes.string.isRequired,
   };
 
   state = {
@@ -75,7 +75,7 @@ export default class Log extends React.Component {
           ? <React.Fragment>
               <div className="card-deck">
                 {orders.map((order, i) => {
-                  return <Order {...this.props} key={i} order={order}  />
+                  return <Order {...this.props}  key={i} order={order}  />
                 })}
               </div>
             </React.Fragment>

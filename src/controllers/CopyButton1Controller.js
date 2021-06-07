@@ -18,22 +18,26 @@ class CopyButton1Controller extends React.Component {
 
     render() {
         return (
-        <div>
+        <div class="clipboard">
            <script src="https://kit.fontawesome.com/d97b87339f.js" crossorigin="anonymous"></script>
-            <div class="clipboard">
-                <image src="https://img.icons8.com/material-sharp/24/000000/copy.png" class="copy-btn" id="copyButton" onClick={() => { this.handleClick() }} ></image>
-                <CopyToClipboard text={'0x9c061df134d11412151e9c200ce3f9f6f295094a'}
-                    onCopy={() => this.setState({copied: true})}>
-                    <div>
-                        <input class="copy-input" value="0x9c061df134d11412151e9c200ce3f9f6f295094a" id="copyClipboard" readonly />
+            <span>
+                <div>
+                    <CopyToClipboard text={'0x9c061df134d11412151e9c200ce3f9f6f295094a'}
+                        onCopy={() => this.setState({copied: true})}>
+                        <div>
+                            <image src="https://img.icons8.com/material-sharp/24/000000/copy.png" class="copy-btn" id="copyButton" onClick={() => { this.handleClick() }} ></image>
+                            <div>
+                                <input class="copy-input" value="0x9c061df134d11412151e9c200ce3f9f6f295094a" id="copyClipboard" readonly />
+                            </div>
+                        </div>   
+                    </CopyToClipboard>
+                    <Fade bottom cascade when={this.state.show}>
+                    <div id="copied-success" class="copied">
+                    <span>Copied!</span>
                     </div>
-                </CopyToClipboard>
-                <Fade bottom cascade when={this.state.show}>
-                <div id="copied-success" class="copied">
-                <span>Copied!</span>
+                    </Fade>
                 </div>
-                </Fade>
-            </div>
+            </span>
         </div>  
         )
     }

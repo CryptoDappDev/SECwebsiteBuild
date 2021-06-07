@@ -43,20 +43,15 @@ export default class ConnectWalletButtonController extends React.Component {
 
     getData = async () => {
         // do something to fetch data from a remote API.
-        console.log('I Connecting....')
-        console.log(this.state.connector.address)
         //console.log(this.state.connector.accounts)
         if (!(this.state.connector == null)) {
             if ((this.state.connector.connected)) {
                 this.setState({isLoggedIn: true});
-                console.log('I Connected!')
             }else { 
                 this.setState({isLoggedIn: false});
-                console.log('I NOT Connected!')
             }
         }else { 
             this.setState({isLoggedIn: false});
-            console.log('I NOT Connected!')
         }
       }
 

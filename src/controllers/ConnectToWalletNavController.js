@@ -27,7 +27,7 @@ function ConnectToWalletNavController() {
     });
 
     function handleClick(){
-        connect();   
+        connect(); 
     }
     
     return ( 

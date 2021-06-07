@@ -50,7 +50,7 @@ componentDidMount() {
         <main>
             <Log
               seaport={this.seaport}
-              accountAddress={this.state.accountAddress}
+              accountAddress={this.props.account}
               itemtoFetch =  {this.itemtoSell} />
         </main>
       </div>

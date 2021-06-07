@@ -16,7 +16,7 @@ export const onNetworkUpdate = (callback) => {
   networkCallbacks.push(callback)
 }
 
-export async function connectWallet() {
+export function connectWallet() {
   if (!window.web3) {
     web3Provider = new PortisProvider({
       // Put your Portis API key here

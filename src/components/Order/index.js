@@ -3,7 +3,7 @@ import moment from 'moment'
 import PropTypes from 'prop-types'
 import AssetMetadata from './AssetMetadata'
 import styled from 'styled-components';
-import { connectWallet } from '../../constants';
+
 import { OrderSide } from 'opensea-js/lib/types';
 import './btn.css';
 
@@ -21,6 +21,14 @@ const Card = styled.div.attrs({ className: "af-class-purchase-button-for-nfts" }
 `
 
 export default class Order extends React.Component {
+
+
+  constructor(props) {
+    super(props);
+    this.onError = this.onError.bind(this)
+    this.fulfillOrder = this.fulfillOrder.bind(this)
+    this.buyAsset = this.buyAsset.bind(this)
+  }
 
   state = {
     errorMessage: null,
@@ -46,9 +54,7 @@ export default class Order extends React.Component {
 
   async fulfillOrder() {
     const { order, accountAddress } = this.props
-    if (!accountAddress) {
-      await connectWallet()
-    }
+
     try {
       this.setState({ creatingOrder: true })
       await this.props.seaport.fulfillOrder({ order, accountAddress })
@@ -60,16 +66,9 @@ export default class Order extends React.Component {
   }
 
     
-  buyAsset = async () => {
-    console.log('attempting to buy...')
-    const { accountAddress, order } = this.props
-    if (accountAddress) {
-      this.setState({
-        errorMessage: "You already own this asset!"
-      })
-      return
-    }
-    this.fulfillOrder()
+  async buyAsset() {
+    const { order, accountAddress } = this.props
+    this.fulfillOrder();
   }
 
   render() {
@@ -86,13 +85,13 @@ export default class Order extends React.Component {
     const isOwner = accountAddress && accountAddress.toLowerCase() === owner.address.toLowerCase()
 
     return (
+      <div class = "orderwrappernfts" >
       <Card>
-        
-        <AssetMetadata asset={asset} />
-
+        {(!(accountAddress == "")) &&
         <button onClick={this.buyAsset}  className="af-class-buy-button w-button">Purchase</button>
-
+        }
       </Card>
+      </div>
     )
   }
 }
