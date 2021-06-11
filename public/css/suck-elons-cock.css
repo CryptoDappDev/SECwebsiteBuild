@@ -3118,8 +3118,8 @@
 .af-view .af-class-what-is-sec.af-class-nonhover {
   margin-top: -30px;
   padding-top: 0px;
-  padding-right: 20px;
-  padding-left: 20px;
+  padding-right: 1rem;
+  padding-left: 1em;
   color: #000;
   font-size: 19px;
 }
@@ -4719,6 +4719,10 @@
 
 .af-view .af-class-link-block-5 {
   display: block;
+}
+
+.af-view .af-class-div-block-45 {
+  text-align: center;
 }
 
 @media screen and (min-width: 1280px) {

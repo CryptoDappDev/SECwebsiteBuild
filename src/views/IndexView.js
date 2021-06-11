@@ -5,7 +5,7 @@ import { createScope, map, transformProxies } from './helpers'
 import ConnectWalletButtonView from './ConnectWalletButtonView'
 import ConnectToWalletNavView from './ConnectToWalletNavView'
 import TweetSecView from './TweetSecView'
-import TweetMemeView from './TweetMemeView'
+import TweetMemeTryView from './TweetMemeTryView'
 import CopyButton1View from './CopyButton1View'
 import BoardingPassPurchaseView from './BoardingPassPurchaseView'
 import CoinPurchaseView from './CoinPurchaseView'
@@ -206,12 +206,12 @@ class IndexView extends React.Component {
                     </div>
                     <div id="w-node-_628315c7-9285-9cb1-4712-9cee2615c32b-9b6a8a93" data-w-id="628315c7-9285-9cb1-4712-9cee2615c32b" style={{opacity: 0}} className="af-class-card-item af-class-light af-class-mememe af-class-meme">
                       <div className="af-class-div-block-31"><img src="images/OnlyMemes-Logo-TM-V3.png" loading="lazy" width={420} sizes="(max-width: 767px) 86vw, 420.0000305175781px" srcSet="images/OnlyMemes-Logo-TM-V3-p-500.png 500w, images/OnlyMemes-Logo-TM-V3-p-1600.png 1600w, images/OnlyMemes-Logo-TM-V3-p-2000.png 2000w, images/OnlyMemes-Logo-TM-V3-p-2600.png 2600w, images/OnlyMemes-Logo-TM-V3-p-3200.png 3200w, images/OnlyMemes-Logo-TM-V3.png 3893w" alt /></div>
-                      <div data-w-id="e4f0af50-e18a-97ff-f668-46d0126fa217" data-animation-type="lottie" data-src="documents/data.json" data-loop={0} data-direction={1} data-autoplay={0} data-is-ix2-target={1} data-renderer="svg" data-default-duration="4.833333333333333" data-duration={0} data-ix2-initial-state={0} />
-                      <TweetMemeView.Controller />
-                      <div className="af-class-card-item-content af-class-meme-market-card">
-                        <div className="af-class-fade-in-on-scroll">
-                          <p className="af-class-paragraph-2"><strong>OnlyMemes</strong> is a <strong><em>$SEC</em></strong>&nbsp;powered decentralized platform for content creation. <br /><br />Users will be able to trade, create, and collect community memes powered by the <strong><em>$SEC</em></strong>&nbsp;ecosystem. <br /><br />Stay tuned for our official launch. If you would like to be a beta tester- pick up the all access <strong><em>BOARDING&nbsp;PASS</em></strong>&nbsp;from the <strong><em>$SEC</em></strong>&nbsp;<strong>Limited Edition NFTs.</strong></p>
-                        </div>
+                      <div>
+                        <div data-w-id="e4f0af50-e18a-97ff-f668-46d0126fa217" data-animation-type="lottie" data-src="documents/data.json" data-loop={0} data-direction={1} data-autoplay={0} data-is-ix2-target={1} data-renderer="svg" data-default-duration="4.833333333333333" data-duration={0} data-ix2-initial-state={0} />
+                      </div>
+                      <TweetMemeTryView.Controller />
+                      <div className="af-class-div-block-45">
+                        <p className="af-class-paragraph-2"><strong>OnlyMemes</strong> is a <strong><em>$SEC</em></strong>&nbsp;powered decentralized platform for content creation. <br /><br />Users will be able to trade, create, and collect community memes powered by the <strong><em>$SEC</em></strong>&nbsp;ecosystem. <br /><br />Stay tuned for our official launch. If you would like to be a beta tester- pick up the all access <strong><em>BOARDING&nbsp;PASS</em></strong>&nbsp;from the <strong><em>$SEC</em></strong>&nbsp;<strong>Limited Edition NFTs.</strong></p>
                       </div>
                     </div>
                     <div id="w-node-bf82d6d8-19d5-7d71-8ac6-e7bb3b408754-9b6a8a93" data-w-id="bf82d6d8-19d5-7d71-8ac6-e7bb3b408754" style={{opacity: 0}} className="af-class-card-item af-class-light af-class-tools">
