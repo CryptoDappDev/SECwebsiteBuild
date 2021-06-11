@@ -64,10 +64,12 @@ class TweetMemeView extends React.Component {
         ` }} />
         <span className="af-view">
           <div id="elon-meme-tweet" className="af-class-div-block-13">
-            <div className="af-class-html-embed-7 w-embed w-script">
-              <blockquote className="af-class-twitter-tweet">
-                <p lang="en" dir="ltr">Who controls the memes,<br />controls the Universe</p>— Elon Musk (@elonmusk) <a href="https://twitter.com/elonmusk/status/1276418907968925696?ref_src=twsrc%5Etfw">June 26, 2020</a>
-              </blockquote>
+            <div className="af-class-div-block-44">
+              <div className="af-class-html-embed-7 w-embed w-script">
+                <blockquote className="af-class-twitter-tweet">
+                  <p lang="en" dir="ltr">Who controls the memes,<br />controls the Universe</p>— Elon Musk (@elonmusk) <a href="https://twitter.com/elonmusk/status/1276418907968925696?ref_src=twsrc%5Etfw">June 26, 2020</a>
+                </blockquote>
+              </div>
             </div>
           </div>
         </span>
