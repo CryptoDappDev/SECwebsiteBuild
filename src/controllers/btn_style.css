@@ -7,43 +7,45 @@
     color:#6c6c6c;
     font-size: 14px;
     border-radius: 5px;
-    padding: 15px 15px 15px 15px;
+    padding: 15px 0px 15px 15px;
     font-family: 'Montserrat', sans-serif;
     box-shadow: 0 3px 15px #b8c6db;
     -moz-box-shadow: 0 3px 15px #b8c6db;
     -webkit-box-shadow: 0 3px 15px #b8c6db;
     text-align: center;
   }
-  .copy-input:focus {
+.copy-input:focus {
     outline:none;
   }
   
-  .copy-btn {
+.copy-btn {
     width:20%;
+    height: 20px;
     background-image: url("https://img.icons8.com/material-sharp/24/000000/copy.png");
     font-size: 18px;
-    padding: 25px 10px;
+    padding: 0px 0px 0px;
     border-radius: 5px;
-    margin-left: -20px;
+    margin: 0px;
     border:none;
     color:#6c6c6c;
     transition: all .4s;
     float: right;
     background-position: center;
     background-repeat: no-repeat;
+    font-family: 'Montserrat', sans-serif;
   }
 
-  .copy-btn:hover {
+.copy-btn:hover {
     transform: scale(1.3);
     color:#1a1a1a;
     cursor:pointer;
   }
   
-  .copy-btn:focus {
+.copy-btn:focus {
     outline:none;
   }
   
-  .copied {
+.copied {
     font-family: 'Montserrat', sans-serif;
     width: 75px;
     display: none;
@@ -61,14 +63,29 @@
     -webkit-box-shadow: 0 3px 15px #b8c6db;
   }
 
+.clipboard-1{
+    width: 50%;
+    justify-content: center;
+    margin: 0% 0% 0% 10%;
+    font-family: 'Montserrat', sans-serif;
+    
+  }
+.clipboard-2{
+  width: 250%;
+  justify-content: center;
+  margin: 0% 0% 0% -25%;
+  font-family: 'Montserrat', sans-serif;
+  
+}
+
 .wallet-connect-mob-wrapper {
   padding: 5% 0px 10px 0px;
 }
 
-.clipboard{
-  width: 100%;
-  justify-content: center;
-  margin: 0% 0% 0% 0%;
-  max-width: 600px;
+.TwitterMemeWrapper {
+  display: block;
 }
+
+
+
 

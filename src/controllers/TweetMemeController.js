@@ -8,8 +8,11 @@ class TweetMemeController extends React.Component {
 
     render() {
         return (
-            
-            <div></div>
+            <div class = 'TwitterMemeWrapper'>
+            <TwitterTweetEmbed tweetId='1276418907968925696' options = {{
+                align: 'center',
+              }} /> 
+            </div>
         )
     }
 }
@@ -19,4 +22,4 @@ export default (props) => (
 )
 
 //Meme Tweet
-//<TwitterTweetEmbed tweetId={'1276418907968925696'} />
+//

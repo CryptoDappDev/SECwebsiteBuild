@@ -19,32 +19,30 @@ class CopyButton1Controller extends React.Component {
 
     render() {
         return (
-        <div class="">
-           <script src="https://kit.fontawesome.com/d97b87339f.js" crossorigin="anonymous"></script>
-            <span>
-                <div>
-                    <CopyToClipboard text={'0x9c061df134d11412151e9c200ce3f9f6f295094a'}
-                        onCopy={() => this.setState({copied: true})}>
-                        <div>
-                            <image src="https://img.icons8.com/material-sharp/24/000000/copy.png" class="copy-btn" id="copyButton" onClick={() => { this.handleClick() }} ></image>
-                            <div>
-                                <input class="copy-input" value="0x9c061df134d11412151e9c200ce3f9f6f295094a" id="copyClipboard" readonly />
-                            </div>
-                        </div>   
-                    </CopyToClipboard>
-                    <Fade bottom cascade when={this.state.show}>
-                    <div id="copied-success" class="copied">
-                    <span>Copied!</span>
-                    </div>
-                    </Fade>
+                <>
+                <script src="https://kit.fontawesome.com/d97b87339f.js" crossorigin="anonymous"></script>
+                <CopyToClipboard text={'0x9c061df134d11412151e9c200ce3f9f6f295094a'}
+                    onCopy={() => this.setState({copied: true})}>
+                    <div class="copy-input">
+                        <image src="https://img.icons8.com/material-sharp/24/000000/copy.png" class="copy-btn" id="copyButton" onClick={() => { this.handleClick() }} ></image>
+                        <div  value="0x9c061df134d11412151e9c200ce3f9f6f295094a" id="copyClipboard" readonly > 
+                        0x9c061df134d11412151e9c200ce3f9f6f295094a</div>
+                            
+                        
+                    </div>   
+                </CopyToClipboard>
+                <Fade bottom cascade when={this.state.show}>
+                <div id="copied-success" class="copied">
+                <span>Copied!</span>
                 </div>
-            </span>
-        </div>  
+                </Fade>
+                </>
         )
     }
 }
 
 export default (props) => (
-    <CopyButton1View/>
-
+    <div class ="clipboard-1">  
+        <CopyButton1Controller/>
+    </div>
 )
