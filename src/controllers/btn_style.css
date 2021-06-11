@@ -1,5 +1,4 @@
 .copy-input {
-    
     width: 80%;
     cursor: pointer;
     background-color: #eaeaeb;
@@ -13,7 +12,21 @@
     -moz-box-shadow: 0 3px 15px #b8c6db;
     -webkit-box-shadow: 0 3px 15px #b8c6db;
     text-align: center;
+    overflow-wrap: break-all;
+    word-wrap: break-all;
   }
+
+.copyClipboard {
+  width: 80%;
+  color:#6c6c6c;
+  font-size: 14px;
+  border-radius: 5px;
+  font-family: 'Montserrat', sans-serif;
+  box-shadow: 0 3px 15px #b8c6db;
+  -moz-box-shadow: 0 3px 15px #b8c6db;
+  -webkit-box-shadow: 0 3px 15px #b8c6db;
+  text-align: center;
+}
 .copy-input:focus {
     outline:none;
   }
@@ -68,6 +81,8 @@
     justify-content: center;
     margin: 0% 0% 0% 10%;
     font-family: 'Montserrat', sans-serif;
+    overflow-wrap: break-all;
+    word-wrap: break-all;
     
   }
 .clipboard-2{
@@ -75,6 +90,8 @@
   justify-content: center;
   margin: 0% 0% 0% -25%;
   font-family: 'Montserrat', sans-serif;
+  overflow-wrap: break-all;
+  word-wrap: break-all;
   
 }
 
@@ -83,10 +100,8 @@
 }
 
 .TwitterMemeWrapper {
-  display: inline;
-  justify-content: center;
-  align-content: center;
-  min-height: 200px;
+  display: flex;
+  width: 100%;
 }
 
 

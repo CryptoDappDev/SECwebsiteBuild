@@ -26,8 +26,7 @@ class CopyButton1Controller extends React.Component {
                     onCopy={() => this.setState({copied: true})}>
                     <div class="copy-input">
                         <image src="https://img.icons8.com/material-sharp/24/000000/copy.png" class="copy-btn" id="copyButton" onClick={() => { this.handleClick() }} ></image>
-                        <div  value="0x9c061df134d11412151e9c200ce3f9f6f295094a" id="copyClipboard" readonly > 
-                        0x9c061df134d11412151e9c200ce3f9f6f295094a</div>
+                        <input class = "copyClipboard"  value="0x9c061df134d11412151e9c200ce3f9f6f295094a" readonly ></input>
                             
                         
                     </div>   
