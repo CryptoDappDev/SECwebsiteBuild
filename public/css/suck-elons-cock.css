@@ -7199,7 +7199,7 @@
   }
 
   .af-view .af-class-body {
-    overflow: visible;
+    overflow: hidden;
   }
 
   .af-view .af-class-text-block {
@@ -7859,6 +7859,10 @@
 
   .af-view .af-class-lottie-animation {
     margin-top: 0px;
+  }
+
+  .af-view .af-class-div-block-30 {
+    overflow: hidden;
   }
 
   .af-view .af-class-buysec-section {
