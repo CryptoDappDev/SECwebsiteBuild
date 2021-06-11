@@ -36,6 +36,7 @@ function CoinPurchaseController() {
         }
     }
     
+    
     return (
         <div>
             <App 

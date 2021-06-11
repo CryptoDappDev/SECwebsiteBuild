@@ -2,6 +2,7 @@ import React from 'react'
 import Fade from 'react-reveal/Fade';
 import {CopyToClipboard} from 'react-copy-to-clipboard';
 import './btn_style.css'
+import CopyButton1View from '../views/CopyButton1View';
 
 class CopyButton1Controller extends React.Component {
     
@@ -18,7 +19,7 @@ class CopyButton1Controller extends React.Component {
 
     render() {
         return (
-        <div class="clipboard">
+        <div class="">
            <script src="https://kit.fontawesome.com/d97b87339f.js" crossorigin="anonymous"></script>
             <span>
                 <div>
@@ -44,6 +45,6 @@ class CopyButton1Controller extends React.Component {
 }
 
 export default (props) => (
-    <CopyButton1Controller/>
+    <CopyButton1View/>
 
 )

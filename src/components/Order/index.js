@@ -5,6 +5,7 @@ import AssetMetadata from './AssetMetadata'
 import styled from 'styled-components';
 
 import { OrderSide } from 'opensea-js/lib/types';
+import Popup from 'reactjs-popup';
 import './btn.css';
 
 const Card = styled.div.attrs({ className: "af-class-purchase-button-for-nfts" })`
