@@ -3,7 +3,7 @@
 export { default as ConnectWalletButtonView } from './ConnectWalletButtonView'
 export { default as ConnectToWalletNavView } from './ConnectToWalletNavView'
 export { default as TweetSecView } from './TweetSecView'
-export { default as TweetMemeTryView } from './TweetMemeTryView'
+export { default as TweetMemeView } from './TweetMemeView'
 export { default as CopyButton1View } from './CopyButton1View'
 export { default as BoardingPassPurchaseView } from './BoardingPassPurchaseView'
 export { default as CoinPurchaseView } from './CoinPurchaseView'
