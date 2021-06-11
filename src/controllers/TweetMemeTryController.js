@@ -1,7 +1,6 @@
 import { render } from '@testing-library/react'
 import React from 'react'
 import {TwitterTweetEmbed} from 'react-twitter-embed';
-import TweetMemeView from '../views/TweetMemeView';
 import TweetSecController from './TweetSecController';
 
 class TweetMemeController extends React.Component {
