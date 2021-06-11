@@ -1227,6 +1227,7 @@
 }
 
 .af-view .af-class-card-item.af-class-light.af-class-mememe.af-class-meme {
+  display: block;
   padding-right: 1rem;
   -webkit-justify-content: space-around;
   -ms-flex-pack: distribute;
