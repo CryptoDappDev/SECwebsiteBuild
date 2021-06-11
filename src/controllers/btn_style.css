@@ -83,7 +83,10 @@
 }
 
 .TwitterMemeWrapper {
-  display: block;
+  display: inline;
+  justify-content: center;
+  align-content: center;
+  min-height: 200px;
 }
 
 

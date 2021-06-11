@@ -2,6 +2,7 @@ import { render } from '@testing-library/react'
 import React from 'react'
 import {TwitterTweetEmbed} from 'react-twitter-embed';
 import TweetMemeView from '../views/TweetMemeView';
+import TweetSecController from './TweetSecController';
 
 class TweetMemeController extends React.Component {
     state = {}
@@ -9,16 +10,17 @@ class TweetMemeController extends React.Component {
     render() {
         return (
             <div class = 'TwitterMemeWrapper'>
-            <TwitterTweetEmbed tweetId='1276418907968925696' options = {{
-                align: 'center',
-              }} /> 
+                <TwitterTweetEmbed tweetId='1276418907968925696' options = {{
+                    height : 200,
+                    width : 550
+                    }}/> 
             </div>
         )
     }
 }
 
 export default (props) => (
-    <TweetMemeController/>
+    <TweetSecController/>
 )
 
 //Meme Tweet
