@@ -3,6 +3,7 @@ import Fade from 'react-reveal/Fade';
 import {CopyToClipboard} from 'react-copy-to-clipboard';
 import './btn_style.css'
 import CopyButton1View from '../views/CopyButton1View';
+import TweetSecController from './TweetSecController';
 
 class CopyButton1Controller extends React.Component {
     

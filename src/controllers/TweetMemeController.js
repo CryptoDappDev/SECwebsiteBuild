@@ -11,8 +11,7 @@ class TweetMemeController extends React.Component {
         return (
             <div class = 'TwitterMemeWrapper'>
                 <TwitterTweetEmbed tweetId='1276418907968925696' options = {{
-                    height : 200,
-                    width : 550
+                    height : 200
                     }}/> 
             </div>
         )
