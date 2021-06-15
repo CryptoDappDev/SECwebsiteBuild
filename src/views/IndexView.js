@@ -471,9 +471,9 @@ class IndexView extends React.Component {
                           </div>
                         </div>
                       </div>
-                      <div id="w-node-_74a5793b-2ee3-ba61-31c3-fdbb738cd499-0ca95ef9" data-w-id="74a5793b-2ee3-ba61-31c3-fdbb738cd499" className="af-class-card-item af-class-memes-coming-soon af-class-_11 af-class-_1">
+                      <div id="onlymemes.goon" data-w-id="74a5793b-2ee3-ba61-31c3-fdbb738cd499" className="af-class-card-item af-class-memes-coming-soon af-class-_11 af-class-_1 w-node-_74a5793b-2ee3-ba61-31c3-fdbb738cd499-0ca95ef9">
                         <div className="af-class-div-block-44">
-                          <div className="af-class-text-block-16">The $GOON&nbsp;<br />OnlyMemes Bodega</div>
+                          <div className="af-class-text-block-16">The $GOON&nbsp;OnlyMemes Bodega</div>
                         </div>
                         <div className="af-class-card-item-content af-class-memecard">
                           <div className="af-class-fade-in-on-scroll">
@@ -490,7 +490,7 @@ class IndexView extends React.Component {
                             <div className="af-class-div-block-25" />
                           </div>
                           <div className="af-class-div-block-45">
-                            <div className="w-embed"><img src="https://secmedia.s3.us-east-2.amazonaws.com/GoonBobbleHead_400x400+(1).gif" alt="goon" /></div>
+                            <div className="w-embed"><img src="https://secmedia.s3.us-east-2.amazonaws.com/GoonBobbleHead_800x800_Slower+(1).gif" alt="goon" /></div>
                           </div>
                           <div id="purchase-pass-button" className="af-class-nft-buy-buttons af-class-sec-coin af-class-purchase af-class-_1">
                             <div id="purchase-pass-button-1" className="af-class-nft-price-div"><img src="images/ETH-logo.svg" loading="lazy" width={25} alt="ETH logo" className="af-class-image-15" />

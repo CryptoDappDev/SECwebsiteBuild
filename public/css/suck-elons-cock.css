@@ -4734,11 +4734,16 @@
 }
 
 .af-view .af-class-text-block-16 {
-  font-family: interstate, sans-serif;
+  font-family: Montserrat, sans-serif;
   color: #e7aa5f;
   font-size: 40px;
   font-weight: 700;
   text-align: center;
+}
+
+.af-view .af-class-text-block-16.af-class-_1 {
+  font-family: Montserrat, sans-serif;
+  font-weight: 700;
 }
 
 .af-view .af-class-div-block-44 {
@@ -4760,7 +4765,7 @@
 }
 
 .af-view .af-class-div-block-45 {
-  width: 100%;
+  width: 70%;
 }
 
 @media screen and (min-width: 1280px) {
@@ -8220,7 +8225,7 @@
   grid-row-end: span 1;
 }
 
-.af-view #w-node-_74a5793b-2ee3-ba61-31c3-fdbb738cd499-0ca95ef9 {
+.af-view #onlymemes\.af-class-goon.w-node-_74a5793b-2ee3-ba61-31c3-fdbb738cd499-0ca95ef9 {
   -ms-grid-column: span 4;
   grid-column-start: span 4;
   -ms-grid-column-span: 4;
