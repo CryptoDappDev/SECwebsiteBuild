@@ -1309,7 +1309,7 @@
 
 .af-view .af-class-card-item.af-class-memes-coming-soon.af-class-_11.af-class-_1.af-class-_5 {
   overflow: visible;
-  width: 100%;
+  max-width: 100%;
 }
 
 .af-view .af-class-card-item.af-class-memes-coming-soon.af-class-_22:hover {
@@ -2656,6 +2656,8 @@
 
 .af-view .af-class-grid-testimonial {
   width: 100%;
+  max-width: 100%;
+  min-width: 100%;
   padding-bottom: 2vh;
   grid-column-gap: 1em;
   grid-row-gap: 1em;
@@ -4758,6 +4760,7 @@
 }
 
 .af-view .af-class-image-25 {
+  width: 100%;
   margin-top: 1vh;
   border-radius: 20px;
 }
@@ -4771,7 +4774,7 @@
 }
 
 .af-view .af-class-div-block-45 {
-  width: 70%;
+  width: 60%;
 }
 
 @media screen and (min-width: 1280px) {
@@ -8240,6 +8243,8 @@
   grid-row-start: span 1;
   -ms-grid-row-span: 1;
   grid-row-end: span 1;
+  -ms-grid-column-align: center;
+  justify-self: center;
 }
 
 .af-view #w-node-cb3dd26c-13f3-c714-c6ca-1cac6408d6f4-0ca95ef9 {
