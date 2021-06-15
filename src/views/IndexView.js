@@ -137,8 +137,8 @@ class IndexView extends React.Component {
                         </a>
                       </div>
                       <div className="af-class-download-button af-class-learn-more af-class-_1">
-                        <a href="#onlymemes.goon" className="af-class-button af-class-learn af-class-hero af-class-_1 w-inline-block"><img src="images/Goon-1.png" loading="lazy" sizes="(max-width: 479px) 68vw, (max-width: 767px) 20vw, (max-width: 991px) 15vw, (max-width: 1439px) 11vw, 12vw" srcSet="images/Goon-1-p-500.png 500w, images/Goon-1-p-800.png 800w, images/Goon-1.png 1000w" alt className="af-class-image-26" />
-                          <div className="af-class-text-block-17">BODEGA</div>
+                        <a href="#onlymemes.goon" className="af-class-button af-class-learn af-class-hero af-class-_1 w-inline-block">
+                          <div className="af-class-text-block-17">$GOON&nbsp;BODEGA</div>
                         </a>
                       </div>
                     </div>

@@ -1307,6 +1307,10 @@
   cursor: auto;
 }
 
+.af-view .af-class-card-item.af-class-memes-coming-soon.af-class-_11 {
+  margin-bottom: 2vh;
+}
+
 .af-view .af-class-card-item.af-class-memes-coming-soon.af-class-_11:hover {
   box-shadow: 0 0 10px 1px #5377f2;
 }
@@ -1925,6 +1929,18 @@
 .af-view .af-class-download-button.af-class-learn-more {
   margin-bottom: 0.5rem;
   margin-left: 0rem;
+}
+
+.af-view .af-class-download-button.af-class-learn-more.af-class-_1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  text-align: center;
 }
 
 .af-view .af-class-download-button.af-class-buy {
@@ -2664,16 +2680,15 @@
 }
 
 .af-view .af-class-grid-testimonial {
+  display: block;
   width: 100%;
   padding-bottom: 2vh;
-  grid-column-gap: 1em;
-  grid-row-gap: 1em;
   grid-template-areas: ". . . ."
     ". . . ."
     "Area Area Area Area";
-  -ms-grid-columns: 1fr 1em 1fr 1em 1fr 1em 1fr;
+  -ms-grid-columns: 1fr 1fr 1fr 1fr;
   grid-template-columns: 1fr 1fr 1fr 1fr;
-  -ms-grid-rows: auto 1em auto 1em auto;
+  -ms-grid-rows: auto auto auto;
   grid-template-rows: auto auto auto;
 }
 
@@ -4789,12 +4804,31 @@
 }
 
 .af-view .af-class-text-block-17 {
-  color: #b08641;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin-right: auto;
+  margin-left: auto;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  color: #f4f8fb;
+  text-align: center;
 }
 
 .af-view .af-class-image-26 {
   max-width: 50%;
   margin-right: 0.5rem;
+}
+
+.af-view .af-class-div-block-46 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  min-width: 100%;
 }
 
 @media screen and (min-width: 1280px) {
