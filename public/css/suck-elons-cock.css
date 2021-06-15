@@ -1345,7 +1345,7 @@
   display: flex;
   width: 100%;
   height: 100%;
-  margin: 2rem;
+  margin: 1vh 2rem 0rem;
   padding: 0em;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
@@ -4776,6 +4776,22 @@
 
 .af-view .af-class-div-block-45 {
   width: 60%;
+}
+
+.af-view .af-class-text-block-17 {
+  font-size: 50px;
+}
+
+.af-view .af-class-text-span-6 {
+  font-family: Montserrat, sans-serif;
+  color: #c28748;
+  font-size: 50px;
+  font-weight: 700;
+}
+
+.af-view .af-class-div-block-46 {
+  margin-top: 1vh;
+  margin-bottom: 2vh;
 }
 
 @media screen and (min-width: 1280px) {
@@ -8235,17 +8251,15 @@
   grid-row-end: span 1;
 }
 
-.af-view #onlymemes\.af-class-goon.w-node-_74a5793b-2ee3-ba61-31c3-fdbb738cd499-0ca95ef9 {
-  -ms-grid-column: span 4;
-  grid-column-start: span 4;
-  -ms-grid-column-span: 4;
-  grid-column-end: span 4;
+.af-view #w-node-_85afe838-99ff-170d-c2c3-dbf1446fc456-0ca95ef9 {
   -ms-grid-row: span 1;
   grid-row-start: span 1;
   -ms-grid-row-span: 1;
   grid-row-end: span 1;
-  -ms-grid-column-align: center;
-  justify-self: center;
+  -ms-grid-column: span 4;
+  grid-column-start: span 4;
+  -ms-grid-column-span: 4;
+  grid-column-end: span 4;
 }
 
 .af-view #w-node-cb3dd26c-13f3-c714-c6ca-1cac6408d6f4-0ca95ef9 {

@@ -471,14 +471,12 @@ class IndexView extends React.Component {
                           </div>
                         </div>
                       </div>
-                      <div id="onlymemes.goon" data-w-id="74a5793b-2ee3-ba61-31c3-fdbb738cd499" className="af-class-card-item af-class-memes-coming-soon af-class-goon w-node-_74a5793b-2ee3-ba61-31c3-fdbb738cd499-0ca95ef9">
-                        <div className="af-class-div-block-44">
-                          <div className="af-class-text-block-16">The $GOON&nbsp;OnlyMemes Bodega</div>
-                        </div>
-                        <div className="af-class-card-item-content af-class-memecard">
-                          <div className="af-class-fade-in-on-scroll">
-                            <div className="af-class-div-block-25"><img src="images/GrSxEb2Q.png" loading="lazy" sizes="(max-width: 479px) 80vw, (max-width: 767px) 87vw, (max-width: 991px) 88vw, (max-width: 1279px) 72vw, 933.2291870117188px" srcSet="images/GrSxEb2Q-p-500.png 500w, images/GrSxEb2Q-p-800.png 800w, images/GrSxEb2Q-p-1080.png 1080w, images/GrSxEb2Q-p-1600.png 1600w, images/GrSxEb2Q.png 1920w" alt className="af-class-image-25" /></div>
+                      <div id="w-node-_85afe838-99ff-170d-c2c3-dbf1446fc456-0ca95ef9" className="af-class-card-item af-class-memes-coming-soon af-class-goon">
+                        <div className="af-class-card-item-content">
+                          <div className="af-class-div-block-46">
+                            <div><span className="af-class-text-span-6">The $GOON&nbsp;Bodega</span></div>
                           </div>
+                          <div><img src="images/GrSxEb2Q.png" loading="lazy" sizes="(max-width: 479px) 86vw, (max-width: 767px) 91vw, (max-width: 991px) 92vw, (max-width: 1279px) 74vw, 963.2291870117188px" srcSet="images/GrSxEb2Q-p-500.png 500w, images/GrSxEb2Q-p-800.png 800w, images/GrSxEb2Q-p-1080.png 1080w, images/GrSxEb2Q-p-1600.png 1600w, images/GrSxEb2Q.png 1920w" alt /></div>
                         </div>
                       </div>
                       <div id="w-node-cb3dd26c-13f3-c714-c6ca-1cac6408d6f4-0ca95ef9" data-w-id="cb3dd26c-13f3-c714-c6ca-1cac6408d6f4" className="af-class-card-item af-class-memes-coming-soon af-class-_11 af-class-_1 af-class-_23">
