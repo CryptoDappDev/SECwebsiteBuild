@@ -10,6 +10,7 @@ import CopyButton1View from './CopyButton1View'
 import BoardingPassPurchaseView from './BoardingPassPurchaseView'
 import CoinPurchaseView from './CoinPurchaseView'
 import GoonView from './GoonView'
+import GoonMaskView from './GoonMaskView'
 import CopyButton2View from './CopyButton2View'
 
 const scripts = [
@@ -461,8 +462,8 @@ class IndexView extends React.Component {
                   <section id="onlymemessectionnslug" data-w-id="f7da196c-9b44-506f-e081-647209164471" style={{opacity: 0}} className="af-class-onlymemessection">
                     <div className="af-class-dont-take-our-word-title">
                       <div className="af-class-fade-in-on-scroll">
-                        <div className="af-class-div-block-21"><img src="images/OnlyMemes-Logo-TM-V3.png" loading="lazy" sizes="(max-width: 479px) 86vw, (max-width: 767px) 73vw, (max-width: 991px) 74vw, (max-width: 1279px) 59vw, 770.5729370117188px" width="1460.5" srcSet="images/OnlyMemes-Logo-TM-V3-p-500.png 500w, images/OnlyMemes-Logo-TM-V3-p-1600.png 1600w, images/OnlyMemes-Logo-TM-V3-p-2000.png 2000w, images/OnlyMemes-Logo-TM-V3-p-2600.png 2600w, images/OnlyMemes-Logo-TM-V3-p-3200.png 3200w, images/OnlyMemes-Logo-TM-V3.png 3893w" alt className="af-class-image-21" />
-                          <div className="af-class-text-block-6"><strong className="af-class-bold-text-6">Meme Markplace</strong></div>
+                        <div className="af-class-div-block-21">
+                          <div className="af-class-text-block-6"><strong className="af-class-bold-text-6">Meme Markplace</strong></div><img src="images/OnlyMemes-Logo-TM-V3.png" loading="lazy" sizes="(max-width: 479px) 86vw, (max-width: 767px) 73vw, (max-width: 991px) 74vw, (max-width: 1279px) 59vw, 770.5729370117188px" width="1460.5" srcSet="images/OnlyMemes-Logo-TM-V3-p-500.png 500w, images/OnlyMemes-Logo-TM-V3-p-1600.png 1600w, images/OnlyMemes-Logo-TM-V3-p-2000.png 2000w, images/OnlyMemes-Logo-TM-V3-p-2600.png 2600w, images/OnlyMemes-Logo-TM-V3-p-3200.png 3200w, images/OnlyMemes-Logo-TM-V3.png 3893w" alt className="af-class-image-21" />
                         </div>
                       </div>
                     </div>
@@ -477,10 +478,10 @@ class IndexView extends React.Component {
                         </div>
                       </div>
                       <div id="onlymemes.goon" data-w-id="74a5793b-2ee3-ba61-31c3-fdbb738cd499" className="af-class-card-item af-class-memes-coming-soon af-class-_11 af-class-_1 w-node-_74a5793b-2ee3-ba61-31c3-fdbb738cd499-ba0a7945">
-                        <div className="af-class-div-block-44">
-                          <div className="af-class-text-block-16">The $GOON&nbsp;<br />OnlyMemes Bodega</div>
+                        <div className="af-class-div-block-44 af-class-_1">
+                          <div className="af-class-text-block-16">$GOON&nbsp;<br />OnlyMemes Bodega</div>
                         </div>
-                        <div className="af-class-card-item-content af-class-memecard">
+                        <div className="af-class-card-item-content af-class-memecard af-class-gooon">
                           <div className="af-class-fade-in-on-scroll">
                             <div className="af-class-div-block-25"><img src="images/GrSxEb2Q.png" loading="lazy" sizes="(max-width: 479px) 80vw, (max-width: 767px) 87vw, (max-width: 991px) 88vw, (max-width: 1279px) 72vw, 933.2291870117188px" srcSet="images/GrSxEb2Q-p-500.png 500w, images/GrSxEb2Q-p-800.png 800w, images/GrSxEb2Q-p-1080.png 1080w, images/GrSxEb2Q-p-1600.png 1600w, images/GrSxEb2Q.png 1920w" alt className="af-class-image-25" /></div>
                           </div>
@@ -489,14 +490,13 @@ class IndexView extends React.Component {
                       <div id="w-node-cb3dd26c-13f3-c714-c6ca-1cac6408d6f4-ba0a7945" data-w-id="cb3dd26c-13f3-c714-c6ca-1cac6408d6f4" className="af-class-card-item af-class-memes-coming-soon af-class-_11 af-class-_1 af-class-_23">
                         <div className="af-class-div-block-44">
                           <div className="af-class-text-block-16 af-class-_1">Crypto Messiah Bobblehead</div>
+                          <div className="af-class-html-embed-9 w-embed"><img src="https://sechosting.s3.us-east-2.amazonaws.com/media/GoonBobbleHead_600x600_black_BG.gif" alt="goon" /></div>
                         </div>
                         <div className="af-class-card-item-content af-class-memecard">
                           <div className="af-class-fade-in-on-scroll">
                             <div className="af-class-div-block-25" />
                           </div>
-                          <div className="af-class-div-block-45">
-                            <div className="af-class-html-embed-8 w-embed"><img src="https://secmedia.s3.us-east-2.amazonaws.com/GoonBobbleHead_800x800_Slower+(1).gif" alt="goon" /></div>
-                          </div>
+                          <div className="af-class-div-block-45" />
                           <div id="purchase-pass-button" className="af-class-nft-buy-buttons af-class-sec-coin af-class-purchase af-class-_1">
                             <div id="purchase-pass-button-1" className="af-class-nft-price-div"><img src="images/ETH-logo.svg" loading="lazy" width={25} alt="ETH logo" className="af-class-image-15" />
                               <div className="af-class-text-block-11">0.5</div>
@@ -506,6 +506,33 @@ class IndexView extends React.Component {
                           <div className="af-class-div-block-42">
                             <div className="af-class-text-block-15">
                               <a href="https://opensea.io/assets/0x495f947276749ce646f68ac8c248420045cb7b5e/46344851359934370536456800909699950300763532368427110215084597163426490351626" target="_blank" className="af-class-opensealink">View on OpenSea</a>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div data-w-id="fa0d766a-4f9b-9cb7-c784-60fd1d0d2145" className="af-class-card-item af-class-memes-coming-soon af-class-mask">
+                        <div className="af-class-div-block-44">
+                          <div className="af-class-text-block-16 af-class-_1">$GOON MASK</div>
+                        </div>
+                        <div className="af-class-card-item-content af-class-memecard">
+                          <div className="af-class-fade-in-on-scroll">
+                            <div className="af-class-div-block-25" />
+                          </div>
+                          <div className="af-class-div-block-45 af-class-_1">
+                            <div className="af-class-html-embed-8 w-embed"><img src="https://secmedia.s3.us-east-2.amazonaws.com/GoonSkiMask.gif" alt="goon" /></div>
+                            <div className="af-class-html-embed-8 w-embed"><img src="https://secmedia.s3.us-east-2.amazonaws.com/GoonSkiMask.gif" alt="goon" /></div>
+                            <div className="af-class-html-embed-8 af-class-_1 w-embed"><img src="https://secmedia.s3.us-east-2.amazonaws.com/GoonSkiMask.gif" alt="goon" /></div>
+                            <div className="af-class-html-embed-8 af-class-_2 w-embed"><img src="https://secmedia.s3.us-east-2.amazonaws.com/GoonSkiMask.gif" alt="goon" /></div>
+                          </div>
+                          <div id="purchase-pass-button" className="af-class-nft-buy-buttons af-class-sec-coin af-class-purchase af-class-_1">
+                            <div id="purchase-pass-button-1" className="af-class-nft-price-div"><img src="images/ETH-logo.svg" loading="lazy" width={25} alt="ETH logo" className="af-class-image-15" />
+                              <div className="af-class-text-block-11">0.02</div>
+                            </div>
+                            <GoonView.Controller-mask />
+                          </div>
+                          <div className="af-class-div-block-42">
+                            <div className="af-class-text-block-15">
+                              <a href="https://opensea.io/assets/0x495f947276749ce646f68ac8c248420045cb7b5e/46344851359934370536456800909699950300763532368427110215084597166725025235144" target="_blank" className="af-class-opensealink">View on OpenSea</a>
                             </div>
                           </div>
                         </div>

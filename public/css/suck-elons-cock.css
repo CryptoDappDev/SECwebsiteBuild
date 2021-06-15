@@ -1321,7 +1321,7 @@
 }
 
 .af-view .af-class-card-item.af-class-memes-coming-soon.af-class-_11.af-class-_1.af-class-_23 {
-  background-color: #212121;
+  background-color: #040404;
 }
 
 .af-view .af-class-card-item.af-class-memes-coming-soon.af-class-_22:hover {
@@ -1338,6 +1338,14 @@
 
 .af-view .af-class-card-item.af-class-memes-coming-soon.af-class-_34:hover {
   box-shadow: 0 0 10px 1px #5377f2;
+}
+
+.af-view .af-class-card-item.af-class-memes-coming-soon.af-class-mask {
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: #0c0c0c;
 }
 
 .af-view .af-class-card-item.af-class-special-nft.af-class-mobbbile {
@@ -1411,6 +1419,10 @@
 .af-view .af-class-card-item-content.af-class-memecard {
   margin-top: 0rem;
   cursor: auto;
+}
+
+.af-view .af-class-card-item-content.af-class-memecard.af-class-gooon {
+  margin-bottom: 0rem;
 }
 
 .af-view .af-class-no-margin {
@@ -2925,6 +2937,12 @@
   text-decoration: none;
 }
 
+.af-view .af-class-buy-button.af-class-goon {
+  background-color: #f4f8fb;
+  background-image: linear-gradient(128deg, #ffa51f, #fed044);
+  color: #000;
+}
+
 .af-view .af-class-nft-buy-buttons {
   position: absolute;
   left: 0%;
@@ -4024,7 +4042,7 @@
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  margin-bottom: 0.25rem;
+  margin-bottom: 0rem;
   -webkit-box-pack: center;
   -webkit-justify-content: center;
   -ms-flex-pack: center;
@@ -4769,10 +4787,14 @@
 
 .af-view .af-class-text-block-16 {
   font-family: interstate, sans-serif;
-  color: #e7aa5f;
+  color: #fff;
   font-size: 40px;
   font-weight: 700;
   text-align: center;
+}
+
+.af-view .af-class-text-block-16.af-class-_1 {
+  color: #fff;
 }
 
 .af-view .af-class-div-block-44 {
@@ -4780,8 +4802,11 @@
   margin-bottom: 2vh;
 }
 
+.af-view .af-class-div-block-44.af-class-_1 {
+  margin-bottom: 0vh;
+}
+
 .af-view .af-class-image-25 {
-  margin-top: 1vh;
   border-radius: 20px;
 }
 
@@ -4794,6 +4819,10 @@
 }
 
 .af-view .af-class-div-block-45 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
   width: 100%;
 }
 
@@ -4829,6 +4858,16 @@
   display: -ms-flexbox;
   display: flex;
   min-width: 100%;
+}
+
+.af-view .af-class-lottie-animation-9 {
+  width: 70%;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.af-view .af-class-html-embed-9 {
+  text-align: center;
 }
 
 @media screen and (min-width: 1280px) {
@@ -5775,8 +5814,8 @@
 
   .af-view .af-class-image-24 {
     position: absolute;
-    left: auto;
-    top: 0%;
+    left: -11%;
+    top: 125vh;
     right: 0%;
     bottom: 0%;
     z-index: 3;
@@ -5786,6 +5825,14 @@
   .af-view .af-class-div-block-40 {
     left: 76vw;
     top: 29.7vh;
+  }
+
+  .af-view .af-class-text-block-16 {
+    font-family: Montserrat, sans-serif;
+  }
+
+  .af-view .af-class-text-block-16.af-class-_1 {
+    font-family: Montserrat, sans-serif;
   }
 }
 
@@ -7858,6 +7905,14 @@
     font-size: 20px;
   }
 
+  .af-view .af-class-nft-price-div {
+    margin-bottom: 0rem;
+    -webkit-box-align: stretch;
+    -webkit-align-items: stretch;
+    -ms-flex-align: stretch;
+    align-items: stretch;
+  }
+
   .af-view .af-class-nav-link-3 {
     padding-top: 2%;
     padding-bottom: 2%;
@@ -8115,7 +8170,31 @@
   }
 
   .af-view .af-class-text-block-16 {
-    font-size: 22px;
+    font-size: 20px;
+  }
+
+  .af-view .af-class-div-block-44 {
+    margin-bottom: 0vh;
+  }
+
+  .af-view .af-class-image-25 {
+    padding-top: 1vh;
+  }
+
+  .af-view .af-class-div-block-45.af-class-_1 {
+    padding-top: 2vh;
+  }
+
+  .af-view .af-class-html-embed-8.af-class-_1 {
+    display: none;
+  }
+
+  .af-view .af-class-html-embed-8.af-class-_2 {
+    display: none;
+  }
+
+  .af-view .af-class-html-embed-9 {
+    margin-top: 2vh;
   }
 }
 
