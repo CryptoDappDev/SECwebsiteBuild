@@ -481,7 +481,7 @@ class IndexView extends React.Component {
                           </div>
                         </div>
                       </div>
-                      <div id="w-node-cb3dd26c-13f3-c714-c6ca-1cac6408d6f4-0ca95ef9" data-w-id="cb3dd26c-13f3-c714-c6ca-1cac6408d6f4" className="af-class-card-item af-class-memes-coming-soon af-class-_11 af-class-_1">
+                      <div id="w-node-cb3dd26c-13f3-c714-c6ca-1cac6408d6f4-0ca95ef9" data-w-id="cb3dd26c-13f3-c714-c6ca-1cac6408d6f4" className="af-class-card-item af-class-memes-coming-soon af-class-_11 af-class-_1 af-class-_23">
                         <div className="af-class-div-block-44">
                           <div className="af-class-text-block-16 af-class-_1">Crypto Messiah Bobblehead</div>
                         </div>

@@ -1299,8 +1299,12 @@
 }
 
 .af-view .af-class-card-item.af-class-memes-coming-soon.af-class-_11.af-class-_1 {
-  background-color: #212121;
+  background-color: #000;
   color: #212121;
+}
+
+.af-view .af-class-card-item.af-class-memes-coming-soon.af-class-_11.af-class-_1.af-class-_23 {
+  background-color: #212121;
 }
 
 .af-view .af-class-card-item.af-class-memes-coming-soon.af-class-_22:hover {
@@ -4743,6 +4747,7 @@
 }
 
 .af-view .af-class-image-25 {
+  margin-top: 1vh;
   border-radius: 20px;
 }
 
