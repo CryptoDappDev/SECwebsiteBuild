@@ -4,8 +4,8 @@
     background-color: #eaeaeb;
     border:none;
     color:#6c6c6c;
-    font-size: 14px;
-    border-radius: 5px;
+    font-size: 16px;
+    border:none;
     padding: 15px 0px 15px 15px;
     font-family: 'Montserrat', sans-serif;
     box-shadow: 0 3px 15px #b8c6db;
@@ -18,26 +18,24 @@
 
 .copyClipboard {
   width: 80%;
+  background-color: #eaeaeb;
   color:#6c6c6c;
-  font-size: 14px;
-  border-radius: 5px;
-  font-family: 'Montserrat', sans-serif;
-  box-shadow: 0 3px 15px #b8c6db;
-  -moz-box-shadow: 0 3px 15px #b8c6db;
-  -webkit-box-shadow: 0 3px 15px #b8c6db;
+  border:none;
   text-align: center;
+  
 }
-.copy-input:focus {
+.copyClipboard:focus {
     outline:none;
+    border:none;
+    background-color: #eaeaeb;
+    color:#6c6c6c;
   }
   
 .copy-btn {
     width:20%;
     height: 20px;
     background-image: url("https://img.icons8.com/material-sharp/24/000000/copy.png");
-    font-size: 18px;
     padding: 0px 0px 0px;
-    border-radius: 5px;
     margin: 0px;
     border:none;
     color:#6c6c6c;
@@ -45,7 +43,6 @@
     float: right;
     background-position: center;
     background-repeat: no-repeat;
-    font-family: 'Montserrat', sans-serif;
   }
 
 .copy-btn:hover {

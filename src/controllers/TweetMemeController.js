@@ -4,20 +4,20 @@ import {TwitterTweetEmbed} from 'react-twitter-embed';
 import TweetSecController from './TweetSecController';
 import { Tweet } from 'react-twitter-widgets'
 
-class TweetMemeTryController extends React.Component {
+class TweetMemeController extends React.Component {
     state = {}
 
     render() {
         return (
             <div class = 'justify-content-center'>
-                < Tweet tweetId="1276418907968925696" options={{ width: '500' }} />
+                < Tweet tweetId="1276418907968925696"/>
             </div>
         )
     }
 }
 
 export default (props) => (
-    <TweetMemeTryController/>
+    <TweetMemeController/>
 )
 
 //Meme Tweet
