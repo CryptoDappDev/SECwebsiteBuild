@@ -10,7 +10,7 @@ import CopyButton1View from './CopyButton1View'
 import BoardingPassPurchaseView from './BoardingPassPurchaseView'
 import CoinPurchaseView from './CoinPurchaseView'
 import GoonView from './GoonView'
-import GoonMaskView from './GoonMaskView'
+import GoonmaskView from './GoonmaskView'
 import CopyButton2View from './CopyButton2View'
 
 const scripts = [
@@ -528,7 +528,7 @@ class IndexView extends React.Component {
                             <div id="purchase-pass-button-1" className="af-class-nft-price-div"><img src="images/ETH-logo.svg" loading="lazy" width={25} alt="ETH logo" className="af-class-image-15" />
                               <div className="af-class-text-block-11">0.02</div>
                             </div>
-                            <GoonView.Controller />
+                            <GoonView.Controllermask />
                           </div>
                           <div className="af-class-div-block-42">
                             <div className="af-class-text-block-15">
