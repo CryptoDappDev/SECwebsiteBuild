@@ -224,7 +224,7 @@ class IndexView extends React.Component {
                       <div className="af-class-card-item-content af-class-tools">
                         <div className="af-class-card-feature-center af-class-tool-center">
                           <a href="https://app.sushi.com/swap" className="af-class-link-block-4 w-inline-block">
-                            <div className="af-class-fade-in-on-scroll af-class-toool"><img src="images/susssshi.png" loading="lazy" srcSet="images/susssshi-p-500.png 500w, images/susssshi.png 512w" sizes="(max-width: 479px) 100vw, 57.986114501953125px" alt="Sushi swap icon" className="af-class-card-feature-icon af-class-tool" /></div>
+                            <div className="af-class-fade-in-on-scroll af-class-toool"><img src="images/susssshi.png" loading="lazy" srcSet="images/susssshi-p-500.png 500w, images/susssshi.png 512w" sizes="(max-width: 479px) 55.000003814697266px, 112.98611450195312px" alt="Sushi swap icon" className="af-class-card-feature-icon af-class-tool" /></div>
                             <div className="af-class-fade-in-on-scroll">
                               <h6 className="af-class-heading">Sushi Swap</h6>
                             </div>
@@ -254,7 +254,7 @@ class IndexView extends React.Component {
                       <div className="af-class-card-item-content af-class-tools">
                         <div className="af-class-card-feature-center af-class-tool-center">
                           <a href="https://zerion.io/" target="_blank" className="af-class-link-block-4 af-class-toools w-inline-block">
-                            <div className="af-class-fade-in-on-scroll af-class-toool"><img src="images/zerion.png" loading="lazy" sizes="(max-width: 479px) 100vw, 57.986114501953125px" srcSet="images/zerion-p-500.png 500w, images/zerion-p-800.png 800w, images/zerion.png 1024w" alt="Zerion wallet logo" className="af-class-card-feature-icon af-class-tool" /></div>
+                            <div className="af-class-fade-in-on-scroll af-class-toool"><img src="images/zerion.png" loading="lazy" sizes="(max-width: 479px) 55.000003814697266px, 112.98611450195312px" srcSet="images/zerion-p-500.png 500w, images/zerion-p-800.png 800w, images/zerion.png 1024w" alt="Zerion wallet logo" className="af-class-card-feature-icon af-class-tool" /></div>
                             <div className="af-class-fade-in-on-scroll">
                               <h6 className="af-class-heading-3">Zerion</h6>
                             </div>
@@ -471,13 +471,13 @@ class IndexView extends React.Component {
                           </div>
                         </div>
                       </div>
-                      <div id="onlymemes.goon" data-w-id="74a5793b-2ee3-ba61-31c3-fdbb738cd499" className="af-class-card-item af-class-memes-coming-soon af-class-_11 af-class-_1 w-node-_74a5793b-2ee3-ba61-31c3-fdbb738cd499-0ca95ef9">
+                      <div id="onlymemes.goon" data-w-id="74a5793b-2ee3-ba61-31c3-fdbb738cd499" className="af-class-card-item af-class-memes-coming-soon af-class-_11 af-class-_1 af-class-_5 w-node-_74a5793b-2ee3-ba61-31c3-fdbb738cd499-0ca95ef9">
                         <div className="af-class-div-block-44">
                           <div className="af-class-text-block-16">The $GOON&nbsp;OnlyMemes Bodega</div>
                         </div>
                         <div className="af-class-card-item-content af-class-memecard">
                           <div className="af-class-fade-in-on-scroll">
-                            <div className="af-class-div-block-25"><img src="images/GrSxEb2Q.png" loading="lazy" sizes="100vw" srcSet="images/GrSxEb2Q-p-500.png 500w, images/GrSxEb2Q-p-800.png 800w, images/GrSxEb2Q-p-1080.png 1080w, images/GrSxEb2Q-p-1600.png 1600w, images/GrSxEb2Q.png 1920w" alt className="af-class-image-25" /></div>
+                            <div className="af-class-div-block-25"><img src="images/GrSxEb2Q.png" loading="lazy" sizes="(max-width: 479px) 80vw, (max-width: 767px) 87vw, (max-width: 991px) 88vw, (max-width: 1279px) 72vw, 933.2291870117188px" srcSet="images/GrSxEb2Q-p-500.png 500w, images/GrSxEb2Q-p-800.png 800w, images/GrSxEb2Q-p-1080.png 1080w, images/GrSxEb2Q-p-1600.png 1600w, images/GrSxEb2Q.png 1920w" alt className="af-class-image-25" /></div>
                           </div>
                         </div>
                       </div>
