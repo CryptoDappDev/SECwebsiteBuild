@@ -33,7 +33,7 @@ componentDidMount() {
       networkName: Network.main
     })
     //Testnet Change
-    //this.seaport.api.apiBaseUrl = 'https://rinkeby-api.opensea.io/api/v1/'
+    this.seaport.api.apiKey = '5f69ba6e1bea4a2ca7b78fb4a4ddd9ee'
     this.web3 = this.seaport.web3
     this.web3.eth.getAccounts((err, res) => {
       this.setState({

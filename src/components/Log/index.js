@@ -37,6 +37,9 @@ export default class Log extends React.Component {
       //asset_contract_address: '0x495f947276749Ce646f68AC8c248420045cb7b5e',
       asset_contract_address: '0x495f947276749Ce646f68AC8c248420045cb7b5e',
       
+      //API 
+      // 5f69ba6e1bea4a2ca7b78fb4a4ddd9ee
+      
       //TEST
       //asset_contract_address: '0x2FB5d7DDa4f1F20F974a0fdd547C38674E8D940c',
       //0x495f947276749Ce646f68AC8c248420045cb7b5e   -- Token
