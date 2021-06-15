@@ -14,22 +14,22 @@ function BoardingPassPurchaseController() {
 
     if(!(status === 'unavailable')) {
         
-        console.log('THIS APP IS ON DESKTOP')
+        //console.log('THIS APP IS ON DESKTOP')
 
         if (status === "connected") {
             fetchedAccount = account;
-            console.log('')
-            console.log('Connected to Wallet on Desktop:')
-            console.log(account)
+            //console.log('')
+            //console.log('Connected to Wallet on Desktop:')
+            //console.log(account)
         }
 
     } else {
         console.log('THIS APP IS ON MOBILE')
         console.log('')
         if (connector.connected) {
-            console.log('')
-            console.log('Connected to Wallet on Mobile:')
-            console.log(connector.accounts[0]);
+            //console.log('')
+            //console.log('Connected to Wallet on Mobile:')
+            //console.log(connector.accounts[0]);
             fetchedAccount = connector.accounts[0];
         }
     }
