@@ -4646,7 +4646,7 @@
 }
 
 .af-view .af-class-subscribe-form-2 {
-  display: none;
+  display: block;
   overflow: visible;
   margin-bottom: 2vh;
   padding-top: 100px;

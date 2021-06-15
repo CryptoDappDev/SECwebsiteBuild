@@ -136,7 +136,7 @@ class IndexView extends React.Component {
                         </a>
                       </div>
                       <div className="af-class-download-button af-class-learn-more af-class-_1">
-                        <a href="Goon.html" className="af-class-button af-class-learn af-class-hero af-class-_1 w-inline-block">
+                        <a href="onlymemes.html" className="af-class-button af-class-learn af-class-hero af-class-_1 w-inline-block">
                           <div className="af-class-text-block-17">$GOON&nbsp;BODEGA</div>
                         </a>
                       </div>
