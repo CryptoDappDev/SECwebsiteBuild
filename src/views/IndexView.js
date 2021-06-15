@@ -528,7 +528,7 @@ class IndexView extends React.Component {
                             <div id="purchase-pass-button-1" className="af-class-nft-price-div"><img src="images/ETH-logo.svg" loading="lazy" width={25} alt="ETH logo" className="af-class-image-15" />
                               <div className="af-class-text-block-11">0.02</div>
                             </div>
-                            <GoonView.Controller-mask />
+                            <GoonView.Controller />
                           </div>
                           <div className="af-class-div-block-42">
                             <div className="af-class-text-block-15">
