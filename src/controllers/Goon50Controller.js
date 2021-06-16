@@ -7,7 +7,7 @@ import QRCodeModal from "@walletconnect/qrcode-modal";
 import { useMetaMask } from 'metamask-react';
 
 
-function GoonController() {
+function Goon50Controller() {
 
     const { status, connect, account } = useMetaMask();
     const bridge = "https://bridge.walletconnect.org";
@@ -40,7 +40,7 @@ function GoonController() {
     return (
         <div>
             <App 
-                itemtoSell = {'46344851359934370536456800909699950300763532368427110215084597163426490351626'}
+                itemtoSell = {'46344851359934370536456800909699950300763532368427110215084597171123071746058'}
                 account = {fetchedAccount}
             />
         </div>
@@ -49,6 +49,6 @@ function GoonController() {
 
 export default (props) => (
 
-    <GoonController/>
+    <Goon50Controller/>
 )
 
