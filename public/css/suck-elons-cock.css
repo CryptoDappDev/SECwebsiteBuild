@@ -5152,6 +5152,7 @@
   display: flex;
   width: 100%;
   margin-top: 5px;
+  margin-bottom: 10px;
   padding-bottom: 0vh;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
@@ -5449,6 +5450,10 @@
   -webkit-transform: scale(1.1);
   -ms-transform: scale(1.1);
   transform: scale(1.1);
+}
+
+.af-view .af-class-link-block-6 {
+  padding-right: 15px;
 }
 
 @media screen and (min-width: 1280px) {

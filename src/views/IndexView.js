@@ -258,7 +258,7 @@ class IndexView extends React.Component {
                       <div className="af-class-card-item-content af-class-tools">
                         <div className="af-class-card-feature-center af-class-tool-center">
                           <a href="https://zerion.io/" target="_blank" className="af-class-link-block-4 af-class-toools w-inline-block">
-                            <div className="af-class-fade-in-on-scroll af-class-toool"><img src="images/zerion.png" loading="lazy" sizes="(max-width: 479px) 55.000003814697266px, 112.98611450195312px" srcSet="images/zerion-p-500.png 500w, images/zerion-p-800.png 800w, images/zerion.png 1024w" alt="Zerion wallet logo" className="af-class-card-feature-icon af-class-tool" /></div>
+                            <div className="af-class-fade-in-on-scroll af-class-toool"><img src="images/zerion.png" loading="lazy" sizes="(max-width: 479px) 100vw, 57.986114501953125px" srcSet="images/zerion-p-500.png 500w, images/zerion-p-800.png 800w, images/zerion.png 1024w" alt="Zerion wallet logo" className="af-class-card-feature-icon af-class-tool" /></div>
                             <div className="af-class-fade-in-on-scroll">
                               <h6 className="af-class-heading-3">Zerion</h6>
                             </div>
