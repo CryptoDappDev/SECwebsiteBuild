@@ -9,19 +9,19 @@ const scripts = [
 
 let Controller
 
-class GoonbowView extends React.Component {
+class GoonBowView extends React.Component {
   static get Controller() {
     if (Controller) return Controller
 
     try {
-      Controller = require('../controllers/GoonbowController')
+      Controller = require('../controllers/GoonBowController')
       Controller = Controller.default || Controller
 
       return Controller
     }
     catch (e) {
       if (e.code == 'MODULE_NOT_FOUND') {
-        Controller = GoonbowView
+        Controller = GoonBowView
 
         return Controller
       }
@@ -49,7 +49,7 @@ class GoonbowView extends React.Component {
   }
 
   render() {
-    const proxies = GoonbowView.Controller !== GoonbowView ? transformProxies(this.props.children) : {
+    const proxies = GoonBowView.Controller !== GoonBowView ? transformProxies(this.props.children) : {
 
     }
 
@@ -70,6 +70,6 @@ class GoonbowView extends React.Component {
   }
 }
 
-export default GoonbowView
+export default GoonBowView
 
 /* eslint-enable */

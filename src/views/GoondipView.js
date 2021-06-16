@@ -9,19 +9,19 @@ const scripts = [
 
 let Controller
 
-class GoondipView extends React.Component {
+class GoonDipView extends React.Component {
   static get Controller() {
     if (Controller) return Controller
 
     try {
-      Controller = require('../controllers/GoondipController')
+      Controller = require('../controllers/GoonDipController')
       Controller = Controller.default || Controller
 
       return Controller
     }
     catch (e) {
       if (e.code == 'MODULE_NOT_FOUND') {
-        Controller = GoondipView
+        Controller = GoonDipView
 
         return Controller
       }
@@ -49,7 +49,7 @@ class GoondipView extends React.Component {
   }
 
   render() {
-    const proxies = GoondipView.Controller !== GoondipView ? transformProxies(this.props.children) : {
+    const proxies = GoonDipView.Controller !== GoonDipView ? transformProxies(this.props.children) : {
 
     }
 
@@ -70,6 +70,6 @@ class GoondipView extends React.Component {
   }
 }
 
-export default GoondipView
+export default GoonDipView
 
 /* eslint-enable */

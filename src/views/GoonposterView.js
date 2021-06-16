@@ -9,19 +9,19 @@ const scripts = [
 
 let Controller
 
-class GoonposterView extends React.Component {
+class GoonPosterView extends React.Component {
   static get Controller() {
     if (Controller) return Controller
 
     try {
-      Controller = require('../controllers/GoonposterController')
+      Controller = require('../controllers/GoonPosterController')
       Controller = Controller.default || Controller
 
       return Controller
     }
     catch (e) {
       if (e.code == 'MODULE_NOT_FOUND') {
-        Controller = GoonposterView
+        Controller = GoonPosterView
 
         return Controller
       }
@@ -49,7 +49,7 @@ class GoonposterView extends React.Component {
   }
 
   render() {
-    const proxies = GoonposterView.Controller !== GoonposterView ? transformProxies(this.props.children) : {
+    const proxies = GoonPosterView.Controller !== GoonPosterView ? transformProxies(this.props.children) : {
 
     }
 
@@ -70,6 +70,6 @@ class GoonposterView extends React.Component {
   }
 }
 
-export default GoonposterView
+export default GoonPosterView
 
 /* eslint-enable */
