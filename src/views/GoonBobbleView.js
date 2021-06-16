@@ -9,19 +9,19 @@ const scripts = [
 
 let Controller
 
-class GoonMaskView extends React.Component {
+class GoonBobbleView extends React.Component {
   static get Controller() {
     if (Controller) return Controller
 
     try {
-      Controller = require('../controllers/GoonMaskController')
+      Controller = require('../controllers/GoonBobbleController')
       Controller = Controller.default || Controller
 
       return Controller
     }
     catch (e) {
       if (e.code == 'MODULE_NOT_FOUND') {
-        Controller = GoonMaskView
+        Controller = GoonBobbleView
 
         return Controller
       }
@@ -49,7 +49,7 @@ class GoonMaskView extends React.Component {
   }
 
   render() {
-    const proxies = GoonMaskView.Controller !== GoonMaskView ? transformProxies(this.props.children) : {
+    const proxies = GoonBobbleView.Controller !== GoonBobbleView ? transformProxies(this.props.children) : {
 
     }
 
@@ -61,7 +61,7 @@ class GoonMaskView extends React.Component {
           @import url(C:\\css\\suck-elons-cock.css);
         ` }} />
         <span className="af-view">
-          <div id="goon-nft-2" className="af-class-purchase-button-for-nfts">
+          <div id="goon-nft-1" className="af-class-purchase-button-for-nfts">
             <a href="https://opensea.io/assets/0x495f947276749ce646f68ac8c248420045cb7b5e/31673350562246474401696226698567993468440352420607247670176787854364680126533/" target="_blank" className="af-class-buy-button af-class-goon w-button">Purchase</a>
           </div>
         </span>
@@ -70,6 +70,6 @@ class GoonMaskView extends React.Component {
   }
 }
 
-export default GoonMaskView
+export default GoonBobbleView
 
 /* eslint-enable */

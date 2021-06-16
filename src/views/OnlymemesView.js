@@ -4,13 +4,13 @@ import React from 'react'
 import { createScope, map, transformProxies } from './helpers'
 import ConnectWalletButtonView from './ConnectWalletButtonView'
 import ConnectToWalletNavView from './ConnectToWalletNavView'
-import GoonView from './GoonView'
-import GoonmaskView from './GoonmaskView'
-import GoonledgenView from './GoonledgenView'
-import GoonbowView from './GoonbowView'
-import GoondipView from './GoondipView'
-import GoontrippyView from './GoontrippyView'
-import GoonposterView from './GoonposterView'
+import GoonBobbleView from './GoonBobbleView'
+import GoonMaskView from './GoonMaskView'
+import GoonLegendView from './GoonLegendView'
+import GoonBowView from './GoonBowView'
+import GoonDipView from './GoonDipView'
+import GoonTrippyView from './GoonTrippyView'
+import GoonPosterView from './GoonPosterView'
 import Goon50View from './Goon50View'
 
 const scripts = [
@@ -135,7 +135,7 @@ class OnlymemesView extends React.Component {
                             <div id="purchase-pass-button-1" className="af-class-nft-price-div"><img src="https://uploads-ssl.webflow.com/60c96fd79ca1f3785190ddb2/60c96fd79ca1f341a190de04_ETH%20logo.svg" loading="lazy" width={25} alt="ETH logo" className="af-class-image-15" />
                               <div className="af-class-text-block-23">0.5</div>
                             </div>
-                            <GoonView.Controller />
+                            <GoonBobbleView.Controller />
                           </div>
                           <div className="af-class-div-block-42">
                             <div className="af-class-text-block-22">
@@ -163,7 +163,7 @@ class OnlymemesView extends React.Component {
                           <div id="purchase-pass-button-1" className="af-class-nft-price-div"><img src="https://uploads-ssl.webflow.com/60c96fd79ca1f3785190ddb2/60c96fd79ca1f341a190de04_ETH%20logo.svg" loading="lazy" width={25} alt="ETH logo" className="af-class-image-15" />
                             <div className="af-class-text-block-23">0.02</div>
                           </div>
-                          <GoonView.Controllermask />
+                          <GoonMaskView.Controller />
                         </div>
                         <div className="af-class-div-block-42">
                           <div className="af-class-text-block-22">
@@ -181,7 +181,7 @@ class OnlymemesView extends React.Component {
                           <div id="purchase-pass-button-1" className="af-class-nft-price-div"><img src="https://uploads-ssl.webflow.com/60c96fd79ca1f3785190ddb2/60c96fd79ca1f341a190de04_ETH%20logo.svg" loading="lazy" width={25} alt="ETH logo" className="af-class-image-15" />
                             <div className="af-class-text-block-23">0.1</div>
                           </div>
-                          <GoonView.Controllerledgen />
+                          <GoonLegendView.Controller />
                         </div>
                         <div className="af-class-view-on">
                           <div className="af-class-text-block-22">
@@ -194,7 +194,7 @@ class OnlymemesView extends React.Component {
                           <div id="purchase-pass-button-1" className="af-class-nft-price-div"><img src="https://uploads-ssl.webflow.com/60c96fd79ca1f3785190ddb2/60c96fd79ca1f341a190de04_ETH%20logo.svg" loading="lazy" width={25} alt="ETH logo" className="af-class-image-15" />
                             <div className="af-class-text-block-23">0.1</div>
                           </div>
-                          <GoonView.Controllerbow />
+                          <GoonBowView.Controller />
                         </div>
                         <div className="af-class-view-on">
                           <div className="af-class-text-block-22">
@@ -207,7 +207,7 @@ class OnlymemesView extends React.Component {
                           <div id="purchase-pass-button-1" className="af-class-nft-price-div"><img src="https://uploads-ssl.webflow.com/60c96fd79ca1f3785190ddb2/60c96fd79ca1f341a190de04_ETH%20logo.svg" loading="lazy" width={25} alt="ETH logo" className="af-class-image-15" />
                             <div className="af-class-text-block-23">0.01</div>
                           </div>
-                          <GoonView.Controllerdip />
+                          <GoonDipView.Controller />
                         </div>
                         <div className="af-class-view-on">
                           <div className="af-class-text-block-22">
@@ -220,7 +220,7 @@ class OnlymemesView extends React.Component {
                           <div id="purchase-pass-button-1" className="af-class-nft-price-div"><img src="https://uploads-ssl.webflow.com/60c96fd79ca1f3785190ddb2/60c96fd79ca1f341a190de04_ETH%20logo.svg" loading="lazy" width={25} alt="ETH logo" className="af-class-image-15" />
                             <div className="af-class-text-block-23">0.01</div>
                           </div>
-                          <GoonView.Controllertrippy />
+                          <GoonTrippyView.Controller />
                         </div>
                         <div className="af-class-view-on">
                           <div className="af-class-text-block-22">
@@ -233,7 +233,7 @@ class OnlymemesView extends React.Component {
                           <div id="purchase-pass-button-1" className="af-class-nft-price-div"><img src="https://uploads-ssl.webflow.com/60c96fd79ca1f3785190ddb2/60c96fd79ca1f341a190de04_ETH%20logo.svg" loading="lazy" width={25} alt="ETH logo" className="af-class-image-15" />
                             <div className="af-class-text-block-23">0.01</div>
                           </div>
-                          <GoonView.Controllerposter />
+                          <GoonPosterView.Controller />
                         </div>
                         <div className="af-class-view-on">
                           <div className="af-class-text-block-22">
@@ -246,7 +246,7 @@ class OnlymemesView extends React.Component {
                           <div id="purchase-pass-button-1" className="af-class-nft-price-div"><img src="https://uploads-ssl.webflow.com/60c96fd79ca1f3785190ddb2/60c96fd79ca1f341a190de04_ETH%20logo.svg" loading="lazy" width={25} alt="ETH logo" className="af-class-image-15" />
                             <div className="af-class-text-block-23">0.01</div>
                           </div>
-                          <GoonView.Controller50 />
+                          <Goon50View.Controller />
                         </div>
                         <div className="af-class-view-on">
                           <div className="af-class-text-block-22">
