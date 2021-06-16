@@ -4,25 +4,24 @@ import React from 'react'
 import { createScope, map, transformProxies } from './helpers'
 
 const scripts = [
-  { loading: fetch("https://d3e54v103j8qbb.cloudfront.net/js/jquery-3.5.1.min.dc5e7f18c8.js?site=60a76909ccf920aea94e85c4").then(body => body.text()), isAsync: false },
-  { loading: fetch("js/suck-elons-cock.js").then(body => body.text()), isAsync: false },
+
 ]
 
 let Controller
 
-class DetailOpenGraphSettingsView extends React.Component {
+class GoonbowView extends React.Component {
   static get Controller() {
     if (Controller) return Controller
 
     try {
-      Controller = require('../controllers/DetailOpenGraphSettingsController')
+      Controller = require('../controllers/GoonbowController')
       Controller = Controller.default || Controller
 
       return Controller
     }
     catch (e) {
       if (e.code == 'MODULE_NOT_FOUND') {
-        Controller = DetailOpenGraphSettingsView
+        Controller = GoonbowView
 
         return Controller
       }
@@ -32,9 +31,7 @@ class DetailOpenGraphSettingsView extends React.Component {
   }
 
   componentDidMount() {
-    const htmlEl = document.querySelector('html')
-    htmlEl.dataset['wfPage'] = '60c970497d9fc6752c4fa208'
-    htmlEl.dataset['wfSite'] = '60a76909ccf920aea94e85c4'
+    /* View has no WebFlow data attributes */
 
     scripts.concat(null).reduce((active, next) => Promise.resolve(active).then((active) => {
       const loading = active.loading.then((script) => {
@@ -52,7 +49,7 @@ class DetailOpenGraphSettingsView extends React.Component {
   }
 
   render() {
-    const proxies = DetailOpenGraphSettingsView.Controller !== DetailOpenGraphSettingsView ? transformProxies(this.props.children) : {
+    const proxies = GoonbowView.Controller !== GoonbowView ? transformProxies(this.props.children) : {
 
     }
 
@@ -64,8 +61,8 @@ class DetailOpenGraphSettingsView extends React.Component {
           @import url(C:\\css\\suck-elons-cock.css);
         ` }} />
         <span className="af-view">
-          <div>
-            {/* [if lte IE 9]><![endif] */}
+          <div id="goon-nft-2" className="af-class-purchase-button-for-nfts">
+            <a href="https://opensea.io/assets/0x495f947276749ce646f68ac8c248420045cb7b5e/31673350562246474401696226698567993468440352420607247670176787854364680126533/" target="_blank" className="af-class-buy-button af-class-goon w-button">Purchase</a>
           </div>
         </span>
       </span>
@@ -73,6 +70,6 @@ class DetailOpenGraphSettingsView extends React.Component {
   }
 }
 
-export default DetailOpenGraphSettingsView
+export default GoonbowView
 
 /* eslint-enable */

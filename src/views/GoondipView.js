@@ -9,19 +9,19 @@ const scripts = [
 
 let Controller
 
-class EmailformView extends React.Component {
+class GoondipView extends React.Component {
   static get Controller() {
     if (Controller) return Controller
 
     try {
-      Controller = require('../controllers/EmailformController')
+      Controller = require('../controllers/GoondipController')
       Controller = Controller.default || Controller
 
       return Controller
     }
     catch (e) {
       if (e.code == 'MODULE_NOT_FOUND') {
-        Controller = EmailformView
+        Controller = GoondipView
 
         return Controller
       }
@@ -49,7 +49,7 @@ class EmailformView extends React.Component {
   }
 
   render() {
-    const proxies = EmailformView.Controller !== EmailformView ? transformProxies(this.props.children) : {
+    const proxies = GoondipView.Controller !== GoondipView ? transformProxies(this.props.children) : {
 
     }
 
@@ -61,16 +61,8 @@ class EmailformView extends React.Component {
           @import url(C:\\css\\suck-elons-cock.css);
         ` }} />
         <span className="af-view">
-          <div className="w-form">
-            <form id="email-form" name="email-form" data-name="Email Form" className="af-class-subscribe-form-flex-2">
-              <div className="af-class-subscribe-form-input-wrapper-2"><input type="email" className="af-class-subscribe-form-input w-input" maxLength={256} name="Subscriber-Email" data-name="Subscriber Email" placeholder="enter your email" id="Subscriber-Email" required /></div><input type="submit" defaultValue="Subscribe" data-wait="Please wait..." className="af-class-submit-button w-button" />
-            </form>
-            <div className="w-form-done">
-              <div>Thank you! Your submission has been received!</div>
-            </div>
-            <div className="w-form-fail">
-              <div>Oops! Something went wrong while submitting the form.</div>
-            </div>
+          <div id="goon-nft-2" className="af-class-purchase-button-for-nfts">
+            <a href="https://opensea.io/assets/0x495f947276749ce646f68ac8c248420045cb7b5e/31673350562246474401696226698567993468440352420607247670176787854364680126533/" target="_blank" className="af-class-buy-button af-class-goon w-button">Purchase</a>
           </div>
         </span>
       </span>
@@ -78,6 +70,6 @@ class EmailformView extends React.Component {
   }
 }
 
-export default EmailformView
+export default GoondipView
 
 /* eslint-enable */
