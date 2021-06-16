@@ -91,7 +91,7 @@ class IndexView extends React.Component {
                     <a href="#" className="af-class-nav-link-3 af-class-moonmap w-inline-block">
                       <div className="af-class-nav-link-text">Moonmap</div>
                     </a>
-                    <a href="#" className="af-class-nav-link-3 w-inline-block">
+                    <a href="onlymemes.html" target="_blank" className="af-class-nav-link-3 w-inline-block">
                       <div className="af-class-nav-link-text">ONLYMEMES</div>
                     </a>
                     <div className="af-class-nav-socials">
@@ -133,11 +133,6 @@ class IndexView extends React.Component {
                       <div className="af-class-download-button af-class-learn-more">
                         <a href="#SECTIONECOSLUGGGGGGGGG" className="af-class-button af-class-learn af-class-hero w-inline-block"><img src="images/Apple-Icon.svg" loading="lazy" alt className="af-class-download-button-icon" />
                           <div className="af-class-text-block-12">LEARN MORE</div>
-                        </a>
-                      </div>
-                      <div className="af-class-download-button af-class-learn-more af-class-_1">
-                        <a href="onlymemes.html" target="_blank" className="af-class-button af-class-learn af-class-hero af-class-_1 w-inline-block">
-                          <div className="af-class-text-block-17">$GOON&nbsp;BODEGA</div>
                         </a>
                       </div>
                     </div>
