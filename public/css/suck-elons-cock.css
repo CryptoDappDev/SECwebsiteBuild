@@ -5366,6 +5366,7 @@
   max-width: 50%;
   margin-right: auto;
   margin-left: auto;
+  padding-top: 50px;
   padding-bottom: 3vh;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
