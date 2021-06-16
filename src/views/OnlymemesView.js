@@ -108,7 +108,7 @@ class OnlymemesView extends React.Component {
               </div>
             </div>
             <section id="limited-edition-nfts-section" className="af-class-section af-class-dark af-class-_1">
-              <div className="af-class-div-block-55">
+              <div className="af-class-div-block-55 mt-5">
                 <div className="af-class-text-gradient-3 af-class-subform af-class-_1">Introducing</div><img src="https://uploads-ssl.webflow.com/60c96fd79ca1f3785190ddb2/60c96fd79ca1f34f3e90de73_OnlyMemes%20Logo%20TM%20V3.png" loading="lazy" width="1460.5" alt className="af-class-image-37" />
               </div>
               <div id="onlymemes.goon" className="af-class-card-item-2 af-class-_1 af-class-_2">
@@ -163,7 +163,7 @@ class OnlymemesView extends React.Component {
                           <div id="purchase-pass-button-1" className="af-class-nft-price-div"><img src="https://uploads-ssl.webflow.com/60c96fd79ca1f3785190ddb2/60c96fd79ca1f341a190de04_ETH%20logo.svg" loading="lazy" width={25} alt="ETH logo" className="af-class-image-15" />
                             <div className="af-class-text-block-23">0.02</div>
                           </div>
-                          <GoonView.Controllermask />
+                          <GoonmaskView.Controller />
                         </div>
                         <div className="af-class-div-block-42">
                           <div className="af-class-text-block-22">
@@ -181,7 +181,7 @@ class OnlymemesView extends React.Component {
                           <div id="purchase-pass-button-1" className="af-class-nft-price-div"><img src="https://uploads-ssl.webflow.com/60c96fd79ca1f3785190ddb2/60c96fd79ca1f341a190de04_ETH%20logo.svg" loading="lazy" width={25} alt="ETH logo" className="af-class-image-15" />
                             <div className="af-class-text-block-23">0.1</div>
                           </div>
-                          <GoonView.Controllerledgen />
+                          <GoonledgenView.Controller />
                         </div>
                         <div className="af-class-view-on">
                           <div className="af-class-text-block-22">
@@ -194,7 +194,7 @@ class OnlymemesView extends React.Component {
                           <div id="purchase-pass-button-1" className="af-class-nft-price-div"><img src="https://uploads-ssl.webflow.com/60c96fd79ca1f3785190ddb2/60c96fd79ca1f341a190de04_ETH%20logo.svg" loading="lazy" width={25} alt="ETH logo" className="af-class-image-15" />
                             <div className="af-class-text-block-23">0.1</div>
                           </div>
-                          <GoonView.Controllerbow />
+                          <GoonbowView.Controller />
                         </div>
                         <div className="af-class-view-on">
                           <div className="af-class-text-block-22">
@@ -207,7 +207,7 @@ class OnlymemesView extends React.Component {
                           <div id="purchase-pass-button-1" className="af-class-nft-price-div"><img src="https://uploads-ssl.webflow.com/60c96fd79ca1f3785190ddb2/60c96fd79ca1f341a190de04_ETH%20logo.svg" loading="lazy" width={25} alt="ETH logo" className="af-class-image-15" />
                             <div className="af-class-text-block-23">0.01</div>
                           </div>
-                          <GoonView.Controllerdip />
+                          <GoondipView.Controller />
                         </div>
                         <div className="af-class-view-on">
                           <div className="af-class-text-block-22">
@@ -220,7 +220,7 @@ class OnlymemesView extends React.Component {
                           <div id="purchase-pass-button-1" className="af-class-nft-price-div"><img src="https://uploads-ssl.webflow.com/60c96fd79ca1f3785190ddb2/60c96fd79ca1f341a190de04_ETH%20logo.svg" loading="lazy" width={25} alt="ETH logo" className="af-class-image-15" />
                             <div className="af-class-text-block-23">0.01</div>
                           </div>
-                          <GoonView.Controllertrippy />
+                          <GoontrippyView.Controller />
                         </div>
                         <div className="af-class-view-on">
                           <div className="af-class-text-block-22">
@@ -233,7 +233,7 @@ class OnlymemesView extends React.Component {
                           <div id="purchase-pass-button-1" className="af-class-nft-price-div"><img src="https://uploads-ssl.webflow.com/60c96fd79ca1f3785190ddb2/60c96fd79ca1f341a190de04_ETH%20logo.svg" loading="lazy" width={25} alt="ETH logo" className="af-class-image-15" />
                             <div className="af-class-text-block-23">0.01</div>
                           </div>
-                          <GoonView.Controllerposter />
+                          <GoonposterView.Controller />
                         </div>
                         <div className="af-class-view-on">
                           <div className="af-class-text-block-22">
@@ -246,7 +246,7 @@ class OnlymemesView extends React.Component {
                           <div id="purchase-pass-button-1" className="af-class-nft-price-div"><img src="https://uploads-ssl.webflow.com/60c96fd79ca1f3785190ddb2/60c96fd79ca1f341a190de04_ETH%20logo.svg" loading="lazy" width={25} alt="ETH logo" className="af-class-image-15" />
                             <div className="af-class-text-block-23">0.01</div>
                           </div>
-                          <GoonView.Controller50 />
+                          <Goon50View.Controller />
                         </div>
                         <div className="af-class-view-on">
                           <div className="af-class-text-block-22">
@@ -263,7 +263,7 @@ class OnlymemesView extends React.Component {
                     <div className="af-class-div-block-50">
                       <a href="https://twitter.com/goontoken" target="_blank" className="w-inline-block"><img src="images/iconfinder_104501_twitter_bird_icon.svg" loading="lazy" width={50} alt className="af-class-feature-v3-image af-class-oip-oip" /></a>
                       <a href="https://t.me/goontokenn" target="_blank" className="af-class-link-block-6 w-inline-block"><img src="images/iconfinder_4375490_logo_telegram_icon.svg" loading="lazy" width={50} alt className="af-class-feature-v3-image af-class-iop-iop af-class-o" /></a>
-                      <a href="#" target="_blank" className="w-inline-block"><img src="images/image-11.png" loading="lazy" width={50} alt /></a>
+                      <a href="https://www.coingecko.com/en/coins/goonrich" target="_blank" className="w-inline-block"><img src="images/image-11.png" loading="lazy" width={50} alt /></a>
                     </div><img src="images/Crypto-Messiah-Title.png" loading="lazy" sizes="(max-width: 479px) 91vw, (max-width: 991px) 29vw, (max-width: 1439px) 28vw, 25vw" srcSet="images/Crypto-Messiah-Title-p-500.png 500w, images/Crypto-Messiah-Title-p-800.png 800w, images/Crypto-Messiah-Title-p-1080.png 1080w, images/Crypto-Messiah-Title-p-1600.png 1600w, images/Crypto-Messiah-Title.png 1920w" alt className="af-class-image-27" />
                     <div className="af-class-text-block-19"><span className="af-class-text-span-8"><strong>Bigger than an investment. <br /></strong></span><br /><span><strong className="af-class-bold-text-7">$GOON</strong></span><strong> </strong>token represents a symbolic message of how young peoples lives all over the globe have been changed forever because of <strong>Meme coins</strong>. In this day and age, you no longer need generational wealth to get ahead. <br /><br />That’s why we created <span className="af-class-bold-text-7"><strong>$GOON</strong></span>. <br /><br /><strong className="af-class-bold-text-7">$GOON</strong> token represents the path that meme coins have paved for anyone smart enough and courageous enough to adapt &amp; think outside the box. &nbsp;With a collaborative and growing community unlike any other, <span className="af-class-bold-text-7"><strong>$GOON</strong></span> provides anyone - regardless of income level, race or religion - with the opportunity to change their lives forever. <br /><br />A chance at true <strong>financial freedom</strong>. In a nutshell, creating <span className="af-class-bold-text-7"><strong>$GOON</strong></span> is our way of fighting back against those that wish to to keep us shackled in a debt driven and society. <br /><br /><strong>The largest transfer of wealth</strong> in human history is happening before our eyes, as thousands of <strong>regular people </strong>have <strong>became millionaires </strong>off meme coins and crypto - what most people might consider a “joke”. But the results are very real. The numbers do not lie. The potential gains truly are “life changing.” <br /><br /><strong>GoonRich</strong> aka ‘<span className="af-class-bold-text-7"><strong>Crypto Messiah</strong></span>’ - who famously went from <strong>Mailman </strong>to <strong>Millionaire </strong>in a matter of days - is possibly the greatest living example of this. And <span className="af-class-bold-text-7"><strong>$GOON</strong></span> is his official coin. The script has been flipped forever… We won’t stop until Every <span className="af-class-bold-text-7"><strong>$GOON</strong></span> <strong>Gets Rich</strong>.<br /><br />Join the $Goon Squad today.</div>
                     <div className="af-class-div-block-8">

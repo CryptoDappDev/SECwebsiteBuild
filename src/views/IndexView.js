@@ -91,7 +91,7 @@ class IndexView extends React.Component {
                     <a href="#" className="af-class-nav-link-3 af-class-moonmap w-inline-block">
                       <div className="af-class-nav-link-text">Moonmap</div>
                     </a>
-                    <a href="onlymemes.html" target="_blank" className="af-class-nav-link-3 w-inline-block">
+                    <a href="Onlymemes" target="_blank" className="af-class-nav-link-3 w-inline-block">
                       <div className="af-class-nav-link-text">ONLYMEMES</div>
                     </a>
                     <div className="af-class-nav-socials">
