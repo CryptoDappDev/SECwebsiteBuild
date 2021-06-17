@@ -3,9 +3,9 @@
 import React from 'react'
 import { createScope, map, transformProxies } from './helpers'
 import ConnectWalletButtonView from './ConnectWalletButtonView'
-import NavOnlymemesView from './NavOnlymemesView'
-import ConnectToWalletNavView from './ConnectToWalletNavView'
+import SecWalletView from './SecWalletView'
 import TweetSecView from './TweetSecView'
+import NavOnlymemesView from './NavOnlymemesView'
 import TweetMemeView from './TweetMemeView'
 import CopyButton1View from './CopyButton1View'
 import BoardingPassPurchaseView from './BoardingPassPurchaseView'
@@ -92,7 +92,9 @@ class IndexView extends React.Component {
                     <a href="#" className="af-class-nav-link-3 af-class-moonmap w-inline-block">
                       <div className="af-class-nav-link-text">Moonmap</div>
                     </a>
-                    <NavOnlymemesView.Controller />
+                    <a href="onlymemes.html" target="_blank" className="af-class-nav-link-3 af-class-_2 w-inline-block">
+                      <div className="af-class-nav-link-text">ONLYMEMES</div>
+                    </a>
                     <div className="af-class-nav-socials">
                       <a href="https://www.instagram.com/suckelonscock" target="_blank" className="af-class-social-media-link af-class-navv w-inline-block"><img src="images/IG..Circle.svg" loading="lazy" width={30} alt="Instagram logo - suckelonscock" className="af-class-social-media-icon" /></a>
                       <a href="https://twitter.com/suckelonscock?lang=en" target="_blank" className="af-class-social-media-link af-class-navv w-inline-block"><img src="images/twitter-round.svg" loading="lazy" width={25} alt="Twitter logo - suckelonscock suck elon's cock " className="af-class-social-media-icon" /></a>
@@ -105,7 +107,7 @@ class IndexView extends React.Component {
                     </div>
                   </nav>
                   <div className="af-class-nav-cta-button-2 af-class-desktop">
-                    <ConnectToWalletNavView.Controller />
+                    <SecWalletView.Controller />
                     <a href="#limited-edition-nfts-section" id="limited-drop-button" className="af-class-button-3 af-class-exclusive af-class-header w-button"><strong>LIMITED DROPS</strong></a>
                   </div>
                   <div className="af-class-menu-button-3 w-nav-button"><img src="images/menu-icon-white.svg" loading="lazy" alt className="af-class-image-17" /></div>
@@ -354,7 +356,7 @@ class IndexView extends React.Component {
                   </div>
                 </div>
               </div>
-              <section id="limited-edition-nfts-section" data-w-id="3b85f699-c949-f7e1-8df4-af4ae38e2f0c" style={{display: 'none'}} className="af-class-section af-class-dark af-class-_1">
+              <section id="limited-edition-nfts-section" data-w-id="3b85f699-c949-f7e1-8df4-af4ae38e2f0c" style={{display: 'none'}} className="af-class-section af-class-dark af-class-main">
                 <div className="af-class-container">
                   <div className="w-layout-grid af-class-grid-10-columns">
                     <div id="w-node-ece89d93-2df3-9c66-994e-a99360ef72ee-344fa1b7" className="af-class-content">

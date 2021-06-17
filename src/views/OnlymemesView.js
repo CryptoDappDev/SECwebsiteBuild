@@ -2,9 +2,9 @@
 
 import React from 'react'
 import { createScope, map, transformProxies } from './helpers'
-import NavHomeView from './NavHomeView'
+import GoonHomeView from './GoonHomeView'
 import ConnectWalletButtonView from './ConnectWalletButtonView'
-import ConnectToWalletNavView from './ConnectToWalletNavView'
+import GoonWalletView from './GoonWalletView'
 import GoonBobbleView from './GoonBobbleView'
 import GoonMaskView from './GoonMaskView'
 import GoonLegendView from './GoonLegendView'
@@ -78,10 +78,10 @@ class OnlymemesView extends React.Component {
         ` }} />
         <span className="af-view">
           <div className="af-class-body-2">
-            <div data-collapse="medium" data-animation="default" data-duration={400} role="banner" className="af-class-fixed-nav-3 af-class-_1 w-nav">
+            <div data-collapse="medium" data-animation="default" data-duration={400} data-w-id="c751e115-cebe-a109-aa2a-584951a5a2e3" style={{opacity: 1}} role="banner" className="af-class-fixed-nav-3 af-class-_1 w-nav">
               <div className="af-class-gradient-border" />
               <div className="af-class-container af-class-nav-container w-container">
-                <NavHomeView.Controller />
+                <GoonHomeView.Controller />
                 <nav role="navigation" className="af-class-nav-menu w-nav-menu">
                   <div className="af-class-nav-cta-button-2 af-class-mobile">
                     <ConnectWalletButtonView.Controller />
@@ -102,7 +102,7 @@ class OnlymemesView extends React.Component {
                   </div>
                 </nav>
                 <div className="af-class-nav-cta-button-2 af-class-desktop">
-                  <ConnectToWalletNavView.Controller />
+                  <GoonWalletView.Controller />
                   <a href="#limited-edition-nfts-section" id="limited-drop-button" className="af-class-button-3 af-class-exclusive af-class-header af-class-_1 w-button"><strong>LIMITED DROPS</strong></a>
                 </div>
                 <div className="af-class-menu-button-3 w-nav-button"><img src="images/menu-icon-white.svg" loading="lazy" alt className="af-class-image-17" /></div>
@@ -123,13 +123,15 @@ class OnlymemesView extends React.Component {
                 <section id="onlymemessectionnslug" className="af-class-onlymemessection-2 af-class-_3">
                   <div className="w-layout-grid af-class-grid-testimonial-2">
                     <div className="af-class-div-block-48">
-                      <div className="af-class-card-item-2 af-class-memes-coming-soon af-class-_11 af-class-_3">
-                        <div className="w-embed"><img src="images/photo_2021-06-09_00-06-33.jpg" alt="GOON" /></div>
-                      </div>
                       <div className="af-class-card-item-2 af-class-memes-coming-soon af-class-_1">
                         <div className="af-class-div-block-54">
-                          <div className="af-class-text-block-16 af-class-_1">Crypto Messiah Bobblehead</div>
-                          <div className="af-class-html-embed-9 w-embed"><img src="https://secmedia.s3.us-east-2.amazonaws.com/GoonBobbleHead_400x400_black_BG_V3.gif" alt="goon" /></div>
+                          <div className="af-class-div-block-61">
+                            <div className="af-class-text-block-16 af-class-_1">CRYPTO MESSIAH BOBBLE HEAD</div>
+                          </div>
+                          <div className="af-class-div-block-60">
+                            <div className="af-class-html-embed-9 w-embed"><img src="https://secmedia.s3.us-east-2.amazonaws.com/goon_bobbling+(1).gif" alt="goon" /></div>
+                            <div className="af-class-html-embed-9 w-embed"><img src="https://secmedia.s3.us-east-2.amazonaws.com/GoonBobbleHead_400x400_black_BG_V3.gif" alt="goon" /></div>
+                          </div>
                         </div>
                         <div className="af-class-card-item-content af-class-memecard">
                           <div className="af-class-fade-in-on-scroll">
@@ -300,11 +302,11 @@ class OnlymemesView extends React.Component {
                     <div className="af-class-div-block-57">
                       <div className="w-embed"><img src="images/Crypto-Messiah-Title.png" alt="GOON" /></div>
                     </div>
-                    <div className="af-class-text-block-19"><span className="af-class-text-span-8"><strong>Bigger than an investment. <br /></strong></span><br /><span><strong className="af-class-bold-text-7">$GOON</strong></span><strong> </strong>token represents a symbolic message of how young peoples lives all over the globe have been changed forever because of <strong>Meme coins</strong>. In this day and age, you no longer need generational wealth to get ahead. <br /><br />That’s why we created <span className="af-class-bold-text-7"><strong>$GOON</strong></span>.<br /><br /></div>
+                    <div className="af-class-text-block-19"><span className="af-class-text-span-8"><strong>Bigger than an investment. <br />‍<br /></strong></span><br /><span><strong className="af-class-bold-text-7">$GOON</strong></span><strong> </strong>token represents a symbolic message of how young peoples lives all over the globe have been changed forever because of <strong>Meme coins</strong>. In this day and age, you no longer need generational wealth to get ahead.<br /> <br /><br />That’s why we created <span className="af-class-bold-text-7"><strong>$GOON</strong></span>.<br /><br /></div>
                     <div className="af-class-div-block-51">
                       <div className="w-embed"><img src="images/New-Project-17.png" alt="GOON" /></div>
                     </div>
-                    <div className="af-class-text-block-19"><strong className="af-class-bold-text-7">$GOON</strong> token represents the path that meme coins have paved for anyone smart enough and courageous enough to adapt &amp; think outside the box. &nbsp;With a collaborative and growing community unlike any other, <span className="af-class-bold-text-7"><strong>$GOON</strong></span> provides anyone - regardless of income level, race or religion - with the opportunity to change their lives forever. <br /><br />A chance at true <strong>financial freedom</strong>. In a nutshell, creating <span className="af-class-bold-text-7"><strong>$GOON</strong></span> is our way of fighting back against those that wish to to keep us shackled in a debt driven and society. <br /><br />‍<strong>The largest transfer of wealth</strong> in human history is happening before our eyes, as thousands of <strong>regular people </strong>have <strong>became millionaires </strong>off meme coins and crypto - what most people might consider a “joke”. But the results are very real. The numbers do not lie. The potential gains truly are “life changing.” <br /><br />‍<strong>GoonRich</strong> aka ‘<span className="af-class-bold-text-7"><strong>Crypto Messiah</strong></span>’ - who famously went from <strong>Mailman </strong>to <strong>Millionaire </strong>in a matter of days - is possibly the greatest living example of this. And <span className="af-class-bold-text-7"><strong>$GOON</strong></span> is his official coin. The script has been flipped forever… We won’t stop until Every <span className="af-class-bold-text-7"><strong>$GOON</strong></span> <strong>Gets Rich</strong>.<br /><br />Join the $Goon Squad today.</div>
+                    <div className="af-class-text-block-19"><strong className="af-class-bold-text-7">$GOON</strong> token represents the path that meme coins have paved for anyone smart enough and courageous enough to adapt &amp; think outside the box. &nbsp;With a collaborative and growing community unlike any other, <span className="af-class-bold-text-7"><strong>$GOON</strong></span> provides anyone - regardless of income level, race or religion - with the opportunity to change their lives forever. <br /><br /><br />A chance at true <strong>financial freedom</strong>. In a nutshell, creating <span className="af-class-bold-text-7"><strong>$GOON</strong></span> is our way of fighting back against those that wish to to keep us shackled in a debt driven and society. </div>
                     <CopyGoonView.Controller />
                   </div>
                 </div>

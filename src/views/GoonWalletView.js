@@ -9,19 +9,19 @@ const scripts = [
 
 let Controller
 
-class NavHomeView extends React.Component {
+class GoonWalletView extends React.Component {
   static get Controller() {
     if (Controller) return Controller
 
     try {
-      Controller = require('../controllers/NavHomeController')
+      Controller = require('../controllers/GoonWalletController')
       Controller = Controller.default || Controller
 
       return Controller
     }
     catch (e) {
       if (e.code == 'MODULE_NOT_FOUND') {
-        Controller = NavHomeView
+        Controller = GoonWalletView
 
         return Controller
       }
@@ -49,7 +49,7 @@ class NavHomeView extends React.Component {
   }
 
   render() {
-    const proxies = NavHomeView.Controller !== NavHomeView ? transformProxies(this.props.children) : {
+    const proxies = GoonWalletView.Controller !== GoonWalletView ? transformProxies(this.props.children) : {
 
     }
 
@@ -61,13 +61,13 @@ class NavHomeView extends React.Component {
           @import url(C:\\css\\suck-elons-cock.css);
         ` }} />
         <span className="af-view">
-          <a href="index.html" target="_blank" className="af-class-brand-3 af-class-_1 w-nav-brand"><img src="images/Sec_Wordstamp_V3.png" loading="lazy" width={150} sizes="120.00000762939453px" srcSet="images/Sec_Wordstamp_V3-p-500.png 500w, images/Sec_Wordstamp_V3-p-800.png 800w, images/Sec_Wordstamp_V3.png 1000w" alt="$SEC Logo - suck elon's cock wordstamp" className="af-class-image-16" /></a>
+          <a href="#" id="connect-to-wallet-nav" className="af-class-button-3 af-class-exclusive af-class-connect-to-wallet w-button"><strong className="af-class-text-gradient-3 af-class-header-connect-waller">CONNECT WALLET</strong></a>
         </span>
       </span>
     )
   }
 }
 
-export default NavHomeView
+export default GoonWalletView
 
 /* eslint-enable */
