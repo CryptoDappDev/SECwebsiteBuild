@@ -9,19 +9,19 @@ const scripts = [
 
 let Controller
 
-class SecslugView extends React.Component {
+class NavHomeView extends React.Component {
   static get Controller() {
     if (Controller) return Controller
 
     try {
-      Controller = require('../controllers/SecslugController')
+      Controller = require('../controllers/NavHomeController')
       Controller = Controller.default || Controller
 
       return Controller
     }
     catch (e) {
       if (e.code == 'MODULE_NOT_FOUND') {
-        Controller = SecslugView
+        Controller = NavHomeView
 
         return Controller
       }
@@ -49,7 +49,7 @@ class SecslugView extends React.Component {
   }
 
   render() {
-    const proxies = SecslugView.Controller !== SecslugView ? transformProxies(this.props.children) : {
+    const proxies = NavHomeView.Controller !== NavHomeView ? transformProxies(this.props.children) : {
 
     }
 
@@ -68,6 +68,6 @@ class SecslugView extends React.Component {
   }
 }
 
-export default SecslugView
+export default NavHomeView
 
 /* eslint-enable */

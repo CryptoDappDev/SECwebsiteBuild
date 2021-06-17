@@ -2,7 +2,7 @@
 
 import React from 'react'
 import { createScope, map, transformProxies } from './helpers'
-import SecslugView from './SecslugView'
+import NavHomeView from './NavHomeView'
 import ConnectWalletButtonView from './ConnectWalletButtonView'
 import ConnectToWalletNavView from './ConnectToWalletNavView'
 import GoonBobbleView from './GoonBobbleView'
@@ -81,7 +81,7 @@ class OnlymemesView extends React.Component {
             <div data-collapse="medium" data-animation="default" data-duration={400} role="banner" className="af-class-fixed-nav-3 af-class-_1 w-nav">
               <div className="af-class-gradient-border" />
               <div className="af-class-container af-class-nav-container w-container">
-                <SecslugView.Controller />
+                <NavHomeView.Controller />
                 <nav role="navigation" className="af-class-nav-menu w-nav-menu">
                   <div className="af-class-nav-cta-button-2 af-class-mobile">
                     <ConnectWalletButtonView.Controller />

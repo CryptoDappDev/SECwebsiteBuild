@@ -1171,15 +1171,16 @@
 }
 
 .af-view .af-class-button.af-class-learn.af-class-hero {
-  border-style: solid;
+  border-style: none;
   border-width: 2px;
   border-color: #141415;
-  background-color: #fff;
-  background-image: none;
+  background-color: #8a467d;
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(23%, #8a467d), to(#83c0fa));
+  background-image: linear-gradient(180deg, #8a467d 23%, #83c0fa);
 }
 
 .af-view .af-class-button.af-class-learn.af-class-hero:hover {
-  box-shadow: 3px 3px 5px 1px #fe753d;
+  box-shadow: 3px 3px 5px 1px #f3a8e5;
 }
 
 .af-view .af-class-button.af-class-learn.af-class-hero.af-class-_1 {
@@ -4090,7 +4091,7 @@
 }
 
 .af-view .af-class-text-block-12 {
-  color: #f95957;
+  color: #fff;
 }
 
 .af-view .af-class-text-block-12.af-class-_1 {
@@ -4174,6 +4175,10 @@
 
 .af-view .af-class-nav-link-3.af-class-eco-nav:hover {
   font-size: 18px;
+}
+
+.af-view .af-class-nav-link-3.af-class-_2 {
+  display: none;
 }
 
 .af-view .af-class-text-gradient-3 {
@@ -5540,6 +5545,11 @@
   background-image: url('../images/24K_Transparent_08-1.png');
   background-position: 0px 0px;
   background-size: contain;
+}
+
+.af-view .af-class-html-embed-12 {
+  -webkit-filter: brightness(200%);
+  filter: brightness(200%);
 }
 
 @media screen and (min-width: 1280px) {

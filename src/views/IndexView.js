@@ -3,8 +3,10 @@
 import React from 'react'
 import { createScope, map, transformProxies } from './helpers'
 import ConnectWalletButtonView from './ConnectWalletButtonView'
+import NavOnlymemesView from './NavOnlymemesView'
 import ConnectToWalletNavView from './ConnectToWalletNavView'
 import TweetSecView from './TweetSecView'
+import NavOnlymemesView from './NavOnlymemesView'
 import TweetMemeView from './TweetMemeView'
 import CopyButton1View from './CopyButton1View'
 import BoardingPassPurchaseView from './BoardingPassPurchaseView'
@@ -91,9 +93,7 @@ class IndexView extends React.Component {
                     <a href="#" className="af-class-nav-link-3 af-class-moonmap w-inline-block">
                       <div className="af-class-nav-link-text">Moonmap</div>
                     </a>
-                    <a href="onlymemes.html" target="_blank" className="af-class-nav-link-3 w-inline-block">
-                      <div className="af-class-nav-link-text">ONLYMEMES</div>
-                    </a>
+                    <NavOnlymemesView.Controller />
                     <div className="af-class-nav-socials">
                       <a href="https://www.instagram.com/suckelonscock" target="_blank" className="af-class-social-media-link af-class-navv w-inline-block"><img src="images/IG..Circle.svg" loading="lazy" width={30} alt="Instagram logo - suckelonscock" className="af-class-social-media-icon" /></a>
                       <a href="https://twitter.com/suckelonscock?lang=en" target="_blank" className="af-class-social-media-link af-class-navv w-inline-block"><img src="images/twitter-round.svg" loading="lazy" width={25} alt="Twitter logo - suckelonscock suck elon's cock " className="af-class-social-media-icon" /></a>
@@ -130,11 +130,7 @@ class IndexView extends React.Component {
                           <div>BUY <em>$SEC</em></div>
                         </a>
                       </div>
-                      <div className="af-class-download-button af-class-learn-more">
-                        <a href="#SECTIONECOSLUGGGGGGGGG" className="af-class-button af-class-learn af-class-hero w-inline-block"><img src="images/Apple-Icon.svg" loading="lazy" alt className="af-class-download-button-icon" />
-                          <div className="af-class-text-block-12">LEARN MORE</div>
-                        </a>
-                      </div>
+                      <NavOnlymemesView.Controller />
                     </div>
                   </div>
                 </div>
@@ -253,7 +249,7 @@ class IndexView extends React.Component {
                       <div className="af-class-card-item-content af-class-tools">
                         <div className="af-class-card-feature-center af-class-tool-center">
                           <a href="https://zerion.io/" target="_blank" className="af-class-link-block-4 af-class-toools w-inline-block">
-                            <div className="af-class-fade-in-on-scroll af-class-toool"><img src="images/zerion.png" loading="lazy" sizes="(max-width: 479px) 100vw, 57.986114501953125px" srcSet="images/zerion-p-500.png 500w, images/zerion-p-800.png 800w, images/zerion.png 1024w" alt="Zerion wallet logo" className="af-class-card-feature-icon af-class-tool" /></div>
+                            <div className="af-class-fade-in-on-scroll af-class-toool"><img src="images/zerion.png" loading="lazy" sizes="(max-width: 479px) 55.000003814697266px, 112.98611450195312px" srcSet="images/zerion-p-500.png 500w, images/zerion-p-800.png 800w, images/zerion.png 1024w" alt="Zerion wallet logo" className="af-class-card-feature-icon af-class-tool" /></div>
                             <div className="af-class-fade-in-on-scroll">
                               <h6 className="af-class-heading-3">Zerion</h6>
                             </div>
