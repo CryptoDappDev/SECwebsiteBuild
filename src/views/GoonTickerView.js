@@ -4,24 +4,24 @@ import React from 'react'
 import { createScope, map, transformProxies } from './helpers'
 
 const scripts = [
-
+  { loading: fetch("https://widgets.coingecko.com/coingecko-coin-ticker-widget.js").then(body => body.text()), isAsync: false },
 ]
 
 let Controller
 
-class ConnectToWalletNavView extends React.Component {
+class GoonTickerView extends React.Component {
   static get Controller() {
     if (Controller) return Controller
 
     try {
-      Controller = require('../controllers/ConnectToWalletNavController')
+      Controller = require('../controllers/GoonTickerController')
       Controller = Controller.default || Controller
 
       return Controller
     }
     catch (e) {
       if (e.code == 'MODULE_NOT_FOUND') {
-        Controller = ConnectToWalletNavView
+        Controller = GoonTickerView
 
         return Controller
       }
@@ -49,7 +49,7 @@ class ConnectToWalletNavView extends React.Component {
   }
 
   render() {
-    const proxies = ConnectToWalletNavView.Controller !== ConnectToWalletNavView ? transformProxies(this.props.children) : {
+    const proxies = GoonTickerView.Controller !== GoonTickerView ? transformProxies(this.props.children) : {
 
     }
 
@@ -61,25 +61,17 @@ class ConnectToWalletNavView extends React.Component {
           @import url(C:\\css\\suck-elons-cock.css);
         ` }} />
         <span className="af-view">
-          <a href="#" id="connect-to-wallet-nav" className="af-class-button-3 af-class-exclusive af-class-connect-to-wallet w-button"><strong className="af-class-text-gradient-3 af-class-header-connect-waller">CONNECT WALLET</strong></a>
+          <div>
+            <div className="w-embed w-script">
+              <coingecko-coin-ticker-widget coin-id="goonrich" currency="usd" locale="en" background-color="transparent" width={350} vce-ready />
+            </div>
+          </div>
         </span>
       </span>
     )
   }
 }
 
-export default ConnectToWalletNavView
-
-/* eslint-enable */:none;opacity:0;}html.w-mod-js:not(.w-mod-ix) [data-w-id=\"ad1fe3e8-a35f-7165-8f77-b8a70802d25e\"] {display:none;opacity:0;}}
-        ` }} />
-        <span className="af-view">
-          <a href="#" id="connect-to-wallet-nav" className="af-class-button-3 af-class-exclusive af-class-connect-to-wallet w-button"><strong className="af-class-text-gradient-3 af-class-header-connect-waller">CONNECT WALLET</strong></a>
-        </span>
-      </span>
-    )
-  }
-}
-
-export default ConnectToWalletNavView
+export default GoonTickerView
 
 /* eslint-enable */
