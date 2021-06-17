@@ -4220,7 +4220,10 @@
 
 .af-view .af-class-text-gradient-3.af-class-subform.af-class-_1 {
   padding-right: 0px;
+  font-family: Montserrat, sans-serif;
+  font-size: 60px;
   line-height: 1.5;
+  font-weight: 700;
 }
 
 .af-view .af-class-text-gradient-3.af-class-header-connect-waller {
@@ -5042,9 +5045,13 @@
   max-width: 90%;
   padding-top: 25px;
   padding-bottom: 25px;
+  background-color: #000;
 }
 
 .af-view .af-class-card-item-2.af-class-_1.af-class-_2:hover {
+  background-image: url('../images/background.goon.png');
+  background-position: 0px 0px;
+  background-size: cover;
   box-shadow: 0 0 10px 1px #ffc444;
 }
 
@@ -5393,7 +5400,7 @@
 }
 
 .af-view .af-class-div-block-8 {
-  margin-top: 25px;
+  margin-top: 10px;
   padding-right: 10px;
   padding-left: 10px;
   text-align: center;
@@ -5535,7 +5542,7 @@
   display: flex;
   max-height: 160px;
   max-width: 90%;
-  margin: 25px auto;
+  margin: 25px auto 15px;
   padding-top: 0px;
   padding-right: 15px;
   padding-left: 15px;
@@ -5554,7 +5561,12 @@
   background-size: cover;
 }
 
+.af-view .af-class-onlymemebanners:hover {
+  box-shadow: 0 0 3px 0 #574ae2;
+}
+
 .af-view .af-class-body-2 {
+  padding-top: 150px;
   background-color: #141415;
   background-image: url('../images/24K_Transparent_08-1.png');
   background-position: 0px 0px;
@@ -5707,6 +5719,10 @@
   .af-view .af-class-goonmeme {
     background-image: -webkit-gradient(linear, left top, left bottom, from(#000), to(#171718));
     background-image: linear-gradient(180deg, #000, #171718);
+  }
+
+  .af-view .af-class-image-37 {
+    max-width: 35%;
   }
 
   .af-view .af-class-onlymemessection-2.af-class-_2 {
