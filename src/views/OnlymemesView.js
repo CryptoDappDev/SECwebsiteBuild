@@ -3,7 +3,7 @@
 import React from 'react'
 import { createScope, map, transformProxies } from './helpers'
 import GoonHomeView from './GoonHomeView'
-import ConnectWalletButtonView from './ConnectWalletButtonView'
+import GoonWalletMobView from './GoonWalletMobView'
 import GoonWalletView from './GoonWalletView'
 import GoonBobbleView from './GoonBobbleView'
 import GoonMaskView from './GoonMaskView'
@@ -84,8 +84,8 @@ class OnlymemesView extends React.Component {
                 <GoonHomeView.Controller />
                 <nav role="navigation" className="af-class-nav-menu w-nav-menu">
                   <div className="af-class-nav-cta-button-2 af-class-mobile">
-                    <ConnectWalletButtonView.Controller />
-                    <a href="#" id="limited-drop-button" className="af-class-button-3 af-class-exclusive af-class-header w-button"><strong>LIMITED DROPS</strong></a>
+                    <GoonWalletMobView.Controller />
+                    <a href="#" id="limited-drop-button" className="af-class-button-3 af-class-exclusive af-class-header af-class-onlymemesdrops w-button"><strong>LIMITED DROPS</strong></a>
                   </div>
                   <a href="#" className="af-class-nav-link-3 af-class-moonmap w-inline-block">
                     <div className="af-class-nav-link-text">Moonmap</div>
@@ -285,7 +285,11 @@ class OnlymemesView extends React.Component {
                   </div>
                 </section>
                 <div className="af-class-onlymemessection-2 af-class-_2">
-                  <div className="af-class-div-block-53"><img src="https://uploads-ssl.webflow.com/60c96fd79ca1f3785190ddb2/60c96fd79ca1f35f5790de77_GrSxEb2Q.png" loading="lazy" alt className="af-class-image-25" /></div>
+                  <div className="af-class-div-block-53">
+                    <div className="w-embed"><img className="af-class-goonmemes" src="https://secmedia.s3.us-east-2.amazonaws.com/1gooonrich.png" alt="GOON" />
+                      <style dangerouslySetInnerHTML={{__html: "\n.af-view .af-class-goonmemes {\nborder-radius: 20px 20px 20px 20px;\n}\n" }} />
+                    </div>
+                  </div>
                   <div className="af-class-div-block-49">
                     <GoonTickerView.Controller />
                     <div className="af-class-div-block-50">
@@ -307,34 +311,35 @@ class OnlymemesView extends React.Component {
                       <div className="w-embed"><img src="images/New-Project-17.png" alt="GOON" /></div>
                     </div>
                     <div className="af-class-text-block-19"><strong className="af-class-bold-text-7">$GOON</strong> token represents the path that meme coins have paved for anyone smart enough and courageous enough to adapt &amp; think outside the box. &nbsp;With a collaborative and growing community unlike any other, <span className="af-class-bold-text-7"><strong>$GOON</strong></span> provides anyone - regardless of income level, race or religion - with the opportunity to change their lives forever. <br /><br /><br />A chance at true <strong>financial freedom</strong>. In a nutshell, creating <span className="af-class-bold-text-7"><strong>$GOON</strong></span> is our way of fighting back against those that wish to to keep us shackled in a debt driven and society. </div>
+                    <div className="af-class-div-block-62">
+                      <div className="w-embed"><img src="https://secmedia.s3.us-east-2.amazonaws.com/%24GOON+TITLE.png" alt="GOON" /></div>
+                    </div>
                     <CopyGoonView.Controller />
                   </div>
                 </div>
               </div></section>
             <div className="af-class-footer-2 af-class-_1">
+              <div className="af-class-div-block-29 af-class-_2">
+                <div className="w-embed"><img src="images/OnlyMemes-Icon.png" alt="GOON" /></div>
+              </div>
               <div>
-                <div className="af-class-div-block-29">
-                  <div className="w-embed"><img src="images/OnlyMemes-Icon.png" alt="GOON" /></div>
+                <div className="af-class-grey-text-2 af-class-white af-class-palace-club af-class-text-gradient-2 af-class-palace">#OnlyMemes</div>
+              </div>
+              <div className="af-class-social-media-content af-class-desktop af-class-_2">
+                <div className="af-class-div-block-12">
+                  <a href="https://www.tiktok.com/@suckelonscoc?lang=en" target="_blank" className="af-class-social-media-link w-inline-block"><img src="https://uploads-ssl.webflow.com/60bbfcaf8d961b9b48ae873d/60bbfcaf8d961bf437ae8771_tiktok-round.svg" loading="lazy" width={24} height={24} alt="Small circle TikTok icon" className="af-class-social-media-icon" /></a>
+                  <a href="https://twitter.com/suckelonscock?lang=en" target="_blank" className="af-class-social-media-link w-inline-block"><img src="https://uploads-ssl.webflow.com/60bbfcaf8d961b9b48ae873d/60bbfcaf8d961b39e8ae87c8_iconfinder_twitter_circle_black_107155.svg" loading="lazy" width={26} alt="Small circle Twitter icon" className="af-class-social-media-icon" /></a>
+                  <a href="https://www.reddit.com/r/SuckElonsCock/" target="_blank" className="af-class-social-media-link w-inline-block"><img src="https://uploads-ssl.webflow.com/60bbfcaf8d961b9b48ae873d/60bbfcaf8d961b17abae8767_reddit-round.svg" loading="lazy" height={24} width={24} alt="Small circle Reddit icon" className="af-class-social-media-icon" /></a>
+                  <a href="https://t.me/suckelonscock" target="_blank" className="af-class-social-media-link w-inline-block"><img src="https://uploads-ssl.webflow.com/60bbfcaf8d961b9b48ae873d/60bbfcaf8d961b1e4aae876b_telegram-black.svg" loading="lazy" width={24} height={24} alt="Small circle Telegram icon" className="af-class-social-media-icon" /></a>
+                  <a href="https://www.instagram.com/suckelonscock" target="_blank" className="af-class-social-media-link w-inline-block"><img src="https://uploads-ssl.webflow.com/60bbfcaf8d961b9b48ae873d/60bbfcaf8d961b6317ae877b_IG..Circle.svg" loading="lazy" width="28.5" alt="Small circle Instagram icon" className="af-class-social-media-icon" /></a>
+                  <a href="https://opensea.io/accounts/SuckElonsCock" className="af-class-social-media-link w-inline-block"><img src="images/New-Project.svg" loading="lazy" width={30} alt="Small circle Facebook icon" className="af-class-social-media-icon" /></a>
+                  <a href="https://www.youtube.com/channel/UCkzofLl4xepSF2CkMU1s53w" target="_blank" className="af-class-social-media-link w-inline-block"><img src="images/YT.svg" loading="lazy" alt="Small circle Facebook icon" width={30} className="af-class-social-media-icon" /></a>
+                  <a href="https://www.facebook.com/suckelonscock" target="_blank" className="af-class-social-media-link w-inline-block"><img src="https://uploads-ssl.webflow.com/60bbfcaf8d961b9b48ae873d/60bbfcaf8d961b454aae8762_facebook.svg" loading="lazy" alt="Small circle Facebook icon" className="af-class-social-media-icon" /></a>
+                  <a href="https://www.facebook.com/suckelonscock" target="_blank" className="af-class-social-media-link w-inline-block"><img src="https://uploads-ssl.webflow.com/60bbfcaf8d961b9b48ae873d/60bbfcaf8d961b6340ae87a2_iconfinder_discord_18_5474122-svg%20(1).png" loading="lazy" width={28} alt="Small circle Facebook icon" className="af-class-social-media-icon" /></a>
                 </div>
-                <div>
-                  <div className="af-class-grey-text-2 af-class-white af-class-palace-club af-class-text-gradient-2 af-class-palace">#OnlyMemes</div>
-                </div>
-                <div className="af-class-social-media-content af-class-desktop">
-                  <div className="af-class-div-block-12">
-                    <a href="https://www.tiktok.com/@suckelonscoc?lang=en" target="_blank" className="af-class-social-media-link w-inline-block"><img src="https://uploads-ssl.webflow.com/60bbfcaf8d961b9b48ae873d/60bbfcaf8d961bf437ae8771_tiktok-round.svg" loading="lazy" width={24} height={24} alt="Small circle TikTok icon" className="af-class-social-media-icon" /></a>
-                    <a href="https://twitter.com/suckelonscock?lang=en" target="_blank" className="af-class-social-media-link w-inline-block"><img src="https://uploads-ssl.webflow.com/60bbfcaf8d961b9b48ae873d/60bbfcaf8d961b39e8ae87c8_iconfinder_twitter_circle_black_107155.svg" loading="lazy" width={26} alt="Small circle Twitter icon" className="af-class-social-media-icon" /></a>
-                    <a href="https://www.reddit.com/r/SuckElonsCock/" target="_blank" className="af-class-social-media-link w-inline-block"><img src="https://uploads-ssl.webflow.com/60bbfcaf8d961b9b48ae873d/60bbfcaf8d961b17abae8767_reddit-round.svg" loading="lazy" height={24} width={24} alt="Small circle Reddit icon" className="af-class-social-media-icon" /></a>
-                    <a href="https://t.me/suckelonscock" target="_blank" className="af-class-social-media-link w-inline-block"><img src="https://uploads-ssl.webflow.com/60bbfcaf8d961b9b48ae873d/60bbfcaf8d961b1e4aae876b_telegram-black.svg" loading="lazy" width={24} height={24} alt="Small circle Telegram icon" className="af-class-social-media-icon" /></a>
-                    <a href="https://www.instagram.com/suckelonscock" target="_blank" className="af-class-social-media-link w-inline-block"><img src="https://uploads-ssl.webflow.com/60bbfcaf8d961b9b48ae873d/60bbfcaf8d961b6317ae877b_IG..Circle.svg" loading="lazy" width="28.5" alt="Small circle Instagram icon" className="af-class-social-media-icon" /></a>
-                    <a href="https://opensea.io/accounts/SuckElonsCock" className="af-class-social-media-link w-inline-block"><img src="images/New-Project.svg" loading="lazy" width={30} alt="Small circle Facebook icon" className="af-class-social-media-icon" /></a>
-                    <a href="https://www.youtube.com/channel/UCkzofLl4xepSF2CkMU1s53w" target="_blank" className="af-class-social-media-link w-inline-block"><img src="images/YT.svg" loading="lazy" alt="Small circle Facebook icon" width={30} className="af-class-social-media-icon" /></a>
-                    <a href="https://www.facebook.com/suckelonscock" target="_blank" className="af-class-social-media-link w-inline-block"><img src="https://uploads-ssl.webflow.com/60bbfcaf8d961b9b48ae873d/60bbfcaf8d961b454aae8762_facebook.svg" loading="lazy" alt="Small circle Facebook icon" className="af-class-social-media-icon" /></a>
-                    <a href="https://www.facebook.com/suckelonscock" target="_blank" className="af-class-social-media-link w-inline-block"><img src="https://uploads-ssl.webflow.com/60bbfcaf8d961b9b48ae873d/60bbfcaf8d961b6340ae87a2_iconfinder_discord_18_5474122-svg%20(1).png" loading="lazy" width={28} alt="Small circle Facebook icon" className="af-class-social-media-icon" /></a>
-                  </div>
-                </div>
-                <div className="af-class-footer-copyright af-class-_2021">
-                  <div className="af-class-grey-text-2 af-class-white af-class-_20211">Suck Elon's Cock © <strong className="af-class-bold-text-5">2021</strong></div>
-                </div>
+              </div>
+              <div className="af-class-footer-copyright af-class-_2021 af-class-_2">
+                <div className="af-class-grey-text-2 af-class-white af-class-_20211">Suck Elon's Cock © <strong className="af-class-bold-text-5">2021</strong></div>
               </div>
             </div>
             {/* [if lte IE 9]><![endif] */}

@@ -4985,7 +4985,9 @@
 
 .af-view .af-class-container-2.af-class-_1 {
   max-width: 90%;
+  padding-right: 0em;
   padding-bottom: 0rem;
+  padding-left: 0em;
 }
 
 .af-view .af-class-card-item-2 {
@@ -5156,6 +5158,7 @@
 .af-view .af-class-div-block-53 {
   padding-top: 0px;
   padding-bottom: 0px;
+  border-radius: 0px;
 }
 
 .af-view .af-class-div-block-50 {
@@ -5211,7 +5214,8 @@
   -webkit-flex-direction: column;
   -ms-flex-direction: column;
   flex-direction: column;
-  background-color: #141415;
+  border-radius: 20px;
+  background-color: #000;
 }
 
 .af-view .af-class-image-28 {
@@ -5512,6 +5516,8 @@
 
 .af-view .af-class-div-block-57 {
   margin-top: 10px;
+  padding-right: 10px;
+  padding-left: 10px;
 }
 
 .af-view .af-class-html-embed-11 {
@@ -5558,6 +5564,12 @@
 .af-view .af-class-html-embed-12 {
   -webkit-filter: brightness(200%);
   filter: brightness(200%);
+}
+
+.af-view .af-class-div-block-62 {
+  margin-top: 18px;
+  padding-right: 10px;
+  padding-left: 10px;
 }
 
 @media screen and (min-width: 1280px) {
@@ -8686,7 +8698,16 @@
   }
 
   .af-view .af-class-button-3.af-class-exclusive.af-class-header {
+    display: block;
     margin-left: 0%;
+  }
+
+  .af-view .af-class-button-3.af-class-exclusive.af-class-header.af-class-_1.w--current {
+    display: block;
+  }
+
+  .af-view .af-class-button-3.af-class-exclusive.af-class-header.af-class-onlymemesdrops {
+    display: none;
   }
 
   .af-view .af-class-brand-2.w--current {
@@ -8729,6 +8750,10 @@
   .af-view .af-class-nav-cta-button-2 {
     padding-right: 1rem;
     padding-left: 1rem;
+  }
+
+  .af-view .af-class-nav-cta-button-2.af-class-desktop {
+    display: none;
   }
 
   .af-view .af-class-column-2 {
@@ -8887,6 +8912,10 @@
 
   .af-view .af-class-lottie-animation {
     margin-top: 0px;
+  }
+
+  .af-view .af-class-div-block-29.af-class-_2 {
+    max-width: 50%;
   }
 
   .af-view .af-class-div-block-30 {

@@ -78,6 +78,9 @@ class CopyGoonView extends React.Component {
               <div className="w-embed"><img src="images/photo_2021-06-09_00-06-33.jpg" alt="GOON" /></div>
             </div>
             <div className="af-class-text-block-19">‍<strong>The largest transfer of wealth</strong> in human history is happening before our eyes, as thousands of <strong>regular people </strong>have <strong>became millionaires </strong>off meme coins and crypto - what most people might consider a “joke”. But the results are very real. The numbers do not lie. The potential gains truly are “life changing.” <br /><br /><br />‍<strong>GoonRich</strong> aka ‘<span className="af-class-bold-text-7"><strong>Crypto Messiah</strong></span>’ - who famously went from <strong>Mailman </strong>to <strong>Millionaire </strong>in a matter of days - is possibly the greatest living example of this. And <span className="af-class-bold-text-7"><strong>$GOON</strong></span> is his official coin. The script has been flipped forever… We won’t stop until Every <span className="af-class-bold-text-7"><strong>$GOON</strong></span> <strong>Gets Rich</strong>.<br /><br /><br />Join the $Goon Squad today.</div>
+            <div className="af-class-div-block-63">
+              <div className="w-embed"><img className="af-class-goonmemes" src="https://secmedia.s3.us-east-2.amazonaws.com/GoonSkiMask.gif" alt="GOON" /></div>
+            </div>
           </div>
         </span>
       </span>

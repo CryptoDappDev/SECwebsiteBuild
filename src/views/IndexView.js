@@ -2,7 +2,7 @@
 
 import React from 'react'
 import { createScope, map, transformProxies } from './helpers'
-import ConnectWalletButtonView from './ConnectWalletButtonView'
+import SecWalletMobView from './SecWalletMobView'
 import SecWalletView from './SecWalletView'
 import TweetSecView from './TweetSecView'
 import NavOnlymemesView from './NavOnlymemesView'
@@ -83,7 +83,7 @@ class IndexView extends React.Component {
                   <a href="#top" className="af-class-brand-3 w-nav-brand"><img src="images/Sec_Wordstamp_V3.png" loading="lazy" width={150} sizes="(max-width: 479px) 78vw, 120.00000762939453px" srcSet="images/Sec_Wordstamp_V3-p-500.png 500w, images/Sec_Wordstamp_V3-p-800.png 800w, images/Sec_Wordstamp_V3.png 1000w" alt="$SEC Logo - suck elon's cock wordstamp" className="af-class-image-16" /></a>
                   <nav role="navigation" className="af-class-nav-menu w-nav-menu">
                     <div className="af-class-nav-cta-button-2 af-class-mobile">
-                      <ConnectWalletButtonView.Controller />
+                      <SecWalletMobView.Controller />
                       <a href="#limited-edition-nfts-section" id="limited-drop-button" className="af-class-button-3 af-class-exclusive af-class-header w-button"><strong>LIMITED DROPS</strong></a>
                     </div>
                     <a href="#SECTIONECOSLUGGGGGGGGG" id="new-eco" className="af-class-nav-link-3 af-class-eco-nav w-inline-block">

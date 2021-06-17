@@ -1,6 +1,6 @@
 /* eslint-disable */
 
-export { default as ConnectWalletButtonView } from './ConnectWalletButtonView'
+export { default as SecWalletMobView } from './SecWalletMobView'
 export { default as SecWalletView } from './SecWalletView'
 export { default as TweetSecView } from './TweetSecView'
 export { default as NavOnlymemesView } from './NavOnlymemesView'
@@ -10,7 +10,7 @@ export { default as BoardingPassPurchaseView } from './BoardingPassPurchaseView'
 export { default as CoinPurchaseView } from './CoinPurchaseView'
 export { default as CopyButton2View } from './CopyButton2View'
 export { default as GoonHomeView } from './GoonHomeView'
-export { default as ConnectWalletButtonView } from './ConnectWalletButtonView'
+export { default as GoonWalletMobView } from './GoonWalletMobView'
 export { default as GoonWalletView } from './GoonWalletView'
 export { default as GoonBobbleView } from './GoonBobbleView'
 export { default as GoonMaskView } from './GoonMaskView'
