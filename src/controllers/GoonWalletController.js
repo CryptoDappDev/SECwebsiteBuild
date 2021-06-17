@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import ConnectToWalletNavView from '../views/ConnectToWalletNavView';
+import SecWalletView from '../views/SecWalletView';
 import { connectWallet } from '../constants';
 import PropTypes from 'prop-types'
 import { OpenSeaPort, Network } from 'opensea-js';
@@ -35,7 +35,7 @@ function ConnectToWalletNavController() {
         {(status === "notConnected") &&
             <div onClick={() => { handleClick() }} >
                 <Fade top>
-                <ConnectToWalletNavView> <wallet/> </ConnectToWalletNavView> 
+                <SecWalletView> <wallet/> </SecWalletView> 
                 </Fade>
             </div>
         }

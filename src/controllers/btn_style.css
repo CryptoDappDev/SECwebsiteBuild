@@ -91,6 +91,15 @@
   word-wrap: break-all;
   
 }
+.clipboard-3{
+  width: 100%;
+  justify-content: center;
+  margin: 0% 0% 0% 10%;
+  font-family: 'Montserrat', sans-serif;
+  overflow-wrap: break-all;
+  word-wrap: break-all;
+  
+}
 
 .wallet-connect-mob-wrapper {
   padding: 5% 0px 10px 0px;

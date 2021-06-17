@@ -109,11 +109,11 @@ class OnlymemesView extends React.Component {
               </div>
             </div>
             <section id="limited-edition-nfts-section" className="af-class-section af-class-dark af-class-_1">
-              <div className="af-class-onlymemebanners">
-                <div className="af-class-div-block-55"><img src="https://uploads-ssl.webflow.com/60c96fd79ca1f3785190ddb2/60c96fd79ca1f34f3e90de73_OnlyMemes%20Logo%20TM%20V3.png" loading="lazy" width="1460.5" alt className="af-class-image-37" />
-                  <div className="af-class-text-gradient-3 af-class-subform af-class-_1">Introduces:</div>
+                <div className="af-class-onlymemebanners mt-0">
+                  <div className="af-class-div-block-55 pb-5"><img src="https://uploads-ssl.webflow.com/60c96fd79ca1f3785190ddb2/60c96fd79ca1f34f3e90de73_OnlyMemes%20Logo%20TM%20V3.png" loading="lazy" width="1460.5" alt className="af-class-image-37" />
+                    <div className="af-class-text-gradient-3 af-class-subform af-class-_1">Introduces:</div>
+                  </div>
                 </div>
-              </div>
               <div id="onlymemes.goon" className="af-class-card-item-2 af-class-_1 af-class-_2">
                 <div className="af-class-div-block-54 af-class-_1"><img src="https://uploads-ssl.webflow.com/60c96fd79ca1f3785190ddb2/60c96fd79ca1f3274790de76_Goon%20(1).png" loading="lazy" alt className="af-class-image-36" />
                   <div className="af-class-text-block-18"><span className="af-class-text-span-7">Featured Profile:</span>&nbsp;THE $GOON BODEGA</div>
