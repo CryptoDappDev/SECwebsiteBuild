@@ -1,65 +1,118 @@
-import React, { useState, useEffect } from 'react';
-import SecWalletView from '../views/SecWalletView';
-import { connectWallet } from '../constants';
+import React from 'react'
+import WalletConnect from "@walletconnect/client";
+import QRCodeModal from "@walletconnect/qrcode-modal";
 import PropTypes from 'prop-types'
-import { OpenSeaPort, Network } from 'opensea-js';
-import { web3Provider, onNetworkUpdate, OPENSEA_JS_URL, GITHUB_URL } from '../constants';
-import * as Web3 from 'web3'
-import { useMetaMask } from 'metamask-react';
-import Fade from 'react-reveal/Fade';
-import { BrowserView, MobileView, isBrowser, isDesktop } from "react-device-detect";
-import { useWeb3React } from '@web3-react/core';
-import detectEthereumProvider from '@metamask/detect-provider';
-import { useAsync } from 'react-async-hook';
-//import {MetaMaskProvider} from 'metamask-react'
 
-
-function ConnectToWalletNavController() {
-
-    const { status, connect, account } = useMetaMask();
-
-    useEffect(() => {
-
-        if (status === "connected")
-        {
-            return <div>Connected account: {account}</div>
-        } 
-    });
-
-    function handleClick(){
-        connect(); 
+export default class GoonWalletMobController extends React.Component {
+   
+    static propTypes = {
+        connector : PropTypes.object,
     }
     
-    return ( 
-    <div>
-        {(status === "notConnected") &&
-            <div onClick={() => { handleClick() }} >
-                <Fade top>
-                <SecWalletView> <wallet/> </SecWalletView> 
-                </Fade>
+    constructor(props) {
+        super(props);
+        this.state = {
+            loggingIn: false,
+            isLoggedIn: false,
+            connector : null
+        };
+
+
+        // This binding is necessary to make `this` work in the callback
+        this.walletConnectInit = this.walletConnectInit.bind(this);
+        this.walletDisonnect = this.walletDisonnect.bind(this);
+        
+    }
+
+    componentDidMount() {
+        // need to make the initial call to getData() to populate
+        // data right away
+
+        if(this.state.connector === null) {
+            const bridge = "https://bridge.walletconnect.org";
+            const connector = new WalletConnect({bridge, qrcodeModal: QRCodeModal });
+            this.setState({connector : connector});
+        }
+        
+        // Now we need to make it run at a specified interval
+         // runs every 2 seconds.
+        setInterval(this.getData, 2000)
+        //this.getData();
+    }
+
+    getData = async () => {
+        // do something to fetch data from a remote API.
+        //console.log(this.state.connector.accounts)
+        if (!(this.state.connector == null)) {
+            if ((this.state.connector.connected)) {
+                this.setState({isLoggedIn: true});
+            }else { 
+                this.setState({isLoggedIn: false});
+            }
+        }else { 
+            this.setState({isLoggedIn: false});
+        }
+      }
+
+      componentWillUnmount() {
+        clearInterval(this.getData);
+      }
+
+
+    walletConnectInit = async () => {
+        
+        this.setState({loggingIn: true});
+        
+        
+        console.log('im already connectinggg!!!!....')
+        //console.log(this.state.connector.accounts)
+        const bridge = "https://bridge.walletconnect.org";
+        const connector = new WalletConnect({bridge, qrcodeModal: QRCodeModal });
+        await connector.createSession();
+        this.setState({connector : connector});
+        
+    };
+    
+
+    walletDisonnect = async () => {
+       
+
+        // check if connected
+        if (this.state.connector.connected) {
+            // kill session
+            await this.state.connector.killSession();        
+        }
+        //update state
+        if(! await this.state.connector.connected) {
+            this.setState({isLoggedIn: false});
+            const bridge = "https://bridge.walletconnect.org";
+            const connector = new WalletConnect({bridge, qrcodeModal: QRCodeModal });
+            this.setState({connector : connector});
+        }
+    };
+
+
+     render() {
+        let button;
+        if (this.state.isLoggedIn) {
+            button =    <div class = "wallet-connect-mob-wrapper" onClick={this.walletDisonnect}>
+                            <span> 
+                                <div class="af-class-button-3 af-class-exclusive af-class-header w-button"  >DISCONNECT WALLET</div>
+                            </span>
+                        </div>;
+        } else {
+            button = <div class = "wallet-connect-mob-wrapper" onClick={this.walletConnectInit}>
+                        <span > 
+                            <div class="af-class-button-3 af-class-exclusive af-class-header w-button"  >CONNECT WALLET</div>
+                        </span>
+                    </div>;
+        }
+
+
+        return (
+            <div>
+                {button}
             </div>
-        }
-        {(status === "connected") &&
-
-            <Fade right>
-                <div class="container border border-5 rounded p-2" > 
-                    <div class="af-class-text-gradient-1 text-nowrap small"  >Wallet: {account}</div>
-                </div>
-            </Fade>
-        }
-        {(status === "connecting") &&
-            <Fade bottom>
-                <div class="container border border-5 rounded p-2" > 
-                    <div class="af-class-text-gradient-1 text-nowrap small"  >Starting Cock Engine...</div>
-                </div>
-            </Fade>
-        }
-
-    </div>
-    );
+        )
+    }
 }
-
-export default () => (
-
-    <ConnectToWalletNavController/>
-)

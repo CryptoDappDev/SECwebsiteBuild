@@ -20,7 +20,7 @@ class CopyButton1Controller extends React.Component {
 
     render() {
         return (
-                <>
+                <div class = "pt-4">
                 <script src="https://kit.fontawesome.com/d97b87339f.js" crossorigin="anonymous"></script>
                 <CopyToClipboard text={'0xb0302D59237e6104c3f0D145996302F044797Ca5'}
                     onCopy={() => this.setState({copied: true})}>
@@ -36,7 +36,7 @@ class CopyButton1Controller extends React.Component {
                 <span>Copied!</span>
                 </div>
                 </Fade>
-                </>
+                </div>
         )
     }
 }
