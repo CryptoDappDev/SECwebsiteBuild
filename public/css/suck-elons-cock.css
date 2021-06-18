@@ -5407,6 +5407,7 @@
 }
 
 .af-view .af-class-div-block-8 {
+  min-height: 100px;
   margin-top: 10px;
   padding-right: 10px;
   padding-left: 10px;

@@ -302,10 +302,10 @@ class OnlymemesView extends React.Component {
                     </div>
                   </div>
                   <div className="af-class-div-block-49">
-                    <GoonTickerView.Controller />
                     <div className="af-class-div-block-62">
                       <div className="w-embed"><img src="https://secmedia.s3.us-east-2.amazonaws.com/%24GOON+TITLE.png" alt="GOON" /></div>
                     </div>
+                    <GoonTickerView.Controller />
                     <div className="af-class-div-block-50">
                       <a href="https://twitter.com/goontoken" target="_blank" className="af-class-twitter w-inline-block">
                         <div className="w-embed"><img src="images/iconfinder_104501_twitter_bird_icon.svg" alt="GOON" /></div>
@@ -319,13 +319,21 @@ class OnlymemesView extends React.Component {
                     </div>
                     <div className="af-class-text-block-19"><span className="af-class-text-span-8"><strong>Bigger than an investment. <br />‍<br /></strong></span><br /><span><strong className="af-class-bold-text-7">$GOON</strong></span><strong> </strong>token represents a symbolic message of how young peoples lives all over the globe have been changed forever because of <strong>Meme coins</strong>. In this day and age, you no longer need generational wealth to get ahead.<br /> <br /><br />That’s why we created <span className="af-class-bold-text-7"><strong>$GOON</strong></span>.<br /><br /></div>
                     <div className="af-class-div-block-51">
-                      <div className="w-embed"><img src="images/New-Project-17.png" alt="GOON" /></div>
+                      <div className="w-embed"><img src="https://sechosting.s3.us-east-2.amazonaws.com/media/GoonCoin.gif" alt="GOON" /></div>
                     </div>
                     <div className="af-class-text-block-19"><strong className="af-class-bold-text-7">$GOON</strong> token represents the path that meme coins have paved for anyone smart enough and courageous enough to adapt &amp; think outside the box. &nbsp;With a collaborative and growing community unlike any other, <span className="af-class-bold-text-7"><strong>$GOON</strong></span> provides anyone - regardless of income level, race or religion - with the opportunity to change their lives forever. <br /><br /><br />A chance at true <strong>financial freedom</strong>. In a nutshell, creating <span className="af-class-bold-text-7"><strong>$GOON</strong></span> is our way of fighting back against those that wish to to keep us shackled in a debt driven and society. </div>
                     <CopyGoonView.Controller />
+                    <div className="af-class-card-item-2 af-class-memes-coming-soon af-class-_11 af-class-_3">
+                      <div className="af-class-messssiah w-embed"><img src="images/photo_2021-06-09_00-06-33.jpg" alt="GOON" /></div>
+                    </div>
+                    <div className="af-class-text-block-19 af-class-_2 af-class-second-block-goon-text">‍<strong>The largest transfer of wealth</strong> in human history is happening before our eyes, as thousands of <strong>regular people </strong>have <strong>became millionaires </strong>off meme coins and crypto - what most people might consider a “joke”. But the results are very real. The numbers do not lie. The potential gains truly are “life changing.” <br /><br /><br />‍<strong>GoonRich</strong> aka ‘<span className="af-class-bold-text-7"><strong>Crypto Messiah</strong></span>’ - who famously went from <strong>Mailman </strong>to <strong>Millionaire </strong>in a matter of days - is possibly the greatest living example of this. And <span className="af-class-bold-text-7"><strong>$GOON</strong></span> is his official coin. The script has been flipped forever… We won’t stop until Every <span className="af-class-bold-text-7"><strong>$GOON</strong></span> <strong>Gets Rich</strong>.<br /><br /><br />Join the $Goon Squad today.</div>
+                    <div className="af-class-div-block-63">
+                      <div className="af-class-_3 af-class-spinning-mask w-embed"><img className="af-class-goonmemes" src="https://secmedia.s3.us-east-2.amazonaws.com/GoonSkiMask.gif" alt="GOON" /></div>
+                    </div>
                   </div>
                 </div>
-              </div></section>
+              </div>
+            </section>
             <div className="af-class-footer-2 af-class-_1">
               <div className="af-class-div-block-29 af-class-_2">
                 <div className="w-embed"><img src="images/OnlyMemes-Icon.png" alt="GOON" /></div>
