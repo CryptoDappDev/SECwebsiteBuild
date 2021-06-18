@@ -5042,6 +5042,7 @@
 }
 
 .af-view .af-class-card-item-2.af-class-_1.af-class-_2 {
+  max-height: 250px;
   max-width: 90%;
   background-color: #000;
   opacity: 1;
@@ -5050,6 +5051,10 @@
 .af-view .af-class-card-item-2.af-class-_1.af-class-_2:hover {
   background-color: #000;
   box-shadow: 0 0 10px 1px #ffc444;
+}
+
+.af-view .af-class-card-item-2.af-class-_1.af-class-_2.af-class-bodegga {
+  max-height: none;
 }
 
 .af-view .af-class-card-item-2.af-class-memes-coming-soon {
@@ -5154,6 +5159,7 @@
 }
 
 .af-view .af-class-card-item-2.af-class-memes-coming-soon.af-class-_1.af-class-_2 {
+  max-height: none;
   margin-right: 15px;
 }
 
@@ -5167,6 +5173,7 @@
   padding-top: 0px;
   padding-bottom: 0px;
   border-radius: 0px;
+  text-align: center;
 }
 
 .af-view .af-class-div-block-50 {
@@ -5183,6 +5190,7 @@
   -webkit-align-items: center;
   -ms-flex-align: center;
   align-items: center;
+  text-align: center;
 }
 
 .af-view .af-class-text-span-7 {
@@ -5267,6 +5275,7 @@
 }
 
 .af-view .af-class-div-block-54 {
+  position: relative;
   width: auto;
   margin-bottom: 2vh;
 }
@@ -5355,6 +5364,7 @@
   -ms-flex-align: start;
   align-items: flex-start;
   background-color: transparent;
+  text-align: center;
 }
 
 .af-view .af-class-onlymemessection-2.af-class-_2:hover {
@@ -5661,6 +5671,7 @@
 
 .af-view .af-class-html-embed-16 {
   display: block;
+  text-align: center;
 }
 
 .af-view .af-class-html-embed-17 {
@@ -5696,6 +5707,22 @@
   align-items: flex-start;
   font-size: 20px;
   font-weight: 500;
+}
+
+.af-view .af-class-_3.af-class-spinning-mask {
+  text-align: center;
+}
+
+.af-view .af-class-html-embed-18 {
+  position: relative;
+  width: 100%;
+  margin: auto;
+  -o-object-fit: contain;
+  object-fit: contain;
+}
+
+.af-view .af-class-html-embed-19 {
+  text-align: center;
 }
 
 @media screen and (min-width: 1280px) {
@@ -5820,6 +5847,16 @@
     padding-left: 0em;
   }
 
+  .af-view .af-class-card-item-2.af-class-_1.af-class-_2.af-class-bodegga {
+    max-height: 70%;
+  }
+
+  .af-view .af-class-card-item-2.af-class-memes-coming-soon.af-class-_1.af-class-bobble {
+    -webkit-justify-content: space-around;
+    -ms-flex-pack: distribute;
+    justify-content: space-around;
+  }
+
   .af-view .af-class-div-block-49 {
     background-color: #000;
   }
@@ -5885,6 +5922,10 @@
 
   .af-view .af-class-div-block-61 {
     margin-bottom: 15px;
+  }
+
+  .af-view .af-class-html-embed-14 {
+    max-height: 280px;
   }
 }
 
@@ -9255,6 +9296,10 @@
     margin-top: 10px;
   }
 
+  .af-view .af-class-div-block-49 {
+    text-align: center;
+  }
+
   .af-view .af-class-image-28 {
     margin-bottom: 30px;
   }
@@ -9305,6 +9350,10 @@
     -webkit-flex-direction: column;
     -ms-flex-direction: column;
     flex-direction: column;
+  }
+
+  .af-view .af-class-twitter {
+    padding-right: 5px;
   }
 }
 
