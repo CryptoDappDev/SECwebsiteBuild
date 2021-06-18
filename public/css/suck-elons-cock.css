@@ -5927,6 +5927,10 @@
   .af-view .af-class-html-embed-14 {
     max-height: 280px;
   }
+
+  .af-view .af-class-html-embed-18 {
+    margin-top: 104px;
+  }
 }
 
 @media screen and (max-width: 991px) {
