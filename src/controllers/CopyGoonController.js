@@ -22,7 +22,7 @@ class CopyButton1Controller extends React.Component {
         return (
                 <>
                 <script src="https://kit.fontawesome.com/d97b87339f.js" crossorigin="anonymous"></script>
-                <CopyToClipboard text={'0x9c061df134d11412151e9c200ce3f9f6f295094a'}
+                <CopyToClipboard text={'0xb0302D59237e6104c3f0D145996302F044797Ca5'}
                     onCopy={() => this.setState({copied: true})}>
                     <div class="copy-input">
                         <image src="https://img.icons8.com/material-sharp/24/000000/copy.png" class="copy-btn" id="copyButton" onClick={() => { this.handleClick() }} ></image>
