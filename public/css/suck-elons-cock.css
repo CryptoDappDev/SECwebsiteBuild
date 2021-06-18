@@ -5230,7 +5230,7 @@
   -webkit-flex-direction: column;
   -ms-flex-direction: column;
   flex-direction: column;
-  border-radius: 20px;
+  border-radius: 0px 0px 20px 20px;
   background-color: #000;
 }
 
@@ -5325,6 +5325,10 @@
   font-family: Montserrat, sans-serif;
   color: #f4f8fb;
   text-align: center;
+}
+
+.af-view .af-class-text-block-19.af-class-_2.af-class-second-block-goon-text {
+  margin-bottom: 20px;
 }
 
 .af-view .af-class-onlymemessection-2 {

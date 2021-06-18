@@ -298,7 +298,7 @@ class OnlymemesView extends React.Component {
                   <div className="af-class-div-block-53">
                     <div style={{paddingTop: '56.17021276595745%'}} className="w-video w-embed"><iframe className="af-class-embedly-embed" src="https://cdn.embedly.com/widgets/media.html?src=https%3A%2F%2Fwww.youtube.com%2Fembed%2FACQY6LYVasc&display_name=YouTube&url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DACQY6LYVasc&image=http%3A%2F%2Fi.ytimg.com%2Fvi%2FACQY6LYVasc%2Fhqdefault.jpg&key=96f1f04c5f4143bcb0f2e68c87d65feb&type=text%2Fhtml&schema=youtube" scrolling="no" title="YouTube embed" frameBorder={0} allow="autoplay; fullscreen" allowFullScreen="true" /></div>
                     <div className="af-class-html-embed-16 w-embed"><img className="af-class-goonmemes" src="https://secmedia.s3.us-east-2.amazonaws.com/1gooonrich.png" alt="GOON" />
-                      <style dangerouslySetInnerHTML={{__html: "\n.af-view .af-class-goonmemes {\nborder-radius: 20px 20px 20px 20px;\n}\n" }} />
+                      <style dangerouslySetInnerHTML={{__html: "\n.af-view .af-class-goonmemes {\nborder-radius: 0px 0px 0px 0px;\n}\n" }} />
                     </div>
                   </div>
                   <div className="af-class-div-block-49">
@@ -319,7 +319,7 @@ class OnlymemesView extends React.Component {
                     </div>
                     <div className="af-class-text-block-19"><span className="af-class-text-span-8"><strong>Bigger than an investment. <br />‍<br /></strong></span><br /><span><strong className="af-class-bold-text-7">$GOON</strong></span><strong> </strong>token represents a symbolic message of how young peoples lives all over the globe have been changed forever because of <strong>Meme coins</strong>. In this day and age, you no longer need generational wealth to get ahead.<br /> <br /><br />That’s why we created <span className="af-class-bold-text-7"><strong>$GOON</strong></span>.<br /><br /></div>
                     <div className="af-class-div-block-51">
-                      <div className="w-embed"><img src="https://sechosting.s3.us-east-2.amazonaws.com/media/goontoken.png" alt="GOON" /></div>
+                      <div className="w-embed"><img src="https://secmedia.s3.us-east-2.amazonaws.com/GoonCoinV4.gif" alt="GOON" /></div>
                     </div>
                     <div className="af-class-text-block-19"><strong className="af-class-bold-text-7">$GOON</strong> token represents the path that meme coins have paved for anyone smart enough and courageous enough to adapt &amp; think outside the box. &nbsp;With a collaborative and growing community unlike any other, <span className="af-class-bold-text-7"><strong>$GOON</strong></span> provides anyone - regardless of income level, race or religion - with the opportunity to change their lives forever. <br /><br /><br />A chance at true <strong>financial freedom</strong>. In a nutshell, creating <span className="af-class-bold-text-7"><strong>$GOON</strong></span> is our way of fighting back against those that wish to to keep us shackled in a debt driven and society. </div>
                     <CopyGoonView.Controller />
