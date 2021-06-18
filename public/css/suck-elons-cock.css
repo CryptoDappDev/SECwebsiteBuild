@@ -5043,15 +5043,12 @@
 
 .af-view .af-class-card-item-2.af-class-_1.af-class-_2 {
   max-width: 90%;
-  padding-top: 25px;
-  padding-bottom: 25px;
   background-color: #000;
+  opacity: 1;
 }
 
 .af-view .af-class-card-item-2.af-class-_1.af-class-_2:hover {
-  background-image: url('../images/background.goon.png');
-  background-position: 0px 0px;
-  background-size: cover;
+  background-color: #000;
   box-shadow: 0 0 10px 1px #ffc444;
 }
 
@@ -5154,6 +5151,10 @@
   -webkit-transform: scale(1.01);
   -ms-transform: scale(1.01);
   transform: scale(1.01);
+}
+
+.af-view .af-class-card-item-2.af-class-memes-coming-soon.af-class-_1.af-class-_2 {
+  margin-right: 15px;
 }
 
 .af-view .af-class-div-block-52 {
@@ -5259,13 +5260,14 @@
 }
 
 .af-view .af-class-image-36 {
+  position: relative;
+  z-index: 2;
   max-width: 80%;
   text-align: center;
 }
 
 .af-view .af-class-div-block-54 {
   width: auto;
-  margin-top: 2vh;
   margin-bottom: 2vh;
 }
 
@@ -5273,6 +5275,10 @@
   margin: 0vh auto;
   padding-top: 1vh;
   padding-bottom: 1vh;
+}
+
+.af-view .af-class-div-block-54.af-class-_2 {
+  margin-top: 10px;
 }
 
 .af-view .af-class-text-block-18 {
@@ -5356,6 +5362,7 @@
 }
 
 .af-view .af-class-onlymemessection-2.af-class-_3 {
+  height: 90%;
   margin-bottom: 2vh;
   margin-left: auto;
   padding-top: 10px;
@@ -5408,7 +5415,6 @@
 
 .af-view .af-class-div-block-55 {
   position: relative;
-  top: -1.1vh;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -5416,8 +5422,6 @@
   max-width: 100%;
   margin-right: auto;
   margin-left: auto;
-  padding-top: 50px;
-  padding-bottom: 3vh;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
   -webkit-flex-direction: row;
@@ -5452,6 +5456,11 @@
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
 }
 
 .af-view .af-class-html-embed-10 {
@@ -5543,9 +5552,7 @@
   max-height: 160px;
   max-width: 90%;
   margin: 25px auto 15px;
-  padding-top: 0px;
-  padding-right: 15px;
-  padding-left: 15px;
+  padding: 15px;
   -webkit-box-pack: center;
   -webkit-justify-content: center;
   -ms-flex-pack: center;
@@ -5578,10 +5585,116 @@
   filter: brightness(200%);
 }
 
+.af-view .af-class-div-block-60 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+.af-view .af-class-div-block-61 {
+  width: 100%;
+  height: 100%;
+}
+
 .af-view .af-class-div-block-62 {
   margin-top: 18px;
   padding-right: 10px;
   padding-left: 10px;
+}
+
+.af-view .af-class-div-block-64 {
+  position: absolute;
+  left: 0%;
+  top: 0%;
+  right: 0%;
+  bottom: 0%;
+}
+
+.af-view .af-class-div-block-65 {
+  position: absolute;
+  z-index: -1;
+  display: none;
+  width: 100%;
+  height: 100%;
+}
+
+.af-view .af-class-div-block-65:hover {
+  display: block;
+}
+
+.af-view .af-class-html-embed-13 {
+  display: block;
+  opacity: 1;
+}
+
+.af-view .af-class-html-embed-14 {
+  position: relative;
+  z-index: 2;
+  opacity: 1;
+}
+
+.af-view .af-class-div-block-66 {
+  position: absolute;
+  left: 0%;
+  top: 0%;
+  right: 0%;
+  bottom: 0%;
+  display: none;
+  width: 100%;
+  height: 100%;
+}
+
+.af-view .af-class-div-block-66:hover {
+  display: block;
+}
+
+.af-view .af-class-html-embed-15 {
+  max-height: 100%;
+}
+
+.af-view .af-class-html-embed-16 {
+  display: block;
+}
+
+.af-view .af-class-html-embed-17 {
+  -webkit-filter: blur(15px);
+  filter: blur(15px);
+}
+
+.af-view .af-class-div-block-67 {
+  position: absolute;
+  z-index: 1;
+  margin-top: 200px;
+}
+
+.af-view .af-class-text-block-24 {
+  font-family: Montserrat, sans-serif;
+  color: #f4f8fb;
+  font-size: 40px;
+  font-weight: 800;
+}
+
+.af-view .af-class-text-span-9 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: start;
+  -webkit-align-items: flex-start;
+  -ms-flex-align: start;
+  align-items: flex-start;
+  font-size: 20px;
+  font-weight: 500;
 }
 
 @media screen and (min-width: 1280px) {
@@ -5704,12 +5817,6 @@
   .af-view .af-class-container-2.af-class-_1 {
     padding-right: 0em;
     padding-left: 0em;
-  }
-
-  .af-view .af-class-card-item-2.af-class-_1.af-class-_2:hover {
-    background-image: url('https://d3e54v103j8qbb.cloudfront.net/img/background-image.svg');
-    background-position: 0px 0px;
-    background-size: auto;
   }
 
   .af-view .af-class-div-block-49 {
