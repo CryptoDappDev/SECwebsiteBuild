@@ -5370,6 +5370,7 @@
 
 .af-view .af-class-goon-token-gif {
   margin-top: 0px;
+  border-radius: 20px;
   text-align: center;
 }
 
@@ -5862,6 +5863,15 @@
 
 .af-view .af-class-div-block-69 {
   margin-top: 10px;
+  padding-right: 10px;
+  padding-left: 10px;
+}
+
+.af-view .af-class-bold-text-9 {
+  font-size: 18px;
+}
+
+.af-view .af-class-div-block-70 {
   padding-right: 10px;
   padding-left: 10px;
 }

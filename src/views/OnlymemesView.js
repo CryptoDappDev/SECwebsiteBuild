@@ -285,7 +285,9 @@ class OnlymemesView extends React.Component {
                 <div className="af-class-onlymemessection-2 af-class-_2">
                   <div className="af-class-div-block-49">
                     <div className="af-class-goon-token-gif">
-                      <div className="w-embed"><img src="https://secmedia.s3.us-east-2.amazonaws.com/goon/GoonCoinV5.gif" alt="GOON" /></div>
+                      <div className="w-embed"><img className="af-class-goonmemes" src="https://secmedia.s3.us-east-2.amazonaws.com/goon/GoonCoinV5.gif" alt="GOON" />
+                        <style dangerouslySetInnerHTML={{__html: "\n.af-view .af-class-goonmemes {\nborder-radius: 20px 20px 0px 0px;\n}\n" }} />
+                      </div>
                     </div>
                     <GoonTickerView.Controller />
                     <div className="af-class-goon-token-icons">
@@ -302,7 +304,12 @@ class OnlymemesView extends React.Component {
                         <div className="w-embed"><img src="images/iconfinder_4375490_logo_telegram_icon.svg" alt="GOON" /></div>
                       </a>
                     </div>
-                    <div className="af-class-text-block-19"><span className="af-class-text-span-8"><strong>Bigger than an investment. <br />‍<br /></strong></span><br /><span><strong className="af-class-bold-text-7">$GOON</strong></span><strong> </strong>token represents a symbolic message of how young peoples lives all over the globe have been changed forever because of <strong>Meme coins</strong>. In this day and age, you no longer need generational wealth to get ahead.<br /> <br /><br />That’s why we created <span className="af-class-bold-text-7"><strong>$GOON</strong></span>.<br /><br /></div>
+                    <div className="af-class-div-block-70">
+                      <a href="https://coinsniper.net/coin/3559" target="_blank" className="w-inline-block">
+                        <div className="w-embed"><img src="https://secmedia.s3.us-east-2.amazonaws.com/logos/longcoinsniper.logo.png" alt="COINSNIPER" /></div>
+                      </a>
+                    </div>
+                    <div className="af-class-text-block-19"><span className="af-class-text-span-8"><strong className="af-class-bold-text-9">Bigger than an investment. <br /></strong></span><br /><span><strong className="af-class-bold-text-7">$GOON</strong></span><strong> </strong>token represents a symbolic message of how young peoples lives all over the globe have been changed forever because of <strong>Meme coins</strong>. In this day and age, you no longer need generational wealth to get ahead.<br /><br />That’s why we created <span className="af-class-bold-text-7"><strong>$GOON</strong></span>.<br /><br /></div>
                     <div className="af-class-div-block-62">
                       <div className="af-class-html-embed-19 w-embed"><img src="https://secmedia.s3.us-east-2.amazonaws.com/goon/%24GOON+TITLE.png" alt="GOON Wordstamp" /></div>
                     </div>
