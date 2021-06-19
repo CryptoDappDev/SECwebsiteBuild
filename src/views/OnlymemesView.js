@@ -17,7 +17,6 @@ import GoonNFTSnoopView from './GoonNFTSnoopView'
 import GoonTickerView from './GoonTickerView'
 import CopyGoonView from './CopyGoonView'
 
-
 const scripts = [
   { loading: fetch("https://platform.twitter.com/widgets.js").then(body => body.text()), isAsync: true },
   { loading: fetch("https://d3e54v103j8qbb.cloudfront.net/js/jquery-3.5.1.min.dc5e7f18c8.js?site=60a76909ccf920aea94e85c4").then(body => body.text()), isAsync: false },
@@ -49,7 +48,7 @@ class OnlymemesView extends React.Component {
 
   componentDidMount() {
     const htmlEl = document.querySelector('html')
-    htmlEl.dataset['wfPage'] = '60cddb62d03ed9f977c80c0b'
+    htmlEl.dataset['wfPage'] = '60ce34e8e39364725000dd39'
     htmlEl.dataset['wfSite'] = '60a76909ccf920aea94e85c4'
 
     scripts.concat(null).reduce((active, next) => Promise.resolve(active).then((active) => {

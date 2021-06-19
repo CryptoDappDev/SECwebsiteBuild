@@ -33,7 +33,7 @@ class NotFoundView extends React.Component {
 
   componentDidMount() {
     const htmlEl = document.querySelector('html')
-    htmlEl.dataset['wfPage'] = '60cddb62d03ed9e380c80bfd'
+    htmlEl.dataset['wfPage'] = '60ce34e8e3936466f200dd2b'
     htmlEl.dataset['wfSite'] = '60a76909ccf920aea94e85c4'
 
     scripts.concat(null).reduce((active, next) => Promise.resolve(active).then((active) => {
