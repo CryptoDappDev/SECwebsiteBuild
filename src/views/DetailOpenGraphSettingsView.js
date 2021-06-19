@@ -33,7 +33,7 @@ class DetailOpenGraphSettingsView extends React.Component {
 
   componentDidMount() {
     const htmlEl = document.querySelector('html')
-    htmlEl.dataset['wfPage'] = '60cda6c5347c39de9c13c297'
+    htmlEl.dataset['wfPage'] = '60cdaa6c60650d4856afbcb9'
     htmlEl.dataset['wfSite'] = '60a76909ccf920aea94e85c4'
 
     scripts.concat(null).reduce((active, next) => Promise.resolve(active).then((active) => {
