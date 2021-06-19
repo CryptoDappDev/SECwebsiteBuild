@@ -12,19 +12,19 @@ const scripts = [
 
 let Controller
 
-class OnlymemesView extends React.Component {
+class TestingView extends React.Component {
   static get Controller() {
     if (Controller) return Controller
 
     try {
-      Controller = require('../controllers/OnlymemesController')
+      Controller = require('../controllers/TestingController')
       Controller = Controller.default || Controller
 
       return Controller
     }
     catch (e) {
       if (e.code == 'MODULE_NOT_FOUND') {
-        Controller = OnlymemesView
+        Controller = TestingView
 
         return Controller
       }
@@ -35,7 +35,7 @@ class OnlymemesView extends React.Component {
 
   componentDidMount() {
     const htmlEl = document.querySelector('html')
-    htmlEl.dataset['wfPage'] = '60cdb7d67d6b22a98f01a253'
+    htmlEl.dataset['wfPage'] = '60cdd23e2b4ab99e3a45db19'
     htmlEl.dataset['wfSite'] = '60a76909ccf920aea94e85c4'
 
     scripts.concat(null).reduce((active, next) => Promise.resolve(active).then((active) => {
@@ -54,7 +54,7 @@ class OnlymemesView extends React.Component {
   }
 
   render() {
-    const proxies = OnlymemesView.Controller !== OnlymemesView ? transformProxies(this.props.children) : {
+    const proxies = TestingView.Controller !== TestingView ? transformProxies(this.props.children) : {
 
     }
 
@@ -66,7 +66,7 @@ class OnlymemesView extends React.Component {
           @import url(C:\\css\\suck-elons-cock.css);
         ` }} />
         <span className="af-view">
-          <div className="af-class-body-2">
+          <div>
             <div data-collapse="medium" data-animation="default" data-duration={400} data-w-id="d53afd31-56fb-2ac4-46a3-5a7b9de5ba08" role="banner" className="af-class-fixed-nav-3 w-nav">
               <div className="af-class-gradient-border" />
               <div className="af-class-container af-class-nav-container w-container">
@@ -82,7 +82,7 @@ class OnlymemesView extends React.Component {
                   <a href="#" className="af-class-nav-link-3 af-class-moonmap w-inline-block">
                     <div className="af-class-nav-link-text">Moonmap</div>
                   </a>
-                  <a href="onlymemes.html" target="_blank" aria-current="page" className="af-class-nav-link-3 af-class-_2 w-inline-block w--current">
+                  <a href="onlymemes.html" target="_blank" className="af-class-nav-link-3 af-class-_2 w-inline-block">
                     <div className="af-class-nav-link-text">ONLYMEMES</div>
                   </a>
                   <div className="af-class-nav-socials">
@@ -111,6 +111,6 @@ class OnlymemesView extends React.Component {
   }
 }
 
-export default OnlymemesView
+export default TestingView
 
 /* eslint-enable */
