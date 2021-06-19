@@ -17,6 +17,7 @@ import GoonNFTSnoopView from './GoonNFTSnoopView'
 import GoonTickerView from './GoonTickerView'
 import CopyGoonView from './CopyGoonView'
 
+
 const scripts = [
   { loading: fetch("https://platform.twitter.com/widgets.js").then(body => body.text()), isAsync: true },
   { loading: fetch("https://d3e54v103j8qbb.cloudfront.net/js/jquery-3.5.1.min.dc5e7f18c8.js?site=60a76909ccf920aea94e85c4").then(body => body.text()), isAsync: false },
