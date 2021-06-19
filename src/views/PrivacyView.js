@@ -33,7 +33,7 @@ class PrivacyView extends React.Component {
 
   componentDidMount() {
     const htmlEl = document.querySelector('html')
-    htmlEl.dataset['wfPage'] = '60cdda37195f0ed5516f043e'
+    htmlEl.dataset['wfPage'] = '60cddb62d03ed9345cc80c0d'
     htmlEl.dataset['wfSite'] = '60a76909ccf920aea94e85c4'
 
     scripts.concat(null).reduce((active, next) => Promise.resolve(active).then((active) => {

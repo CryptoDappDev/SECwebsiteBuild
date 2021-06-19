@@ -61,7 +61,7 @@ class GoonTickerView extends React.Component {
           @import url(C:\\css\\suck-elons-cock.css);
         ` }} />
         <span className="af-view">
-          <div>
+          <div className="af-class-div-block-69">
             <div className="w-embed w-script">
               <coingecko-coin-ticker-widget coin-id="goonrich" currency="usd" locale="en" background-color="transparent" width={350} vce-ready />
             </div>
