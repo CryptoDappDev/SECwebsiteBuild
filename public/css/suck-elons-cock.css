@@ -6494,6 +6494,7 @@
   }
 
   .af-view .af-class-nav-menu.af-class-onlymemesmenu {
+    position: absolute;
     z-index: 99;
     display: block;
     background-image: -webkit-gradient(linear, left top, left bottom, color-stop(45%, #000), color-stop(100%, #9975d0), to(transparent));
@@ -7062,10 +7063,9 @@
   }
 
   .af-view .af-class-menu-button-3.af-class-onlymemesmenu {
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
+    position: absolute;
+    z-index: 99;
+    display: block;
     width: 42px;
     height: 39px;
     margin-top: 0.5vh;
