@@ -9,19 +9,19 @@ const scripts = [
 
 let Controller
 
-class GOONNFT50View extends React.Component {
+class GoonNFT50View extends React.Component {
   static get Controller() {
     if (Controller) return Controller
 
     try {
-      Controller = require('../controllers/GOONNFT50Controller')
+      Controller = require('../controllers/GoonNFT50Controller')
       Controller = Controller.default || Controller
 
       return Controller
     }
     catch (e) {
       if (e.code == 'MODULE_NOT_FOUND') {
-        Controller = GOONNFT50View
+        Controller = GoonNFT50View
 
         return Controller
       }
@@ -49,7 +49,7 @@ class GOONNFT50View extends React.Component {
   }
 
   render() {
-    const proxies = GOONNFT50View.Controller !== GOONNFT50View ? transformProxies(this.props.children) : {
+    const proxies = GoonNFT50View.Controller !== GoonNFT50View ? transformProxies(this.props.children) : {
 
     }
 
@@ -70,6 +70,6 @@ class GOONNFT50View extends React.Component {
   }
 }
 
-export default GOONNFT50View
+export default GoonNFT50View
 
 /* eslint-enable */

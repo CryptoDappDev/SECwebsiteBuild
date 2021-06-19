@@ -9,19 +9,19 @@ const scripts = [
 
 let Controller
 
-class GOONNFTSnoopView extends React.Component {
+class GoonNFTSnoopView extends React.Component {
   static get Controller() {
     if (Controller) return Controller
 
     try {
-      Controller = require('../controllers/GOONNFTSnoopController')
+      Controller = require('../controllers/GoonNFTSnoopController')
       Controller = Controller.default || Controller
 
       return Controller
     }
     catch (e) {
       if (e.code == 'MODULE_NOT_FOUND') {
-        Controller = GOONNFTSnoopView
+        Controller = GoonNFTSnoopView
 
         return Controller
       }
@@ -49,7 +49,7 @@ class GOONNFTSnoopView extends React.Component {
   }
 
   render() {
-    const proxies = GOONNFTSnoopView.Controller !== GOONNFTSnoopView ? transformProxies(this.props.children) : {
+    const proxies = GoonNFTSnoopView.Controller !== GoonNFTSnoopView ? transformProxies(this.props.children) : {
 
     }
 
@@ -70,6 +70,6 @@ class GOONNFTSnoopView extends React.Component {
   }
 }
 
-export default GOONNFTSnoopView
+export default GoonNFTSnoopView
 
 /* eslint-enable */

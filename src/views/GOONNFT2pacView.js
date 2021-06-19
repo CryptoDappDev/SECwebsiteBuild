@@ -9,19 +9,19 @@ const scripts = [
 
 let Controller
 
-class GOONNFT2pacView extends React.Component {
+class GoonNFT2pacView extends React.Component {
   static get Controller() {
     if (Controller) return Controller
 
     try {
-      Controller = require('../controllers/GOONNFT2pacController')
+      Controller = require('../controllers/GoonNFT2pacController')
       Controller = Controller.default || Controller
 
       return Controller
     }
     catch (e) {
       if (e.code == 'MODULE_NOT_FOUND') {
-        Controller = GOONNFT2pacView
+        Controller = GoonNFT2pacView
 
         return Controller
       }
@@ -49,7 +49,7 @@ class GOONNFT2pacView extends React.Component {
   }
 
   render() {
-    const proxies = GOONNFT2pacView.Controller !== GOONNFT2pacView ? transformProxies(this.props.children) : {
+    const proxies = GoonNFT2pacView.Controller !== GoonNFT2pacView ? transformProxies(this.props.children) : {
 
     }
 
@@ -70,6 +70,6 @@ class GOONNFT2pacView extends React.Component {
   }
 }
 
-export default GOONNFT2pacView
+export default GoonNFT2pacView
 
 /* eslint-enable */

@@ -9,19 +9,19 @@ const scripts = [
 
 let Controller
 
-class GOONNFTWuTangView extends React.Component {
+class GoonNFTWuTangView extends React.Component {
   static get Controller() {
     if (Controller) return Controller
 
     try {
-      Controller = require('../controllers/GOONNFTWuTangController')
+      Controller = require('../controllers/GoonNFTWuTangController')
       Controller = Controller.default || Controller
 
       return Controller
     }
     catch (e) {
       if (e.code == 'MODULE_NOT_FOUND') {
-        Controller = GOONNFTWuTangView
+        Controller = GoonNFTWuTangView
 
         return Controller
       }
@@ -49,7 +49,7 @@ class GOONNFTWuTangView extends React.Component {
   }
 
   render() {
-    const proxies = GOONNFTWuTangView.Controller !== GOONNFTWuTangView ? transformProxies(this.props.children) : {
+    const proxies = GoonNFTWuTangView.Controller !== GoonNFTWuTangView ? transformProxies(this.props.children) : {
 
     }
 
@@ -70,6 +70,6 @@ class GOONNFTWuTangView extends React.Component {
   }
 }
 
-export default GOONNFTWuTangView
+export default GoonNFTWuTangView
 
 /* eslint-enable */

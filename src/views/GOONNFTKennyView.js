@@ -9,19 +9,19 @@ const scripts = [
 
 let Controller
 
-class GOONNFTKennyView extends React.Component {
+class GoonNFTKennyView extends React.Component {
   static get Controller() {
     if (Controller) return Controller
 
     try {
-      Controller = require('../controllers/GOONNFTKennyController')
+      Controller = require('../controllers/GoonNFTKennyController')
       Controller = Controller.default || Controller
 
       return Controller
     }
     catch (e) {
       if (e.code == 'MODULE_NOT_FOUND') {
-        Controller = GOONNFTKennyView
+        Controller = GoonNFTKennyView
 
         return Controller
       }
@@ -49,7 +49,7 @@ class GOONNFTKennyView extends React.Component {
   }
 
   render() {
-    const proxies = GOONNFTKennyView.Controller !== GOONNFTKennyView ? transformProxies(this.props.children) : {
+    const proxies = GoonNFTKennyView.Controller !== GoonNFTKennyView ? transformProxies(this.props.children) : {
 
     }
 
@@ -70,6 +70,6 @@ class GOONNFTKennyView extends React.Component {
   }
 }
 
-export default GOONNFTKennyView
+export default GoonNFTKennyView
 
 /* eslint-enable */
