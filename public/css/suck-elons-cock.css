@@ -3870,6 +3870,12 @@
 
 .af-view .af-class-button-3.af-class-exclusive.af-class-header.af-class-_1.w--current {
   display: none;
+  background-color: transparent;
+  color: hsla(0, 0%, 100%, 0);
+}
+
+.af-view .af-class-button-3.af-class-exclusive.af-class-goon-connect-wallet {
+  background-image: linear-gradient(206deg, #4b73ed, #837cde 32%, #8b6cae);
 }
 
 .af-view .af-class-brand-2 {
@@ -4234,6 +4240,7 @@
 
 .af-view .af-class-text-gradient-3.af-class-header-connect-waller.af-class-goon-wallet {
   background-image: linear-gradient(111deg, #fff, #fff 94%, #f46692);
+  color: #fff;
 }
 
 .af-view .af-class-text-gradient-3.af-class-feature-nft-text {
