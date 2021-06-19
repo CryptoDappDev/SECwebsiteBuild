@@ -61,9 +61,7 @@ class GoonHomeView extends React.Component {
           @import url(C:\\css\\suck-elons-cock.css);
         ` }} />
         <span className="af-view">
-          <a href="#goononlymemes" className="af-class-brand-3 af-class-_1 w-nav-brand">
-            <div className="af-class-html-embed-20 w-embed"><img src="https://secmedia.s3.us-east-2.amazonaws.com/onlymemes/OnlyMemes+LogoText.png" alt="OnlyMemes" /></div>
-          </a>
+          <a href="#" className="af-class-brand-3 af-class-_1 w-nav-brand" />
         </span>
       </span>
     )

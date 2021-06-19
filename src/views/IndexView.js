@@ -80,7 +80,7 @@ class IndexView extends React.Component {
               <div data-collapse="medium" data-animation="default" data-duration={400} data-w-id="d53afd31-56fb-2ac4-46a3-5a7b9de5ba08" role="banner" className="af-class-fixed-nav-3 w-nav">
                 <div className="af-class-gradient-border" />
                 <div className="af-class-container af-class-nav-container w-container">
-                  <a href="#top" className="af-class-brand-3 w-nav-brand"><img src="images/Sec_Wordstamp_V3.png" loading="lazy" width={150} sizes="(max-width: 479px) 78vw, 120.00000762939453px" srcSet="images/Sec_Wordstamp_V3-p-500.png 500w, images/Sec_Wordstamp_V3-p-800.png 800w, images/Sec_Wordstamp_V3.png 1000w" alt="$SEC Logo - suck elon's cock wordstamp" className="af-class-image-16" /></a>
+                  <a href="#top" className="af-class-brand-3 w-nav-brand"><img src="images/Sec_Wordstamp_V3.png" loading="lazy" width={150} sizes="120.00000762939453px" srcSet="images/Sec_Wordstamp_V3-p-500.png 500w, images/Sec_Wordstamp_V3-p-800.png 800w, images/Sec_Wordstamp_V3.png 1000w" alt="$SEC Logo - suck elon's cock wordstamp" className="af-class-image-16" /></a>
                   <nav role="navigation" className="af-class-nav-menu w-nav-menu">
                     <div className="af-class-nav-cta-button-2 af-class-mobile">
                       <SecWalletMobView.Controller />
