@@ -5660,11 +5660,6 @@
   max-width: 90%;
   margin: 25px auto 15px;
   padding: 15px;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-  -webkit-flex-direction: column;
-  -ms-flex-direction: column;
-  flex-direction: column;
   -webkit-box-pack: center;
   -webkit-justify-content: center;
   -ms-flex-pack: center;
@@ -5681,6 +5676,7 @@
 }
 
 .af-view .af-class-onlymemebanners:hover {
+  max-height: none;
   box-shadow: 0 0 3px 0 #574ae2;
 }
 
@@ -5869,6 +5865,7 @@
 }
 
 .af-view .af-class-bold-text-9 {
+  color: #dea800;
   font-size: 18px;
 }
 
@@ -5878,8 +5875,7 @@
 }
 
 .af-view .af-class-div-block-71 {
-  position: relative;
-  display: block;
+  position: absolute;
 }
 
 @media screen and (min-width: 1280px) {
@@ -6228,6 +6224,12 @@
     box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.05);
     opacity: 1;
     text-align: left;
+  }
+
+  .af-view .af-class-nav-menu.af-class-goon-nav {
+    background-color: rgba(138, 70, 125, 0);
+    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(29%, #141415), color-stop(67%, #8a467d), to(#404679));
+    background-image: linear-gradient(180deg, #141415 29%, #8a467d 67%, #404679);
   }
 
   .af-view .af-class-brand {
@@ -6646,6 +6648,11 @@
     text-align: center;
   }
 
+  .af-view .af-class-nav-socials.af-class-goon-socials {
+    -webkit-filter: none;
+    filter: none;
+  }
+
   .af-view .af-class-commet-image {
     height: 100%;
   }
@@ -6693,6 +6700,10 @@
     min-width: 100%;
     margin-left: 0%;
     line-height: 1.4;
+  }
+
+  .af-view .af-class-button-3.af-class-exclusive.af-class-header.af-class-onlymemesdrops {
+    display: none;
   }
 
   .af-view .af-class-brand-2 {

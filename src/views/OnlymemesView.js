@@ -5,14 +5,15 @@ import { createScope, map, transformProxies } from './helpers'
 import GoonHomeView from './GoonHomeView'
 import GoonWalletMobView from './GoonWalletMobView'
 import GoonWalletView from './GoonWalletView'
+import GoonCardView from './GoonCardView'
 import GoonBobbleView from './GoonBobbleView'
 import GoonMaskView from './GoonMaskView'
-import GoonLegendView from './GoonLegendView'
-import GoonBowView from './GoonBowView'
-import GoonDipView from './GoonDipView'
-import GoonTrippyView from './GoonTrippyView'
-import GoonPosterView from './GoonPosterView'
-import Goon50View from './Goon50View'
+import GOONNFT50View from './GOONNFT50View'
+import GOONNFTRockyView from './GOONNFTRockyView'
+import GOONNFT2pacView from './GOONNFT2pacView'
+import GOONNFTWuTangView from './GOONNFTWuTangView'
+import GOONNFTKennyView from './GOONNFTKennyView'
+import GOONNFTSnoopView from './GOONNFTSnoopView'
 import GoonTickerView from './GoonTickerView'
 import CopyGoonView from './CopyGoonView'
 
@@ -82,7 +83,7 @@ class OnlymemesView extends React.Component {
               <div className="af-class-gradient-border af-class-onlymemes" />
               <div className="af-class-container af-class-nav-container w-container">
                 <GoonHomeView.Controller />
-                <nav role="navigation" className="af-class-nav-menu w-nav-menu">
+                <nav role="navigation" className="af-class-nav-menu af-class-goon-nav w-nav-menu">
                   <div className="af-class-nav-cta-button-2 af-class-mobile">
                     <GoonWalletMobView.Controller />
                     <a href="#" id="limited-drop-button" className="af-class-button-3 af-class-exclusive af-class-header af-class-onlymemesdrops w-button"><strong>LIMITED DROPS</strong></a>
@@ -90,7 +91,7 @@ class OnlymemesView extends React.Component {
                   <a href="#" className="af-class-nav-link-3 af-class-moonmap w-inline-block">
                     <div className="af-class-nav-link-text">Moonmap</div>
                   </a>
-                  <div className="af-class-nav-socials">
+                  <div className="af-class-nav-socials af-class-goon-socials">
                     <a href="https://www.instagram.com/suckelonscock" target="_blank" className="af-class-social-media-link af-class-navv w-inline-block"><img src="images/IG..Circle.svg" loading="lazy" width={30} alt="Instagram logo - suckelonscock" className="af-class-social-media-icon" /></a>
                     <a href="https://twitter.com/suckelonscock?lang=en" target="_blank" className="af-class-social-media-link af-class-navv w-inline-block"><img src="images/twitter-round.svg" loading="lazy" width={25} alt="Twitter logo - suckelonscock suck elon's cock " className="af-class-social-media-icon" /></a>
                     <a href="https://t.me/suckelonscock" target="_blank" className="af-class-social-media-link af-class-navv w-inline-block"><img src="images/telegram-black.svg" loading="lazy" width={24} height={24} alt className="af-class-social-media-icon" /></a>
@@ -111,7 +112,6 @@ class OnlymemesView extends React.Component {
             <section id="limited-edition-nfts-section" className="af-class-section af-class-dark af-class-_1">
               <div className="af-class-onlymemebanners">
                 <div className="af-class-div-block-55"><img src="https://uploads-ssl.webflow.com/60c96fd79ca1f3785190ddb2/60c96fd79ca1f34f3e90de73_OnlyMemes%20Logo%20TM%20V3.png" loading="lazy" width="1460.5" alt className="af-class-image-37" /></div>
-                <div className="af-class-div-block-71" />
               </div>
               <div id="onlymemes.goon" className="af-class-card-item-2 af-class-_1 af-class-_2 af-class-bodegga">
                 <div className="af-class-div-block-54 af-class-_1">
@@ -128,12 +128,21 @@ class OnlymemesView extends React.Component {
                     </div>
                     <div className="af-class-div-block-48">
                       <div className="af-class-card-item-2 af-class-memes-coming-soon af-class-_1 af-class-_2">
-                        <div className="af-class-div-block-67">
-                          <div className="af-class-text-block-24">NEW DROP<br /><span className="af-class-text-span-9">COMING SOON</span></div>
+                        <div className="af-class-div-block-61">
+                          <div className="af-class-html-embed-17 w-embed"><img src="https://secmedia.s3.us-east-2.amazonaws.com/goon/1GoonRich_OnlyMemes_TradingCard.gif" alt="GOON Trading Card" /></div>
                         </div>
-                        <div className="af-class-div-block-60">
-                          <div className="af-class-div-block-61">
-                            <div className="af-class-html-embed-17 w-embed"><img src="https://secmedia.s3.us-east-2.amazonaws.com/goon/1GoonRich_OnlyMemes_TradingCard.gif" alt="GOON Trading Card" /></div>
+                        <div className="af-class-card-item-content af-class-memecard af-class-_2">
+                          <div className="af-class-div-block-45" />
+                          <div id="purchase-pass-button" className="af-class-nft-buy-buttons af-class-sec-coin af-class-purchase af-class-_1">
+                            <div id="purchase-pass-button-1" className="af-class-nft-price-div"><img src="https://uploads-ssl.webflow.com/60c96fd79ca1f3785190ddb2/60c96fd79ca1f341a190de04_ETH%20logo.svg" loading="lazy" width={25} alt="ETH logo" className="af-class-image-15" />
+                              <div className="af-class-text-block-23">1</div>
+                            </div>
+                            <GoonCardView.Controller />
+                          </div>
+                          <div className="af-class-div-block-42">
+                            <div className="af-class-text-block-22">
+                              <a href="https://opensea.io/assets/0x495f947276749ce646f68ac8c248420045cb7b5e/46344851359934370536456800909699950300763532368427110215084597172222583373829" target="_blank" className="af-class-opensealink-2">View on OpenSea</a>
+                            </div>
                           </div>
                         </div>
                       </div>
@@ -147,9 +156,6 @@ class OnlymemesView extends React.Component {
                           </div>
                         </div>
                         <div className="af-class-card-item-content af-class-memecard af-class-_2">
-                          <div className="af-class-fade-in-on-scroll">
-                            <div className="af-class-div-block-53" />
-                          </div>
                           <div className="af-class-div-block-45" />
                           <div id="purchase-pass-button" className="af-class-nft-buy-buttons af-class-sec-coin af-class-purchase af-class-_1">
                             <div id="purchase-pass-button-1" className="af-class-nft-price-div"><img src="https://uploads-ssl.webflow.com/60c96fd79ca1f3785190ddb2/60c96fd79ca1f341a190de04_ETH%20logo.svg" loading="lazy" width={25} alt="ETH logo" className="af-class-image-15" />
@@ -202,11 +208,11 @@ class OnlymemesView extends React.Component {
                           <div id="purchase-pass-button-1" className="af-class-nft-price-div"><img src="https://uploads-ssl.webflow.com/60c96fd79ca1f3785190ddb2/60c96fd79ca1f341a190de04_ETH%20logo.svg" loading="lazy" width={25} alt="ETH logo" className="af-class-image-15" />
                             <div className="af-class-text-block-23">0.1</div>
                           </div>
-                          <GoonLegendView.Controller />
+                          <GOONNFT50View.Controller />
                         </div>
                         <div className="af-class-view-on">
                           <div className="af-class-text-block-22">
-                            <a href="https://opensea.io/assets/0x495f947276749ce646f68ac8c248420045cb7b5e/46344851359934370536456800909699950300763532368427110215084597164526001979393" target="_blank" className="af-class-opensealink-2">View on OpenSea</a>
+                            <a href="https://opensea.io/assets/0x495f947276749ce646f68ac8c248420045cb7b5e/46344851359934370536456800909699950300763532368427110215084597178819653140490" target="_blank" className="af-class-opensealink-2">View on OpenSea</a>
                           </div>
                         </div>
                       </div>
@@ -216,11 +222,11 @@ class OnlymemesView extends React.Component {
                           <div id="purchase-pass-button-1" className="af-class-nft-price-div"><img src="https://uploads-ssl.webflow.com/60c96fd79ca1f3785190ddb2/60c96fd79ca1f341a190de04_ETH%20logo.svg" loading="lazy" width={25} alt="ETH logo" className="af-class-image-15" />
                             <div className="af-class-text-block-23">0.1</div>
                           </div>
-                          <GoonBowView.Controller />
+                          <GOONNFTRockyView.Controller />
                         </div>
                         <div className="af-class-view-on">
                           <div className="af-class-text-block-22">
-                            <a href="https://opensea.io/assets/0x495f947276749ce646f68ac8c248420045cb7b5e/46344851359934370536456800909699950300763532368427110215084597165625513607169" target="_blank" className="af-class-opensealink-2">View on OpenSea</a>
+                            <a href="https://opensea.io/assets/0x495f947276749ce646f68ac8c248420045cb7b5e/46344851359934370536456800909699950300763532368427110215084597177720141512714" target="_blank" className="af-class-opensealink-2">View on OpenSea</a>
                           </div>
                         </div>
                       </div>
@@ -230,11 +236,11 @@ class OnlymemesView extends React.Component {
                           <div id="purchase-pass-button-1" className="af-class-nft-price-div"><img src="https://uploads-ssl.webflow.com/60c96fd79ca1f3785190ddb2/60c96fd79ca1f341a190de04_ETH%20logo.svg" loading="lazy" width={25} alt="ETH logo" className="af-class-image-15" />
                             <div className="af-class-text-block-23">0.01</div>
                           </div>
-                          <GoonDipView.Controller />
+                          <GOONNFT2pacView.Controller />
                         </div>
                         <div className="af-class-view-on">
                           <div className="af-class-text-block-22">
-                            <a href="https://opensea.io/assets/0x495f947276749ce646f68ac8c248420045cb7b5e/46344851359934370536456800909699950300763532368427110215084597168924048490506" target="_blank" className="af-class-opensealink-2">View on OpenSea</a>
+                            <a href="https://opensea.io/assets/0x495f947276749ce646f68ac8c248420045cb7b5e/46344851359934370536456800909699950300763532368427110215084597174421606629386" target="_blank" className="af-class-opensealink-2">View on OpenSea</a>
                           </div>
                         </div>
                       </div>
@@ -244,11 +250,11 @@ class OnlymemesView extends React.Component {
                           <div id="purchase-pass-button-1" className="af-class-nft-price-div"><img src="https://uploads-ssl.webflow.com/60c96fd79ca1f3785190ddb2/60c96fd79ca1f341a190de04_ETH%20logo.svg" loading="lazy" width={25} alt="ETH logo" className="af-class-image-15" />
                             <div className="af-class-text-block-23">0.01</div>
                           </div>
-                          <GoonTrippyView.Controller />
+                          <GOONNFTWuTangView.Controller />
                         </div>
                         <div className="af-class-view-on">
                           <div className="af-class-text-block-22">
-                            <a href="https://opensea.io/assets/0x495f947276749ce646f68ac8c248420045cb7b5e/46344851359934370536456800909699950300763532368427110215084597167824536862730" target="_blank" className="af-class-opensealink-2">View on OpenSea</a>
+                            <a href="https://opensea.io/assets/0x495f947276749ce646f68ac8c248420045cb7b5e/46344851359934370536456800909699950300763532368427110215084597176620629884938" target="_blank" className="af-class-opensealink-2">View on OpenSea</a>
                           </div>
                         </div>
                       </div>
@@ -258,11 +264,11 @@ class OnlymemesView extends React.Component {
                           <div id="purchase-pass-button-1" className="af-class-nft-price-div"><img src="https://uploads-ssl.webflow.com/60c96fd79ca1f3785190ddb2/60c96fd79ca1f341a190de04_ETH%20logo.svg" loading="lazy" width={25} alt="ETH logo" className="af-class-image-15" />
                             <div className="af-class-text-block-23">0.01</div>
                           </div>
-                          <GoonPosterView.Controller />
+                          <GOONNFTKennyView.Controller />
                         </div>
                         <div className="af-class-view-on">
                           <div className="af-class-text-block-22">
-                            <a href="https://opensea.io/assets/0x495f947276749ce646f68ac8c248420045cb7b5e/46344851359934370536456800909699950300763532368427110215084597170023560118282" target="_blank" className="af-class-opensealink-2">View on OpenSea</a>
+                            <a href="https://opensea.io/assets/0x495f947276749ce646f68ac8c248420045cb7b5e/46344851359934370536456800909699950300763532368427110215084597173322095001610" target="_blank" className="af-class-opensealink-2">View on OpenSea</a>
                           </div>
                         </div>
                       </div>
@@ -274,11 +280,11 @@ class OnlymemesView extends React.Component {
                           <div id="purchase-pass-button-1" className="af-class-nft-price-div"><img src="https://uploads-ssl.webflow.com/60c96fd79ca1f3785190ddb2/60c96fd79ca1f341a190de04_ETH%20logo.svg" loading="lazy" width={25} alt="ETH logo" className="af-class-image-15" />
                             <div className="af-class-text-block-23">0.01</div>
                           </div>
-                          <Goon50View.Controller />
+                          <GOONNFTSnoopView.Controller />
                         </div>
                         <div className="af-class-view-on">
                           <div className="af-class-text-block-22">
-                            <a href="https://opensea.io/assets/0x495f947276749ce646f68ac8c248420045cb7b5e/46344851359934370536456800909699950300763532368427110215084597171123071746058" target="_blank" className="af-class-opensealink-2">View on OpenSea</a>
+                            <a href="https://opensea.io/assets/0x495f947276749ce646f68ac8c248420045cb7b5e/46344851359934370536456800909699950300763532368427110215084597175521118257162" target="_blank" className="af-class-opensealink-2">View on OpenSea</a>
                           </div>
                         </div>
                       </div>
