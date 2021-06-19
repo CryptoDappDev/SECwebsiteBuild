@@ -9,19 +9,19 @@ const scripts = [
 
 let Controller
 
-class GoonWalletView extends React.Component {
+class GoonWalletMobOldView extends React.Component {
   static get Controller() {
     if (Controller) return Controller
 
     try {
-      Controller = require('../controllers/GoonWalletController')
+      Controller = require('../controllers/GoonWalletMobOldController')
       Controller = Controller.default || Controller
 
       return Controller
     }
     catch (e) {
       if (e.code == 'MODULE_NOT_FOUND') {
-        Controller = GoonWalletView
+        Controller = GoonWalletMobOldView
 
         return Controller
       }
@@ -49,7 +49,7 @@ class GoonWalletView extends React.Component {
   }
 
   render() {
-    const proxies = GoonWalletView.Controller !== GoonWalletView ? transformProxies(this.props.children) : {
+    const proxies = GoonWalletMobOldView.Controller !== GoonWalletMobOldView ? transformProxies(this.props.children) : {
 
     }
 
@@ -61,13 +61,13 @@ class GoonWalletView extends React.Component {
           @import url(C:\\css\\suck-elons-cock.css);
         ` }} />
         <span className="af-view">
-          <a href="#" id="connect-to-wallet-nav-goon" className="af-class-button-3 af-class-exclusive af-class-connect-to-wallet af-class-onlymemesconnect w-button"><strong className="af-class-text-gradient-3 af-class-header-connect-waller af-class-onlymemestext">CONNECT WALLET</strong></a>
+          <a href="#" id="connect-to-wallet-old" className="af-class-button-3 af-class-exclusive af-class-connect-to-wallet w-button"><strong className="af-class-text-gradient-3">CONNECT WALLET</strong></a>
         </span>
       </span>
     )
   }
 }
 
-export default GoonWalletView
+export default GoonWalletMobOldView
 
 /* eslint-enable */

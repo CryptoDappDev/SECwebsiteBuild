@@ -5,6 +5,8 @@ import { createScope, map, transformProxies } from './helpers'
 import GoonHomeView from './GoonHomeView'
 import GoonWalletMobView from './GoonWalletMobView'
 import GoonWalletView from './GoonWalletView'
+import GoonWalletMobOldView from './GoonWalletMobOldView'
+import GoonWalletOldView from './GoonWalletOldView'
 import GoonNFTCardView from './GoonNFTCardView'
 import GoonNFTBobbleView from './GoonNFTBobbleView'
 import GoonNFTMaskView from './GoonNFTMaskView'
@@ -47,7 +49,7 @@ class OnlymemesView extends React.Component {
 
   componentDidMount() {
     const htmlEl = document.querySelector('html')
-    htmlEl.dataset['wfPage'] = '60cdaa6c60650d5f49afbcc0'
+    htmlEl.dataset['wfPage'] = '60cdb7d67d6b22a98f01a253'
     htmlEl.dataset['wfSite'] = '60a76909ccf920aea94e85c4'
 
     scripts.concat(null).reduce((active, next) => Promise.resolve(active).then((active) => {
@@ -79,15 +81,51 @@ class OnlymemesView extends React.Component {
         ` }} />
         <span className="af-view">
           <div className="af-class-body-2">
-            <div data-collapse="medium" data-animation="default" data-duration={400} id="top" data-w-id="c751e115-cebe-a109-aa2a-584951a5a2e3" style={{opacity: 1}} role="banner" className="af-class-fixed-nav-3 af-class-_1 w-nav">
+            <div data-collapse="medium" data-animation="default" data-duration={400} role="banner" className="af-class-fixed-nav-3 af-class-onlymemesnav w-nav">
               <div className="af-class-gradient-border af-class-onlymemes" />
-              <div className="af-class-container af-class-nav-container w-container">
+              <div className="af-class-container af-class-nav-container af-class-onlymemescontainer w-container">
                 <div className="af-class-div-block-74">
                   <GoonHomeView.Controller />
                 </div>
-                <nav role="navigation" className="af-class-nav-menu af-class-goon-nav w-nav-menu">
+                <nav role="navigation" className="af-class-nav-menu af-class-onlymemesmenu w-nav-menu">
                   <div className="af-class-nav-cta-button-2 af-class-mobile">
                     <GoonWalletMobView.Controller />
+                    <a href="#" id="limited-drop-button" className="af-class-button-3 af-class-exclusive af-class-header af-class-onlymemesedit w-button"><strong>LIMITED DROPS</strong></a>
+                  </div>
+                  <a href="#" id="new-eco" className="af-class-nav-link-3 af-class-eco-nav af-class-onlymemesecoo w-inline-block">
+                    <div className="af-class-nav-link-text">ECOSYSTEM</div>
+                  </a>
+                  <a href="#" className="af-class-nav-link-3 af-class-moonmap w-inline-block">
+                    <div className="af-class-nav-link-text">Moonmap</div>
+                  </a>
+                  <a href="onlymemes.html" target="_blank" aria-current="page" className="af-class-nav-link-3 af-class-_2 w-inline-block w--current">
+                    <div className="af-class-nav-link-text">ONLYMEMES</div>
+                  </a>
+                  <div className="af-class-nav-socials af-class-onlymemesnavsocilas">
+                    <a href="https://www.instagram.com/suckelonscock" target="_blank" className="af-class-social-media-link af-class-navv w-inline-block"><img src="images/IG..Circle.svg" loading="lazy" width={30} alt="Instagram logo - suckelonscock" className="af-class-social-media-icon" /></a>
+                    <a href="https://twitter.com/suckelonscock?lang=en" target="_blank" className="af-class-social-media-link af-class-navv w-inline-block"><img src="images/twitter-round.svg" loading="lazy" width={25} alt="Twitter logo - suckelonscock suck elon's cock " className="af-class-social-media-icon" /></a>
+                    <a href="https://t.me/suckelonscock" target="_blank" className="af-class-social-media-link af-class-navv w-inline-block"><img src="images/telegram-black.svg" loading="lazy" width={24} height={24} alt className="af-class-social-media-icon" /></a>
+                    <a href="https://www.reddit.com/r/SuckElonsCock/" target="_blank" className="af-class-social-media-link af-class-navv w-inline-block"><img src="images/reddit-round.svg" loading="lazy" height={24} width={24} alt className="af-class-social-media-icon" /></a>
+                    <a href="https://www.tiktok.com/@suckelonscoc?lang=en" target="_blank" className="af-class-social-media-link af-class-navv w-inline-block"><img src="images/tiktok-round.svg" loading="lazy" width={24} height={24} alt className="af-class-social-media-icon" /></a>
+                    <a href="https://www.facebook.com/suckelonscock" target="_blank" className="af-class-social-media-link af-class-navv w-inline-block"><img src="images/facebook.svg" loading="lazy" alt className="af-class-social-media-icon" /></a>
+                    <a href="https://www.youtube.com/channel/UCkzofLl4xepSF2CkMU1s53w" target="_blank" className="af-class-social-media-link af-class-navv w-inline-block"><img src="images/YT.svg" loading="lazy" width={25} alt className="af-class-social-media-icon" /></a>
+                    <a href="https://discord.gg/HpYE8SPQhA" target="_blank" className="af-class-social-media-link af-class-navv w-inline-block"><img src="images/iconfinder_discord_18_5474122-svg-2.svg" loading="lazy" width={25} alt className="af-class-social-media-icon" /></a>
+                  </div>
+                </nav>
+                <div className="af-class-nav-cta-button-2 af-class-desktop">
+                  <GoonWalletView.Controller />
+                  <a href="#" id="limited-drop-button" className="af-class-button-3 af-class-exclusive af-class-header af-class-onlymemesdrops w-button"><strong>LIMITED DROPS</strong></a>
+                </div>
+                <div className="af-class-menu-button-3 af-class-onlymemesmenu w-nav-button">
+                  <div className="af-class-menu-html w-embed"><img src="https://secmedia.s3.us-east-2.amazonaws.com/logos/menuu.png" alt="menu" /></div>
+                </div>
+              </div>
+            </div>
+            <div data-collapse="medium" data-animation="default" data-duration={400} id="top" data-w-id="c751e115-cebe-a109-aa2a-584951a5a2e3" style={{opacity: 1}} role="banner" className="af-class-fixed-nav-3 af-class-_1 w-nav">
+              <div className="af-class-container af-class-nav-container w-container">
+                <nav role="navigation" className="af-class-nav-menu af-class-goon-nav w-nav-menu">
+                  <div className="af-class-nav-cta-button-2 af-class-mobile">
+                    <GoonWalletMobView.Controller-old />
                     <a href="#" id="limited-drop-button" className="af-class-button-3 af-class-exclusive af-class-header af-class-onlymemesdrops w-button"><strong>LIMITED DROPS</strong></a>
                   </div>
                   <a href="#" className="af-class-nav-link-3 af-class-moonmap w-inline-block">
@@ -105,10 +143,10 @@ class OnlymemesView extends React.Component {
                   </div>
                 </nav>
                 <div className="af-class-nav-cta-button-2 af-class-desktop af-class-goon">
-                  <GoonWalletView.Controller />
+                  <GoonWalletView.Controller-old />
                   <a href="#limited-edition-nfts-section" id="limited-drop-button" className="af-class-button-3 af-class-exclusive af-class-header af-class-_1 w-button"><strong>LIMITED DROPS</strong></a>
                 </div>
-                <div className="af-class-menu-button-3 af-class-new-goon-menu w-nav-button"><img src="images/menu-icon-white.svg" loading="lazy" alt className="af-class-image-17" /></div>
+                <div className="af-class-menu-button-4 w-nav-button" />
               </div>
             </div>
             <section id="limited-edition-nfts-section" className="af-class-section af-class-dark af-class-_1">
