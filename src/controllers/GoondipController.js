@@ -5,6 +5,7 @@ import { OpenSeaPort, Network } from 'opensea-js';
 import WalletConnect from "@walletconnect/client";
 import QRCodeModal from "@walletconnect/qrcode-modal";
 import { useMetaMask } from 'metamask-react';
+import Delayed from '../components/Delay';
 
 
 function GoondipController() {
@@ -38,14 +39,14 @@ function GoondipController() {
     
     
     return (
-        setTimeout(function() {
+        <Delayed waitBeforeShow={4000}>
             <div>
                 <App 
                     itemtoSell = {'46344851359934370536456800909699950300763532368427110215084597168924048490506'}
                     account = {fetchedAccount}
                 />
             </div>
-        }, 8000)
+        </Delayed>
     )
 }
 

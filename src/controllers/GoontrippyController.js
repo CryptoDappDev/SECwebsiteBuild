@@ -5,6 +5,7 @@ import { OpenSeaPort, Network } from 'opensea-js';
 import WalletConnect from "@walletconnect/client";
 import QRCodeModal from "@walletconnect/qrcode-modal";
 import { useMetaMask } from 'metamask-react';
+import Delayed from '../components/Delay';
 
 
 function GoontrippyController() {
@@ -38,14 +39,14 @@ function GoontrippyController() {
     
     
     return (
-        setTimeout(function() {
+        <Delayed waitBeforeShow={7000}>
             <div>
                 <App 
                     itemtoSell = {'46344851359934370536456800909699950300763532368427110215084597167824536862730'}
                     account = {fetchedAccount}
                 />
             </div>
-        }, 14000)
+        </Delayed>
     )
 }
 

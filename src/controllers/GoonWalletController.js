@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import SecWalletView from '../views/SecWalletView';
+import GoonWalletView from '../views/GoonWalletView';
 import { connectWallet } from '../constants';
 import PropTypes from 'prop-types'
 import { OpenSeaPort, Network } from 'opensea-js';
@@ -35,7 +35,7 @@ function ConnectToWalletNavController() {
         {(status === "notConnected") &&
             <div onClick={() => { handleClick() }} >
                 <Fade top>
-                <SecWalletView> <wallet/> </SecWalletView> 
+                <GoonWalletView> <wallet/> </GoonWalletView> 
                 </Fade>
             </div>
         }
@@ -43,14 +43,14 @@ function ConnectToWalletNavController() {
 
             <Fade right>
                 <div class="container border border-5 rounded p-2" > 
-                    <div class="af-class-button-3 af-class-exclusive af-class-connect-to-wallet af-class-goon-wallet-connect w-button"  >Wallet: {account}</div>
+                    <div class="af-class-text-gradient-1 text-nowrap small"  >Wallet: {account}</div>
                 </div>
             </Fade>
         }
         {(status === "connecting") &&
             <Fade bottom>
                 <div class="container border border-5 rounded p-2" > 
-                    <div class="af-class-button-3 af-class-exclusive af-class-connect-to-wallet af-class-goon-wallet-connect w-button"  >Starting Cock Engine...</div>
+                    <div class="af-class-text-gradient-1 text-nowrap small"  >Enabing Meme Tesseract...</div>
                 </div>
             </Fade>
         }
