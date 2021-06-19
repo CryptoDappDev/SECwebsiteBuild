@@ -13,8 +13,8 @@ function GoonTickerController() {
     
     
     return (
-        <div class="d-flex justify-content-center">
-            <coingecko-coin-ticker-widget coin-id="goonrich" currency="usd" locale="en" background-color="#000000" width={400} vce-ready />
+        <div class="w-75 d-flex justify-content-center">
+            <coingecko-coin-ticker-widget coin-id="goonrich" currency="usd" locale="en" background-color="#000000" vce-ready />
         </div>
         
     )

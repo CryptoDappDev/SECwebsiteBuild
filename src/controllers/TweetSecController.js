@@ -16,5 +16,5 @@ class TweetSecController extends React.Component {
 }
 
 export default (props) => (
-    <TweetSecController/>
+    <div></div>
 )
