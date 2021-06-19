@@ -125,7 +125,7 @@ class OnlymemesView extends React.Component {
               <div className="af-class-container af-class-nav-container w-container">
                 <nav role="navigation" className="af-class-nav-menu af-class-goon-nav w-nav-menu">
                   <div className="af-class-nav-cta-button-2 af-class-mobile">
-                    <GoonWalletMobView.Controller-old />
+                    <GoonWalletMobView.Controller />
                     <a href="#" id="limited-drop-button" className="af-class-button-3 af-class-exclusive af-class-header af-class-onlymemesdrops w-button"><strong>LIMITED DROPS</strong></a>
                   </div>
                   <a href="#" className="af-class-nav-link-3 af-class-moonmap w-inline-block">
@@ -143,7 +143,7 @@ class OnlymemesView extends React.Component {
                   </div>
                 </nav>
                 <div className="af-class-nav-cta-button-2 af-class-desktop af-class-goon">
-                  <GoonWalletView.Controller-old />
+                  <GoonWalletView.Controller />
                   <a href="#limited-edition-nfts-section" id="limited-drop-button" className="af-class-button-3 af-class-exclusive af-class-header af-class-_1 w-button"><strong>LIMITED DROPS</strong></a>
                 </div>
                 <div className="af-class-menu-button-4 w-nav-button" />
