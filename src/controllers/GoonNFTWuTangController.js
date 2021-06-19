@@ -8,7 +8,7 @@ import { useMetaMask } from 'metamask-react';
 import Delayed from '../components/Delay';
 
 
-function Goon50Controller() {
+function GoonNFTWuTangController() {
 
     const { status, connect, account } = useMetaMask();
     const bridge = "https://bridge.walletconnect.org";
@@ -39,19 +39,19 @@ function Goon50Controller() {
     
     
     return (
-        <Delayed waitBeforeShow={2000}>
-            <div>
-                <App 
-                    itemtoSell = {'46344851359934370536456800909699950300763532368427110215084597171123071746058'}
-                    account = {fetchedAccount}
-                />
-            </div>
+        <Delayed waitBeforeShow={6000}>
+        <div>
+            <App 
+                itemtoSell = {'46344851359934370536456800909699950300763532368427110215084597176620629884938'}
+                account = {fetchedAccount}
+            />
+        </div>
         </Delayed>
     )
 }
 
 export default (props) => (
 
-    <Goon50Controller/>
+    <GoonNFTWuTangController/>
 )
 

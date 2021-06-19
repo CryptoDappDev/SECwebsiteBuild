@@ -5,9 +5,10 @@ import { OpenSeaPort, Network } from 'opensea-js';
 import WalletConnect from "@walletconnect/client";
 import QRCodeModal from "@walletconnect/qrcode-modal";
 import { useMetaMask } from 'metamask-react';
+import Delayed from '../components/Delay';
 
 
-function GoonController() {
+function GoonNFT50Controller() {
 
     const { status, connect, account } = useMetaMask();
     const bridge = "https://bridge.walletconnect.org";
@@ -38,17 +39,19 @@ function GoonController() {
     
     
     return (
-        <div>
-            <App 
-                itemtoSell = {'46344851359934370536456800909699950300763532368427110215084597163426490351626'}
-                account = {fetchedAccount}
-            />
-        </div>
+        <Delayed waitBeforeShow={3000}>
+            <div>
+                <App 
+                    itemtoSell = {'46344851359934370536456800909699950300763532368427110215084597178819653140490'}
+                    account = {fetchedAccount}
+                />
+            </div>
+        </Delayed>
     )
 }
 
 export default (props) => (
 
-    <GoonController/>
+    <GoonNFT50Controller/>
 )
 

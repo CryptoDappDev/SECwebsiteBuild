@@ -41,7 +41,6 @@ componentDidMount() {
       })
     })
     console.log(this.account)
-    console.log ('Im Fucked')
   }
 
   render() {
