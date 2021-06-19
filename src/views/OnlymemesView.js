@@ -104,7 +104,7 @@ class OnlymemesView extends React.Component {
                     <a href="https://discord.gg/HpYE8SPQhA" target="_blank" className="af-class-social-media-link af-class-navv w-inline-block"><img src="images/iconfinder_discord_18_5474122-svg-2.svg" loading="lazy" width={25} alt className="af-class-social-media-icon" /></a>
                   </div>
                 </nav>
-                <div className="af-class-nav-cta-button-2 af-class-desktop">
+                <div className="af-class-nav-cta-button-2 af-class-desktop af-class-goon">
                   <GoonWalletView.Controller />
                   <a href="#limited-edition-nfts-section" id="limited-drop-button" className="af-class-button-3 af-class-exclusive af-class-header af-class-_1 w-button"><strong>LIMITED DROPS</strong></a>
                 </div>

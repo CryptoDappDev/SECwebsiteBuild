@@ -3855,6 +3855,8 @@
   background-color: rgba(138, 70, 125, 0);
   background-image: -webkit-gradient(linear, left top, left bottom, color-stop(22%, #8a467d), to(#83c0fa));
   background-image: linear-gradient(180deg, #8a467d 22%, #83c0fa);
+  -webkit-transition: letter-spacing 300ms ease;
+  transition: letter-spacing 300ms ease;
   color: transparent;
 }
 
@@ -3979,6 +3981,10 @@
 
 .af-view .af-class-nav-cta-button-2.af-class-desktop {
   background-color: rgba(20, 20, 21, 0);
+}
+
+.af-view .af-class-nav-cta-button-2.af-class-desktop.af-class-goon {
+  background-color: transparent;
 }
 
 .af-view .af-class-nav-cta-button-2.af-class-mobile {
