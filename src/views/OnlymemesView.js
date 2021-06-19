@@ -106,7 +106,7 @@ class OnlymemesView extends React.Component {
                   <GoonWalletView.Controller />
                   <a href="#limited-edition-nfts-section" id="limited-drop-button" className="af-class-button-3 af-class-exclusive af-class-header af-class-_1 w-button"><strong>LIMITED DROPS</strong></a>
                 </div>
-                <div className="af-class-menu-button-3 w-nav-button"><img src="images/menu-icon-white.svg" loading="lazy" alt className="af-class-image-17" /></div>
+                <div className="af-class-menu-button-3 af-class-menu-goon-rich w-nav-button"><img src="images/menu-icon-white.svg" loading="lazy" alt className="af-class-image-17" /></div>
               </div>
             </div>
             <section id="limited-edition-nfts-section" className="af-class-section af-class-dark af-class-_1">

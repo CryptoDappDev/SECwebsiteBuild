@@ -5864,6 +5864,8 @@
 }
 
 .af-view .af-class-div-block-69 {
+  width: 100%;
+  max-width: 100%;
   margin-top: 10px;
   padding-right: 10px;
   padding-left: 10px;
@@ -5886,7 +5888,7 @@
 .af-view .af-class-html-embed-20 {
   max-width: 15%;
   min-width: 15%;
-  margin-top: 5px;
+  margin-top: 7px;
 }
 
 .af-view .af-class-div-block-72 {
@@ -5917,6 +5919,10 @@
 
   .af-view .af-class-container-2 {
     max-width: 1280px;
+  }
+
+  .af-view .af-class-html-embed-20 {
+    margin-top: 7px;
   }
 }
 
@@ -6107,6 +6113,11 @@
   .af-view .af-class-html-embed-18 {
     margin-top: 104px;
   }
+
+  .af-view .af-class-html-embed-20 {
+    max-width: 12%;
+    min-width: 12%;
+  }
 }
 
 @media screen and (max-width: 991px) {
@@ -6251,8 +6262,8 @@
 
   .af-view .af-class-nav-menu.af-class-goon-nav {
     background-color: rgba(138, 70, 125, 0);
-    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(29%, #141415), color-stop(67%, #8a467d), to(#404679));
-    background-image: linear-gradient(180deg, #141415 29%, #8a467d 67%, #404679);
+    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(29%, #141415), color-stop(100%, #404679), to(#141415));
+    background-image: linear-gradient(180deg, #141415 29%, #404679 100%, #141415);
   }
 
   .af-view .af-class-brand {
@@ -6784,6 +6795,10 @@
   .af-view .af-class-menu-button-3.w--open {
     z-index: 99;
     background-color: #323232;
+  }
+
+  .af-view .af-class-menu-button-3.af-class-menu-goon-rich {
+    background-image: linear-gradient(315deg, #8a467d, #f46692 26%, #60aef8);
   }
 
   .af-view .af-class-fixed-nav-2 {
