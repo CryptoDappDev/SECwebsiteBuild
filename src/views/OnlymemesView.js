@@ -46,7 +46,7 @@ class OnlymemesView extends React.Component {
 
   componentDidMount() {
     const htmlEl = document.querySelector('html')
-    htmlEl.dataset['wfPage'] = '60cdd8c4f5aacd13c6ff902f'
+    htmlEl.dataset['wfPage'] = '60cdda37195f0e243d6f043c'
     htmlEl.dataset['wfSite'] = '60a76909ccf920aea94e85c4'
 
     scripts.concat(null).reduce((active, next) => Promise.resolve(active).then((active) => {
@@ -194,7 +194,7 @@ class OnlymemesView extends React.Component {
                     </div>
                     <div className="af-class-card-item-2 af-class-memes-coming-soon af-class-_11 af-class-_2">
                       <div className="af-class-goonmeme">
-                        <div className="w-embed"><img className="af-class-goonmemes" src="https://secmedia.s3.us-east-2.amazonaws.com/photo_2021-06-08_23-56-09.jpg" alt="GOON" />
+                        <div className="w-embed"><img className="af-class-goonmemes" src="images/photo_2021-06-08_23-56-09.jpg" alt="GOON" />
                           <style dangerouslySetInnerHTML={{__html: "\n.af-view .af-class-goonmemes {\nborder-radius: 20px 20px 20px 20px;\n}\n" }} />
                         </div>
                         <div id="purchase-pass-button" className="af-class-nft-buy-buttons af-class-sec-coin af-class-purchase af-class-_1 af-class-meme">
@@ -258,7 +258,7 @@ class OnlymemesView extends React.Component {
                         </div>
                       </div>
                       <div className="af-class-goonmeme">
-                        <div className="w-embed"><img className="af-class-goonmemes" src="https://secmedia.s3.us-east-2.amazonaws.com/goonposter.jpg" alt="GOON" />
+                        <div className="w-embed"><img className="af-class-goonmemes" src="images/photo_2021-06-15_18-21-20-1.jpg" alt="GOON" />
                           <style dangerouslySetInnerHTML={{__html: "\n.af-view .af-class-goonmemes {\nborder-radius: 20px 20px 20px 20px;\n}\n" }} />
                         </div>
                         <div id="purchase-pass-button" className="af-class-nft-buy-buttons af-class-sec-coin af-class-purchase af-class-_1 af-class-meme">
@@ -298,7 +298,7 @@ class OnlymemesView extends React.Component {
                   <div className="af-class-div-block-53">
                     <div style={{paddingTop: '56.17021276595745%'}} className="w-video w-embed"><iframe className="af-class-embedly-embed" src="https://cdn.embedly.com/widgets/media.html?src=https%3A%2F%2Fwww.youtube.com%2Fembed%2FACQY6LYVasc&display_name=YouTube&url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DACQY6LYVasc&image=http%3A%2F%2Fi.ytimg.com%2Fvi%2FACQY6LYVasc%2Fhqdefault.jpg&key=96f1f04c5f4143bcb0f2e68c87d65feb&type=text%2Fhtml&schema=youtube" scrolling="no" title="YouTube embed" frameBorder={0} allow="autoplay; fullscreen" allowFullScreen="true" /></div>
                     <div className="af-class-html-embed-16 w-embed"><img className="af-class-goonmemes" src="https://secmedia.s3.us-east-2.amazonaws.com/1gooonrich.png" alt="GOON" />
-                      <style dangerouslySetInnerHTML={{__html: "\n.af-view .af-class-goonmemes {\nborder-radius: 0px 0px 0px 0px;\n}\n" }} />
+                      <style dangerouslySetInnerHTML={{__html: "\n.af-view .af-class-goonmemes {\nborder-radius: 20px 20px 20px 20px;\n}\n" }} />
                     </div>
                   </div>
                   <div className="af-class-div-block-49">
@@ -319,12 +319,12 @@ class OnlymemesView extends React.Component {
                     </div>
                     <div className="af-class-text-block-19"><span className="af-class-text-span-8"><strong>Bigger than an investment. <br />‍<br /></strong></span><br /><span><strong className="af-class-bold-text-7">$GOON</strong></span><strong> </strong>token represents a symbolic message of how young peoples lives all over the globe have been changed forever because of <strong>Meme coins</strong>. In this day and age, you no longer need generational wealth to get ahead.<br /> <br /><br />That’s why we created <span className="af-class-bold-text-7"><strong>$GOON</strong></span>.<br /><br /></div>
                     <div className="af-class-div-block-51">
-                      <div className="w-embed"><img src="https://secmedia.s3.us-east-2.amazonaws.com/GoonCoinV5.gif" alt="GOON" /></div>
+                      <div className="w-embed"><img src="https://sechosting.s3.us-east-2.amazonaws.com/media/goontoken.png" alt="GOON" /></div>
                     </div>
                     <div className="af-class-text-block-19"><strong className="af-class-bold-text-7">$GOON</strong> token represents the path that meme coins have paved for anyone smart enough and courageous enough to adapt &amp; think outside the box. &nbsp;With a collaborative and growing community unlike any other, <span className="af-class-bold-text-7"><strong>$GOON</strong></span> provides anyone - regardless of income level, race or religion - with the opportunity to change their lives forever. <br /><br /><br />A chance at true <strong>financial freedom</strong>. In a nutshell, creating <span className="af-class-bold-text-7"><strong>$GOON</strong></span> is our way of fighting back against those that wish to to keep us shackled in a debt driven and society. </div>
                     <CopyGoonView.Controller />
                     <div className="af-class-card-item-2 af-class-memes-coming-soon af-class-_11 af-class-_3">
-                      <div className="af-class-messssiah w-embed"><img src="https://secmedia.s3.us-east-2.amazonaws.com/photo_2021-06-09_00-02-36.jpg" alt="GOON" /></div>
+                      <div className="af-class-messssiah w-embed"><img src="images/photo_2021-06-09_00-06-33.jpg" alt="GOON" /></div>
                     </div>
                     <div className="af-class-text-block-19 af-class-_2 af-class-second-block-goon-text">‍<strong>The largest transfer of wealth</strong> in human history is happening before our eyes, as thousands of <strong>regular people </strong>have <strong>became millionaires </strong>off meme coins and crypto - what most people might consider a “joke”. But the results are very real. The numbers do not lie. The potential gains truly are “life changing.” <br /><br /><br />‍<strong>GoonRich</strong> aka ‘<span className="af-class-bold-text-7"><strong>Crypto Messiah</strong></span>’ - who famously went from <strong>Mailman </strong>to <strong>Millionaire </strong>in a matter of days - is possibly the greatest living example of this. And <span className="af-class-bold-text-7"><strong>$GOON</strong></span> is his official coin. The script has been flipped forever… We won’t stop until Every <span className="af-class-bold-text-7"><strong>$GOON</strong></span> <strong>Gets Rich</strong>.<br /><br /><br />Join the $Goon Gang today.</div>
                     <div className="af-class-div-block-63">
