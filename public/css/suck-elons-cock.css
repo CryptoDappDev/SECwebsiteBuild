@@ -263,6 +263,10 @@
   margin-top: 2%;
 }
 
+.af-view .af-class-section.af-class-dark.af-class-main {
+  margin-top: 0%;
+}
+
 .af-view .af-class-section.af-class-light-blue-bg {
   position: relative;
   display: block;
@@ -3844,8 +3848,19 @@
   line-height: 0.9;
 }
 
+.af-view .af-class-button-3.af-class-exclusive.af-class-connect-to-wallet.af-class-goon-wallet-connect {
+  border-color: #8a467d;
+  background-color: #8a467d;
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(22%, #8a467d), to(#83c0fa));
+  background-image: linear-gradient(180deg, #8a467d 22%, #83c0fa);
+}
+
 .af-view .af-class-button-3.af-class-exclusive.af-class-header {
   margin-left: 4%;
+}
+
+.af-view .af-class-button-3.af-class-exclusive.af-class-header.af-class-_1 {
+  display: none;
 }
 
 .af-view .af-class-button-3.af-class-exclusive.af-class-header.af-class-_1.w--current {
@@ -4204,6 +4219,10 @@
   background-image: linear-gradient(111deg, #fa5853, #f46692 50%, #fa5853);
 }
 
+.af-view .af-class-text-gradient-3.af-class-header-connect-waller.af-class-goon-wallet {
+  background-image: linear-gradient(111deg, #fff, #fff 94%, #f46692);
+}
+
 .af-view .af-class-text-gradient-3.af-class-feature-nft-text {
   margin-top: 2vh;
   background-image: linear-gradient(111deg, #8a467d, #f46692 50%, #ffc444);
@@ -4242,6 +4261,10 @@
   height: 50px;
   max-width: 100%;
   background-color: #fff;
+}
+
+.af-view .af-class-fixed-nav-3.af-class-_1 {
+  background-color: #141415;
 }
 
 .af-view .af-class-brand-3 {
@@ -4496,9 +4519,23 @@
   top: 0%;
   right: 0%;
   bottom: auto;
-  height: 60px;
+  height: 5px;
   margin-top: 48px;
   background-image: radial-gradient(circle farthest-corner at 50% 50%, #fa5953, #fa5853 23%, #fe753d 46%, #f98f70 73%, #ffc444);
+}
+
+.af-view .af-class-gradient-border.af-class-onlymemes {
+  background-image: radial-gradient(circle farthest-corner at 50% 50%, #5678f2, #8f7ed9 23%, #8f6dae 46%, #f970d0 73%, #574ae2);
+}
+
+.af-view .af-class-gradient-border.af-class-onlymemes.af-class-footer {
+  position: relative;
+  display: block;
+  height: 2px;
+  margin-top: 0px;
+  padding-top: 0rem;
+  padding-bottom: 0rem;
+  background-image: radial-gradient(circle farthest-corner at 50% 50%, #5678f2, #8f7ed9 23%, #8f6dae 46%, #f970d0 73%, #574ae2);
 }
 
 .af-view .af-class-image-23 {
@@ -5054,7 +5091,7 @@
 }
 
 .af-view .af-class-card-item-2.af-class-_1.af-class-_2.af-class-bodegga {
-  max-height: none;
+  max-height: 260px;
 }
 
 .af-view .af-class-card-item-2.af-class-memes-coming-soon {
@@ -5091,6 +5128,11 @@
   -webkit-transform: scale(1.01);
   -ms-transform: scale(1.01);
   transform: scale(1.01);
+}
+
+.af-view .af-class-card-item-2.af-class-memes-coming-soon.af-class-mask.af-class-_1 {
+  padding-bottom: 0px;
+  border-radius: 0px;
 }
 
 .af-view .af-class-card-item-2.af-class-memes-coming-soon.af-class-_11 {
@@ -5163,6 +5205,10 @@
   margin-right: 15px;
 }
 
+.af-view .af-class-card-item-2.af-class-goon-video {
+  margin-top: 0px;
+}
+
 .af-view .af-class-div-block-52 {
   position: relative;
   top: -3px;
@@ -5176,16 +5222,17 @@
   text-align: center;
 }
 
-.af-view .af-class-div-block-50 {
+.af-view .af-class-goon-token-icons {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
   margin-top: 25px;
-  -webkit-box-pack: center;
-  -webkit-justify-content: center;
-  -ms-flex-pack: center;
-  justify-content: center;
+  padding-right: 10px;
+  padding-left: 10px;
+  -webkit-justify-content: space-around;
+  -ms-flex-pack: distribute;
+  justify-content: space-around;
   -webkit-box-align: center;
   -webkit-align-items: center;
   -ms-flex-align: center;
@@ -5230,7 +5277,11 @@
   -webkit-flex-direction: column;
   -ms-flex-direction: column;
   flex-direction: column;
-  border-radius: 0px 0px 20px 20px;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  border-radius: 20px;
   background-color: #000;
 }
 
@@ -5250,7 +5301,7 @@
 .af-view .af-class-goonmeme {
   padding: 10px;
   border-radius: 20px;
-  background-color: #292929;
+  background-color: #000;
 }
 
 .af-view .af-class-goonmeme:hover {
@@ -5313,7 +5364,7 @@
   color: #cb9f3e;
 }
 
-.af-view .af-class-div-block-51 {
+.af-view .af-class-goon-token-gif {
   margin-top: 25px;
   text-align: center;
 }
@@ -5363,10 +5414,10 @@
   -webkit-justify-content: flex-start;
   -ms-flex-pack: start;
   justify-content: flex-start;
-  -webkit-box-align: start;
-  -webkit-align-items: flex-start;
-  -ms-flex-align: start;
-  align-items: flex-start;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   background-color: transparent;
   text-align: center;
 }
@@ -5381,7 +5432,9 @@
   margin-left: auto;
   padding-top: 10px;
   padding-bottom: 1vh;
-  background-color: #6b4900;
+  background-color: rgba(158, 124, 34, 0);
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#d8942e), to(#6e4e1c));
+  background-image: linear-gradient(180deg, #d8942e, #6e4e1c);
 }
 
 .af-view .af-class-onlymemessection-2.af-class-_3:hover {
@@ -5422,7 +5475,9 @@
 
 .af-view .af-class-div-block-8 {
   min-height: 100px;
+  min-width: 300px;
   margin-top: 10px;
+  margin-bottom: 10px;
   padding-right: 10px;
   padding-left: 10px;
   text-align: center;
@@ -5508,6 +5563,21 @@
   transform: scale(1.1);
 }
 
+.af-view .af-class-feature-v3-image.af-class-iop-iop.af-class-uioyuoi {
+  margin-left: 15px;
+}
+
+.af-view .af-class-feature-v3-image.af-class-iop-iop.af-class-uioyuoi:hover {
+  -webkit-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+.af-view .af-class-feature-v3-image.af-class-iop-iop.af-class-uioyuoi.af-class-_1 {
+  -webkit-filter: none;
+  filter: none;
+}
+
 .af-view .af-class-feature-v3-image.af-class-oip-oip {
   display: inline-block;
   margin-bottom: 0px;
@@ -5527,22 +5597,39 @@
   transform: scale(1.1);
 }
 
-.af-view .af-class-telegram {
-  width: 20%;
-  padding-right: 15px;
+.af-view .af-class-goon-telegram {
+  width: 16%;
+  padding-right: 0px;
   -webkit-filter: invert(100%);
   filter: invert(100%);
 }
 
-.af-view .af-class-tradegoon {
+.af-view .af-class-goon-telegram:hover {
+  -webkit-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+.af-view .af-class-goon-uniswap {
   width: 20%;
-  margin-right: 7px;
+}
+
+.af-view .af-class-goon-uniswap:hover {
+  -webkit-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  transform: scale(1.1);
 }
 
 .af-view .af-class-twitter {
   width: 20%;
   -webkit-filter: invert(100%);
   filter: invert(100%);
+}
+
+.af-view .af-class-twitter:hover {
+  -webkit-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  transform: scale(1.1);
 }
 
 .af-view .af-class-div-block-57 {
@@ -5621,6 +5708,10 @@
   margin-top: 18px;
   padding-right: 10px;
   padding-left: 10px;
+}
+
+.af-view .af-class-div-block-63 {
+  display: none;
 }
 
 .af-view .af-class-div-block-64 {
@@ -5727,6 +5818,42 @@
 
 .af-view .af-class-html-embed-19 {
   text-align: center;
+}
+
+.af-view .af-class-text-grey {
+  color: #858585;
+}
+
+.af-view .af-class-dextoollink {
+  width: 20%;
+}
+
+.af-view .af-class-dextoollink:hover {
+  -webkit-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+.af-view .af-class-feature-v3 {
+  text-align: center;
+}
+
+.af-view .af-class-feature-v3-info {
+  padding-right: 12px;
+  padding-left: 12px;
+}
+
+.af-view .af-class-feature-v3-info.af-class-tiutyiuytiu {
+  display: none;
+}
+
+.af-view .af-class-bold-text-8 {
+  color: #c49a3c;
+}
+
+.af-view .af-class-div-block-68 {
+  width: 100%;
+  height: 100%;
 }
 
 @media screen and (min-width: 1280px) {
@@ -5852,7 +5979,7 @@
   }
 
   .af-view .af-class-card-item-2.af-class-_1.af-class-_2.af-class-bodegga {
-    max-height: 70%;
+    max-height: 330px;
   }
 
   .af-view .af-class-card-item-2.af-class-memes-coming-soon.af-class-_1.af-class-bobble {
@@ -5882,7 +6009,7 @@
     box-shadow: 0 0 6px -1px #ffc444;
   }
 
-  .af-view .af-class-telegram:hover {
+  .af-view .af-class-goon-telegram:hover {
     -webkit-transform: scale(1.1);
     -ms-transform: scale(1.1);
     transform: scale(1.1);
@@ -5892,11 +6019,11 @@
     max-width: 100vw;
   }
 
-  .af-view .af-class-tradegoon {
+  .af-view .af-class-goon-uniswap {
     margin-right: 15px;
   }
 
-  .af-view .af-class-tradegoon:hover {
+  .af-view .af-class-goon-uniswap:hover {
     -webkit-transform: scale(1.1);
     -ms-transform: scale(1.1);
     transform: scale(1.1);
@@ -7323,6 +7450,11 @@
 
   .af-view .af-class-feature-v3-image {
     border-radius: 12px;
+  }
+
+  .af-view .af-class-feature-v3-info {
+    padding-right: 8px;
+    padding-left: 8px;
   }
 }
 

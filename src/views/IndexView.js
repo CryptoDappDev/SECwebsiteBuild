@@ -151,7 +151,7 @@ class IndexView extends React.Component {
                     <div className="af-class-product-phone-image-container">
                       <div className="af-class-product-container">
                         <div className="af-class-product-phone-image-holder">
-                          <div className="af-class-html-embed-2 w-embed"><img src="https://sechosting.s3.us-east-2.amazonaws.com/media/Diamond.Cock.Rocket.Optimized.gif" alt="Diamond Cock Rocket, SEC going to the moon" /></div><img src="images/Apple-iPhone-11-Pro-Space-Grey-1.png" loading="lazy" sizes="100vw" srcSet="images/Apple-iPhone-11-Pro-Space-Grey-1-p-500.png 500w, images/Apple-iPhone-11-Pro-Space-Grey-1.png 588w" alt className="af-class-product-phone-image af-class-image" />
+                          <div className="af-class-html-embed-2 w-embed"><img src="https://secmedia.s3.us-east-2.amazonaws.com/sec/Diamond.Cock.Rocket.Optimized.gif" alt="Diamond Rocket" /></div><img src="images/Apple-iPhone-11-Pro-Space-Grey-1.png" loading="lazy" sizes="100vw" srcSet="images/Apple-iPhone-11-Pro-Space-Grey-1-p-500.png 500w, images/Apple-iPhone-11-Pro-Space-Grey-1.png 588w" alt className="af-class-product-phone-image af-class-image" />
                           <div className="af-class-product-phone-content"><img src="images/ChatList-White.jpg" loading="lazy" sizes="100vw" srcSet="images/ChatList-White-p-500.jpeg 500w, images/ChatList-White.jpg 750w" alt className="af-class-product-phone-demo-image" /><img src="images/LockScreen-Light.jpg" loading="lazy" sizes="100vw" srcSet="images/LockScreen-Light-p-800.jpeg 800w, images/LockScreen-Light.jpg 839w" alt className="af-class-iphone-lock-screen-image" /></div>
                         </div>
                         <a href="#" className="af-class-play-icon-holder w-inline-block w-lightbox"><img src="images/play-button.svg" loading="lazy" alt className="af-class-play-icon-image" />
@@ -250,7 +250,7 @@ class IndexView extends React.Component {
                       <div className="af-class-card-item-content af-class-tools">
                         <div className="af-class-card-feature-center af-class-tool-center">
                           <a href="https://zerion.io/" target="_blank" className="af-class-link-block-4 af-class-toools w-inline-block">
-                            <div className="af-class-fade-in-on-scroll af-class-toool"><img src="images/zerion.png" loading="lazy" sizes="(max-width: 479px) 55.000003814697266px, 112.98611450195312px" srcSet="images/zerion-p-500.png 500w, images/zerion-p-800.png 800w, images/zerion.png 1024w" alt="Zerion wallet logo" className="af-class-card-feature-icon af-class-tool" /></div>
+                            <div className="af-class-fade-in-on-scroll af-class-toool"><img src="images/zerion.png" loading="lazy" sizes="(max-width: 479px) 100vw, 57.986114501953125px" srcSet="images/zerion-p-500.png 500w, images/zerion-p-800.png 800w, images/zerion.png 1024w" alt="Zerion wallet logo" className="af-class-card-feature-icon af-class-tool" /></div>
                             <div className="af-class-fade-in-on-scroll">
                               <h6 className="af-class-heading-3">Zerion</h6>
                             </div>
@@ -507,7 +507,7 @@ class IndexView extends React.Component {
               <div data-w-id="0c3abcc3-1f0e-90e3-c240-a8406e383f3c" style={{display: 'none'}} className="af-class-buy-sec-banner"><img src="images/BUY_SEC_KINETIC_TYPE_BANNER-1-v2.gif" loading="lazy" alt="Looping kinetic buy $SEC banner" className="af-class-image-2" /></div>
               <div data-w-id="49e7c5c9-e43d-f54d-cc39-c2822ce13149" style={{display: 'none'}} className="af-class-footer-2">
                 <div className="af-class-div-block-29">
-                  <div className="w-embed"><img src="https://secmedia.s3.us-east-2.amazonaws.com/ElonSmoking_v3.gif" alt="Diamond Cock Rocket, SEC going to the moon" /></div>
+                  <div className="w-embed"><img src="https://secmedia.s3.us-east-2.amazonaws.com/sec/ElonSmoking_v3.gif" alt="Smoking Elon" /></div>
                 </div>
                 <div>
                   <div className="af-class-grey-text-2 af-class-white af-class-palace-club af-class-text-gradient-2 af-class-palace">#ThePeoplesSEC</div>

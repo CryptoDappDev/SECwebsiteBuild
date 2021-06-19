@@ -79,7 +79,7 @@ class OnlymemesView extends React.Component {
         <span className="af-view">
           <div className="af-class-body-2">
             <div data-collapse="medium" data-animation="default" data-duration={400} data-w-id="c751e115-cebe-a109-aa2a-584951a5a2e3" style={{opacity: 1}} role="banner" className="af-class-fixed-nav-3 af-class-_1 w-nav">
-              <div className="af-class-gradient-border" />
+              <div className="af-class-gradient-border af-class-onlymemes" />
               <div className="af-class-container af-class-nav-container w-container">
                 <GoonHomeView.Controller />
                 <nav role="navigation" className="af-class-nav-menu w-nav-menu">
@@ -114,12 +114,15 @@ class OnlymemesView extends React.Component {
               </div>
               <div id="onlymemes.goon" className="af-class-card-item-2 af-class-_1 af-class-_2 af-class-bodegga">
                 <div className="af-class-div-block-54 af-class-_1">
-                  <div className="af-class-html-embed-14 w-embed"><img src="https://secmedia.s3.us-east-2.amazonaws.com/GoonBodega.png" alt="GOON" /></div>
+                  <div className="af-class-html-embed-14 w-embed"><img src="https://secmedia.s3.us-east-2.amazonaws.com/goon/GoonBodega.png" alt="GOON" /></div>
                 </div>
               </div>
               <div className="af-class-container-2 af-class-_1">
                 <section id="onlymemessectionnslug" className="af-class-onlymemessection-2 af-class-_3">
                   <div className="w-layout-grid af-class-grid-testimonial-2">
+                    <div className="af-class-card-item-2 af-class-goon-video">
+                      <div style={{paddingTop: '56.17021276595745%'}} className="w-video w-embed"><iframe className="af-class-embedly-embed" src="https://cdn.embedly.com/widgets/media.html?src=https%3A%2F%2Fwww.youtube.com%2Fembed%2FACQY6LYVasc%3Ffeature%3Doembed&display_name=YouTube&url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DACQY6LYVasc&image=https%3A%2F%2Fi.ytimg.com%2Fvi%2FACQY6LYVasc%2Fhqdefault.jpg&key=96f1f04c5f4143bcb0f2e68c87d65feb&type=text%2Fhtml&schema=youtube" scrolling="no" title="YouTube embed" frameBorder={0} allow="autoplay; fullscreen" allowFullScreen="true" /></div>
+                    </div>
                     <div className="af-class-div-block-48">
                       <div className="af-class-card-item-2 af-class-memes-coming-soon af-class-_1 af-class-_2">
                         <div className="af-class-div-block-67">
@@ -127,13 +130,13 @@ class OnlymemesView extends React.Component {
                         </div>
                         <div className="af-class-div-block-60">
                           <div className="af-class-div-block-61">
-                            <div className="af-class-html-embed-17 w-embed"><img src="https://sechosting.s3.us-east-2.amazonaws.com/media/1GoonRich_OnlyMemes_TradingCard.gif" alt="GOON" /></div>
+                            <div className="af-class-html-embed-17 w-embed"><img src="https://secmedia.s3.us-east-2.amazonaws.com/goon/1GoonRich_OnlyMemes_TradingCard.gif" alt="GOON Trading Card" /></div>
                           </div>
                         </div>
                       </div>
                       <div className="af-class-card-item-2 af-class-memes-coming-soon af-class-_1 af-class-bobble">
                         <div className="af-class-div-block-54">
-                          <div className="af-class-html-embed-18 w-embed"><img src="https://secmedia.s3.us-east-2.amazonaws.com/GoonBobbleHead_400x400_black_BG_V3.gif" alt="goon" /></div>
+                          <div className="af-class-html-embed-18 w-embed"><img src="https://secmedia.s3.us-east-2.amazonaws.com/goon/GoonBobbleHead_400x400_black_BG_V3.gif" alt="Goon bobble Head" /></div>
                         </div>
                         <div className="af-class-div-block-60">
                           <div className="af-class-div-block-61 af-class-_1">
@@ -158,9 +161,6 @@ class OnlymemesView extends React.Component {
                           </div>
                         </div>
                       </div>
-                    </div>
-                    <div className="af-class-card-item-2 af-class-memes-coming-soon af-class-mask af-class-_1">
-                      <div className="w-embed"><img src="https://secmedia.s3.us-east-2.amazonaws.com/goon_bobbling+(1).gif" alt="goon" /></div>
                     </div>
                     <div className="af-class-card-item-2 af-class-memes-coming-soon af-class-mask">
                       <div className="af-class-div-block-54 af-class-_2">
@@ -194,7 +194,7 @@ class OnlymemesView extends React.Component {
                     </div>
                     <div className="af-class-card-item-2 af-class-memes-coming-soon af-class-_11 af-class-_2">
                       <div className="af-class-goonmeme">
-                        <div className="w-embed"><img className="af-class-goonmemes" src="images/photo_2021-06-08_23-56-09.jpg" alt="GOON" />
+                        <div className="w-embed"><img className="af-class-goonmemes" src="https://secmedia.s3.us-east-2.amazonaws.com/goon/goonmeme.50cent.png" alt="GOON MEME" />
                           <style dangerouslySetInnerHTML={{__html: "\n.af-view .af-class-goonmemes {\nborder-radius: 20px 20px 20px 20px;\n}\n" }} />
                         </div>
                         <div id="purchase-pass-button" className="af-class-nft-buy-buttons af-class-sec-coin af-class-purchase af-class-_1 af-class-meme">
@@ -210,7 +210,7 @@ class OnlymemesView extends React.Component {
                         </div>
                       </div>
                       <div className="af-class-goonmeme">
-                        <div className="w-embed"><img className="af-class-goonmemes" src="images/goon.messiah.jpg" alt="GOON" />
+                        <div className="w-embed"><img className="af-class-goonmemes" src="https://secmedia.s3.us-east-2.amazonaws.com/goon/goonmeme.asap.png" alt="GOON MEME" />
                           <style dangerouslySetInnerHTML={{__html: "\n.af-view .af-class-goonmemes {\nborder-radius: 20px 20px 20px 20px;\n}\n" }} />
                         </div>
                         <div id="purchase-pass-button" className="af-class-nft-buy-buttons af-class-sec-coin af-class-purchase af-class-_1 af-class-meme">
@@ -226,7 +226,7 @@ class OnlymemesView extends React.Component {
                         </div>
                       </div>
                       <div className="af-class-goonmeme">
-                        <div className="w-embed"><img className="af-class-goonmemes" src="images/goon.way.jpg" alt="GOON" />
+                        <div className="w-embed"><img className="af-class-goonmemes" src="https://secmedia.s3.us-east-2.amazonaws.com/goon/goonmeme.2pac+(2).png" alt="GOON MEME" />
                           <style dangerouslySetInnerHTML={{__html: "\n.af-view .af-class-goonmemes {\nborder-radius: 20px 20px 20px 20px;\n}\n" }} />
                         </div>
                         <div id="purchase-pass-button" className="af-class-nft-buy-buttons af-class-sec-coin af-class-purchase af-class-_1 af-class-meme">
@@ -242,7 +242,7 @@ class OnlymemesView extends React.Component {
                         </div>
                       </div>
                       <div className="af-class-goonmeme">
-                        <div className="w-embed"><img className="af-class-goonmemes" src="images/photo_2021-06-14_13-11-13.jpg" alt="GOON" />
+                        <div className="w-embed"><img className="af-class-goonmemes" src="https://secmedia.s3.us-east-2.amazonaws.com/goon/goonmeme.wutang.png" alt="GOON MEME" />
                           <style dangerouslySetInnerHTML={{__html: "\n.af-view .af-class-goonmemes {\nborder-radius: 20px 20px 20px 20px;\n}\n" }} />
                         </div>
                         <div id="purchase-pass-button" className="af-class-nft-buy-buttons af-class-sec-coin af-class-purchase af-class-_1 af-class-meme">
@@ -258,7 +258,7 @@ class OnlymemesView extends React.Component {
                         </div>
                       </div>
                       <div className="af-class-goonmeme">
-                        <div className="w-embed"><img className="af-class-goonmemes" src="images/photo_2021-06-15_18-21-20-1.jpg" alt="GOON" />
+                        <div className="w-embed"><img className="af-class-goonmemes" src="https://secmedia.s3.us-east-2.amazonaws.com/goon/goonmeme.kenny.png" alt="GOON MEME" />
                           <style dangerouslySetInnerHTML={{__html: "\n.af-view .af-class-goonmemes {\nborder-radius: 20px 20px 20px 20px;\n}\n" }} />
                         </div>
                         <div id="purchase-pass-button" className="af-class-nft-buy-buttons af-class-sec-coin af-class-purchase af-class-_1 af-class-meme">
@@ -275,7 +275,7 @@ class OnlymemesView extends React.Component {
                       </div>
                       <div className="af-class-goonmeme">
                         <div className="af-class-div-block-58">
-                          <div className="af-class-html-embed-11 af-class-goonmemeblock w-embed"><img className="af-class-goonmemes" src="images/photo_2021-06-15_18-21-20.jpg" alt="GOON" />
+                          <div className="af-class-html-embed-11 af-class-goonmemeblock w-embed"><img className="af-class-goonmemes" src="https://secmedia.s3.us-east-2.amazonaws.com/goon/goonmeme.snoop.png" alt="GOON MEME" />
                             <style dangerouslySetInnerHTML={{__html: "\n.af-view .af-class-goonmemes {\nborder-radius: 20px 20px 20px 20px;\n}\n" }} />
                           </div>
                         </div>
@@ -295,48 +295,44 @@ class OnlymemesView extends React.Component {
                   </div>
                 </section>
                 <div className="af-class-onlymemessection-2 af-class-_2">
-                  <div className="af-class-div-block-53">
-                    <div style={{paddingTop: '56.17021276595745%'}} className="w-video w-embed"><iframe className="af-class-embedly-embed" src="https://cdn.embedly.com/widgets/media.html?src=https%3A%2F%2Fwww.youtube.com%2Fembed%2FACQY6LYVasc&display_name=YouTube&url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DACQY6LYVasc&image=http%3A%2F%2Fi.ytimg.com%2Fvi%2FACQY6LYVasc%2Fhqdefault.jpg&key=96f1f04c5f4143bcb0f2e68c87d65feb&type=text%2Fhtml&schema=youtube" scrolling="no" title="YouTube embed" frameBorder={0} allow="autoplay; fullscreen" allowFullScreen="true" /></div>
-                    <div className="af-class-html-embed-16 w-embed"><img className="af-class-goonmemes" src="https://secmedia.s3.us-east-2.amazonaws.com/1gooonrich.png" alt="GOON" />
-                      <style dangerouslySetInnerHTML={{__html: "\n.af-view .af-class-goonmemes {\nborder-radius: 0px 0px 0px 0px;\n}\n" }} />
-                    </div>
-                  </div>
                   <div className="af-class-div-block-49">
-                    <div className="af-class-div-block-62">
-                      <div className="af-class-html-embed-19 w-embed"><img src="https://secmedia.s3.us-east-2.amazonaws.com/%24GOON+TITLE.png" alt="GOON" /></div>
+                    <div className="af-class-goon-token-gif">
+                      <div className="w-embed"><img src="https://secmedia.s3.us-east-2.amazonaws.com/GoonCoinV5.gif" alt="GOON" /></div>
                     </div>
                     <GoonTickerView.Controller />
-                    <div className="af-class-div-block-50">
+                    <div className="af-class-goon-token-icons">
                       <a href="https://twitter.com/goontoken" target="_blank" className="af-class-twitter w-inline-block">
                         <div className="w-embed"><img src="images/iconfinder_104501_twitter_bird_icon.svg" alt="GOON" /></div>
                       </a>
-                      <a href="https://app.uniswap.org/#/swap?outputCurrency=0xb0302d59237e6104c3f0d145996302f044797ca5" target="_blank" className="af-class-tradegoon w-inline-block">
+                      <a href="https://www.dextools.io/app/uniswap/pair-explorer/0xdfea1870f3b3841de553cf271e5653a48d5f31af" target="_blank" className="af-class-dextoollink w-inline-block">
+                        <div className="w-embed"><img src="https://secmedia.s3.us-east-2.amazonaws.com/logos/dextool.logo.png" alt="DEXtools" /></div>
+                      </a>
+                      <a href="https://app.uniswap.org/#/swap?outputCurrency=0xb0302d59237e6104c3f0d145996302f044797ca5" target="_blank" className="af-class-goon-uniswap w-inline-block">
                         <div className="w-embed"><img src="images/image-18.png" alt="COINGECKO" /></div>
                       </a>
-                      <a href="https://t.me/goontokenn" target="_blank" className="af-class-telegram w-inline-block">
+                      <a href="https://t.me/goontokenn" target="_blank" className="af-class-goon-telegram w-inline-block">
                         <div className="w-embed"><img src="images/iconfinder_4375490_logo_telegram_icon.svg" alt="GOON" /></div>
                       </a>
                     </div>
                     <div className="af-class-text-block-19"><span className="af-class-text-span-8"><strong>Bigger than an investment. <br />‍<br /></strong></span><br /><span><strong className="af-class-bold-text-7">$GOON</strong></span><strong> </strong>token represents a symbolic message of how young peoples lives all over the globe have been changed forever because of <strong>Meme coins</strong>. In this day and age, you no longer need generational wealth to get ahead.<br /> <br /><br />That’s why we created <span className="af-class-bold-text-7"><strong>$GOON</strong></span>.<br /><br /></div>
-                    <div className="af-class-div-block-51">
-                      <div className="w-embed"><img src="https://secmedia.s3.us-east-2.amazonaws.com/GoonCoinV5.gif" alt="GOON" /></div>
+                    <div className="af-class-div-block-62">
+                      <div className="af-class-html-embed-19 w-embed"><img src="https://secmedia.s3.us-east-2.amazonaws.com/goon/%24GOON+TITLE.png" alt="GOON Wordstamp" /></div>
                     </div>
-                    <div className="af-class-text-block-19"><strong className="af-class-bold-text-7">$GOON</strong> token represents the path that meme coins have paved for anyone smart enough and courageous enough to adapt &amp; think outside the box. &nbsp;With a collaborative and growing community unlike any other, <span className="af-class-bold-text-7"><strong>$GOON</strong></span> provides anyone - regardless of income level, race or religion - with the opportunity to change their lives forever. <br /><br /><br />A chance at true <strong>financial freedom</strong>. In a nutshell, creating <span className="af-class-bold-text-7"><strong>$GOON</strong></span> is our way of fighting back against those that wish to to keep us shackled in a debt driven and society. </div>
+                    <div className="af-class-text-block-19"><strong className="af-class-bold-text-7">$GOON</strong> token represents the path that meme coins have paved for anyone smart enough and courageous enough to adapt &amp; think outside the box. &nbsp;With a collaborative and growing community unlike any other, <span className="af-class-bold-text-7"><strong>$GOON</strong></span> provides anyone - regardless of income level, race or religion - with the opportunity to change their lives forever. </div>
+                    <div className="af-class-div-block-63" />
                     <CopyGoonView.Controller />
-                    <div className="af-class-card-item-2 af-class-memes-coming-soon af-class-_11 af-class-_3">
-                      <div className="af-class-messssiah w-embed"><img src="images/photo_2021-06-09_00-06-33.jpg" alt="GOON" /></div>
+                    <div className="af-class-card-item-2 af-class-memes-coming-soon af-class-mask af-class-_1">
+                      <div className="w-embed"><img src="https://secmedia.s3.us-east-2.amazonaws.com/goon/goon_bobbling+(1).gif" alt="goon" /></div>
                     </div>
-                    <div className="af-class-text-block-19 af-class-_2 af-class-second-block-goon-text">‍<strong>The largest transfer of wealth</strong> in human history is happening before our eyes, as thousands of <strong>regular people </strong>have <strong>became millionaires </strong>off meme coins and crypto - what most people might consider a “joke”. But the results are very real. The numbers do not lie. The potential gains truly are “life changing.” <br /><br /><br />‍<strong>GoonRich</strong> aka ‘<span className="af-class-bold-text-7"><strong>Crypto Messiah</strong></span>’ - who famously went from <strong>Mailman </strong>to <strong>Millionaire </strong>in a matter of days - is possibly the greatest living example of this. And <span className="af-class-bold-text-7"><strong>$GOON</strong></span> is his official coin. The script has been flipped forever… We won’t stop until Every <span className="af-class-bold-text-7"><strong>$GOON</strong></span> <strong>Gets Rich</strong>.<br /><br /><br />Join the $Goon Gang today.</div>
-                    <div className="af-class-div-block-63">
-                      <div className="af-class-_3 af-class-spinning-mask w-embed"><img className="af-class-goonmemes" src="https://secmedia.s3.us-east-2.amazonaws.com/GoonSkiMask.gif" alt="GOON" /></div>
-                    </div>
+                    <div className="af-class-text-block-19 af-class-_2 af-class-second-block-goon-text">Join the <strong className="af-class-bold-text-8">$GOON GANG </strong>today.</div>
                   </div>
                 </div>
               </div>
             </section>
+            <div className="af-class-gradient-border af-class-onlymemes af-class-footer" />
             <div className="af-class-footer-2 af-class-_1">
               <div className="af-class-div-block-29 af-class-_2">
-                <div className="w-embed"><img src="images/OnlyMemes-Icon.png" alt="GOON" /></div>
+                <div className="w-embed"><img src="https://secmedia.s3.us-east-2.amazonaws.com/onlymemes/OnlyMemes+Icon.png" alt="onlymemes logo" /></div>
               </div>
               <div>
                 <div className="af-class-grey-text-2 af-class-white af-class-palace-club af-class-text-gradient-2 af-class-palace">#OnlyMemes</div>
