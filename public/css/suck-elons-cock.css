@@ -5660,6 +5660,11 @@
   max-width: 90%;
   margin: 25px auto 15px;
   padding: 15px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
   -webkit-box-pack: center;
   -webkit-justify-content: center;
   -ms-flex-pack: center;
@@ -5774,14 +5779,10 @@
   text-align: center;
 }
 
-.af-view .af-class-html-embed-17 {
-  -webkit-filter: blur(15px);
-  filter: blur(15px);
-}
-
 .af-view .af-class-div-block-67 {
   position: absolute;
   z-index: 1;
+  display: none;
   margin-top: 200px;
 }
 
@@ -5874,6 +5875,11 @@
 .af-view .af-class-div-block-70 {
   padding-right: 10px;
   padding-left: 10px;
+}
+
+.af-view .af-class-div-block-71 {
+  position: relative;
+  display: block;
 }
 
 @media screen and (min-width: 1280px) {
@@ -6971,6 +6977,10 @@
     flex-direction: column;
   }
 
+  .af-view .af-class-card-item-2.af-class-_1.af-class-_2.af-class-bodegga {
+    min-width: auto;
+  }
+
   .af-view .af-class-grid-testimonial-2 {
     -ms-grid-columns: 1fr 1fr 1fr 1fr;
     grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -6978,6 +6988,14 @@
 
   .af-view .af-class-onlymemessection-2 {
     max-width: 100%;
+  }
+
+  .af-view .af-class-onlymemessection-2.af-class-_2 {
+    max-width: none;
+    -webkit-box-ordinal-group: 0;
+    -webkit-order: -1;
+    -ms-flex-order: -1;
+    order: -1;
   }
 
   .af-view .af-class-text-block-23 {
@@ -9432,6 +9450,10 @@
     flex-direction: column;
   }
 
+  .af-view .af-class-card-item-2.af-class-_1.af-class-_2.af-class-bodegga {
+    min-width: auto;
+  }
+
   .af-view .af-class-card-item-2.af-class-memes-coming-soon.af-class-_11 {
     -webkit-box-align: center;
     -webkit-align-items: center;
@@ -9457,6 +9479,7 @@
   }
 
   .af-view .af-class-div-block-49 {
+    margin-left: 0px;
     text-align: center;
   }
 

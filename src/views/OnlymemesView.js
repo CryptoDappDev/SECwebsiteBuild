@@ -111,6 +111,7 @@ class OnlymemesView extends React.Component {
             <section id="limited-edition-nfts-section" className="af-class-section af-class-dark af-class-_1">
               <div className="af-class-onlymemebanners">
                 <div className="af-class-div-block-55"><img src="https://uploads-ssl.webflow.com/60c96fd79ca1f3785190ddb2/60c96fd79ca1f34f3e90de73_OnlyMemes%20Logo%20TM%20V3.png" loading="lazy" width="1460.5" alt className="af-class-image-37" /></div>
+                <div className="af-class-div-block-71" />
               </div>
               <div id="onlymemes.goon" className="af-class-card-item-2 af-class-_1 af-class-_2 af-class-bodegga">
                 <div className="af-class-div-block-54 af-class-_1">
@@ -121,7 +122,9 @@ class OnlymemesView extends React.Component {
                 <section id="onlymemessectionnslug" className="af-class-onlymemessection-2 af-class-_3">
                   <div className="w-layout-grid af-class-grid-testimonial-2">
                     <div className="af-class-card-item-2 af-class-goon-video">
-                      <div style={{paddingTop: '56.17021276595745%'}} className="w-video w-embed"><iframe className="af-class-embedly-embed" src="https://cdn.embedly.com/widgets/media.html?src=https%3A%2F%2Fwww.youtube.com%2Fembed%2FACQY6LYVasc%3Ffeature%3Doembed&display_name=YouTube&url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DACQY6LYVasc&image=https%3A%2F%2Fi.ytimg.com%2Fvi%2FACQY6LYVasc%2Fhqdefault.jpg&key=96f1f04c5f4143bcb0f2e68c87d65feb&type=text%2Fhtml&schema=youtube" scrolling="no" title="YouTube embed" frameBorder={0} allow="autoplay; fullscreen" allowFullScreen="true" /></div>
+                      <div className="w-embed"><video controls loop width="100%" height="100%" autoPlay muted>
+                          <source src="https://secmedia.s3.us-east-2.amazonaws.com/goon/GoonRich_NFT_Promo_V2.mp4" type="video/mp4" />
+                        </video></div>
                     </div>
                     <div className="af-class-div-block-48">
                       <div className="af-class-card-item-2 af-class-memes-coming-soon af-class-_1 af-class-_2">

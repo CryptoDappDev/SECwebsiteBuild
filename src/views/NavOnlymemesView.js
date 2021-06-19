@@ -65,7 +65,7 @@ class NavOnlymemesView extends React.Component {
         <span className="af-view">
           <div className="af-class-download-button af-class-learn-more">
             <a href="onlymemes.html" target="_blank" className="af-class-button af-class-learn af-class-hero w-inline-block">
-              <div className="af-class-html-embed-12 w-embed"><img src="https://secmedia.s3.us-east-2.amazonaws.com/logos/OnlyMemes+Logo+TYPE+WHITEV5.png" alt="OnlyMemes" /></div>
+              <div className="af-class-html-embed-12 w-embed"><img src="https://secmedia.s3.us-east-2.amazonaws.com/onlymemes/OnlyMemes+LogoText.png" alt="OnlyMemes" /></div>
             </a>
           </div>
         </span>
