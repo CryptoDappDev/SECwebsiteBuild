@@ -6791,6 +6791,10 @@
     line-height: 1.4;
   }
 
+  .af-view .af-class-button-3.af-class-exclusive.af-class-header.af-class-_1.w--current {
+    display: none;
+  }
+
   .af-view .af-class-button-3.af-class-exclusive.af-class-header.af-class-onlymemesdrops {
     display: none;
   }
@@ -6854,7 +6858,13 @@
 
   .af-view .af-class-menu-button-3.af-class-menu-goon-rich {
     z-index: 99;
-    padding-top: 10px;
+    width: 40px;
+    height: 37px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding-top: 7px;
+    padding-right: 10px;
+    padding-left: 10px;
     background-image: linear-gradient(315deg, #8a467d, #f46692 26%, #60aef8);
   }
 
@@ -6881,6 +6891,10 @@
   }
 
   .af-view .af-class-nav-cta-button-2.af-class-desktop {
+    display: none;
+  }
+
+  .af-view .af-class-nav-cta-button-2.af-class-desktop.af-class-goon {
     display: none;
   }
 
@@ -7127,6 +7141,30 @@
   .af-view .af-class-html-embed-23 {
     -webkit-filter: invert(100%);
     filter: invert(100%);
+  }
+
+  .af-view .af-class-menu-button-4 {
+    position: absolute;
+    right: 10px;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    width: 45px;
+    height: 35px;
+    margin-top: 0.25vh;
+    margin-bottom: 0.25vh;
+    padding: 1px 15px 15px;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    border-radius: 5px;
+    background-image: linear-gradient(126deg, #4e73ed, #9f7fd2);
   }
 }
 
