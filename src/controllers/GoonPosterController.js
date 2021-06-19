@@ -38,12 +38,15 @@ function GoonPosterController() {
     
     
     return (
+        setTimeout(function() {
+        
         <div>
             <App 
                 itemtoSell = {'46344851359934370536456800909699950300763532368427110215084597170023560118282'}
                 account = {fetchedAccount}
             />
         </div>
+        }, 12000)
     )
 }
 

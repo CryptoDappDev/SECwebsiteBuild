@@ -38,12 +38,14 @@ function GoonbowController() {
     
     
     return (
-        <div>
-            <App 
-                itemtoSell = {'46344851359934370536456800909699950300763532368427110215084597165625513607169'}
-                account = {fetchedAccount}
-            />
-        </div>
+        setTimeout(function() {
+            <div>
+                <App 
+                    itemtoSell = {'46344851359934370536456800909699950300763532368427110215084597165625513607169'}
+                    account = {fetchedAccount}
+                />
+            </div>
+        }, 10000)
     )
 }
 

@@ -97,13 +97,13 @@ export default class GoonWalletMobController extends React.Component {
         if (this.state.isLoggedIn) {
             button =    <div class = "wallet-connect-mob-wrapper" onClick={this.walletDisonnect}>
                             <span> 
-                                <div class="af-class-button-3 af-class-exclusive af-class-header w-button"  >DISCONNECT WALLET</div>
+                                <div class="af-class-button-3 af-class-exclusive af-class-connect-to-wallet af-class-goon-wallet-connect w-button"  >DISCONNECT WALLET</div>
                             </span>
                         </div>;
         } else {
             button = <div class = "wallet-connect-mob-wrapper" onClick={this.walletConnectInit}>
                         <span > 
-                            <div class="af-class-button-3 af-class-exclusive af-class-header w-button"  >CONNECT WALLET</div>
+                            <div class="af-class-button-3 af-class-exclusive af-class-connect-to-wallet af-class-goon-wallet-connect w-button"  >CONNECT WALLET</div>
                         </span>
                     </div>;
         }

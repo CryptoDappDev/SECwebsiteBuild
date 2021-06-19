@@ -38,12 +38,14 @@ function Goon50Controller() {
     
     
     return (
-        <div>
-            <App 
-                itemtoSell = {'46344851359934370536456800909699950300763532368427110215084597171123071746058'}
-                account = {fetchedAccount}
-            />
-        </div>
+        setTimeout(function() {
+            <div>
+                <App 
+                    itemtoSell = {'46344851359934370536456800909699950300763532368427110215084597171123071746058'}
+                    account = {fetchedAccount}
+                />
+            </div>
+        }, 4000)
     )
 }
 
