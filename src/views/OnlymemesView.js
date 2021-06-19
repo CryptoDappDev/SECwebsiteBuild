@@ -15,10 +15,10 @@ import GoonNFTWuTangView from './GoonNFTWuTangView'
 import GoonNFTKennyView from './GoonNFTKennyView'
 import GoonNFTSnoopView from './GoonNFTSnoopView'
 import GoonTickerView from './GoonTickerView'
+import GoonTwitterShareView from './GoonTwitterShareView'
 import CopyGoonView from './CopyGoonView'
 
 const scripts = [
-  { loading: fetch("https://platform.twitter.com/widgets.js").then(body => body.text()), isAsync: true },
   { loading: fetch("https://d3e54v103j8qbb.cloudfront.net/js/jquery-3.5.1.min.dc5e7f18c8.js?site=60a76909ccf920aea94e85c4").then(body => body.text()), isAsync: false },
   { loading: fetch("js/suck-elons-cock.js").then(body => body.text()), isAsync: false },
 ]
@@ -80,7 +80,7 @@ class OnlymemesView extends React.Component {
         ` }} />
         <span className="af-view">
           <div className="af-class-body-2">
-            <div data-collapse="medium" data-animation="default" data-duration={400} data-doc-height={1} role="banner" className="af-class-fixed-nav-3 af-class-onlymemesnav w-nav">
+            <div data-collapse="medium" data-animation="default" data-duration={400} data-doc-height={1} data-w-id="67427028-420f-9239-4335-5d5a3c7d4977" style={{opacity: 1}} role="banner" className="af-class-fixed-nav-3 af-class-onlymemesnav w-nav">
               <div className="af-class-gradient-border af-class-onlymemes" />
               <div id="onlymemestop" className="af-class-container af-class-nav-container af-class-onlymemescontainer w-container">
                 <div className="af-class-div-block-74">
@@ -329,11 +329,7 @@ class OnlymemesView extends React.Component {
                       <a href="https://coinsniper.net/coin/3559" target="_blank" className="w-inline-block">
                         <div className="w-embed"><img src="https://secmedia.s3.us-east-2.amazonaws.com/logos/longcoinsniper.logo.png" alt="COINSNIPER" /></div>
                       </a>
-                      <div className="af-class-div-block-77">
-                        <div className="af-class-html-embed-25 w-embed w-script">
-                          <a href="https://twitter.com/share?ref_src=twsrc%5Etfw" className="af-class-twitter-share-button" data-size="large" data-text="Check out the $GOON Bodega on @OnlyMemesApp" data-via="goontoken" data-hashtags="goonish" data-show-count="false">Share the $GOON Bodega on Twitter</a>
-                        </div>
-                      </div>
+                      <GoonTwitterShareView.Controller />
                     </div>
                     <div className="af-class-bio-text"><span className="af-class-text-span-8"><strong className="af-class-bold-text-9">Bigger than an investment. <br /></strong></span><br /><span><strong className="af-class-bold-text-7">$GOON</strong></span><strong> </strong>token represents a symbolic message of how young peoples lives all over the globe have been changed forever because of <strong>Meme coins</strong>. In this day and age, you no longer need generational wealth to get ahead.<br /><br />That’s why we created <span className="af-class-bold-text-7"><strong>$GOON</strong></span>.<br /><br /></div>
                     <div className="af-class-div-block-62">
@@ -387,20 +383,7 @@ class OnlymemesView extends React.Component {
                 <div className="af-class-grey-text-2 af-class-white af-class-_20211">Suck Elon's Cock © <strong className="af-class-bold-text-5">2021</strong></div>
               </div>
             </div>
-            <div data-collapse="medium" data-animation="default" data-duration={400} role="banner" className="w-nav">
-              <div className="w-container">
-                <a href="#" className="w-nav-brand" />
-                <nav role="navigation" className="w-nav-menu">
-                  <a href="#" className="w-nav-link">Home</a>
-                  <a href="#" className="w-nav-link">About</a>
-                  <a href="#" className="w-nav-link">Contact</a>
-                </nav>
-                <div className="w-nav-button">
-                  <div className="w-icon-nav-menu" />
-                </div>
-              </div>
-            </div>
-            <div className="af-class-goon-back-to-top">
+            <div data-w-id="d23f896b-9a4e-faab-3c80-b64f95b279af" style={{opacity: 1}} className="af-class-goon-back-to-top">
               <a href="#onlymemestop" className="w-inline-block"><img src="images/arrow.svg" loading="lazy" width={50} alt className="af-class-back-to-top-arrow" /></a>
             </div>
             {/* [if lte IE 9]><![endif] */}

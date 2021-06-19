@@ -66,26 +66,6 @@ class NotFoundView extends React.Component {
         <span className="af-view">
           <div>
             <div className="af-class-wrapper">
-              <div data-collapse="medium" data-animation="default" data-duration={400} role="banner" className="af-class-fixed-nav w-nav">
-                <div className="af-class-container af-class-nav-container w-container">
-                  <a href="index.html" className="af-class-brand w-nav-brand"><img src="images/1080x1080.png" sizes="(max-width: 479px) 23vw, (max-width: 1279px) 29.87847328186035px, (max-width: 1439px) 2vw, 29.87847328186035px" srcSet="images/1080x1080-p-500.png 500w, images/1080x1080-p-800.png 800w, images/1080x1080-p-1080.png 1080w, images/1080x1080.png 1195w" alt className="af-class-nav-logo" /></a>
-                  <nav role="navigation" className="af-class-nav-menu w-nav-menu">
-                    <a href="#" className="af-class-nav-link w-inline-block">
-                      <div className="af-class-nav-link-text">Ecosystem</div>
-                    </a>
-                    <a href="#" className="af-class-nav-link w-inline-block">
-                      <div className="af-class-nav-link-text">Moonmap</div>
-                    </a>
-                    <a href="#" className="af-class-nav-link w-inline-block">
-                      <div className="af-class-nav-link-text">Meme Marketplace</div>
-                    </a>
-                    <div className="af-class-nav-cta-button">
-                      <a href="https://webflow.com/templates/html/bold-app-website-template" target="_blank" className="af-class-button w-button"><strong>Exclusive NFTs</strong></a>
-                    </div>
-                  </nav>
-                  <div className="af-class-menu-button w-nav-button"><img src="images/menu-icon-white.svg" loading="lazy" alt /></div>
-                </div>
-              </div>
               <div className="af-class-section">
                 <div className="af-class-container">
                   <div className="af-class-utility-page-wrap">
@@ -122,7 +102,7 @@ class NotFoundView extends React.Component {
                   </div>
                   <div className="af-class-footer-flex-container">
                     <div className="af-class-footer-brand-content">
-                      <a href="index.html" className="af-class-footer-logo-link w-inline-block"><img src="images/1080x1080.png" sizes="(max-width: 767px) 130px, (max-width: 1279px) 100vw, 130px" srcSet="images/1080x1080-p-500.png 500w, images/1080x1080-p-800.png 800w, images/1080x1080-p-1080.png 1080w, images/1080x1080.png 1195w" alt className="af-class-footer-image" /></a>
+                      <a href="index.html" className="af-class-footer-logo-link w-inline-block"><img src="images/1080x1080.png" sizes="100vw" srcSet="images/1080x1080-p-500.png 500w, images/1080x1080-p-800.png 800w, images/1080x1080-p-1080.png 1080w, images/1080x1080.png 1195w" alt className="af-class-footer-image" /></a>
                       <ul role="list" className="af-class-footer-list w-list-unstyled">
                         <li className="af-class-footer-list-item">
                           <a href="template/change-log.html" className="af-class-link w-inline-block">
