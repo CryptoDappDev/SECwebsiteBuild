@@ -396,6 +396,10 @@
   align-items: center;
 }
 
+.af-view .af-class-container.af-class-nav-container.af-class-onlymemescontainer {
+  position: relative;
+}
+
 .af-view .af-class-container.af-class-needtohide {
   display: none;
 }
@@ -5441,7 +5445,7 @@
   text-align: center;
 }
 
-.af-view .af-class-text-block-19 {
+.af-view .af-class-bio-text {
   margin-top: 25px;
   padding-right: 10px;
   padding-left: 10px;
@@ -5450,12 +5454,12 @@
   text-align: center;
 }
 
-.af-view .af-class-text-block-19.af-class-_2.af-class-second-block-goon-text {
+.af-view .af-class-bio-text.af-class-_2.af-class-second-block-goon-text {
   margin-bottom: 20px;
   font-size: 20px;
 }
 
-.af-view .af-class-text-block-19.af-class-pending {
+.af-view .af-class-bio-text.af-class-pending {
   margin-top: -15px;
   font-size: 15px;
 }
@@ -6079,8 +6083,24 @@
 }
 
 .af-view .af-class-text-span-10 {
-  color: #c99d3d;
+  color: #cba042;
   font-weight: 700;
+}
+
+.af-view .af-class-bold-text-10 {
+  color: #d9b453;
+}
+
+.af-view .af-class-bold-text-11 {
+  color: #c6a649;
+}
+
+.af-view .af-class-bold-text-12 {
+  color: #f4f8fb;
+}
+
+.af-view .af-class-bold-text-13 {
+  color: #f4f8fb;
 }
 
 @media screen and (min-width: 1280px) {

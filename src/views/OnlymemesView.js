@@ -80,7 +80,7 @@ class OnlymemesView extends React.Component {
         ` }} />
         <span className="af-view">
           <div className="af-class-body-2">
-            <div data-collapse="all" data-animation="default" data-duration={400} data-doc-height={1} role="banner" className="af-class-fixed-nav-3 af-class-onlymemesnav w-nav">
+            <div data-collapse="medium" data-animation="default" data-duration={400} data-doc-height={1} role="banner" className="af-class-fixed-nav-3 af-class-onlymemesnav w-nav">
               <div className="af-class-gradient-border af-class-onlymemes" />
               <div id="onlymemestop" className="af-class-container af-class-nav-container af-class-onlymemescontainer w-container">
                 <div className="af-class-div-block-74">
@@ -335,25 +335,25 @@ class OnlymemesView extends React.Component {
                         </div>
                       </div>
                     </div>
-                    <div className="af-class-text-block-19"><span className="af-class-text-span-8"><strong className="af-class-bold-text-9">Bigger than an investment. <br /></strong></span><br /><span><strong className="af-class-bold-text-7">$GOON</strong></span><strong> </strong>token represents a symbolic message of how young peoples lives all over the globe have been changed forever because of <strong>Meme coins</strong>. In this day and age, you no longer need generational wealth to get ahead.<br /><br />That’s why we created <span className="af-class-bold-text-7"><strong>$GOON</strong></span>.<br /><br /></div>
+                    <div className="af-class-bio-text"><span className="af-class-text-span-8"><strong className="af-class-bold-text-9">Bigger than an investment. <br /></strong></span><br /><span><strong className="af-class-bold-text-7">$GOON</strong></span><strong> </strong>token represents a symbolic message of how young peoples lives all over the globe have been changed forever because of <strong>Meme coins</strong>. In this day and age, you no longer need generational wealth to get ahead.<br /><br />That’s why we created <span className="af-class-bold-text-7"><strong>$GOON</strong></span>.<br /><br /></div>
                     <div className="af-class-div-block-62">
                       <div className="af-class-html-embed-19 w-embed"><img src="https://secmedia.s3.us-east-2.amazonaws.com/goon/%24GOON+TITLE.png" alt="GOON Wordstamp" /></div>
                     </div>
-                    <div className="af-class-text-block-19"><strong className="af-class-bold-text-7">$GOON</strong> token represents the path that meme coins have paved for anyone smart enough and courageous enough to adapt &amp; think outside the box. &nbsp;With a collaborative and growing community unlike any other, <span className="af-class-bold-text-7"><strong>$GOON</strong></span> provides anyone - regardless of income level, race or religion - with the opportunity to change their lives forever. </div>
+                    <div className="af-class-bio-text"><strong className="af-class-bold-text-7">$GOON</strong> token represents the path that meme coins have paved for anyone smart enough and courageous enough to adapt &amp; think outside the box. &nbsp;<strong>With a collaborative and growing community</strong> unlike any other, <span className="af-class-bold-text-7"><strong>$GOON</strong></span> provides anyone - regardless of income level, race or religion - with the opportunity to change their lives forever. </div>
                     <div className="af-class-div-block-63" />
                     <CopyGoonView.Controller />
                     <div>
-                      <div className="af-class-text-block-19">‍<strong>2% tax</strong> on all transactions <strong>redistributed </strong>to all holders.<br /><br /><strong>60%</strong> of supplied <strong>burned</strong>.<br /><br /><span className="af-class-text-span-10">Deflationary.<br /></span><br />‍</div>
                       <div className="w-embed"><img src="https://secmedia.s3.us-east-2.amazonaws.com/goon/tokenomics+titlev2.png" alt="Tokenomics" /></div>
+                      <div className="af-class-bio-text">‍<strong className="af-class-bold-text-10">2% tax</strong> on all transactions <strong className="af-class-bold-text-12">redistributed </strong>to all holders.<br /><br /><strong className="af-class-bold-text-11">60%</strong> of supplied <strong className="af-class-bold-text-13">burned</strong>.<br /><br /><span className="af-class-text-span-10">Deflationary.<br /></span><br />‍</div>
+                    </div>
+                    <div className="af-class-div-block-78">
+                      <div className="af-class-html-embed-26 w-embed"><img src="https://secmedia.s3.us-east-2.amazonaws.com/logos/CMC.logo.png" alt="CMC" /></div>
+                      <div className="af-class-bio-text af-class-pending"><span><em>Listing pending.</em></span></div>
                     </div>
                     <div className="af-class-card-item-2 af-class-memes-coming-soon af-class-mask af-class-_1">
                       <div className="w-embed"><img src="https://secmedia.s3.us-east-2.amazonaws.com/goon/goon_bobbling+(1).gif" alt="goon" /></div>
                     </div>
-                    <div className="af-class-div-block-78">
-                      <div className="af-class-html-embed-26 w-embed"><img src="https://secmedia.s3.us-east-2.amazonaws.com/logos/CMC.logo.png" alt="CMC" /></div>
-                      <div className="af-class-text-block-19 af-class-pending"><span><em>Listing pending.</em></span></div>
-                    </div>
-                    <div className="af-class-text-block-19 af-class-_2 af-class-second-block-goon-text">Join the <strong className="af-class-bold-text-8">$GOON GANG </strong>today.</div>
+                    <div className="af-class-bio-text af-class-_2 af-class-second-block-goon-text">Join the <strong className="af-class-bold-text-8">$GOON GANG </strong>today.</div>
                   </div>
                 </div>
               </div>
