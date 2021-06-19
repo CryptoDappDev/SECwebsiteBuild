@@ -60,7 +60,7 @@ class GoonWalletView extends React.Component {
           @import url(C:\\css\\components.css);
           @import url(C:\\css\\suck-elons-cock.css);
         ` }} />
-        <span className="af-view">
+        <span>
           <a href="#" id="connect-to-wallet-nav-goon" className="af-class-button-3 af-class-exclusive af-class-goon-connect-wallet w-button"><strong className="af-class-text-gradient-3 af-class-header-connect-waller af-class-goon-wallet">CONNECT WALLET</strong></a>
         </span>
       </span>
