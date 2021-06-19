@@ -12,7 +12,6 @@ import Web3 from 'web3-react';
 import {MetaMaskProvider} from 'metamask-react';
 import OnlymemesController from './controllers/OnlymemesController';
 
-import AbcView from './views/AbcView';
 
 
 
@@ -24,7 +23,7 @@ ReactDOM.render(
         
           <MetaMaskProvider>
             <Route exact path="/" component={IndexController}/>
-            <Route path="/Onlymemes/GoonRich" component={OnlymemesController}/>
+            <Route path="/Onlymemes" component={OnlymemesController}/>
           </MetaMaskProvider>
           
       </Switch>
