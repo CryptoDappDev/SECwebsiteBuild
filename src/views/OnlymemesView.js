@@ -47,7 +47,7 @@ class OnlymemesView extends React.Component {
 
   componentDidMount() {
     const htmlEl = document.querySelector('html')
-    htmlEl.dataset['wfPage'] = '60c970eb1bbfb4920375a513'
+    htmlEl.dataset['wfPage'] = '60cda6c5347c3920e913c29e'
     htmlEl.dataset['wfSite'] = '60a76909ccf920aea94e85c4'
 
     scripts.concat(null).reduce((active, next) => Promise.resolve(active).then((active) => {
@@ -82,9 +82,7 @@ class OnlymemesView extends React.Component {
             <div data-collapse="medium" data-animation="default" data-duration={400} id="top" data-w-id="c751e115-cebe-a109-aa2a-584951a5a2e3" style={{opacity: 1}} role="banner" className="af-class-fixed-nav-3 af-class-_1 w-nav">
               <div className="af-class-gradient-border af-class-onlymemes" />
               <div className="af-class-container af-class-nav-container w-container">
-                <div className="af-class-div-block-74">
-                  <GoonHomeView.Controller />
-                </div>
+                <GoonHomeView.Controller />
                 <nav role="navigation" className="af-class-nav-menu af-class-goon-nav w-nav-menu">
                   <div className="af-class-nav-cta-button-2 af-class-mobile">
                     <GoonWalletMobView.Controller />
@@ -104,17 +102,15 @@ class OnlymemesView extends React.Component {
                     <a href="https://discord.gg/HpYE8SPQhA" target="_blank" className="af-class-social-media-link af-class-navv w-inline-block"><img src="images/iconfinder_discord_18_5474122-svg-2.svg" loading="lazy" width={25} alt className="af-class-social-media-icon" /></a>
                   </div>
                 </nav>
-                <div className="af-class-nav-cta-button-2 af-class-desktop af-class-goon">
+                <div className="af-class-nav-cta-button-2 af-class-desktop">
                   <GoonWalletView.Controller />
                   <a href="#limited-edition-nfts-section" id="limited-drop-button" className="af-class-button-3 af-class-exclusive af-class-header af-class-_1 w-button"><strong>LIMITED DROPS</strong></a>
                 </div>
-                <div className="af-class-menu-button-3 w-nav-button"><img src="images/menu-icon-white.svg" loading="lazy" alt className="af-class-image-17" />
-                  <div className="af-class-html-embed-23 w-embed"><img src="https://secmedia.s3.us-east-2.amazonaws.com/logos/menuu.png" alt="GOON" /></div>
-                </div>
+                <div className="af-class-menu-button-3 af-class-menu-goon-rich w-nav-button"><img src="images/menu-icon-white.svg" loading="lazy" alt className="af-class-image-17" /></div>
               </div>
             </div>
             <section id="limited-edition-nfts-section" className="af-class-section af-class-dark af-class-_1">
-              <div id="goononlymemes" className="af-class-onlymemebanners">
+              <div className="af-class-onlymemebanners">
                 <a href="https://youtu.be/D7kt4i6wPKY" target="_blank" className="af-class-link-block-6 w-inline-block">
                   <div className="af-class-div-block-55"><img src="https://uploads-ssl.webflow.com/60c96fd79ca1f3785190ddb2/60c96fd79ca1f34f3e90de73_OnlyMemes%20Logo%20TM%20V3.png" loading="lazy" width="1460.5" alt className="af-class-image-37" /></div>
                 </a>
