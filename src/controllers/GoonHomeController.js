@@ -13,7 +13,7 @@ function GoonHomeController() {
 }
 
 export default (props) => (
-    <div class='pb-1' >
+    <div class='pb-2' >
         <GoonHomeController/>
     </div>
     

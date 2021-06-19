@@ -23,7 +23,7 @@ ReactDOM.render(
         
           <MetaMaskProvider>
             <Route exact path="/" component={IndexController}/>
-            <Route path="/Onlymemes" exact component={OnlymemesController}/>
+            <Route path="/Onlymemes/GoonRich" exact component={OnlymemesController}/>
           </MetaMaskProvider>
         
       </Switch>
