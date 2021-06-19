@@ -171,10 +171,10 @@ class OnlymemesView extends React.Component {
                           <div className="af-class-div-block-53" />
                         </div>
                         <div className="af-class-div-block-45 af-class-_1">
-                          <div className="af-class-html-embed-8 w-embed"><img src="https://secmedia.s3.us-east-2.amazonaws.com/GoonSkiMask.gif" alt="goon" /></div>
-                          <div className="af-class-html-embed-8 w-embed"><img src="https://secmedia.s3.us-east-2.amazonaws.com/GoonSkiMask.gif" alt="goon" /></div>
-                          <div className="af-class-html-embed-8 af-class-_1 w-embed"><img src="https://secmedia.s3.us-east-2.amazonaws.com/GoonSkiMask.gif" alt="goon" /></div>
-                          <div className="af-class-html-embed-8 af-class-_2 w-embed"><img src="https://secmedia.s3.us-east-2.amazonaws.com/GoonSkiMask.gif" alt="goon" /></div>
+                          <div className="af-class-html-embed-8 w-embed"><img src="https://secmedia.s3.us-east-2.amazonaws.com/goon/GoonSkiMask.gif" alt="GOON SKIMASK" /></div>
+                          <div className="af-class-html-embed-8 w-embed"><img src="https://secmedia.s3.us-east-2.amazonaws.com/goon/GoonSkiMask.gif" alt="GOON SKIMASK" /></div>
+                          <div className="af-class-html-embed-8 af-class-_1 w-embed"><img src="https://secmedia.s3.us-east-2.amazonaws.com/goon/GoonSkiMask.gif" alt="GOON SKIMASK" /></div>
+                          <div className="af-class-html-embed-8 af-class-_2 w-embed"><img src="https://secmedia.s3.us-east-2.amazonaws.com/goon/GoonSkiMask.gif" alt="GOON SKIMASK" /></div>
                         </div>
                         <div id="purchase-pass-button" className="af-class-nft-buy-buttons af-class-sec-coin af-class-purchase af-class-_1">
                           <div id="purchase-pass-button-1" className="af-class-nft-price-div"><img src="https://uploads-ssl.webflow.com/60c96fd79ca1f3785190ddb2/60c96fd79ca1f341a190de04_ETH%20logo.svg" loading="lazy" width={25} alt="ETH logo" className="af-class-image-15" />
@@ -194,9 +194,7 @@ class OnlymemesView extends React.Component {
                     </div>
                     <div className="af-class-card-item-2 af-class-memes-coming-soon af-class-_11 af-class-_2">
                       <div className="af-class-goonmeme">
-                        <div className="w-embed"><img className="af-class-goonmemes" src="https://secmedia.s3.us-east-2.amazonaws.com/goon/goonmeme.50cent.png" alt="GOON MEME" />
-                          <style dangerouslySetInnerHTML={{__html: "\n.af-view .af-class-goonmemes {\nborder-radius: 20px 20px 20px 20px;\n}\n" }} />
-                        </div>
+                        <div className="w-embed"><img className="af-class-goonmemes" src="https://secmedia.s3.us-east-2.amazonaws.com/goon/goonmeme.50cent.png" alt="GOON MEME" /></div>
                         <div id="purchase-pass-button" className="af-class-nft-buy-buttons af-class-sec-coin af-class-purchase af-class-_1 af-class-meme">
                           <div id="purchase-pass-button-1" className="af-class-nft-price-div"><img src="https://uploads-ssl.webflow.com/60c96fd79ca1f3785190ddb2/60c96fd79ca1f341a190de04_ETH%20logo.svg" loading="lazy" width={25} alt="ETH logo" className="af-class-image-15" />
                             <div className="af-class-text-block-23">0.1</div>
@@ -210,9 +208,7 @@ class OnlymemesView extends React.Component {
                         </div>
                       </div>
                       <div className="af-class-goonmeme">
-                        <div className="w-embed"><img className="af-class-goonmemes" src="https://secmedia.s3.us-east-2.amazonaws.com/goon/goonmeme.asap.png" alt="GOON MEME" />
-                          <style dangerouslySetInnerHTML={{__html: "\n.af-view .af-class-goonmemes {\nborder-radius: 20px 20px 20px 20px;\n}\n" }} />
-                        </div>
+                        <div className="w-embed"><img className="af-class-goonmemes" src="https://secmedia.s3.us-east-2.amazonaws.com/goon/goonmeme.asap.png" alt="GOON MEME" /></div>
                         <div id="purchase-pass-button" className="af-class-nft-buy-buttons af-class-sec-coin af-class-purchase af-class-_1 af-class-meme">
                           <div id="purchase-pass-button-1" className="af-class-nft-price-div"><img src="https://uploads-ssl.webflow.com/60c96fd79ca1f3785190ddb2/60c96fd79ca1f341a190de04_ETH%20logo.svg" loading="lazy" width={25} alt="ETH logo" className="af-class-image-15" />
                             <div className="af-class-text-block-23">0.1</div>
@@ -226,9 +222,7 @@ class OnlymemesView extends React.Component {
                         </div>
                       </div>
                       <div className="af-class-goonmeme">
-                        <div className="w-embed"><img className="af-class-goonmemes" src="https://secmedia.s3.us-east-2.amazonaws.com/goon/goonmeme.2pac+(2).png" alt="GOON MEME" />
-                          <style dangerouslySetInnerHTML={{__html: "\n.af-view .af-class-goonmemes {\nborder-radius: 20px 20px 20px 20px;\n}\n" }} />
-                        </div>
+                        <div className="w-embed"><img className="af-class-goonmemes" src="https://secmedia.s3.us-east-2.amazonaws.com/goon/goonmeme.2pac+(2).png" alt="GOON MEME" /></div>
                         <div id="purchase-pass-button" className="af-class-nft-buy-buttons af-class-sec-coin af-class-purchase af-class-_1 af-class-meme">
                           <div id="purchase-pass-button-1" className="af-class-nft-price-div"><img src="https://uploads-ssl.webflow.com/60c96fd79ca1f3785190ddb2/60c96fd79ca1f341a190de04_ETH%20logo.svg" loading="lazy" width={25} alt="ETH logo" className="af-class-image-15" />
                             <div className="af-class-text-block-23">0.01</div>
@@ -242,9 +236,7 @@ class OnlymemesView extends React.Component {
                         </div>
                       </div>
                       <div className="af-class-goonmeme">
-                        <div className="w-embed"><img className="af-class-goonmemes" src="https://secmedia.s3.us-east-2.amazonaws.com/goon/goonmeme.wutang.png" alt="GOON MEME" />
-                          <style dangerouslySetInnerHTML={{__html: "\n.af-view .af-class-goonmemes {\nborder-radius: 20px 20px 20px 20px;\n}\n" }} />
-                        </div>
+                        <div className="w-embed"><img className="af-class-goonmemes" src="https://secmedia.s3.us-east-2.amazonaws.com/goon/goonmeme.wutang.png" alt="GOON MEME" /></div>
                         <div id="purchase-pass-button" className="af-class-nft-buy-buttons af-class-sec-coin af-class-purchase af-class-_1 af-class-meme">
                           <div id="purchase-pass-button-1" className="af-class-nft-price-div"><img src="https://uploads-ssl.webflow.com/60c96fd79ca1f3785190ddb2/60c96fd79ca1f341a190de04_ETH%20logo.svg" loading="lazy" width={25} alt="ETH logo" className="af-class-image-15" />
                             <div className="af-class-text-block-23">0.01</div>
@@ -258,9 +250,7 @@ class OnlymemesView extends React.Component {
                         </div>
                       </div>
                       <div className="af-class-goonmeme">
-                        <div className="w-embed"><img className="af-class-goonmemes" src="https://secmedia.s3.us-east-2.amazonaws.com/goon/goonmeme.kenny.png" alt="GOON MEME" />
-                          <style dangerouslySetInnerHTML={{__html: "\n.af-view .af-class-goonmemes {\nborder-radius: 20px 20px 20px 20px;\n}\n" }} />
-                        </div>
+                        <div className="w-embed"><img className="af-class-goonmemes" src="https://secmedia.s3.us-east-2.amazonaws.com/goon/goonmeme.kenny.png" alt="GOON MEME" /></div>
                         <div id="purchase-pass-button" className="af-class-nft-buy-buttons af-class-sec-coin af-class-purchase af-class-_1 af-class-meme">
                           <div id="purchase-pass-button-1" className="af-class-nft-price-div"><img src="https://uploads-ssl.webflow.com/60c96fd79ca1f3785190ddb2/60c96fd79ca1f341a190de04_ETH%20logo.svg" loading="lazy" width={25} alt="ETH logo" className="af-class-image-15" />
                             <div className="af-class-text-block-23">0.01</div>
@@ -275,9 +265,7 @@ class OnlymemesView extends React.Component {
                       </div>
                       <div className="af-class-goonmeme">
                         <div className="af-class-div-block-58">
-                          <div className="af-class-html-embed-11 af-class-goonmemeblock w-embed"><img className="af-class-goonmemes" src="https://secmedia.s3.us-east-2.amazonaws.com/goon/goonmeme.snoop.png" alt="GOON MEME" />
-                            <style dangerouslySetInnerHTML={{__html: "\n.af-view .af-class-goonmemes {\nborder-radius: 20px 20px 20px 20px;\n}\n" }} />
-                          </div>
+                          <div className="af-class-html-embed-11 af-class-goonmemeblock w-embed"><img className="af-class-goonmemes" src="https://secmedia.s3.us-east-2.amazonaws.com/goon/goonmeme.snoop.png" alt="GOON MEME" /></div>
                         </div>
                         <div id="purchase-pass-button" className="af-class-nft-buy-buttons af-class-sec-coin af-class-purchase af-class-_1 af-class-meme">
                           <div id="purchase-pass-button-1" className="af-class-nft-price-div"><img src="https://uploads-ssl.webflow.com/60c96fd79ca1f3785190ddb2/60c96fd79ca1f341a190de04_ETH%20logo.svg" loading="lazy" width={25} alt="ETH logo" className="af-class-image-15" />
@@ -297,7 +285,7 @@ class OnlymemesView extends React.Component {
                 <div className="af-class-onlymemessection-2 af-class-_2">
                   <div className="af-class-div-block-49">
                     <div className="af-class-goon-token-gif">
-                      <div className="w-embed"><img src="https://secmedia.s3.us-east-2.amazonaws.com/GoonCoinV5.gif" alt="GOON" /></div>
+                      <div className="w-embed"><img src="https://secmedia.s3.us-east-2.amazonaws.com/goon/GoonCoinV5.gif" alt="GOON" /></div>
                     </div>
                     <GoonTickerView.Controller />
                     <div className="af-class-goon-token-icons">
