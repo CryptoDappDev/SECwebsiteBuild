@@ -61,9 +61,7 @@ class CopyGoonView extends React.Component {
           @import url(C:\\css\\suck-elons-cock.css);
         ` }} />
         <span className="af-view">
-          <div className="af-class-div-block-8">
-            <div className="af-class-div-block-68" />
-          </div>
+          <div className="af-class-div-block-8" />
         </span>
       </span>
     )

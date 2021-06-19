@@ -4,24 +4,24 @@ import React from 'react'
 import { createScope, map, transformProxies } from './helpers'
 
 const scripts = [
-  { loading: fetch("https://widgets.coingecko.com/coingecko-coin-ticker-widget.js").then(body => body.text()), isAsync: false },
+
 ]
 
 let Controller
 
-class GoonTickerView extends React.Component {
+class GoonHomeView extends React.Component {
   static get Controller() {
     if (Controller) return Controller
 
     try {
-      Controller = require('../controllers/GoonTickerController')
+      Controller = require('../controllers/GoonHomeController')
       Controller = Controller.default || Controller
 
       return Controller
     }
     catch (e) {
       if (e.code == 'MODULE_NOT_FOUND') {
-        Controller = GoonTickerView
+        Controller = GoonHomeView
 
         return Controller
       }
@@ -49,7 +49,7 @@ class GoonTickerView extends React.Component {
   }
 
   render() {
-    const proxies = GoonTickerView.Controller !== GoonTickerView ? transformProxies(this.props.children) : {
+    const proxies = GoonHomeView.Controller !== GoonHomeView ? transformProxies(this.props.children) : {
 
     }
 
@@ -61,17 +61,13 @@ class GoonTickerView extends React.Component {
           @import url(C:\\css\\suck-elons-cock.css);
         ` }} />
         <span className="af-view">
-          <div>
-            <div className="w-embed w-script">
-              <coingecko-coin-ticker-widget coin-id="goonrich" currency="usd" locale="en" background-color="transparent" width={350} vce-ready />
-            </div>
-          </div>
+          <a href="index.html" target="_blank" className="af-class-brand-3 af-class-_1 w-nav-brand"><img src="images/Sec_Wordstamp_V3.png" loading="lazy" width={150} sizes="120.00000762939453px" srcSet="images/Sec_Wordstamp_V3-p-500.png 500w, images/Sec_Wordstamp_V3-p-800.png 800w, images/Sec_Wordstamp_V3.png 1000w" alt="$SEC Logo - suck elon's cock wordstamp" className="af-class-image-16" /></a>
         </span>
       </span>
     )
   }
 }
 
-export default GoonTickerView
+export default GoonHomeView
 
 /* eslint-enable */
