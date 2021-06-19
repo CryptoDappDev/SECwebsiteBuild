@@ -79,7 +79,7 @@ class OnlymemesView extends React.Component {
         ` }} />
         <span className="af-view">
           <div className="af-class-body-2">
-            <div data-collapse="medium" data-animation="default" data-duration={400} data-w-id="c751e115-cebe-a109-aa2a-584951a5a2e3" style={{opacity: 1}} role="banner" className="af-class-fixed-nav-3 af-class-_1 w-nav">
+            <div data-collapse="medium" data-animation="default" data-duration={400} id="top" data-w-id="c751e115-cebe-a109-aa2a-584951a5a2e3" style={{opacity: 1}} role="banner" className="af-class-fixed-nav-3 af-class-_1 w-nav">
               <div className="af-class-gradient-border af-class-onlymemes" />
               <div className="af-class-container af-class-nav-container w-container">
                 <GoonHomeView.Controller />
@@ -111,15 +111,19 @@ class OnlymemesView extends React.Component {
             </div>
             <section id="limited-edition-nfts-section" className="af-class-section af-class-dark af-class-_1">
               <div className="af-class-onlymemebanners">
-                <div className="af-class-div-block-55"><img src="https://uploads-ssl.webflow.com/60c96fd79ca1f3785190ddb2/60c96fd79ca1f34f3e90de73_OnlyMemes%20Logo%20TM%20V3.png" loading="lazy" width="1460.5" alt className="af-class-image-37" /></div>
+                <a href="https://youtu.be/D7kt4i6wPKY" target="_blank" className="af-class-link-block-6 w-inline-block">
+                  <div className="af-class-div-block-55"><img src="https://uploads-ssl.webflow.com/60c96fd79ca1f3785190ddb2/60c96fd79ca1f34f3e90de73_OnlyMemes%20Logo%20TM%20V3.png" loading="lazy" width="1460.5" alt className="af-class-image-37" /></div>
+                </a>
               </div>
               <div id="onlymemes.goon" className="af-class-card-item-2 af-class-_1 af-class-_2 af-class-bodegga">
-                <div className="af-class-div-block-54 af-class-_1">
-                  <div className="af-class-html-embed-14 w-embed"><img src="https://secmedia.s3.us-east-2.amazonaws.com/goon/GoonBodega.png" alt="GOON" /></div>
-                </div>
+                <a href="#goonbodega" className="w-inline-block">
+                  <div className="af-class-div-block-54 af-class-_1">
+                    <div className="af-class-html-embed-14 w-embed"><img src="https://secmedia.s3.us-east-2.amazonaws.com/goon/GoonBodega.png" alt="GOON" /></div>
+                  </div>
+                </a>
               </div>
               <div className="af-class-container-2 af-class-_1">
-                <section id="onlymemessectionnslug" className="af-class-onlymemessection-2 af-class-_3">
+                <section id="goonbodega" className="af-class-onlymemessection-2 af-class-_3">
                   <div className="w-layout-grid af-class-grid-testimonial-2">
                     <div className="af-class-card-item-2 af-class-goon-video">
                       <div className="w-embed"><video controls loop width="100%" height="100%" autoPlay muted>

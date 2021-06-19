@@ -5489,7 +5489,7 @@
 }
 
 .af-view .af-class-div-block-55 {
-  position: relative;
+  position: static;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -5660,6 +5660,11 @@
   max-width: 90%;
   margin: 25px auto 15px;
   padding: 15px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
   -webkit-box-pack: center;
   -webkit-justify-content: center;
   -ms-flex-pack: center;
@@ -5876,6 +5881,24 @@
 
 .af-view .af-class-div-block-71 {
   position: absolute;
+}
+
+.af-view .af-class-html-embed-20 {
+  max-width: 15%;
+  min-width: 15%;
+  margin-top: 5px;
+}
+
+.af-view .af-class-div-block-72 {
+  position: relative;
+  max-height: 100%;
+  max-width: 100%;
+  margin-top: 25px;
+  text-align: center;
+}
+
+.af-view .af-class-link-block-6 {
+  cursor: pointer;
 }
 
 @media screen and (min-width: 1280px) {
@@ -7019,6 +7042,11 @@
     margin-bottom: 20px;
     border-radius: 16px;
   }
+
+  .af-view .af-class-html-embed-20 {
+    max-width: 21%;
+    min-width: 21%;
+  }
 }
 
 @media screen and (max-width: 767px) {
@@ -7504,6 +7532,10 @@
   .af-view .af-class-feature-v3-info {
     padding-right: 8px;
     padding-left: 8px;
+  }
+
+  .af-view .af-class-html-embed-20 {
+    min-width: 30%;
   }
 }
 
@@ -9548,6 +9580,12 @@
 
   .af-view .af-class-twitter {
     padding-right: 5px;
+  }
+
+  .af-view .af-class-html-embed-20 {
+    max-width: 50%;
+    min-width: 50%;
+    margin-top: 7px;
   }
 }
 
