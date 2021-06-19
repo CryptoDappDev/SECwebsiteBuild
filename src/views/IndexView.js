@@ -220,7 +220,7 @@ class IndexView extends React.Component {
                       <div className="af-class-card-item-content af-class-tools">
                         <div className="af-class-card-feature-center af-class-tool-center">
                           <a href="https://app.sushi.com/swap" className="af-class-link-block-4 w-inline-block">
-                            <div className="af-class-fade-in-on-scroll af-class-toool"><img src="images/susssshi.png" loading="lazy" srcSet="images/susssshi-p-500.png 500w, images/susssshi.png 512w" sizes="(max-width: 479px) 55.000003814697266px, 112.98611450195312px" alt="Sushi swap icon" className="af-class-card-feature-icon af-class-tool" /></div>
+                            <div className="af-class-fade-in-on-scroll af-class-toool"><img src="images/susssshi.png" loading="lazy" srcSet="images/susssshi-p-500.png 500w, images/susssshi.png 512w" sizes="(max-width: 479px) 100vw, 57.986114501953125px" alt="Sushi swap icon" className="af-class-card-feature-icon af-class-tool" /></div>
                             <div className="af-class-fade-in-on-scroll">
                               <h6 className="af-class-heading">Sushi Swap</h6>
                             </div>

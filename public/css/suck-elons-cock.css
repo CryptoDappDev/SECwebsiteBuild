@@ -3976,6 +3976,10 @@
   text-align: right;
 }
 
+.af-view .af-class-nav-cta-button-2.af-class-desktop {
+  background-color: #141415;
+}
+
 .af-view .af-class-nav-cta-button-2.af-class-mobile {
   display: none;
 }
@@ -4292,6 +4296,11 @@
   font-style: italic;
   font-weight: 700;
   text-decoration: none;
+}
+
+.af-view .af-class-brand-3.af-class-_1 {
+  max-width: 100%;
+  min-width: 100%;
 }
 
 .af-view .af-class-columns-2 {
@@ -5887,9 +5896,9 @@
 }
 
 .af-view .af-class-html-embed-20 {
-  max-width: 15%;
-  min-width: 15%;
-  margin-top: 7px;
+  max-width: 69%;
+  min-width: 69%;
+  padding-bottom: 3px;
 }
 
 .af-view .af-class-div-block-72 {
@@ -5927,6 +5936,10 @@
   filter: invert(100%);
 }
 
+.af-view .af-class-div-block-74 {
+  max-width: 20vw;
+}
+
 @media screen and (min-width: 1280px) {
   .af-view .af-class-container {
     max-width: 1280px;
@@ -5947,6 +5960,7 @@
 
   .af-view .af-class-html-embed-20 {
     margin-top: 7px;
+    margin-bottom: 6px;
   }
 }
 
@@ -6139,8 +6153,10 @@
   }
 
   .af-view .af-class-html-embed-20 {
-    max-width: 12%;
-    min-width: 12%;
+    max-width: 40%;
+    min-width: 40%;
+    margin-top: 6px;
+    padding-bottom: 8px;
   }
 }
 
@@ -6822,6 +6838,7 @@
   }
 
   .af-view .af-class-menu-button-3.af-class-menu-goon-rich {
+    padding-top: 10px;
     background-image: linear-gradient(315deg, #8a467d, #f46692 26%, #60aef8);
   }
 
@@ -6958,6 +6975,10 @@
     z-index: 99;
   }
 
+  .af-view .af-class-brand-3.af-class-_1 {
+    display: block;
+  }
+
   .af-view .af-class-image-17 {
     position: static;
     display: block;
@@ -7083,8 +7104,13 @@
   }
 
   .af-view .af-class-html-embed-20 {
-    max-width: 21%;
-    min-width: 21%;
+    max-width: 90%;
+    min-width: 90%;
+  }
+
+  .af-view .af-class-html-embed-23 {
+    -webkit-filter: invert(100%);
+    filter: invert(100%);
   }
 }
 
@@ -7574,7 +7600,8 @@
   }
 
   .af-view .af-class-html-embed-20 {
-    min-width: 30%;
+    max-width: 100%;
+    min-width: 100%;
   }
 }
 
@@ -9622,9 +9649,9 @@
   }
 
   .af-view .af-class-html-embed-20 {
-    max-width: 50%;
-    min-width: 50%;
-    margin-top: 7px;
+    max-width: 190%;
+    min-width: 190%;
+    margin-left: 5px;
   }
 }
 
