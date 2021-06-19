@@ -5,7 +5,7 @@ import { createScope, map, transformProxies } from './helpers'
 import GoonHomeView from './GoonHomeView'
 import GoonWalletMobView from './GoonWalletMobView'
 import GoonWalletView from './GoonWalletView'
-import GoonCardView from './GoonCardView'
+import GoonNFTCardView from './GoonNFTCardView'
 import GoonNFTBobbleView from './GoonNFTBobbleView'
 import GoonNFTMaskView from './GoonNFTMaskView'
 import GoonNFT50View from './GoonNFT50View'
@@ -137,7 +137,7 @@ class OnlymemesView extends React.Component {
                             <div id="purchase-pass-button-1" className="af-class-nft-price-div"><img src="https://uploads-ssl.webflow.com/60c96fd79ca1f3785190ddb2/60c96fd79ca1f341a190de04_ETH%20logo.svg" loading="lazy" width={25} alt="ETH logo" className="af-class-image-15" />
                               <div className="af-class-text-block-23">1</div>
                             </div>
-                            <GoonCardView.Controller />
+                            <GoonNFTCardView.Controller />
                           </div>
                           <div className="af-class-div-block-42">
                             <div className="af-class-text-block-22">

@@ -9,19 +9,19 @@ const scripts = [
 
 let Controller
 
-class GoonCardView extends React.Component {
+class GoonNFTCardView extends React.Component {
   static get Controller() {
     if (Controller) return Controller
 
     try {
-      Controller = require('../controllers/GoonCardController')
+      Controller = require('../controllers/GoonNFTCardController')
       Controller = Controller.default || Controller
 
       return Controller
     }
     catch (e) {
       if (e.code == 'MODULE_NOT_FOUND') {
-        Controller = GoonCardView
+        Controller = GoonNFTCardView
 
         return Controller
       }
@@ -49,7 +49,7 @@ class GoonCardView extends React.Component {
   }
 
   render() {
-    const proxies = GoonCardView.Controller !== GoonCardView ? transformProxies(this.props.children) : {
+    const proxies = GoonNFTCardView.Controller !== GoonNFTCardView ? transformProxies(this.props.children) : {
 
     }
 
@@ -70,6 +70,6 @@ class GoonCardView extends React.Component {
   }
 }
 
-export default GoonCardView
+export default GoonNFTCardView
 
 /* eslint-enable */
