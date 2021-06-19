@@ -162,7 +162,7 @@ class IndexView extends React.Component {
                 </div>
               </div>
               <div data-w-id="e7900c2b-f352-bc3f-9059-0de98acb9930" style={{display: 'none'}} className="af-class-section af-class-second">
-                <div data-w-id="2ca3e9bb-1e42-e5d9-5033-787d50362b30" data-animation-type="lottie" data-src="documents/CoinRolling_V2.json" data-loop={0} data-direction={1} data-autoplay={0} data-is-ix2-target={1} data-renderer="canvas" data-default-duration="3.3333333333333335" data-duration={0} className="af-class-lottie-animation-6" />
+                <div data-w-id="2ca3e9bb-1e42-e5d9-5033-787d50362b30" data-animation-type="lottie" data-src="documents/CoinRolling_V2.json" data-loop={0} data-direction={1} data-autoplay={0} data-is-ix2-target={1} data-renderer="svg" data-default-duration="3.3333333333333335" data-duration={0} className="af-class-lottie-animation-6" />
                 <div className="af-class-container af-class-needtohide">
                   <div className="af-class-customers-panel">
                     <div className="af-class-text-holder">
