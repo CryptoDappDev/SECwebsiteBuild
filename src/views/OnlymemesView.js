@@ -305,16 +305,16 @@ class OnlymemesView extends React.Component {
                     <GoonTickerView.Controller />
                     <div className="af-class-goon-token-icons">
                       <a href="https://twitter.com/goontoken" target="_blank" className="af-class-twitter w-inline-block">
-                        <div className="w-embed"><img src="images/iconfinder_104501_twitter_bird_icon.svg" alt="GOON" /></div>
+                        <div className="w-embed"><img src="https://secmedia.s3.us-east-2.amazonaws.com/logos/goon.twitter.png" alt="GOON" /></div>
                       </a>
                       <a href="https://www.dextools.io/app/uniswap/pair-explorer/0xdfea1870f3b3841de553cf271e5653a48d5f31af" target="_blank" className="af-class-dextoollink w-inline-block">
                         <div className="w-embed"><img src="https://secmedia.s3.us-east-2.amazonaws.com/logos/dextool.logo.png" alt="DEXtools" /></div>
                       </a>
                       <a href="https://app.uniswap.org/#/swap?outputCurrency=0xb0302d59237e6104c3f0d145996302f044797ca5" target="_blank" className="af-class-goon-uniswap w-inline-block">
-                        <div className="w-embed"><img src="images/image-18.png" alt="COINGECKO" /></div>
+                        <div className="w-embed"><img src="https://secmedia.s3.us-east-2.amazonaws.com/logos/uniswap.logo.png" alt="Uniswap" /></div>
                       </a>
                       <a href="https://t.me/goontokenn" target="_blank" className="af-class-goon-telegram w-inline-block">
-                        <div className="w-embed"><img src="images/iconfinder_4375490_logo_telegram_icon.svg" alt="GOON" /></div>
+                        <div className="w-embed"><img src="https://secmedia.s3.us-east-2.amazonaws.com/logos/goon.telegram.png" alt="GOON" /></div>
                       </a>
                     </div>
                     <div className="af-class-div-block-70">
@@ -339,9 +339,6 @@ class OnlymemesView extends React.Component {
             </section>
             <div className="af-class-gradient-border af-class-onlymemes af-class-footer" />
             <div className="af-class-footer-2 af-class-_1">
-              <div className="af-class-div-block-73">
-                <div className="w-embed"><img src="https://secmedia.s3.us-east-2.amazonaws.com/sec/Meteor_BG_PURP.gif" alt /></div>
-              </div>
               <div className="af-class-div-block-29 af-class-_2">
                 <div className="w-embed"><img src="https://secmedia.s3.us-east-2.amazonaws.com/onlymemes/OnlyMemes+Icon.png" alt="onlymemes logo" /></div>
               </div>
