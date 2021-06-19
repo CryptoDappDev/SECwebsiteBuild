@@ -86,7 +86,7 @@ class OnlymemesView extends React.Component {
                 <div className="af-class-div-block-74">
                   <GoonHomeView.Controller />
                 </div>
-                <nav role="navigation" className="af-class-nav-menu af-class-onlymemesmenu w-nav-menu">
+                <nav role="navigation" className="af-class-nav-menu w-nav-menu">
                   <div className="af-class-nav-cta-button-2 af-class-mobile">
                     <GoonWalletMobView.Controller />
                     <a href="#" id="limited-drop-button" className="af-class-button-3 af-class-exclusive af-class-header af-class-onlymemesedit w-button"><strong>LIMITED DROPS</strong></a>

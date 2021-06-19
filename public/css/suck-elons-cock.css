@@ -6078,8 +6078,8 @@
 }
 
 .af-view .af-class-div-block-78 {
-  margin-right: 5px;
-  margin-left: 5px;
+  margin-right: 10px;
+  margin-left: 10px;
 }
 
 .af-view .af-class-text-span-10 {
@@ -6494,6 +6494,7 @@
   }
 
   .af-view .af-class-nav-menu.af-class-onlymemesmenu {
+    z-index: 99;
     background-image: -webkit-gradient(linear, left top, left bottom, color-stop(45%, #000), color-stop(100%, #9975d0), to(transparent));
     background-image: linear-gradient(180deg, #000 45%, #9975d0 100%, transparent);
   }
