@@ -6,9 +6,8 @@ import {BrowserRouter as Router,Switch,Route,Link} from "react-router-dom";
 function GoonHomeController() {
     
     return (
-        <Link to="/#top">
             <GoonHomeView/>
-        </Link>     
+ 
     )
 }
 
