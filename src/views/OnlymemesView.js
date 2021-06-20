@@ -320,27 +320,11 @@ class OnlymemesView extends React.Component {
                 <div className="w-embed"><img src="https://secmedia.s3.us-east-2.amazonaws.com/onlymemes/OnlyMemes+Icon.png" alt="onlymemes logo" /></div>
               </div>
               <div>
-                <div className="af-class-grey-text-2 af-class-white af-class-palace-club af-class-text-gradient-2 af-class-palace">#OnlyMemes</div>
+                <div className="af-class-grey-text-2 af-class-white af-class-palace-club af-class-text-gradient-2 af-class-palace">CREATE |&nbsp;SELL |&nbsp;SWAP |&nbsp;COLLECT</div>
               </div>
-              <div className="af-class-social-media-content af-class-desktop af-class-_2">
-                <div className="af-class-div-block-12">
-                  <a href="https://www.tiktok.com/@suckelonscoc?lang=en" target="_blank" className="af-class-social-media-link w-inline-block"><img src="https://uploads-ssl.webflow.com/60bbfcaf8d961b9b48ae873d/60bbfcaf8d961bf437ae8771_tiktok-round.svg" loading="lazy" width={24} height={24} alt="Small circle TikTok icon" className="af-class-social-media-icon" /></a>
-                  <a href="https://twitter.com/suckelonscock?lang=en" target="_blank" className="af-class-social-media-link w-inline-block"><img src="https://uploads-ssl.webflow.com/60bbfcaf8d961b9b48ae873d/60bbfcaf8d961b39e8ae87c8_iconfinder_twitter_circle_black_107155.svg" loading="lazy" width={26} alt="Small circle Twitter icon" className="af-class-social-media-icon" /></a>
-                  <a href="https://www.reddit.com/r/SuckElonsCock/" target="_blank" className="af-class-social-media-link w-inline-block"><img src="https://uploads-ssl.webflow.com/60bbfcaf8d961b9b48ae873d/60bbfcaf8d961b17abae8767_reddit-round.svg" loading="lazy" height={24} width={24} alt="Small circle Reddit icon" className="af-class-social-media-icon" /></a>
-                  <a href="https://t.me/suckelonscock" target="_blank" className="af-class-social-media-link w-inline-block"><img src="https://uploads-ssl.webflow.com/60bbfcaf8d961b9b48ae873d/60bbfcaf8d961b1e4aae876b_telegram-black.svg" loading="lazy" width={24} height={24} alt="Small circle Telegram icon" className="af-class-social-media-icon" /></a>
-                  <a href="https://www.instagram.com/suckelonscock" target="_blank" className="af-class-social-media-link w-inline-block"><img src="https://uploads-ssl.webflow.com/60bbfcaf8d961b9b48ae873d/60bbfcaf8d961b6317ae877b_IG..Circle.svg" loading="lazy" width="28.5" alt="Small circle Instagram icon" className="af-class-social-media-icon" /></a>
-                  <a href="https://opensea.io/accounts/SuckElonsCock" className="af-class-social-media-link w-inline-block">
-                    <div className="af-class-html-embed-21 w-embed"><img src="https://secmedia.s3.us-east-2.amazonaws.com/logos/opensea+(2).png" alt="GOON" /></div>
-                  </a>
-                  <a href="https://www.youtube.com/channel/UCkzofLl4xepSF2CkMU1s53w" target="_blank" className="af-class-social-media-link w-inline-block">
-                    <div className="af-class-html-embed-22 w-embed"><img src="https://secmedia.s3.us-east-2.amazonaws.com/logos/youtube.logo.x.png" alt="YT" /></div>
-                  </a>
-                  <a href="https://www.facebook.com/suckelonscock" target="_blank" className="af-class-social-media-link w-inline-block"><img src="https://uploads-ssl.webflow.com/60bbfcaf8d961b9b48ae873d/60bbfcaf8d961b454aae8762_facebook.svg" loading="lazy" alt="Small circle Facebook icon" className="af-class-social-media-icon" /></a>
-                  <a href="https://www.facebook.com/suckelonscock" target="_blank" className="af-class-social-media-link w-inline-block"><img src="https://uploads-ssl.webflow.com/60bbfcaf8d961b9b48ae873d/60bbfcaf8d961b6340ae87a2_iconfinder_discord_18_5474122-svg%20(1).png" loading="lazy" width={28} alt="Small circle Facebook icon" className="af-class-social-media-icon" /></a>
-                </div>
-              </div>
+              <div className="af-class-social-media-content af-class-desktop af-class-_2" />
               <div className="af-class-footer-copyright af-class-_2021 af-class-_2">
-                <div className="af-class-grey-text-2 af-class-white af-class-_20211">Suck Elon's Cock © <strong className="af-class-bold-text-5">2021</strong></div>
+                <div className="af-class-grey-text-2 af-class-white af-class-_20211">OnlyMemes © <strong className="af-class-bold-text-5">2021</strong></div>
               </div>
             </div>
             <div data-w-id="d23f896b-9a4e-faab-3c80-b64f95b279af" style={{opacity: 1}} className="af-class-goon-back-to-top">
