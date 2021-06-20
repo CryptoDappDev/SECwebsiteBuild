@@ -85,14 +85,30 @@ class GoonNavView extends React.Component {
                   <div className="af-class-nav-link-text">ONLYMEMES</div>
                 </a>
                 <div className="af-class-nav-socials af-class-onlymemesnavsocilas">
-                  <a href="https://www.instagram.com/suckelonscock" target="_blank" className="af-class-social-media-link af-class-navv w-inline-block"><img src="images/IG..Circle.svg" loading="lazy" width={30} alt="Instagram logo - suckelonscock" className="af-class-social-media-icon" /></a>
-                  <a href="https://twitter.com/suckelonscock?lang=en" target="_blank" className="af-class-social-media-link af-class-navv w-inline-block"><img src="images/twitter-round.svg" loading="lazy" width={25} alt="Twitter logo - suckelonscock suck elon's cock " className="af-class-social-media-icon" /></a>
-                  <a href="https://t.me/suckelonscock" target="_blank" className="af-class-social-media-link af-class-navv w-inline-block"><img src="images/telegram-black.svg" loading="lazy" width={24} height={24} alt className="af-class-social-media-icon" /></a>
-                  <a href="https://www.reddit.com/r/SuckElonsCock/" target="_blank" className="af-class-social-media-link af-class-navv w-inline-block"><img src="images/reddit-round.svg" loading="lazy" height={24} width={24} alt className="af-class-social-media-icon" /></a>
-                  <a href="https://www.tiktok.com/@suckelonscoc?lang=en" target="_blank" className="af-class-social-media-link af-class-navv w-inline-block"><img src="images/tiktok-round.svg" loading="lazy" width={24} height={24} alt className="af-class-social-media-icon" /></a>
-                  <a href="https://www.facebook.com/suckelonscock" target="_blank" className="af-class-social-media-link af-class-navv w-inline-block"><img src="images/facebook.svg" loading="lazy" alt className="af-class-social-media-icon" /></a>
-                  <a href="https://www.youtube.com/channel/UCkzofLl4xepSF2CkMU1s53w" target="_blank" className="af-class-social-media-link af-class-navv w-inline-block"><img src="images/YT.svg" loading="lazy" width={25} alt className="af-class-social-media-icon" /></a>
-                  <a href="https://discord.gg/HpYE8SPQhA" target="_blank" className="af-class-social-media-link af-class-navv w-inline-block"><img src="images/iconfinder_discord_18_5474122-svg-2.svg" loading="lazy" width={25} alt className="af-class-social-media-icon" /></a>
+                  <a href="https://www.instagram.com/suckelonscock" target="_blank" className="af-class-social-media-link af-class-navv af-class-html-embed-29 w-inline-block">
+                    <div className="af-class-html-embed-29 w-embed"><img src="https://secmedia.s3.us-east-2.amazonaws.com/logos/ig.logo.png" alt="IG" /></div>
+                  </a>
+                  <a href="https://twitter.com/suckelonscock?lang=en" target="_blank" className="af-class-social-media-link af-class-navv w-inline-block">
+                    <div className="w-embed"><img src="https://secmedia.s3.us-east-2.amazonaws.com/logos/tt.png" alt /></div>
+                  </a>
+                  <a href="https://t.me/suckelonscock" target="_blank" className="af-class-social-media-link af-class-navv w-inline-block">
+                    <div className="w-embed"><img src="https://secmedia.s3.us-east-2.amazonaws.com/logos/telegram.logos.png" alt /></div>
+                  </a>
+                  <a href="https://www.reddit.com/r/SuckElonsCock/" target="_blank" className="af-class-social-media-link af-class-navv w-inline-block">
+                    <div className="w-embed"><img src="https://secmedia.s3.us-east-2.amazonaws.com/logos/reddit.logo.png" alt /></div>
+                  </a>
+                  <a href="https://www.tiktok.com/@suckelonscoc?lang=en" target="_blank" className="af-class-social-media-link af-class-navv w-inline-block">
+                    <div className="w-embed"><img src="https://secmedia.s3.us-east-2.amazonaws.com/logos/tiktok.logo.png" alt /></div>
+                  </a>
+                  <a href="https://www.facebook.com/suckelonscock" target="_blank" className="af-class-social-media-link af-class-navv w-inline-block">
+                    <div className="w-embed"><img src="https://secmedia.s3.us-east-2.amazonaws.com/logos/fb+(2).png" alt /></div>
+                  </a>
+                  <a href="https://www.youtube.com/channel/UCkzofLl4xepSF2CkMU1s53w" target="_blank" className="af-class-social-media-link af-class-navv w-inline-block">
+                    <div className="w-embed"><img src="https://secmedia.s3.us-east-2.amazonaws.com/logos/youtube.logo.png" alt /></div>
+                  </a>
+                  <a href="https://discord.gg/HpYE8SPQhA" target="_blank" className="af-class-social-media-link af-class-navv w-inline-block">
+                    <div className="w-embed"><img src="https://secmedia.s3.us-east-2.amazonaws.com/logos/discord.logo.png" alt /></div>
+                  </a>
                 </div>
               </nav>
               <div className="af-class-nav-cta-button-2 af-class-desktop">
@@ -113,4 +129,3 @@ class GoonNavView extends React.Component {
 export default GoonNavView
 
 /* eslint-enable */
-
