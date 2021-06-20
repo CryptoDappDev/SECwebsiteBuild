@@ -295,12 +295,16 @@
 .af-view .af-class-section.af-class-second {
   position: static;
   overflow: visible;
+  width: 100vw;
   height: 20vh;
   max-width: 100%;
   margin-top: 40vh;
   margin-bottom: -16px;
   padding-bottom: 0px;
   background-color: #f4f8fb;
+  background-image: url('../images/METEOR_BG_New_V3.gif');
+  background-position: 0px 0px;
+  background-size: auto;
 }
 
 .af-view .af-class-section.af-class-second.af-class-chillout {
@@ -3641,6 +3645,21 @@
   display: none;
 }
 
+.af-view .af-class-nav-socials.af-class-onlymemesnavsocilas {
+  display: none;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-flex-wrap: nowrap;
+  -ms-flex-wrap: nowrap;
+  flex-wrap: nowrap;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
 .af-view .af-class-copy-contract-buy-section {
   -webkit-box-pack: center;
   -webkit-justify-content: center;
@@ -3886,6 +3905,7 @@
 }
 
 .af-view .af-class-button-3.af-class-exclusive.af-class-header {
+  max-height: 30px;
   margin-left: 4%;
 }
 
@@ -3905,6 +3925,32 @@
 
 .af-view .af-class-button-3.af-class-exclusive.af-class-goon-connect-wallet {
   background-image: linear-gradient(206deg, #4b73ed, #837cde 32%, #8b6cae);
+}
+
+.af-view .af-class-button-3.af-class-exclusive.af-class-connect-to-wallet {
+  min-width: 200px;
+  border-style: solid;
+  border-width: 2px;
+  border-color: #f46692;
+  background-color: rgba(255, 255, 255, 0);
+  background-image: none;
+  line-height: 0.9;
+}
+
+.af-view .af-class-button-3.af-class-exclusive.af-class-connect-to-wallet.af-class-onlymemesconnect {
+  height: 1px;
+  margin-right: 1vw;
+  -webkit-align-self: auto;
+  -ms-flex-item-align: auto;
+  -ms-grid-row-align: auto;
+  align-self: auto;
+  border-color: #8a467d;
+  background-image: linear-gradient(162deg, #8a467d, #222a68 57%, #4d76f3);
+  line-height: 0.25;
+}
+
+.af-view .af-class-button-3.af-class-exclusive.af-class-connect-to-wallet.af-class-connectonlymemes {
+  display: none;
 }
 
 .af-view .af-class-brand-2 {
@@ -4301,6 +4347,11 @@
 
 .af-view .af-class-text-gradient-3.af-class-header-connect-waller {
   background-image: linear-gradient(111deg, #fa5853, #f46692 50%, #fa5853);
+}
+
+.af-view .af-class-text-gradient-3.af-class-header-connect-waller.af-class-onlymemestext {
+  background-color: #fff;
+  background-image: none;
 }
 
 .af-view .af-class-fixed-nav-3 {
@@ -5483,7 +5534,7 @@
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  max-width: 30%;
+  max-width: 35%;
   margin-left: auto;
   padding-top: 0px;
   padding-right: 0rem;
@@ -5965,8 +6016,8 @@
 }
 
 .af-view .af-class-html-embed-20 {
-  max-width: 67%;
-  min-width: 67%;
+  max-width: 65%;
+  min-width: 65%;
   padding-bottom: 3px;
 }
 
@@ -6035,7 +6086,7 @@
 }
 
 .af-view .af-class-div-block-75 {
-  margin-bottom: -11px;
+  margin-bottom: -16px;
 }
 
 .af-view .af-class-lottie-animation-10 {
@@ -6079,9 +6130,9 @@
 }
 
 .af-view .af-class-div-block-78 {
-  margin-right: 10px;
+  margin-right: 30px;
   margin-bottom: 25px;
-  margin-left: 10px;
+  margin-left: 30px;
 }
 
 .af-view .af-class-text-span-10 {
@@ -6105,6 +6156,124 @@
   color: #f4f8fb;
 }
 
+.af-view .af-class-link-block-7 {
+  max-width: 70px;
+  -webkit-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  transform: rotate(90deg);
+}
+
+.af-view .af-class-html-embed-27 {
+  -webkit-filter: brightness(200%);
+  filter: brightness(200%);
+}
+
+.af-view .af-class-html-embed-27:active {
+  -webkit-transform: skew(9deg, -13deg);
+  -ms-transform: skew(9deg, -13deg);
+  transform: skew(9deg, -13deg);
+}
+
+.af-view .af-class-div-block-79 {
+  position: fixed;
+  left: 0%;
+  top: 0%;
+  right: 0%;
+  bottom: auto;
+}
+
+.af-view .af-class-om-nav-bar {
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  min-height: 52px;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: #000;
+}
+
+.af-view .af-class-menu-html-2 {
+  display: none;
+}
+
+.af-view .af-class-link-block-8 {
+  max-width: 12%;
+  margin-left: 1vw;
+}
+
+.af-view .af-class-om-nav-container {
+  position: fixed;
+  left: 0%;
+  top: 0%;
+  right: 0%;
+  bottom: auto;
+  z-index: 99;
+  display: block;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.af-view .af-class-html-embed-28 {
+  max-width: 100%;
+  min-width: 100%;
+  padding-top: 3px;
+  padding-bottom: 3px;
+}
+
+.af-view .af-class-gradient-border-3 {
+  position: absolute;
+  left: 0%;
+  top: 0%;
+  right: 0%;
+  bottom: auto;
+  height: 5px;
+  margin-top: 48px;
+  background-image: radial-gradient(circle farthest-corner at 50% 50%, #fa5953, #fa5853 23%, #fe753d 46%, #f98f70 73%, #ffc444);
+}
+
+.af-view .af-class-gradient-border-3.af-class-onlymemes {
+  position: relative;
+  left: 0%;
+  top: 0%;
+  right: 0%;
+  bottom: auto;
+  height: 2px;
+  margin-top: 0px;
+  background-image: radial-gradient(circle farthest-corner at 50% 50%, #5678f2, #8f7ed9 23%, #8f6dae 46%, #f970d0 73%, #574ae2);
+}
+
+.af-view .af-class-image-38 {
+  display: none;
+}
+
+.af-view .af-class-italic-text {
+  font-size: 18px;
+}
+
 @media screen and (min-width: 1280px) {
   .af-view .af-class-container {
     max-width: 1280px;
@@ -6115,6 +6284,10 @@
     top: 42.5%;
   }
 
+  .af-view .af-class-button-3.af-class-exclusive.af-class-connect-to-wallet.af-class-onlymemesconnect {
+    height: 1px;
+  }
+
   .af-view .af-class-image-24 {
     left: 54vw;
   }
@@ -6123,7 +6296,24 @@
     max-width: 1280px;
   }
 
+  .af-view .af-class-onlymemessection-2.af-class-_2 {
+    max-width: 35%;
+  }
+
   .af-view .af-class-html-embed-20 {
+    max-width: 60%;
+    min-width: 60%;
+    margin-top: 7px;
+    margin-bottom: 6px;
+  }
+
+  .af-view .af-class-om-nav-container {
+    position: fixed;
+  }
+
+  .af-view .af-class-html-embed-28 {
+    max-width: 100%;
+    min-width: 100%;
     margin-top: 7px;
     margin-bottom: 6px;
   }
@@ -6231,6 +6421,11 @@
     line-height: 1.1;
   }
 
+  .af-view .af-class-button-3.af-class-exclusive.af-class-connect-to-wallet.af-class-onlymemesconnect {
+    height: 1px;
+    line-height: 0.3;
+  }
+
   .af-view .af-class-image-24 {
     left: 54vw;
   }
@@ -6264,7 +6459,8 @@
   }
 
   .af-view .af-class-onlymemessection-2.af-class-_2 {
-    background-color: #000;
+    max-width: 35%;
+    background-color: transparent;
   }
 
   .af-view .af-class-onlymemessection-2.af-class-_2:hover {
@@ -6300,6 +6496,10 @@
   .af-view .af-class-div-block-57 {
     padding-right: 10px;
     padding-left: 10px;
+  }
+
+  .af-view .af-class-onlymemebanners {
+    margin-top: 35px;
   }
 
   .af-view .af-class-div-block-59 {
@@ -6350,6 +6550,17 @@
     min-width: 40%;
     margin-top: 6px;
     padding-bottom: 4px;
+  }
+
+  .af-view .af-class-html-embed-28 {
+    max-width: 70%;
+    min-width: 70%;
+    margin-top: 6px;
+    padding-bottom: 4px;
+  }
+
+  .af-view .af-class-gradient-border-3.af-class-onlymemes {
+    margin-top: 56px;
   }
 }
 
@@ -6932,6 +7143,18 @@
     filter: none;
   }
 
+  .af-view .af-class-nav-socials.af-class-onlymemesnavsocilas {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    margin-top: 1rem;
+    margin-right: 5px;
+    margin-left: 5px;
+    -webkit-filter: none;
+    filter: none;
+  }
+
   .af-view .af-class-commet-image {
     height: 100%;
   }
@@ -6996,6 +7219,22 @@
 
   .af-view .af-class-button-3.af-class-exclusive.af-class-header.af-class-onlymemesedit {
     display: none;
+  }
+
+  .af-view .af-class-button-3.af-class-exclusive.af-class-connect-to-wallet {
+    width: 100%;
+    min-width: 100%;
+    margin-bottom: 1%;
+    background-color: #f4f8fb;
+  }
+
+  .af-view .af-class-button-3.af-class-exclusive.af-class-connect-to-wallet.af-class-onlymemesconnect {
+    display: none;
+  }
+
+  .af-view .af-class-button-3.af-class-exclusive.af-class-connect-to-wallet.af-class-connectonlymemes {
+    display: block;
+    border-color: #574ae2;
   }
 
   .af-view .af-class-brand-2 {
@@ -7073,7 +7312,7 @@
     display: -ms-flexbox;
     display: flex;
     width: 42px;
-    height: 39px;
+    height: 37px;
     margin-top: 0.5vh;
     margin-bottom: 0.5vh;
     padding: 5px 10px;
@@ -7205,6 +7444,10 @@
 
   .af-view .af-class-text-gradient-3 {
     background-image: linear-gradient(111deg, #fa5853, #f46692 50%, #f44);
+  }
+
+  .af-view .af-class-text-gradient-3.af-class-onlymemesnavtext {
+    background-image: linear-gradient(111deg, #2a227c 100%, #8a467d 0, #60aef8);
   }
 
   .af-view .af-class-text-gradient-3.af-class-onlymemesnavtext {
@@ -7403,6 +7646,88 @@
     top: 3px;
     -webkit-filter: invert(100%);
     filter: invert(100%);
+  }
+
+  .af-view .af-class-menu-html-2 {
+    position: absolute;
+    left: auto;
+    top: 1vh;
+    right: 1.5vw;
+    bottom: auto;
+    z-index: 99;
+    display: block;
+    max-height: 50%;
+    max-width: 4%;
+    -webkit-filter: invert(100%);
+    filter: invert(100%);
+    cursor: pointer;
+  }
+
+  .af-view .af-class-menu-html-2:active {
+    -webkit-transform: skew(10deg, 11deg);
+    -ms-transform: skew(10deg, 11deg);
+    transform: skew(10deg, 11deg);
+  }
+
+  .af-view .af-class-link-block-8 {
+    max-width: 20%;
+  }
+
+  .af-view .af-class-om-nav-container {
+    position: fixed;
+    left: 0%;
+    top: 0%;
+    right: 0%;
+    bottom: 0%;
+    z-index: 10;
+    max-height: 52px;
+  }
+
+  .af-view .af-class-gradient-border-3 {
+    height: 2px;
+  }
+
+  .af-view .af-class-pop-up-nav {
+    position: fixed;
+    left: 0%;
+    top: 5.1vh;
+    right: 0%;
+    bottom: auto;
+    z-index: 5;
+    display: block;
+    min-height: 120px;
+    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(8%, #000), to(#8259aa));
+    background-image: linear-gradient(180deg, #000 8%, #8259aa);
+  }
+
+  .af-view .af-class-div-block-81 {
+    padding-top: 15px;
+    padding-right: 25px;
+    padding-left: 25px;
+  }
+
+  .af-view .af-class-image-38 {
+    position: absolute;
+    left: auto;
+    top: 0.75vh;
+    right: 0%;
+    bottom: auto;
+    display: block;
+    max-width: 5%;
+    margin-right: 1.5vw;
+    -webkit-align-self: center;
+    -ms-flex-item-align: center;
+    -ms-grid-row-align: center;
+    align-self: center;
+    -webkit-filter: invert(100%);
+    filter: invert(100%);
+    text-align: center;
+  }
+
+  .af-view .af-class-image-38:active {
+    -webkit-transform: skew(15deg, -3deg);
+    -ms-transform: skew(15deg, -3deg);
+    transform: skew(15deg, -3deg);
   }
 }
 
@@ -7826,6 +8151,10 @@
     color: #000;
   }
 
+  .af-view .af-class-nav-socials.af-class-onlymemesnavsocilas {
+    margin-top: 1.4rem;
+  }
+
   .af-view .af-class-text-block-6 {
     font-size: 21px;
   }
@@ -7902,6 +8231,28 @@
   .af-view .af-class-html-embed-20 {
     max-width: 100%;
     min-width: 100%;
+  }
+
+  .af-view .af-class-menu-html-2 {
+    max-width: 6%;
+  }
+
+  .af-view .af-class-link-block-8 {
+    max-width: 25%;
+  }
+
+  .af-view .af-class-html-embed-28 {
+    max-width: 100%;
+    min-width: 100%;
+  }
+
+  .af-view .af-class-pop-up-nav {
+    top: 5.3vh;
+  }
+
+  .af-view .af-class-image-38 {
+    display: block;
+    max-width: 7%;
   }
 }
 
@@ -9355,6 +9706,11 @@
     text-align: center;
   }
 
+  .af-view .af-class-nav-socials.af-class-onlymemesnavsocilas {
+    margin-top: 1.3rem;
+    margin-left: 22px;
+  }
+
   .af-view .af-class-copy-contract-buy-section {
     padding-right: 0.5rem;
     padding-left: 0.5rem;
@@ -9466,6 +9822,10 @@
     display: none;
   }
 
+  .af-view .af-class-button-3.af-class-exclusive.af-class-connect-to-wallet {
+    min-width: 220px;
+  }
+
   .af-view .af-class-brand-2.w--current {
     z-index: 9999;
   }
@@ -9487,6 +9847,10 @@
     -webkit-flex: 0 auto;
     -ms-flex: 0 auto;
     flex: 0 auto;
+  }
+
+  .af-view .af-class-menu-button-3.af-class-onlymemesmenu {
+    height: 36px;
   }
 
   .af-view .af-class-fixed-nav-2 {
@@ -9966,6 +10330,40 @@
     max-width: 190%;
     min-width: 190%;
     margin-left: 5px;
+  }
+
+  .af-view .af-class-menu-html {
+    top: 0px;
+  }
+
+  .af-view .af-class-div-block-75 {
+    margin-bottom: -1px;
+  }
+
+  .af-view .af-class-menu-html-2 {
+    right: 2.5vw;
+    max-width: 10%;
+  }
+
+  .af-view .af-class-link-block-8 {
+    max-width: 50%;
+  }
+
+  .af-view .af-class-html-embed-28 {
+    margin-left: 5px;
+  }
+
+  .af-view .af-class-pop-up-nav {
+    top: 5.3vh;
+    z-index: 99;
+  }
+
+  .af-view .af-class-image-38 {
+    display: block;
+    max-width: 11%;
+    margin-right: 3vw;
+    -webkit-filter: invert(100%);
+    filter: invert(100%);
   }
 }
 

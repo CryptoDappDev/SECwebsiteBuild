@@ -2,9 +2,8 @@
 
 import React from 'react'
 import { createScope, map, transformProxies } from './helpers'
-import GoonHomeView from './GoonHomeView'
-import GoonWalletMobView from './GoonWalletMobView'
 import GoonWalletView from './GoonWalletView'
+import GoonWalletMobView from './GoonWalletMobView'
 import GoonNFTCardView from './GoonNFTCardView'
 import GoonNFTBobbleView from './GoonNFTBobbleView'
 import GoonNFTMaskView from './GoonNFTMaskView'
@@ -80,46 +79,31 @@ class OnlymemesView extends React.Component {
         ` }} />
         <span className="af-view">
           <div className="af-class-body-2">
-            <div data-collapse="medium" data-animation="default" data-duration={400} data-doc-height={1} data-w-id="67427028-420f-9239-4335-5d5a3c7d4977" style={{opacity: 1}} role="banner" className="af-class-fixed-nav-3 af-class-onlymemesnav w-nav">
-              <div className="af-class-gradient-border af-class-onlymemes" />
-              <div id="onlymemestop" className="af-class-container af-class-nav-container af-class-onlymemescontainer w-container">
-                <div className="af-class-div-block-74">
-                  <GoonHomeView.Controller />
-                </div>
-                <nav role="navigation" className="af-class-nav-menu af-class-onlymemesmenu w-nav-menu">
-                  <div className="af-class-nav-cta-button-2 af-class-mobile">
-                    <GoonWalletMobView.Controller />
-                    <a href="#" id="limited-drop-button" className="af-class-button-3 af-class-exclusive af-class-header af-class-onlymemesedit w-button"><strong>LIMITED DROPS</strong></a>
-                  </div>
-                  <a href="#" id="new-eco" className="af-class-nav-link-3 af-class-eco-nav af-class-onlymemesecoo w-inline-block">
-                    <div className="af-class-nav-link-text">ECOSYSTEM</div>
-                  </a>
-                  <a href="#" className="af-class-nav-link-3 af-class-moonmap w-inline-block">
-                    <div className="af-class-nav-link-text">Moonmap</div>
-                  </a>
-                  <a href="onlymemes.html" target="_blank" aria-current="page" className="af-class-nav-link-3 af-class-_2 w-inline-block w--current">
-                    <div className="af-class-nav-link-text">ONLYMEMES</div>
-                  </a>
-                  <div className="af-class-nav-socials af-class-onlymemesnavsocilas">
-                    <a href="https://www.instagram.com/suckelonscock" target="_blank" className="af-class-social-media-link af-class-navv w-inline-block"><img src="images/IG..Circle.svg" loading="lazy" width={30} alt="Instagram logo - suckelonscock" className="af-class-social-media-icon" /></a>
-                    <a href="https://twitter.com/suckelonscock?lang=en" target="_blank" className="af-class-social-media-link af-class-navv w-inline-block"><img src="images/twitter-round.svg" loading="lazy" width={25} alt="Twitter logo - suckelonscock suck elon's cock " className="af-class-social-media-icon" /></a>
-                    <a href="https://t.me/suckelonscock" target="_blank" className="af-class-social-media-link af-class-navv w-inline-block"><img src="images/telegram-black.svg" loading="lazy" width={24} height={24} alt className="af-class-social-media-icon" /></a>
-                    <a href="https://www.reddit.com/r/SuckElonsCock/" target="_blank" className="af-class-social-media-link af-class-navv w-inline-block"><img src="images/reddit-round.svg" loading="lazy" height={24} width={24} alt className="af-class-social-media-icon" /></a>
-                    <a href="https://www.tiktok.com/@suckelonscoc?lang=en" target="_blank" className="af-class-social-media-link af-class-navv w-inline-block"><img src="images/tiktok-round.svg" loading="lazy" width={24} height={24} alt className="af-class-social-media-icon" /></a>
-                    <a href="https://www.facebook.com/suckelonscock" target="_blank" className="af-class-social-media-link af-class-navv w-inline-block"><img src="images/facebook.svg" loading="lazy" alt className="af-class-social-media-icon" /></a>
-                    <a href="https://www.youtube.com/channel/UCkzofLl4xepSF2CkMU1s53w" target="_blank" className="af-class-social-media-link af-class-navv w-inline-block"><img src="images/YT.svg" loading="lazy" width={25} alt className="af-class-social-media-icon" /></a>
-                    <a href="https://discord.gg/HpYE8SPQhA" target="_blank" className="af-class-social-media-link af-class-navv w-inline-block"><img src="images/iconfinder_discord_18_5474122-svg-2.svg" loading="lazy" width={25} alt className="af-class-social-media-icon" /></a>
-                  </div>
-                </nav>
-                <div className="af-class-nav-cta-button-2 af-class-desktop">
-                  <GoonWalletView.Controller />
-                  <a href="#" id="limited-drop-button" className="af-class-button-3 af-class-exclusive af-class-header af-class-onlymemesdrops w-button"><strong>LIMITED DROPS</strong></a>
-                </div>
-                <div className="af-class-menu-button-3 af-class-onlymemesmenu w-nav-button">
-                  <div className="af-class-menu-html w-embed"><img src="https://secmedia.s3.us-east-2.amazonaws.com/logos/menuu.png" alt="menu" /></div>
-                </div>
+            <div data-w-id="023a8fc8-d784-aabf-ac1f-d3102a88bba0" style={{opacity: 1}} className="af-class-om-nav-container">
+              <div className="af-class-om-nav-bar">
+                <a href="#goononlymemes" className="af-class-link-block-8 w-inline-block">
+                  <div className="af-class-html-embed-28 w-embed"><img src="https://secmedia.s3.us-east-2.amazonaws.com/onlymemes/OnlyMemes+LogoText.png" alt="OnlyMemes" /></div>
+                </a>
+                <GoonWalletView.Controller /><img src="images/menuu.png" loading="lazy" data-w-id="000bf25c-6d0f-ea82-10d6-5b70098cc231" sizes="(max-width: 479px) 11vw, (max-width: 767px) 7vw, 100vw" srcSet="images/menuu.png 500w, images/menuu.png 512w" alt className="af-class-image-38" />
+              </div>
+              <div className="af-class-gradient-border-3 af-class-onlymemes" />
+            </div>
+            <div data-w-id="b35ce065-c0b4-1c02-fd3c-3e0a76817aa7" style={{opacity: 0, WebkitTransform: 'translate3d(0, -16px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)', MozTransform: 'translate3d(0, -16px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)', msTransform: 'translate3d(0, -16px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)', transform: 'translate3d(0, -16px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)'}} className="af-class-pop-up-nav">
+              <div className="af-class-div-block-81">
+                <GoonWalletView.Controller-mob />
+              </div>
+              <div className="af-class-nav-socials af-class-onlymemesnavsocilas">
+                <a href="https://www.instagram.com/suckelonscock" target="_blank" className="af-class-social-media-link af-class-navv w-inline-block"><img src="images/IG..Circle.svg" loading="lazy" width={30} alt="Instagram logo - suckelonscock" className="af-class-social-media-icon" /></a>
+                <a href="https://twitter.com/suckelonscock?lang=en" target="_blank" className="af-class-social-media-link af-class-navv w-inline-block"><img src="images/twitter-round.svg" loading="lazy" width={25} alt="Twitter logo - suckelonscock suck elon's cock " className="af-class-social-media-icon" /></a>
+                <a href="https://t.me/suckelonscock" target="_blank" className="af-class-social-media-link af-class-navv w-inline-block"><img src="images/telegram-black.svg" loading="lazy" width={24} height={24} alt className="af-class-social-media-icon" /></a>
+                <a href="https://www.reddit.com/r/SuckElonsCock/" target="_blank" className="af-class-social-media-link af-class-navv w-inline-block"><img src="images/reddit-round.svg" loading="lazy" height={24} width={24} alt className="af-class-social-media-icon" /></a>
+                <a href="https://www.tiktok.com/@suckelonscoc?lang=en" target="_blank" className="af-class-social-media-link af-class-navv w-inline-block"><img src="images/tiktok-round.svg" loading="lazy" width={24} height={24} alt className="af-class-social-media-icon" /></a>
+                <a href="https://www.facebook.com/suckelonscock" target="_blank" className="af-class-social-media-link af-class-navv w-inline-block"><img src="images/facebook.svg" loading="lazy" alt className="af-class-social-media-icon" /></a>
+                <a href="https://www.youtube.com/channel/UCkzofLl4xepSF2CkMU1s53w" target="_blank" className="af-class-social-media-link af-class-navv w-inline-block"><img src="images/YT.svg" loading="lazy" width={25} alt className="af-class-social-media-icon" /></a>
+                <a href="https://discord.gg/HpYE8SPQhA" target="_blank" className="af-class-social-media-link af-class-navv w-inline-block"><img src="images/iconfinder_discord_18_5474122-svg-2.svg" loading="lazy" width={25} alt className="af-class-social-media-icon" /></a>
               </div>
             </div>
+            <div className="af-class-div-block-79" />
             <section id="limited-edition-nfts-section" className="af-class-section af-class-dark af-class-_1">
               <div id="goononlymemes" className="af-class-onlymemebanners">
                 <a href="https://youtu.be/D7kt4i6wPKY" target="_blank" className="af-class-link-block-6 w-inline-block">
@@ -335,7 +319,7 @@ class OnlymemesView extends React.Component {
                     <div className="af-class-div-block-62">
                       <div className="af-class-html-embed-19 w-embed"><img src="https://secmedia.s3.us-east-2.amazonaws.com/goon/%24GOON+TITLE.png" alt="GOON Wordstamp" /></div>
                     </div>
-                    <div className="af-class-bio-text"><strong className="af-class-bold-text-7">$GOON</strong> token represents the path that meme coins have paved for anyone smart enough and courageous enough to adapt &amp; think outside the box. &nbsp;<strong>With a collaborative and growing community</strong> unlike any other, <span className="af-class-bold-text-7"><strong>$GOON</strong></span> provides anyone - regardless of income level, race or religion - with the opportunity to change their lives forever. </div>
+                    <div className="af-class-bio-text"><strong className="af-class-bold-text-7">$GOON</strong> token represents the path that meme coins have paved for anyone smart enough and courageous enough to adapt &amp; think outside the box. &nbsp;<strong><br /><br />With a collaborative and growing community</strong> unlike any other, <span className="af-class-bold-text-7"><strong>$GOON</strong></span> provides anyone - regardless of income level, race or religion - with the opportunity to change their lives forever. </div>
                     <div className="af-class-div-block-63" />
                     <CopyGoonView.Controller />
                     <div>
@@ -344,7 +328,7 @@ class OnlymemesView extends React.Component {
                     </div>
                     <div className="af-class-div-block-78">
                       <div className="af-class-html-embed-26 w-embed"><img src="https://secmedia.s3.us-east-2.amazonaws.com/logos/CMC.logo.png" alt="CMC" /></div>
-                      <div className="af-class-bio-text af-class-pending"><span><em>Listing pending.</em></span></div>
+                      <div className="af-class-bio-text af-class-pending"><span><em className="af-class-italic-text">Listing pending.</em></span></div>
                     </div>
                     <div className="af-class-card-item-2 af-class-memes-coming-soon af-class-mask af-class-_1">
                       <div className="w-embed"><img src="https://secmedia.s3.us-east-2.amazonaws.com/goon/goon_bobbling+(1).gif" alt="goon" /></div>
@@ -384,7 +368,9 @@ class OnlymemesView extends React.Component {
               </div>
             </div>
             <div data-w-id="d23f896b-9a4e-faab-3c80-b64f95b279af" style={{opacity: 1}} className="af-class-goon-back-to-top">
-              <a href="#top" className="w-inline-block"><img src="images/arrow.svg" loading="lazy" width={50} alt className="af-class-back-to-top-arrow" /></a>
+              <a href="#" className="af-class-link-block-7 w-inline-block">
+                <div className="af-class-html-embed-27 w-embed"><img src="https://secmedia.s3.us-east-2.amazonaws.com/logos/up.arrow.png" alt="UP" /></div>
+              </a>
             </div>
             {/* [if lte IE 9]><![endif] */}
           </div>

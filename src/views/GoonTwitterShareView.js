@@ -55,7 +55,18 @@ class GoonTwitterShareView extends React.Component {
 
     return (
       <span>
-
+        <style dangerouslySetInnerHTML={{ __html: `
+          @import url(C:\\css\\normalize.css);
+          @import url(C:\\css\\components.css);
+          @import url(C:\\css\\suck-elons-cock.css);
+        ` }} />
+        <span className="af-view">
+          <div id="share-to-twitter" className="af-class-div-block-77">
+            <div className="af-class-html-embed-25 w-embed w-script">
+              <a href="https://twitter.com/share?ref_src=twsrc%5Etfw" className="af-class-twitter-share-button" data-size="large" data-text="Check out the $GOON Bodega on @OnlyMemesApp" data-via="goontoken" data-hashtags="goonish" data-show-count="false">Share the $GOON Bodega on Twitter</a>
+            </div>
+          </div>
+        </span>
       </span>
     )
   }

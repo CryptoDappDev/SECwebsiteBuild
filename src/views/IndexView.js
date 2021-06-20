@@ -77,7 +77,7 @@ class IndexView extends React.Component {
         <span className="af-view">
           <div className="af-class-body">
             <div id="body-wrapper" className="af-class-div-block-30">
-              <div data-collapse="medium" data-animation="default" data-duration={400} role="banner" className="af-class-fixed-nav-3 w-nav">
+              <div data-collapse="medium" data-animation="default" data-duration={400} data-w-id="cd4d0132-1d0c-e571-bd4a-b5ac990df4fc" style={{opacity: 0}} role="banner" className="af-class-fixed-nav-3 w-nav">
                 <div className="af-class-gradient-border" />
                 <div className="af-class-container af-class-nav-container w-container">
                   <a href="#top" className="af-class-brand-3 w-nav-brand"><img src="images/Sec_Wordstamp_V3.png" loading="lazy" width={150} sizes="(max-width: 479px) 78vw, 120.00000762939453px" srcSet="images/Sec_Wordstamp_V3-p-500.png 500w, images/Sec_Wordstamp_V3-p-800.png 800w, images/Sec_Wordstamp_V3.png 1000w" alt="$SEC Logo - suck elon's cock wordstamp" className="af-class-image-16" /></a>
@@ -116,7 +116,7 @@ class IndexView extends React.Component {
               <div data-w-id="fa94892c-6481-a468-d867-d461dc3c76b6" style={{display: 'none'}} className="af-class-button--back-to-top">
                 <a href="#top" className="w-inline-block"><img src="images/arrow.svg" loading="lazy" width={50} alt className="af-class-back-to-top-arrow" /></a>
               </div>
-              <div data-w-id="70fe3ea7-0e17-1190-dddb-817617726b6d" style={{display: 'flex'}} className="af-class-preloader"><img src="images/Buy_Sec_Loader_Desktop.gif" loading="eager" width={960} alt="Buy SEC Preloader with suck elon's cock coin, custom loader, and animated word stamp." className="af-class-buy-sec-loader" /><img src="images/loader.gif" loading="lazy" width={250} alt="Custom $SEC bubble loader." className="af-class-preloader-bar" /><img src="images/Coin_spin_isolated_v2_400.gif" loading="eager" alt="Spinning SEC Coin" className="af-class-big-spinning-coin" /></div>
+              <div data-w-id="70fe3ea7-0e17-1190-dddb-817617726b6d" style={{display: 'flex', height: '100vh'}} className="af-class-preloader"><img src="images/Buy_Sec_Loader_Desktop.gif" loading="eager" width={960} alt="Buy SEC Preloader with suck elon's cock coin, custom loader, and animated word stamp." className="af-class-buy-sec-loader" /><img src="images/loader.gif" loading="lazy" width={250} alt="Custom $SEC bubble loader." className="af-class-preloader-bar" /><img src="images/Coin_spin_isolated_v2_400.gif" loading="eager" alt="Spinning SEC Coin" className="af-class-big-spinning-coin" /></div>
               <main id="top" data-w-id="c50d35a4-afc5-52b4-4df2-051165d5d057" className="af-class-section-hero">
                 <div data-w-id="34d76856-e065-1538-c253-4e4f551a0272" style={{opacity: 0}} className="af-class-moon-gif">
                   <div className="af-class-moon-html w-embed"><img src="https://secmedia.s3.us-east-2.amazonaws.com/ezgif.com-gif-maker.gif" alt="Rotating moon with SEC coins" /></div>
@@ -219,7 +219,7 @@ class IndexView extends React.Component {
                     <div id="w-node-bf82d6d8-19d5-7d71-8ac6-e7bb3b408754-4300dd25" data-w-id="bf82d6d8-19d5-7d71-8ac6-e7bb3b408754" style={{opacity: 0}} className="af-class-card-item af-class-light af-class-tools">
                       <div className="af-class-card-item-content af-class-tools">
                         <div className="af-class-card-feature-center af-class-tool-center">
-                          <a href="https://app.sushi.com/swap" className="af-class-link-block-4 w-inline-block">
+                          <a href="https://app.sushi.com/swap?outputCurrency=0x9c061df134d11412151e9c200ce3f9f6f295094a" target="_blank" className="af-class-link-block-4 w-inline-block">
                             <div className="af-class-fade-in-on-scroll af-class-toool"><img src="images/susssshi.png" loading="lazy" srcSet="images/susssshi-p-500.png 500w, images/susssshi.png 512w" sizes="(max-width: 479px) 55.000003814697266px, 112.98611450195312px" alt="Sushi swap icon" className="af-class-card-feature-icon af-class-tool" /></div>
                             <div className="af-class-fade-in-on-scroll">
                               <h6 className="af-class-heading">Sushi Swap</h6>
@@ -461,7 +461,7 @@ class IndexView extends React.Component {
                   <div className="af-class-div-block-24">
                     <div className="af-class-how-to-buy-sec-container">
                       <div className="af-class-buy-sec-animation">
-                        <div data-w-id="921d7de2-64db-09e9-db67-08b5a839ae68" data-animation-type="lottie" data-src="documents/BuySec.json" data-loop={0} data-direction={1} data-autoplay={0} data-is-ix2-target={1} data-renderer="svg" data-default-duration="1.9" data-duration={0} className="af-class-lottie-animation-10" />
+                        <div className="w-embed"><img src="https://secmedia.s3.us-east-2.amazonaws.com/sec/Buy_Sec_Cropped_V2.png" alt="BUY SEC" /></div>
                       </div>
                       <div className="af-class-div-block-38">
                         <div className="af-class-text-gradient-1 af-class-bottombuy">TRADE <em>$SEC</em> ON <br />MOBILE OR DESKTOP</div>
