@@ -113,3 +113,4 @@ class GoonNavView extends React.Component {
 export default GoonNavView
 
 /* eslint-enable */
+
