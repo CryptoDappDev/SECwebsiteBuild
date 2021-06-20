@@ -35,7 +35,9 @@ function ConnectToWalletNavController() {
         {(status === "notConnected") &&
             <div onClick={() => { handleClick() }} >
                 <Fade top>
-                <GoonWalletView> <wallet/> </GoonWalletView> 
+                <span className="">
+                    <a href="#" id="connect-to-wallet-nav-goon" className="af-class-button-3 af-class-exclusive af-class-connect-to-wallet af-class-onlymemesconnect w-button p-2"><strong className="af-class-text-gradient-3 af-class-header-connect-waller af-class-onlymemestext">CONNECT WALLET</strong></a>
+                </span>
                 </Fade>
             </div>
         }
