@@ -384,7 +384,7 @@ class OnlymemesView extends React.Component {
               </div>
             </div>
             <div data-w-id="d23f896b-9a4e-faab-3c80-b64f95b279af" style={{opacity: 1}} className="af-class-goon-back-to-top">
-              <a href="#onlymemestop" className="w-inline-block"><img src="images/arrow.svg" loading="lazy" width={50} alt className="af-class-back-to-top-arrow" /></a>
+              <a href="#top" className="w-inline-block"><img src="images/arrow.svg" loading="lazy" width={50} alt className="af-class-back-to-top-arrow" /></a>
             </div>
             {/* [if lte IE 9]><![endif] */}
           </div>
