@@ -42,7 +42,7 @@ class IndexView extends React.Component {
 
   componentDidMount() {
     const htmlEl = document.querySelector('html')
-    htmlEl.dataset['wfPage'] = '60ce34e8e39364524300dd25'
+    htmlEl.dataset['wfPage'] = '60cea2e97b2d629547cf92ad'
     htmlEl.dataset['wfSite'] = '60a76909ccf920aea94e85c4'
 
     scripts.concat(null).reduce((active, next) => Promise.resolve(active).then((active) => {
@@ -77,7 +77,7 @@ class IndexView extends React.Component {
         <span className="af-view">
           <div className="af-class-body">
             <div id="body-wrapper" className="af-class-div-block-30">
-              <div data-collapse="medium" data-animation="default" data-duration={400} data-w-id="cd4d0132-1d0c-e571-bd4a-b5ac990df4fc" style={{opacity: 0}} role="banner" className="af-class-fixed-nav-3 w-nav">
+              <div data-collapse="medium" data-animation="default" data-duration={400} role="banner" className="af-class-fixed-nav-3 w-nav">
                 <div className="af-class-gradient-border" />
                 <div className="af-class-container af-class-nav-container w-container">
                   <a href="#top" className="af-class-brand-3 w-nav-brand"><img src="images/Sec_Wordstamp_V3.png" loading="lazy" width={150} sizes="(max-width: 479px) 78vw, 120.00000762939453px" srcSet="images/Sec_Wordstamp_V3-p-500.png 500w, images/Sec_Wordstamp_V3-p-800.png 800w, images/Sec_Wordstamp_V3.png 1000w" alt="$SEC Logo - suck elon's cock wordstamp" className="af-class-image-16" /></a>
@@ -116,7 +116,7 @@ class IndexView extends React.Component {
               <div data-w-id="fa94892c-6481-a468-d867-d461dc3c76b6" style={{display: 'none'}} className="af-class-button--back-to-top">
                 <a href="#top" className="w-inline-block"><img src="images/arrow.svg" loading="lazy" width={50} alt className="af-class-back-to-top-arrow" /></a>
               </div>
-              <div data-w-id="70fe3ea7-0e17-1190-dddb-817617726b6d" style={{display: 'flex', height: '100vh'}} className="af-class-preloader"><img src="images/Buy_Sec_Loader_Desktop.gif" loading="eager" width={960} alt="Buy SEC Preloader with suck elon's cock coin, custom loader, and animated word stamp." className="af-class-buy-sec-loader" /><img src="images/loader.gif" loading="lazy" width={250} alt="Custom $SEC bubble loader." className="af-class-preloader-bar" /><img src="images/Coin_spin_isolated_v2_400.gif" loading="eager" alt="Spinning SEC Coin" className="af-class-big-spinning-coin" /></div>
+              <div data-w-id="70fe3ea7-0e17-1190-dddb-817617726b6d" style={{display: 'flex'}} className="af-class-preloader"><img src="images/Buy_Sec_Loader_Desktop.gif" loading="eager" width={960} alt="Buy SEC Preloader with suck elon's cock coin, custom loader, and animated word stamp." className="af-class-buy-sec-loader" /><img src="images/loader.gif" loading="lazy" width={250} alt="Custom $SEC bubble loader." className="af-class-preloader-bar" /><img src="images/Coin_spin_isolated_v2_400.gif" loading="eager" alt="Spinning SEC Coin" className="af-class-big-spinning-coin" /></div>
               <main id="top" data-w-id="c50d35a4-afc5-52b4-4df2-051165d5d057" className="af-class-section-hero">
                 <div data-w-id="34d76856-e065-1538-c253-4e4f551a0272" style={{opacity: 0}} className="af-class-moon-gif">
                   <div className="af-class-moon-html w-embed"><img src="https://secmedia.s3.us-east-2.amazonaws.com/ezgif.com-gif-maker.gif" alt="Rotating moon with SEC coins" /></div>
@@ -192,7 +192,7 @@ class IndexView extends React.Component {
                     </div>
                   </section>
                   <div className="w-layout-grid af-class-feature-grid">
-                    <div id="w-node-_7b19d13e-0e8d-2369-5abf-e24fedfaa268-4300dd25" data-w-id="7b19d13e-0e8d-2369-5abf-e24fedfaa268" style={{opacity: 0}} className="af-class-card-item af-class-light af-class-what-is-sec">
+                    <div id="w-node-_7b19d13e-0e8d-2369-5abf-e24fedfaa268-47cf92ad" data-w-id="7b19d13e-0e8d-2369-5abf-e24fedfaa268" style={{opacity: 0}} className="af-class-card-item af-class-light af-class-what-is-sec">
                       <div className="af-class-card-item-content af-class-what-it-is">
                         <h4 className="af-class-text-gradient-1 af-class-whatt-is-it">WHAT IS <span className="af-class-text-span-5">$SEC</span>?</h4>
                         <p className="af-class-what-is-sec af-class-nonhover"><strong><em>$SEC</em></strong> is the currency of the <strong>SEC Ecosystem</strong>, a community of artists, creators, developers, and collectors building a community on the metaverse. &nbsp;Our first product, <strong>OnlyMemes</strong>, is an NFT market aimed at disrupting legacy social media. &nbsp;We aim to usher web3 into the popular consciousness through the power of community, memes, and cypherpunk ideals.<br /><strong><br />$SEC</strong> is an ERC20 Token built on the ETH blockchain. It was born from Elon Musk's Legendary <a href="https://twitter.com/elonmusk/status/1278764736876773383?lang=en" target="_blank">tweet</a> at the <a href="https://en.wikipedia.org/wiki/U.S._Securities_and_Exchange_Commission" target="_blank">SEC</a> (Securities and Exchange Commission), an institution which perpetuates a corrupt financial system.<br /><br />Unlike fiat currencies, <strong><em>$SEC</em></strong>&nbsp;is a freedom movement through decentralization and degeneracy. Each transaction carries a <strong>4.20%</strong> tax, which is redistributed among existing <strong><em>$SEC </em></strong>holders. You will grow and earn rewards daily just for holding.</p>
@@ -201,7 +201,7 @@ class IndexView extends React.Component {
                         <div data-w-id="7a39b6b8-bf7d-cc70-a32f-cd6f00a81888" data-animation-type="lottie" data-src="documents/JoinTheRevolution.json" data-loop={1} data-direction={1} data-autoplay={1} data-is-ix2-target={0} data-renderer="svg" data-default-duration="3.2" data-duration="4.2" />
                       </div>
                     </div>
-                    <div id="w-node-_628315c7-9285-9cb1-4712-9cee2615c32b-4300dd25" data-w-id="628315c7-9285-9cb1-4712-9cee2615c32b" style={{opacity: 0}} className="af-class-card-item af-class-light af-class-mememe af-class-meme">
+                    <div id="w-node-_628315c7-9285-9cb1-4712-9cee2615c32b-47cf92ad" data-w-id="628315c7-9285-9cb1-4712-9cee2615c32b" style={{opacity: 0}} className="af-class-card-item af-class-light af-class-mememe af-class-meme">
                       <div className="af-class-div-block-31"><img src="images/OnlyMemes-Logo-TM-V3.png" loading="lazy" width={420} sizes="(max-width: 767px) 86vw, 420.0000305175781px" srcSet="images/OnlyMemes-Logo-TM-V3-p-500.png 500w, images/OnlyMemes-Logo-TM-V3-p-1600.png 1600w, images/OnlyMemes-Logo-TM-V3-p-2000.png 2000w, images/OnlyMemes-Logo-TM-V3-p-2600.png 2600w, images/OnlyMemes-Logo-TM-V3-p-3200.png 3200w, images/OnlyMemes-Logo-TM-V3.png 3893w" alt /></div>
                       <div data-w-id="e4f0af50-e18a-97ff-f668-46d0126fa217" data-animation-type="lottie" data-src="documents/data.json" data-loop={0} data-direction={1} data-autoplay={0} data-is-ix2-target={1} data-renderer="svg" data-default-duration="4.833333333333333" data-duration={0} data-ix2-initial-state={0} className="af-class-lottie-animation-11" />
                       <div>
@@ -216,11 +216,11 @@ class IndexView extends React.Component {
                         </div>
                       </div>
                     </div>
-                    <div id="w-node-bf82d6d8-19d5-7d71-8ac6-e7bb3b408754-4300dd25" data-w-id="bf82d6d8-19d5-7d71-8ac6-e7bb3b408754" style={{opacity: 0}} className="af-class-card-item af-class-light af-class-tools">
+                    <div id="w-node-bf82d6d8-19d5-7d71-8ac6-e7bb3b408754-47cf92ad" data-w-id="bf82d6d8-19d5-7d71-8ac6-e7bb3b408754" style={{opacity: 0}} className="af-class-card-item af-class-light af-class-tools">
                       <div className="af-class-card-item-content af-class-tools">
                         <div className="af-class-card-feature-center af-class-tool-center">
                           <a href="https://app.sushi.com/swap?outputCurrency=0x9c061df134d11412151e9c200ce3f9f6f295094a" target="_blank" className="af-class-link-block-4 w-inline-block">
-                            <div className="af-class-fade-in-on-scroll af-class-toool"><img src="images/susssshi.png" loading="lazy" srcSet="images/susssshi-p-500.png 500w, images/susssshi.png 512w" sizes="(max-width: 479px) 55.000003814697266px, 112.98611450195312px" alt="Sushi swap icon" className="af-class-card-feature-icon af-class-tool" /></div>
+                            <div className="af-class-fade-in-on-scroll af-class-toool"><img src="images/susssshi.png" loading="lazy" srcSet="images/susssshi-p-500.png 500w, images/susssshi.png 512w" sizes="(max-width: 479px) 100vw, 57.986114501953125px" alt="Sushi swap icon" className="af-class-card-feature-icon af-class-tool" /></div>
                             <div className="af-class-fade-in-on-scroll">
                               <h6 className="af-class-heading">Sushi Swap</h6>
                             </div>
@@ -231,7 +231,7 @@ class IndexView extends React.Component {
                         </div>
                       </div>
                     </div>
-                    <div id="w-node-_0d566606-fd33-a3ac-c52c-ded5bb91b946-4300dd25" data-w-id="0d566606-fd33-a3ac-c52c-ded5bb91b946" style={{opacity: 0}} className="af-class-card-item af-class-light af-class-tools">
+                    <div id="w-node-_0d566606-fd33-a3ac-c52c-ded5bb91b946-47cf92ad" data-w-id="0d566606-fd33-a3ac-c52c-ded5bb91b946" style={{opacity: 0}} className="af-class-card-item af-class-light af-class-tools">
                       <div className="af-class-card-item-content af-class-tools">
                         <div className="af-class-card-feature-center af-class-tool-center">
                           <a href="https://www.dextools.io/app/sushiswap/pair-explorer/0xfffae206a0c17c4804f04af3880ff8a9dea39210" target="_blank" className="af-class-link-block-4 af-class-toools w-inline-block">
@@ -246,11 +246,11 @@ class IndexView extends React.Component {
                         </div>
                       </div>
                     </div>
-                    <div id="w-node-_7bea1a70-4116-a7db-c374-fff947065047-4300dd25" data-w-id="7bea1a70-4116-a7db-c374-fff947065047" style={{opacity: 0}} className="af-class-card-item af-class-light af-class-tools">
+                    <div id="w-node-_7bea1a70-4116-a7db-c374-fff947065047-47cf92ad" data-w-id="7bea1a70-4116-a7db-c374-fff947065047" style={{opacity: 0}} className="af-class-card-item af-class-light af-class-tools">
                       <div className="af-class-card-item-content af-class-tools">
                         <div className="af-class-card-feature-center af-class-tool-center">
                           <a href="https://zerion.io/" target="_blank" className="af-class-link-block-4 af-class-toools w-inline-block">
-                            <div className="af-class-fade-in-on-scroll af-class-toool"><img src="images/zerion.png" loading="lazy" sizes="(max-width: 479px) 55.000003814697266px, 112.98611450195312px" srcSet="images/zerion-p-500.png 500w, images/zerion-p-800.png 800w, images/zerion.png 1024w" alt="Zerion wallet logo" className="af-class-card-feature-icon af-class-tool" /></div>
+                            <div className="af-class-fade-in-on-scroll af-class-toool"><img src="images/zerion.png" loading="lazy" sizes="(max-width: 479px) 100vw, 57.986114501953125px" srcSet="images/zerion-p-500.png 500w, images/zerion-p-800.png 800w, images/zerion.png 1024w" alt="Zerion wallet logo" className="af-class-card-feature-icon af-class-tool" /></div>
                             <div className="af-class-fade-in-on-scroll">
                               <h6 className="af-class-heading-3">Zerion</h6>
                             </div>
@@ -261,7 +261,7 @@ class IndexView extends React.Component {
                         </div>
                       </div>
                     </div>
-                    <div id="w-node-_1748d82b-49c0-8078-53ed-77133df041a2-4300dd25" data-w-id="1748d82b-49c0-8078-53ed-77133df041a2" style={{opacity: 0}} className="af-class-card-item af-class-light af-class-contract-address">
+                    <div id="w-node-_1748d82b-49c0-8078-53ed-77133df041a2-47cf92ad" data-w-id="1748d82b-49c0-8078-53ed-77133df041a2" style={{opacity: 0}} className="af-class-card-item af-class-light af-class-contract-address">
                       <div className="af-class-card-item-content af-class-contract-copy">
                         <div className="af-class-card-feature-center af-class-contract">
                           <div className="af-class-fade-in-on-scroll">
@@ -273,7 +273,7 @@ class IndexView extends React.Component {
                         </div>
                       </div>
                     </div>
-                    <div id="socialss" data-w-id="27b10c2b-faaf-eb26-6218-b3d0e2a19fad" style={{opacity: 0}} className="af-class-card-item af-class-light af-class-socials w-node-_27b10c2b-faaf-eb26-6218-b3d0e2a19fad-4300dd25">
+                    <div id="socialss" data-w-id="27b10c2b-faaf-eb26-6218-b3d0e2a19fad" style={{opacity: 0}} className="af-class-card-item af-class-light af-class-socials w-node-_27b10c2b-faaf-eb26-6218-b3d0e2a19fad-47cf92ad">
                       <div className="af-class-card-item-content af-class-socials">
                         <div className="af-class-card-feature-center af-class-socials">
                           <div className="af-class-fade-in-on-scroll">
@@ -302,7 +302,7 @@ class IndexView extends React.Component {
               <div id="About" className="af-class-section af-class-testing">
                 <div className="af-class-container af-class-test">
                   <div className="w-layout-grid af-class-grid-6-col">
-                    <div id="w-node-_64ab14ec-0a71-9abe-100c-83874d852302-4300dd25" className="af-class-trusted-content">
+                    <div id="w-node-_64ab14ec-0a71-9abe-100c-83874d852302-47cf92ad" className="af-class-trusted-content">
                       <div className="af-class-content-sticky">
                         <div className="af-class-fade-in-on-scroll">
                           <h2>TheMoonmap</h2>
@@ -313,7 +313,7 @@ class IndexView extends React.Component {
                         <div className="af-class-div-block-6" />
                       </div>
                     </div>
-                    <div id="w-node-_1511bf1a-c884-944b-f323-a3f0ea7187b5-4300dd25" className="af-class-trusted-content af-class-trusted-list">
+                    <div id="w-node-_1511bf1a-c884-944b-f323-a3f0ea7187b5-47cf92ad" className="af-class-trusted-content af-class-trusted-list">
                       <div className="af-class-trusted-overlay-container">
                         <div className="af-class-trusted-white-overlay" />
                         <div className="af-class-trusted-white-overlay af-class-bottom" />
@@ -361,7 +361,7 @@ class IndexView extends React.Component {
               <section id="limited-edition-nfts-section" data-w-id="3b85f699-c949-f7e1-8df4-af4ae38e2f0c" style={{display: 'none'}} className="af-class-section af-class-dark af-class-main">
                 <div className="af-class-container">
                   <div className="w-layout-grid af-class-grid-10-columns">
-                    <div id="w-node-ece89d93-2df3-9c66-994e-a99360ef72ee-4300dd25" className="af-class-content">
+                    <div id="w-node-ece89d93-2df3-9c66-994e-a99360ef72ee-47cf92ad" className="af-class-content">
                       <div data-w-id="3b85f699-c949-f7e1-8df4-af4ae38e2f0e" style={{opacity: 0}} className="af-class-text-center af-class-lliimiited-drops">
                         <div className="af-class-fade-in-on-scroll">
                           <h2 className="af-class-text-gradient-2 af-class-limited-drops">Limited Edition NFTs</h2>
@@ -369,7 +369,7 @@ class IndexView extends React.Component {
                         <div className="af-class-text-container" />
                       </div>
                       <div className="w-layout-grid af-class-grid-6-col">
-                        <div id="w-node-_74cbd762-9528-e95b-cab8-025c6f989808-4300dd25" data-w-id="74cbd762-9528-e95b-cab8-025c6f989808" style={{opacity: 0}} className="af-class-card-item af-class-special-nft af-class-desktop">
+                        <div id="w-node-_74cbd762-9528-e95b-cab8-025c6f989808-47cf92ad" data-w-id="74cbd762-9528-e95b-cab8-025c6f989808" style={{opacity: 0}} className="af-class-card-item af-class-special-nft af-class-desktop">
                           <div className="af-class-card-item-content">
                             <div data-w-id="74cbd762-9528-e95b-cab8-025c6f98980a" className="af-class-card-iphone af-class-opensea">
                               <div data-w-id="4bb7ef97-d783-3bfa-d0e6-2abaf2753e17" data-animation-type="lottie" data-src="documents/boarding_pass_featured_360_v2.json" data-loop={0} data-direction={1} data-autoplay={0} data-is-ix2-target={1} data-renderer="canvas" data-default-duration="3.3666666666666667" data-duration={0} className="af-class-lottie-animation-5" />
@@ -382,7 +382,7 @@ class IndexView extends React.Component {
                             </div>
                           </div>
                         </div>
-                        <div id="w-node-_1fddc060-866b-d6d5-cf19-68b14a53a83d-4300dd25" data-w-id="1fddc060-866b-d6d5-cf19-68b14a53a83d" style={{opacity: 0}} className="af-class-card-item af-class-special-nft af-class-mobbbile">
+                        <div id="w-node-_1fddc060-866b-d6d5-cf19-68b14a53a83d-47cf92ad" data-w-id="1fddc060-866b-d6d5-cf19-68b14a53a83d" style={{opacity: 0}} className="af-class-card-item af-class-special-nft af-class-mobbbile">
                           <div className="af-class-card-item-content">
                             <div data-w-id="1fddc060-866b-d6d5-cf19-68b14a53a83f" className="af-class-card-iphone af-class-opensea"><img src="images/Boarding-Pass-web_preview.gif" loading="lazy" alt />
                               <div>
@@ -394,7 +394,7 @@ class IndexView extends React.Component {
                             </div>
                           </div>
                         </div>
-                        <div id="w-node-_8502412a-6474-098f-1e09-76bce2a84c58-4300dd25" data-w-id="8502412a-6474-098f-1e09-76bce2a84c58" style={{opacity: 0}} className="af-class-card-item af-class-limited-nft">
+                        <div id="w-node-_8502412a-6474-098f-1e09-76bce2a84c58-47cf92ad" data-w-id="8502412a-6474-098f-1e09-76bce2a84c58" style={{opacity: 0}} className="af-class-card-item af-class-limited-nft">
                           <div className="af-class-card-item-content">
                             <div data-w-id="8502412a-6474-098f-1e09-76bce2a84c5a" className="af-class-card-iphone">
                               <div data-w-id="4308bbc9-e16a-f37a-2b10-9810f2383b67" data-animation-type="lottie" data-src="documents/Boarding_Pass_Preview_IN.json" data-loop={0} data-direction={1} data-autoplay={0} data-is-ix2-target={1} data-renderer="svg" data-default-duration="1.1" data-duration={0} />
@@ -424,7 +424,7 @@ class IndexView extends React.Component {
                             </div>
                           </div>
                         </div>
-                        <div id="w-node-_3b85f699-c949-f7e1-8df4-af4ae38e2f15-4300dd25" data-w-id="3b85f699-c949-f7e1-8df4-af4ae38e2f15" style={{opacity: 0}} className="af-class-card-item af-class-limited-nft">
+                        <div id="w-node-_3b85f699-c949-f7e1-8df4-af4ae38e2f15-47cf92ad" data-w-id="3b85f699-c949-f7e1-8df4-af4ae38e2f15" style={{opacity: 0}} className="af-class-card-item af-class-limited-nft">
                           <div className="af-class-card-item-content">
                             <div data-w-id="e029fe69-e449-4a9b-5f1c-8ef44a11cecd" className="af-class-card-iphone af-class-coin">
                               <div className="af-class-html-embed-24 w-embed"><img src="https://secmedia.s3.us-east-2.amazonaws.com/sec/nft.coin.spinning.gif" alt="GOON" /></div>
@@ -461,7 +461,7 @@ class IndexView extends React.Component {
                   <div className="af-class-div-block-24">
                     <div className="af-class-how-to-buy-sec-container">
                       <div className="af-class-buy-sec-animation">
-                        <div className="w-embed"><img src="https://secmedia.s3.us-east-2.amazonaws.com/sec/Buy_Sec_Cropped_V2.png" alt="BUY SEC" /></div>
+                        <div data-w-id="921d7de2-64db-09e9-db67-08b5a839ae68" data-animation-type="lottie" data-src="documents/BuySec.json" data-loop={0} data-direction={1} data-autoplay={0} data-is-ix2-target={1} data-renderer="svg" data-default-duration="1.9" data-duration={0} className="af-class-lottie-animation-10" />
                       </div>
                       <div className="af-class-div-block-38">
                         <div className="af-class-text-gradient-1 af-class-bottombuy">TRADE <em>$SEC</em> ON <br />MOBILE OR DESKTOP</div>
