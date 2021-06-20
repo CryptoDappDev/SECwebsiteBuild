@@ -99,7 +99,7 @@ class GoonNavView extends React.Component {
                 <GoonWalletView.Controller />
                 <a href="#" id="limited-drop-button" className="af-class-button-3 af-class-exclusive af-class-header af-class-onlymemesdrops w-button"><strong>LIMITED DROPS</strong></a>
               </div>
-              <div className="af-class-menu-button-3 w-nav-button af-class-onlymemesmenu w-nav-button">
+              <div className="af-class-menu-button-3 af-class-onlymemesmenu w-nav-button">
                 <div className="af-class-menu-html w-embed"><img src="https://secmedia.s3.us-east-2.amazonaws.com/logos/menuu.png" alt="menu" /></div>
               </div>
             </div>
