@@ -6071,6 +6071,7 @@
   top: auto;
   right: 0.5vw;
   bottom: 0.5vh;
+  display: none;
   opacity: 0.47;
   -webkit-filter: sepia(100%);
   filter: sepia(100%);
