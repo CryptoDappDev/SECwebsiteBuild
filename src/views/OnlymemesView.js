@@ -90,7 +90,7 @@ class OnlymemesView extends React.Component {
             </div>
             <div data-w-id="b35ce065-c0b4-1c02-fd3c-3e0a76817aa7" style={{opacity: 1, WebkitTransform: 'translate3d(0, -16px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)', MozTransform: 'translate3d(0, -16px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)', msTransform: 'translate3d(0, -16px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)', transform: 'translate3d(0, -16px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)'}} className="af-class-pop-up-nav">
               <div className="af-class-div-block-81">
-                <GoonWalletView.Controller-mob />
+                <GoonWalletView.Controller/>
               </div>
               <div className="af-class-nav-socials af-class-onlymemesnavsocilas">
                 <a href="https://www.instagram.com/suckelonscock" target="_blank" className="af-class-social-media-link af-class-navv w-inline-block"><img src="images/IG..Circle.svg" loading="lazy" width={30} alt="Instagram logo - suckelonscock" className="af-class-social-media-icon" /></a>
