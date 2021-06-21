@@ -5173,7 +5173,6 @@
 }
 
 .af-view .af-class-card-item-2.af-class-_1.af-class-_2.af-class-bodegga {
-  max-height: 80%;
   min-width: 900px;
 }
 
@@ -6139,6 +6138,10 @@
   top: 0%;
   right: 0%;
   bottom: auto;
+}
+
+.af-view .af-class-div-block-80 {
+  text-align: center;
 }
 
 @media screen and (min-width: 1280px) {
