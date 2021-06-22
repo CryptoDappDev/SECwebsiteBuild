@@ -111,5 +111,39 @@
 }
 
 
+/* MODAL STLYING */
+
+.modalpagewrapper {
+  padding: 10px;
+  max-width: 500px;
+}
+
+.popup-content > .purchasePopup {
+  width: 100%;
+  height: 100%;
+}
+
+.modalwrapper {
+  background: rgb(78, 76, 76);
+  border-radius: 10px;
+}
+
+.popup-overlay {
+  background: rgba(36, 36, 36, 0.5);
+}
+
+.confirmPanel {
+  margin-top: 0%;
+  margin-bottom: 5%;
+  font-size: 24px;
+}
+
+.checkoutbuttons {
+  margin-top: -15%;
+}
+
+/* END MODAL STLYING */
+
+
 
 

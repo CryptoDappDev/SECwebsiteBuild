@@ -3,7 +3,7 @@ import App from '../components/App';
 import WalletConnect from "@walletconnect/client";
 import QRCodeModal from "@walletconnect/qrcode-modal";
 import { useMetaMask } from 'metamask-react';
-
+import Delayed from '../components/Delay';
 
 function BoardingPassPurchaseController() {
 
@@ -36,12 +36,14 @@ function BoardingPassPurchaseController() {
     
 
     return (
-        <div>
-            <App 
-                itemtoSell = {'31673350562246474401696226698567993468440352420607247670176787854364680126533'}
-                account = {fetchedAccount}
-            />
-        </div>
+        <Delayed waitBeforeShow={500}>
+            <div>
+                <App 
+                    itemtoSell = {'31673350562246474401696226698567993468440352420607247670176787854364680126533'}
+                    account = {fetchedAccount}
+                />
+            </div>
+        </Delayed>
     )
 
 

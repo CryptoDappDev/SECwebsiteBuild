@@ -35,12 +35,7 @@ componentDidMount() {
     //Testnet Change
     this.seaport.api.apiKey = '5f69ba6e1bea4a2ca7b78fb4a4ddd9ee'
     this.web3 = this.seaport.web3
-    this.web3.eth.getAccounts((err, res) => {
-      this.setState({
-        accountAddress: res[0]
-      })
-    })
-    console.log(this.account)
+    console.log('Connected to OpenSea API')
   }
 
   render() {

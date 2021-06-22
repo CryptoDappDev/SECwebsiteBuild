@@ -5,6 +5,7 @@ import { OpenSeaPort, Network } from 'opensea-js';
 import WalletConnect from "@walletconnect/client";
 import QRCodeModal from "@walletconnect/qrcode-modal";
 import { useMetaMask } from 'metamask-react';
+import Delayed from '../components/Delay';
 
 
 function CoinPurchaseController() {
@@ -38,12 +39,14 @@ function CoinPurchaseController() {
     
     
     return (
-        <div>
-            <App 
-                itemtoSell = {'31673350562246474401696226698567993468440352420607247670176787853265168499108'}
-                account = {fetchedAccount}
-            />
-        </div>
+        <Delayed waitBeforeShow={5000}>
+            <div>
+                <App 
+                    itemtoSell = {'31673350562246474401696226698567993468440352420607247670176787853265168499108'}
+                    account = {fetchedAccount}
+                />
+            </div>
+        </Delayed>
     )
 
 

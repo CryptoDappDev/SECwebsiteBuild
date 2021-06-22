@@ -9,6 +9,10 @@ import GoonTickerView  from '../views/GoonTickerView';
 import NavOnlymemesView from '../views/NavOnlymemesView';
 import {BrowserRouter as Router,Switch,Route,Link} from "react-router-dom";
 
+import './btn_style.css'
+
+
+
 function NavOnlymemesController() {
     
     return (

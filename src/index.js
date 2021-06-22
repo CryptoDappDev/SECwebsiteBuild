@@ -11,7 +11,7 @@ import { Web3ReactProvider } from '@web3-react/core'
 import Web3 from 'web3-react';
 import {MetaMaskProvider} from 'metamask-react';
 import OnlymemesController from './controllers/OnlymemesController';
-
+import SecController from './controllers/SecController';
 
 
 
@@ -23,7 +23,8 @@ ReactDOM.render(
         
           <MetaMaskProvider>
             <Route exact path="/" component={IndexController}/>
-            <Route path="/Onlymemes" component={OnlymemesController}/>
+            <Route path="/GoonRich" component={OnlymemesController}/>
+            <Route path="/SEC" component={SecController}/>
           </MetaMaskProvider>
           
       </Switch>
