@@ -46,6 +46,7 @@ export { default as NotFoundView } from './NotFoundView'
 export { default as DetailOpenGraphSettingsView } from './DetailOpenGraphSettingsView'
 export { default as GoonrichView } from './GoonrichView'
 export { default as IndexView } from './IndexView'
+export { default as OldHomeView } from './OldHomeView'
 export { default as PrivacyView } from './PrivacyView'
 export { default as SecView } from './SecView'
 

@@ -80,20 +80,19 @@ class SecView extends React.Component {
           <div className="af-class-sec-body">
             <div className="af-class-div-block-79" />
             <GoonNavView.Controller />
-            <section id="limited-edition-nfts-section" className="af-class-section af-class-dark af-class-_1">
+            <section id="limited-edition-nfts-section" className="af-class-section af-class-dark af-class-_1 af-class-secmarket">
               <div id="goononlymemes" className="af-class-onlymemebanners">
                 <a href="https://youtu.be/D7kt4i6wPKY" target="_blank" className="af-class-link-block-6 w-inline-block">
                   <div className="af-class-div-block-55"><img src="https://uploads-ssl.webflow.com/60c96fd79ca1f3785190ddb2/60c96fd79ca1f34f3e90de73_OnlyMemes%20Logo%20TM%20V3.png" loading="lazy" width="1460.5" alt className="af-class-image-37" /></div>
                 </a>
               </div>
               <div id="onlymemes.goon" className="af-class-div-block-80">
-                <a href="#goonbodega" className="w-inline-block">
-                  <div className="af-class-div-block-54 af-class-_1">
-                    <div className="w-embed"><img src="https://secmedia.s3.us-east-2.amazonaws.com/sec/ElonSmoking_v3.gif" alt="GOON" /></div>
-                  </div>
-                </a>
+                <div className="af-class-div-block-54 af-class-_1 af-class-secc">
+                  <div data-w-id="45db97a1-be6d-e258-c248-913733c25bc0" data-animation-type="lottie" data-src="documents/JoinTheRevolution.json" data-loop={0} data-direction={1} data-autoplay={1} data-is-ix2-target={0} data-renderer="svg" data-default-duration="3.2" data-duration={0} />
+                  <div className="af-class-text-block-30">Coming soon.</div>
+                </div>
               </div>
-              <div className="af-class-container-2 af-class-_1">
+              <div className="af-class-container-2 af-class-_1 af-class-secccmarketplacecontainer">
                 <section id="goonbodega" className="af-class-onlymemessection-2 af-class-_3">
                   <div className="w-layout-grid af-class-grid-testimonial-2">
                     <div className="af-class-card-item-2 af-class-goon-video">
@@ -314,7 +313,7 @@ class SecView extends React.Component {
                 </div>
               </div>
             </section>
-            <div className="af-class-gradient-border af-class-onlymemes af-class-footer" />
+            <div className="af-class-gradient-border af-class-onlymemes af-class-footer af-class-seccmaeketnearfooter" />
             <div className="af-class-footer-2 af-class-_1">
               <div className="af-class-div-block-29 af-class-_2">
                 <div className="w-embed"><img src="https://secmedia.s3.us-east-2.amazonaws.com/onlymemes/OnlyMemes+Icon.png" alt="onlymemes logo" /></div>
