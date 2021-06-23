@@ -6856,6 +6856,11 @@
 }
 
 .af-view .af-class-nav-menu-2 {
+  border-right: 1px solid #e0e0e2;
+  border-bottom: 1px solid #e0e0e2;
+  border-left: 1px solid #e0e0e2;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
   background-color: hsla(0, 0%, 78.4%, 0);
 }
 
