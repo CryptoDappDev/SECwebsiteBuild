@@ -76,7 +76,7 @@ class IndexView extends React.Component {
                   <div className="af-class-text-block-26">Unleashing the true potential of <strong className="af-class-bold-text-14">Ethereum utilities</strong> to provide a <strong className="af-class-bold-text-15">social environment</strong> on the block-chain.</div>
                 </div>
                 <div data-w-id="8a5a0851-0d19-41e6-154e-f62cdbeb6405" style={{opacity: 0}} className="af-class-join-telegram w-clearfix">
-                  <a href="#" className="af-class-link-block-8 w-inline-block">
+                  <a href="https://t.me/joinchat/jeoB5dnbGOI0MjVh" target="_blank" className="af-class-link-block-8 w-inline-block">
                     <div data-w-id="380fec9c-90e3-7a2b-05f3-453ce96961e7" style={{WebkitTransform: 'translate3d(0, 0, 0) scale3d(1.1, 1.1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)', MozTransform: 'translate3d(0, 0, 0) scale3d(1.1, 1.1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)', msTransform: 'translate3d(0, 0, 0) scale3d(1.1, 1.1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)', transform: 'translate3d(0, 0, 0) scale3d(1.1, 1.1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)'}} className="af-class-html-embed-34 w-embed"><img src="https://secmedia.s3.us-east-2.amazonaws.com/logos/tg.outline.512.png" alt /></div>
                   </a>
                   <div className="af-class-text-block-27">Join our <strong className="af-class-bold-text-16">Telegram </strong>for news and updates.</div>
