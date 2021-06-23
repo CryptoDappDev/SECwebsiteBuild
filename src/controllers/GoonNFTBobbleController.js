@@ -20,7 +20,7 @@ import Fade from 'react-reveal/Fade';
 
 
 
-function GoonNFTBobbleController() {
+function GoonNFTBobbleControllerTEST() {
     
     //Wallet Functions
     const { status, connect, account } = useMetaMask();
@@ -130,7 +130,7 @@ function GoonNFTBobbleController() {
 }
 
 
-function GoonNFTBobbleControllerOLD() {
+function GoonNFTBobbleController() {
 
     const { status, connect, account } = useMetaMask();
     const bridge = "https://bridge.walletconnect.org";

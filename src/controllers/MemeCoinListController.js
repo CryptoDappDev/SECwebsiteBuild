@@ -17,8 +17,8 @@ function MemeCoinListController() {
         <div className="af-class-container-5 w-container">
           <div className="af-class-text-block-31">Coin Incubator<span className="af-class-text-span-14">™</span></div>
           <nav role="navigation" className="af-class-nav-menu-2 w-nav-menu">
-            <a href="SEC" className="af-class-seclink w-nav-link">$SEC</a>
-            <a href="GoonRich" className="af-class-goonlink w-nav-link">$GOON</a>
+            <a href="SEC" target="_blank" className="af-class-seclink w-nav-link">$SEC</a>
+            <a href="GoonRich" target="_blank" className="af-class-goonlink w-nav-link">$GOON</a>
           </nav>
           <div className="af-class-menu-button-5 w-nav-button">
             <div className="af-class-icon w-icon-dropdown-toggle" />
