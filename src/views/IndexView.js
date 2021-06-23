@@ -81,7 +81,7 @@ class IndexView extends React.Component {
                   </a>
                   <div className="af-class-text-block-27">Join our <strong className="af-class-bold-text-16">Telegram </strong>for news and updates.</div>
                 </div>
-                <div data-w-id="4e20b9ca-8c91-36e1-4ea0-85796446cabb" style={{opacity: 0}} className="w-row">
+                <div data-w-id="4e20b9ca-8c91-36e1-4ea0-85796446cabb" style={{opacity: 0}} className="af-class-columns-3 w-row">
                   <div className="af-class-column-6 w-col w-col-6">
                     <div data-hover data-delay={0} className="af-class-dropdown w-dropdown">
                       <div className="af-class-dropdown-toggle w-dropdown-toggle">

@@ -6605,10 +6605,7 @@
 }
 
 .af-view .af-class-div-block-91 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
+  display: none;
   -webkit-box-pack: start;
   -webkit-justify-content: flex-start;
   -ms-flex-pack: start;
@@ -11004,20 +11001,28 @@
   }
 
   .af-view .af-class-onlymemes-logo {
-    width: 80%;
+    width: 90%;
     margin-bottom: 10px;
+    padding-left: 3%;
+  }
+
+  .af-view .af-class-logo-onlymemes {
+    float: none;
   }
 
   .af-view .af-class-text-block-26 {
     font-size: 15px;
+    text-align: center;
   }
 
   .af-view .af-class-text-block-27 {
-    font-size: 12px;
+    font-size: 13px;
   }
 
   .af-view .af-class-join-telegram {
     margin-bottom: 15px;
+    padding-right: 10px;
+    padding-left: 10px;
   }
 
   .af-view .af-class-link-block-8 {
@@ -11045,7 +11050,7 @@
   }
 
   .af-view .af-class-beta-testing {
-    margin-top: 15%;
+    margin-top: 45%;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
     -webkit-flex-direction: column;
@@ -11069,6 +11074,7 @@
     display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
+    margin-top: 2%;
     -webkit-box-pack: center;
     -webkit-justify-content: center;
     -ms-flex-pack: center;
@@ -11089,6 +11095,8 @@
   }
 
   .af-view .af-class-div-block-91 {
+    display: none;
+    margin-top: 5%;
     -webkit-box-pack: center;
     -webkit-justify-content: center;
     -ms-flex-pack: center;
@@ -11105,6 +11113,11 @@
 
   .af-view .af-class-div-block-94 {
     width: 10%;
+  }
+
+  .af-view .af-class-unleashingf {
+    padding-right: 10px;
+    padding-left: 10px;
   }
 
   .af-view .af-class-footer-3 {
@@ -11129,8 +11142,36 @@
     margin-top: 20px;
   }
 
+  .af-view .af-class-div-block-98 {
+    padding-right: 1%;
+    padding-left: 1%;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    justify-items: center;
+  }
+
   .af-view .af-class-text-block-30 {
     font-size: 20px;
+  }
+
+  .af-view .af-class-coinincubator {
+    margin-right: 10px;
+    margin-left: 10px;
+  }
+
+  .af-view .af-class-text-block-31 {
+    font-size: 25px;
+  }
+
+  .af-view .af-class-column-6 {
+    padding-right: 0px;
+    padding-left: 0px;
+  }
+
+  .af-view .af-class-columns-3 {
+    max-width: 300px;
   }
 }
 
