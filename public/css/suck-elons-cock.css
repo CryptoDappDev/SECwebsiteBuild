@@ -9024,6 +9024,10 @@
     padding-top: 0rem;
   }
 
+  .af-view .af-class-section.af-class-dark.af-class-_1.af-class-secmarket {
+    padding-top: 15%;
+  }
+
   .af-view .af-class-container.af-class-nav-container {
     position: relative;
     left: auto;
@@ -10696,7 +10700,7 @@
   }
 
   .af-view .af-class-div-block-29.af-class-_2 {
-    max-width: 50%;
+    max-width: 30%;
   }
 
   .af-view .af-class-div-block-30 {
@@ -10941,6 +10945,10 @@
     margin-bottom: 0vh;
   }
 
+  .af-view .af-class-div-block-54.af-class-_1.af-class-secc {
+    width: 90%;
+  }
+
   .af-view .af-class-text-block-18 {
     font-size: 20px;
   }
@@ -11017,6 +11025,7 @@
 
   .af-view .af-class-text-block-27 {
     font-size: 13px;
+    text-align: center;
   }
 
   .af-view .af-class-join-telegram {

@@ -88,7 +88,7 @@ class SecView extends React.Component {
               </div>
               <div id="onlymemes.goon" className="af-class-div-block-80">
                 <div className="af-class-div-block-54 af-class-_1 af-class-secc">
-                  <div data-w-id="45db97a1-be6d-e258-c248-913733c25bc0" data-animation-type="lottie" data-src="documents/JoinTheRevolution.json" data-loop={0} data-direction={1} data-autoplay={1} data-is-ix2-target={0} data-renderer="svg" data-default-duration="3.2" data-duration={0} />
+                  <div data-w-id="45db97a1-be6d-e258-c248-913733c25bc0" data-animation-type="lottie" data-src="documents/JoinTheRevolution.json" data-loop={1} data-direction={1} data-autoplay={1} data-is-ix2-target={0} data-renderer="svg" data-default-duration="3.2" data-duration={0} />
                   <div className="af-class-text-block-30">Coming soon.</div>
                 </div>
               </div>
